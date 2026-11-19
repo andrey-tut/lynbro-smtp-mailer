@@ -1,0 +1,1686 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Lähetä kaikki WordPress-sähköpostit SMTP-palvelimesi kautta."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Palvelin"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Portti"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Salaus"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Käyttäjänimi"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Salasana"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (tallennettu — jätä tyhjäksi säilyttääksesi)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Lähettäjän sähköposti"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Lähettäjän nimi"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Pakota lähettäjä"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Korvaa lähtevien viestien lähettäjä kaikissa viesteissä (suositeltu "
+"toimitettavuuden kannalta)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Testilähetys"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Lähetä testi"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Viimeaikainen toiminta"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Ei riittäviä käyttöoikeuksia."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Lynbro APS:n lisäosat — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Lähetetään…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Lähetetty."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Lähetys epäonnistui."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Virhe:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Verkkovirhe:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Kielletty."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP -testi"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Virheellinen vastaanottaja."
+
+msgid "Our plugins"
+msgstr "Meidän lisäosamme"
+
+msgid "Lynbro plugins"
+msgstr "Lynbron lisäosat"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Anteliaat, tietosuoja edellä suunnitellut WordPress-lisäosat — tehty "
+"Tanskassa. Ilmaiset ytimet, ei krediittejä, datasi pysyy sivustollasi."
+
+msgid "More from Lynbro"
+msgstr "Lisää Lynbrolta"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Kasvava valikoimamme ilmaisia, tietosuoja edellä suunniteltuja lisäosia. Jo "
+"asennetut on merkitty."
+
+msgid "Installed"
+msgstr "Asennettu"
+
+msgid "On WordPress.org"
+msgstr "WordPress.orgissa"
+
+msgid "Coming soon"
+msgstr "Tulossa pian"
+
+msgid "Install"
+msgstr "Asenna"
+
+msgid "Learn more"
+msgstr "Lue lisää"
+
+msgid "About Lynbro"
+msgstr "Tietoa Lynbrolta"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro kehittää aidosti ilmaisia, tietosuoja edellä suunniteltuja WordPress-"
+"lisäosia anteliailla ilmaisilla ytimillä — ei krediittejä, ei maksuseiniä "
+"olennaisissa ominaisuuksissa, datasi pysyy omalla sivustollasi. Valmistettu "
+"Tanskassa."
+
+msgid "Visit Lynbro"
+msgstr "Vieraile Lynbron sivustolla"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Ehdota ominaisuutta tai ilmoita virheestä"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Palautteesi avaa julkisen tiekarttamme plugins.lynbro.dk-sivustolla uuteen "
+"välilehteen — sivustoltasi ei lähetetä mitään."
+
+msgid "Tools"
+msgstr "Työkalut"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Vie tämän lisäosan asetukset JSON-varmuuskopiona tai palauta ne "
+"oletusarvoihin. 100% paikallista — mikään ei poistu sivustoltasi."
+
+msgid "Export settings (JSON)"
+msgstr "Vie asetukset (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Palauta oletusarvot"
+
+msgid "About Lynbro SMTP"
+msgstr "Tietoja Lynbro SMTP:stä"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress lähettää sähköpostit oletuksena PHP mail()-toiminnolla, minkä "
+"postilaatikot tulkitsevat epäilyttäväksi. Lynbro SMTP lähettää ne sen sijaan"
+" oikean, todennetun postipalvelimen kautta — palveluntarjoajasi, "
+"postilaatikkosi tai lähetyspalvelun — joten salasanan palautukset, tilaukset"
+" ja yhteydenottolomakkeet saapuvat perille."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Kaikki löytyy ilmaisesta lisäosasta: loki, uudelleenlähetys, varayhteys, "
+"hälytykset, diagnostiikka ja WP-CLI. Maksullista versiota ei ole."
+
+msgid "How your data is handled"
+msgstr "Miten tietojasi käsitellään"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"Sähköposti kulkee suoraan palvelimeltasi määrittämällesi SMTP-palvelimelle. "
+"Lisäosa ei ota yhteyttä mihinkään Lynbro-palveluun eikä lähetä tilastoja "
+"minnekään."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"SMTP-salasana salataan sivustosi turva-avaimilla, sitä ei näytetä enää "
+"uudelleen eikä sitä kirjoiteta lokiin tai asetusten vientiin."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Loki tallentaa vastaanottajat, aiheen ja tilan omaan tietokantaasi. Viestin "
+"sisältö vain epäonnistuneista sähköposteista oletuksena, ja jokainen "
+"merkintä poistetaan säilytysajan jälkeen."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Lokimerkinnät sisältyvät kohtiin Työkalut → Vie henkilötiedot ja Poista "
+"henkilötiedot."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Epäonnistumisen webhook, jos määrität sellaisen, vastaanottaa vain "
+"virhetekstin ja linkin lokiisi."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Pidä kirjautumistiedot wp-config.php:ssa"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Mikä tahansa näistä vakioista ohittaa Asetuksissa olevan kentän, eikä arvo "
+"koskaan päädy tietokantaan tai sen varmuuskopioihin:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Versio ja linkit"
+
+msgid "Version"
+msgstr "Versio"
+
+msgid "Plugin home page"
+msgstr "Lisäosan kotisivu"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Lähetä testisähköposti"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"SMTP-palvelinta ei ole vielä määritetty, joten testi lähetetään PHP "
+"mail()-toiminnolla. Täytä ensin Asetukset testataksesi SMTP:tä."
+
+msgid "Recipient"
+msgstr "Vastaanottaja"
+
+msgid "Test the backup connection"
+msgstr "Testaa varayhteys"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP-keskustelu (salasana piilotettu)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Testisähköpostit ohittavat testitilan ja \"älä lähetä\" -tilan, joten voit "
+"tarkistaa yhteyden staging-kopiolla."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Pystyykö tämä palvelin muodostamaan yhteyden SMTP-palvelimeen?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Monet palveluntarjoajat estävät lähtevät sähköpostiportit. Tämä tarkistaa "
+"tavallisimmat portit tallennettuun palvelimeesi tältä web-palvelimelta."
+
+msgid "Check ports"
+msgstr "Tarkista portit"
+
+msgid "Sender domain: %s"
+msgstr "Lähettäjän verkkotunnus: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "DNS-hakuja ei ole käytettävissä tällä palvelimella."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Varmista, että siihen sisältyy SMTP-palveluntarjoajasi (esimerkiksi "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Ei SPF-tietuetta. Lisää DNS-palveluusi tietue, joka mainitsee SMTP-"
+"palveluntarjoajasi, muuten monet postilaatikot epäilevät sähköpostia."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Ei DMARC-tietuetta. Gmail ja Yahoo vaativat sen massalähettäjiltä; jo pelkkä"
+" \"v=DMARC1; p=none\" auttaa."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM on määritetty SMTP-palveluntarjoajallasi (he antavat DNS-tietueen). "
+"Sitä ei voi tarkistaa täältä ilman valitsimen nimeä."
+
+msgid "Environment"
+msgstr "Ympäristö"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "puuttuu — TLS ja SSL eivät toimi"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Muut sähköpostilisäosat"
+
+msgid "none found"
+msgstr "ei löytynyt"
+
+msgid "Scheduled cleanup"
+msgstr "Ajastettu siivous"
+
+msgid "scheduled"
+msgstr "ajastettu"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "ei ajastettu — poista lisäosa käytöstä ja aktivoi se uudelleen"
+
+msgid "Sent"
+msgstr "Lähetetty"
+
+msgid "Failed"
+msgstr "Epäonnistui"
+
+msgid "Not sent (delivery off)"
+msgstr "Ei lähetetty (lähetys pois päältä)"
+
+msgid "Unknown"
+msgstr "Tuntematon"
+
+msgid "Main SMTP"
+msgstr "Pää-SMTP"
+
+msgid "Backup SMTP"
+msgstr "Varasmtp"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Testitila (uudelleenohjattu)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr ""
+"Loki on poistettu käytöstä asetuksissa — uusia sähköposteja ei kirjata."
+
+msgid "Sent, 30 days"
+msgstr "Lähetetty, 30 päivää"
+
+msgid "Failed, 30 days"
+msgstr "Epäonnistui, 30 päivää"
+
+msgid "Held back, 30 days"
+msgstr "Pidätetty, 30 päivää"
+
+msgid "Status"
+msgstr "Tila"
+
+msgid "All statuses"
+msgstr "Kaikki tilat"
+
+msgid "Recipient, subject or error"
+msgstr "Vastaanottaja, aihe tai virhe"
+
+msgid "Search the log"
+msgstr "Etsi lokista"
+
+msgid "Filter"
+msgstr "Suodata"
+
+msgid "Clear"
+msgstr "Tyhjennä"
+
+msgid "No emails match this filter."
+msgstr "Mikään sähköposti ei vastaa tätä suodatinta."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Sähköposteja ei ole vielä kirjattu. Lähetä testi Testi- ja diagnostiikka-"
+"välilehdeltä nähdäksesi ensimmäisen merkinnän täällä."
+
+msgid "Select all"
+msgstr "Valitse kaikki"
+
+msgid "Date"
+msgstr "Päivämäärä"
+
+msgid "To"
+msgstr "Vastaanottaja"
+
+msgid "Subject"
+msgstr "Aihe"
+
+msgid "Sent through"
+msgstr "Lähetetty kautta"
+
+msgid "Actions"
+msgstr "Toiminnot"
+
+msgid "Select"
+msgstr "Valitse"
+
+msgid "(no subject)"
+msgstr "(ei aihetta)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Liitteet (ei säilytetä): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Merkinnän #%d uudelleenlähetys"
+
+msgid "Content not kept."
+msgstr "Sisältöä ei säilytetä."
+
+msgid "Resend"
+msgstr "Lähetä uudelleen"
+
+msgid "Delete the selected entries?"
+msgstr "Poistetaanko valitut merkinnät?"
+
+msgid "Delete selected"
+msgstr "Poista valitut"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s merkintää · poistetaan automaattisesti %2$s päivän kuluttua"
+
+msgid "Checking…"
+msgstr "Tarkistetaan…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Lähetetty. Tarkista vastaanottajan saapuneet-kansio (ja roskaposti)."
+
+msgid "Not sent."
+msgstr "Ei lähetetty."
+
+msgid "open"
+msgstr "avoin"
+
+msgid "blocked"
+msgstr "estetty"
+
+msgid "Request failed:"
+msgstr "Pyyntö epäonnistui:"
+
+msgid "Delivered through:"
+msgstr "Toimitetaan palvelun kautta:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sinulla ei ole riittäviä oikeuksia tämän sivun käyttöön."
+
+msgid "Settings"
+msgstr "Asetukset"
+
+msgid "Test & diagnostics"
+msgstr "Testi ja diagnostiikka"
+
+msgid "Email log"
+msgstr "Sähköpostiloki"
+
+msgid "Feedback"
+msgstr "Palaute"
+
+msgid "About"
+msgstr "Tietoja"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Lähetä kaikki WordPressin sähköpostit oman SMTP-palvelimesi kautta — "
+"sähköpostilokin, uudelleenlähetyksen, varayhteyden ja virheilmoitusten "
+"avulla. Kaikki ilmaiseksi, ei lisämyyntejä."
+
+msgid "The email was sent again."
+msgstr "Sähköposti lähetettiin uudelleen."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"Sähköpostia ei voitu lähettää uudelleen — katso uusin lokimerkintä syyn "
+"selvittämiseksi."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr ""
+"Tämän sähköpostin sisältöä ei tallennettu, joten sitä ei voi lähettää "
+"uudelleen."
+
+msgid "Log entries deleted."
+msgstr "Lokimerkinnät poistettu."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Asetukset tuotu. Syötä SMTP-salasana kerran ja tallenna — salasanoja ei "
+"koskaan kopioida muista lisäosista."
+
+msgid "Set in wp-config.php"
+msgstr "Asetettu tiedostossa wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "Sähköposti lähetetään palvelun %1$s kautta portissa %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"SMTP-palvelinta ei ole vielä asetettu — WordPress lähettää edelleen PHP "
+"mail() -toiminnolla. Valitse palveluntarjoajasi alta, täytä "
+"kirjautumistiedot ja tallenna."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr ""
+"Toimitus on poistettu käytöstä: sähköpostit kirjataan, mutta niitä ei "
+"lähetetä."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr ""
+"Testitila: jokainen sähköposti menee osoitteeseen %s vastaanottajien sijaan."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Tallennettua salasanaa ei voi enää lukea, koska sivuston suojausavaimet "
+"muuttuivat. Syötä se uudelleen ja tallenna."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Viimeisin epäonnistuminen %1$s sitten: %2$s"
+
+msgid "Show failed emails"
+msgstr "Näytä epäonnistuneet sähköpostit"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Myös aktiivinen: %s. Kaksi sähköpostilisäosaa taistelee samasta viestistä — "
+"poista toinen käytöstä."
+
+msgid "Import settings from %s"
+msgstr "Tuo asetukset lisäosasta %s"
+
+msgid "SMTP server"
+msgstr "SMTP-palvelin"
+
+msgid "Provider"
+msgstr "Palveluntarjoaja"
+
+msgid "Port and encryption"
+msgstr "Portti ja salaus"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — yleensä portti 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — yleensä portti 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Ei mitään — vain samassa verkossa olevalle palvelimelle"
+
+msgid "Authentication"
+msgstr "Todennus"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "Palvelin vaatii käyttäjätunnuksen ja salasanan (melkein aina)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Salasana tulee LYNBRO_SMTP_PASS-muuttujasta tiedostossa wp-config.php, eikä "
+"sitä tallenneta tietokantaan."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Tallennettu — jätä tyhjäksi, jos haluat säilyttää sen"
+
+msgid "Remove the saved password"
+msgstr "Poista tallennettu salasana"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Tallennetaan salattuna sivuston suojausavaimilla, eikä sitä koskaan näytetä "
+"uudelleen. Jos haluat pitää sen kokonaan poissa tietokannasta, määritä se "
+"tiedostossa wp-config.php (katso Tietoja)."
+
+msgid "Certificate"
+msgstr "Varmenne"
+
+msgid "Verify the server certificate"
+msgstr "Tarkista palvelimen varmenne"
+
+msgid "Default"
+msgstr "Oletus"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr ""
+"Poista valinta vain omalta palvelimeltasi, jos siinä on itse allekirjoitettu"
+" varmenne."
+
+msgid "Sender"
+msgstr "Lähettäjä"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Pakota tämä osoite kaikkiin sähköposteihin riippumatta siitä, mitä muut "
+"lisäosat asettavat"
+
+msgid "Recommended"
+msgstr "Suositeltu"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Käytä osoitetta verkkotunnuksella, jolta SMTP-tilisi saa lähettää, tai "
+"palveluntarjoajat hylkäävät sähköpostin tai ohjaavat sen roskapostiin."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Pakota myös tämä nimi (pois: lomakkeet ja kaupat säilyttävät oman lähettäjän"
+" nimensä)"
+
+msgid "Default Reply-To"
+msgstr "Oletus Reply-To"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Käytetään vain, kun sähköpostilla ei ole omaa Reply-To-osoitetta, jotta "
+"yhteydenottolomakkeen vastaukset menevät silti kävijälle."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Lähetä palautukset From-osoitteeseen"
+
+msgid "Backup connection"
+msgstr "Varayhteys"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Kun pääpalvelin epäonnistuu, sama sähköposti lähetetään heti uudelleen "
+"varayhteyden kautta — kävijä ei näe virhettä."
+
+msgid "Backup"
+msgstr "Varalla"
+
+msgid "Use a backup when the main server fails"
+msgstr "Käytä varayhteyttä, kun pääpalvelin epäonnistuu"
+
+msgid "Another SMTP server"
+msgstr "Toinen SMTP-palvelin"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr ""
+"Tämän palvelimen PHP mail() (parempi kuin ei mitään; voi päätyä "
+"roskapostiin)"
+
+msgid "Backup host"
+msgstr "Varapalvelin"
+
+msgid "Backup port"
+msgstr "Varaportti"
+
+msgid "Backup encryption"
+msgstr "Varasalaus"
+
+msgid "None"
+msgstr "Ei mitään"
+
+msgid "Backup login"
+msgstr "Varakirjautuminen"
+
+msgid "Backup password"
+msgstr "Varasalasana"
+
+msgid "Delivery mode"
+msgstr "Lähetystila"
+
+msgid "Mode"
+msgstr "Tila"
+
+msgid "Send normally"
+msgstr "Lähetä normaalisti"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr ""
+"Testitila: lähetä kaikki yhteen osoitteeseen (Cc- ja Bcc-kentät poistetaan)"
+
+msgid "Redirect address"
+msgstr "Uudelleenohjausosoite"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Älä lähetä sähköposteja lainkaan (staging-kopiot) — sähköpostit kirjataan "
+"silti"
+
+msgid "Log"
+msgstr "Loki"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Pidä lokia kaikista sähköposteista (vastaanottaja, aihe, tila, virhe)"
+
+msgid "Keep message content"
+msgstr "Säilytä viestin sisältö"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr ""
+"Vain epäonnistuneista sähköposteista, jotta ne voidaan lähettää uudelleen"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Kaikista sähköposteista (voit lähettää minkä tahansa uudelleen; loki "
+"sisältää silloin salasanan nollauslinkit ja tilaustiedot)"
+
+msgid "Never"
+msgstr "Ei koskaan"
+
+msgid "Keep entries for"
+msgstr "Säilytä merkinnät"
+
+msgid "days, then they are deleted automatically"
+msgstr "päivää, sitten ne poistetaan automaattisesti"
+
+msgid "Failure alerts"
+msgstr "Virheilmoitukset"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Enintään yksi ilmoitus tunnissa. Ilmoitussähköposti lähetetään tämän "
+"palvelimen PHP mail() -toiminnolla, koska SMTP-palvelin voi itse olla "
+"alhaalla."
+
+msgid "Alert email"
+msgstr "Ilmoitussähköposti"
+
+msgid "Webhook URL"
+msgstr "Webhook-URL"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Valinnainen. Slack-, Discord- ja Microsoft Teams -työnkulut, ntfy tai oma "
+"päätepisteesi (HTTPS). Lisäosa lähettää sinne vain virhetekstiin — ei mitään"
+" muuta, ja vain kun asetat URL-osoitteen."
+
+msgid "Import from another SMTP plugin"
+msgstr "Tuo toisesta SMTP-laajennuksesta"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Kopioi isäntä, portti, salaus, käyttäjätunnus ja lähettäjä. Salasanat jäävät"
+" ennalleen — anna omasi kerran tuonnin jälkeen."
+
+msgid "Import from %s"
+msgstr "Tuo %s:stä"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Tästä sivustosta ei löytynyt WP Mail SMTP-, FluentSMTP-, Easy WP SMTP- tai "
+"Post SMTP -asetuksia."
+
+msgid "Download the log (CSV)"
+msgstr "Lataa loki (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Poistetaanko kaikki lokimerkinnät?"
+
+msgid "Empty the log"
+msgstr "Tyhjennä loki"
+
+msgid "Is it working for you?"
+msgstr "Toimiiko se sinulla?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP on ilmainen, eikä mitään ole lukittu. Jos se sai sähköpostisi "
+"perille, lyhyt arvostelu auttaa muita löytämään sen."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Jätä arvostelu WordPress.orgissa"
+
+msgid "Something missing or broken?"
+msgstr "Puuttuuko jotain tai onko jotain rikki?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Virheraportit ja ideat menevät suoraan laajennuksen tekijöille. Näiden "
+"linkkien avaaminen ei lähetä mitään sivustoltasi."
+
+msgid "Ask in the support forum"
+msgstr "Kysy tukifoorumilla"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Ehdota ominaisuutta (julkinen tiekartta)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Julkaisetko lokirivin? Poista osoitteet ensin — Testi-välilehti piilottaa jo"
+" salasanan."
+
+msgid "You do not have permission to do that."
+msgstr "Sinulla ei ole siihen käyttöoikeutta."
+
+msgid "Enter a valid recipient address."
+msgstr "Anna kelvollinen vastaanottajan osoite."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: ensisijainen SMTP-yhteys epäonnistui ja varayhteys toimitti "
+"sähköpostin. Virhe: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: sähköpostia ei voitu lähettää. Virhe: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Lokimerkintä #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Ongelma sähköpostin toimituksessa"
+
+msgid "Email delivery"
+msgstr "Sähköpostin toimitus"
+
+msgid "Email is sent through SMTP"
+msgstr "Sähköposti lähetetään SMTP:n kautta"
+
+msgid "Email"
+msgstr "Sähköposti"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP lähettää tämän sivuston sähköpostit todennetun SMTP-palvelimen "
+"kautta."
+
+msgid "Open Lynbro SMTP"
+msgstr "Avaa Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "Sähköposti lähetetään PHP mail() -toiminnolla, ei SMTP:n kautta"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP on aktiivinen, mutta SMTP-palvelinta ei ole määritetty, joten "
+"sähköposti lähtee yhä PHP mail() -toiminnolla ja päätyy usein roskapostiin."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Tallennettua SMTP-salasanaa ei voi enää lukea"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Sivuston suojausavaimet muuttuivat salasanan tallentamisen jälkeen. Anna "
+"SMTP-salasana uudelleen."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "Sähköpostien lähetys epäonnistui viimeisen 24 tunnin aikana"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Ensisijainen SMTP-yhteys epäonnistui viimeisen 24 tunnin aikana"
+
+msgid "Email delivery (7 days)"
+msgstr "Sähköpostin toimitus (7 päivää)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Lähetetty: %1$s · Epäonnistunut: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"SMTP-palvelinta ei ole vielä määritetty — sähköposti lähetetään PHP mail() "
+"-toiminnolla."
+
+msgid "Show failed"
+msgstr "Näytä epäonnistuneet"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Ensisijainen yhteys: %1$s — Varayhteys: %2$s"
+
+msgid "Test email from %s"
+msgstr "Testisähköposti kohteesta %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Tämä on testisähköposti kohteesta %1$s, lähetetty Lynbro SMTP:llä.\n"
+"\n"
+"Jos voit lukea tämän, sähköpostin toimitus toimii.\n"
+"\n"
+"Lähetetty: %2$s\n"
+"Yhteys: %3$s"
+
+msgid "backup"
+msgstr "varalla"
+
+msgid "main"
+msgstr "pääsivu"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Palvelin hylkäsi käyttäjätunnuksen tai salasanan. Gmail, Outlook, Zoho ja "
+"iCloud tarvitsevat sovellussalasanan, eivät tavallista salasanaa; SendGrid "
+"ja Brevo tarvitsevat SMTP-/API-avaimen."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365:ssä SMTP-kirjautuminen on kytketty pois tältä postilaatikolta."
+" Ylläpitäjä voi ottaa sille käyttöön \"Authenticated SMTP\" -toiminnon tai "
+"käyttää sen sijaan välityspalvelua."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Palvelimeen ei saatu yhteyttä. Monet isännät estävät lähtevät portit 25, 465"
+" ja 587 — suorita alla porttitarkistus ja pyydä sitten isäntää avaamaan "
+"portti tai käytä sitä, joka on auki."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Suojattu yhteys epäonnistui. Tarkista, että portti ja salaus täsmäävät (587 "
+"= TLS, 465 = SSL). Jos palvelimella on itse allekirjoitettu varmenne, poista"
+" valinta kohdasta \"Verify the server certificate\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Palvelin ei salli tämän tilin lähettää From-osoitteena. Käytä osoitetta "
+"domainilla, jonka tili omistaa, ja ota käyttöön \"Force From email\"."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Isäntänimeä ei löytynyt. Tarkista kirjoitusvirheet."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Lue transkriptin viimeiset SERVER-rivit: palvelin kertoo yleensä täsmälleen,"
+" mistä se ei pitänyt."
+
+msgid "No host set."
+msgstr "Isäntää ei ole asetettu."
+
+msgid "That log entry no longer exists."
+msgstr "Kyseistä lokimerkintää ei enää ole."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Tämän sähköpostin sisältöä ei tallennettu, joten sitä ei voi lähettää "
+"uudelleen. Muuta asetuksissa \"Keep message content\" lähettääksesi tulevat "
+"sähköpostit uudelleen."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"Sähköpostia ei voitu lähettää uudelleen. Uusi yritys ja sen virhe löytyvät "
+"lokista."
+
+msgid "Date (UTC)"
+msgstr "Päivämäärä (UTC)"
+
+msgid "Recipients"
+msgstr "Vastaanottajat"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP -sähköpostiloki"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Loput sarjasta. Tämä sivustolla jo oleva on merkitty; mitään ei asenneta "
+"ilman pyyntöäsi."
+
+msgid "Active"
+msgstr "Aktiivinen"
+
+msgid "Activate"
+msgstr "Ota käyttöön"
+
+msgid "Install now"
+msgstr "Asenna nyt"
+
+msgid "View on WordPress.org"
+msgstr "Näytä WordPress.orgissa"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Jaetut Lynbro-komponentit v%1$s, tarjoaa %2$s (uusin %3$d versiosta tällä "
+"sivustolla)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Palautetaanko kaikki asetukset oletusarvoihin?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Toimiiko Lynbro SMTP sähköpostin toimittamisessa? Muutama sana "
+"WordPress.orgissa auttaa muita löytämään sähköpostilisäosan ilman "
+"lisämyyntiä."
+
+msgid "Write a review"
+msgstr "Kirjoita arvostelu"
+
+msgid "No thanks"
+msgstr "Ei kiitos"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Uudelleenohjaustila tarvitsee osoitteen, johon uudelleenohjataan — "
+"sähköposti lähetetään normaalisti, kunnes lisäät sellaisen."
+
+msgid "Other SMTP server"
+msgstr "Muu SMTP-palvelin"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Käytä isännän tai sähköpostipalveluntarjoajan SMTP-tietoja."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Käyttäjätunnus: koko Gmail-osoitteesi. Salasana: sovellussalasana (Google-"
+"tili → Turvallisuus → 2-vaiheinen vahvistus → Sovellussalasanat), ei "
+"tavallinen salasanasi."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365:ssä postilaatikolle on otettava käyttöön \"Authenticated "
+"SMTP\". Microsoft on poistamassa SMTP:n salasankirjautumisen; jos "
+"kirjautuminen epäonnistuu, käytä välityspalvelua, kuten Brevoa tai isännän "
+"SMTP:tä."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Käyttäjätunnus: SMTP & API -kohdassa näkyvä SMTP-kirjautuminen. Salasana: "
+"SMTP-avain, ei tilisi salasana."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Käyttäjätunnus: sana \"apikey\". Salasana: SendGrid API -avaimesi."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"EU-tilit käyttävät osoitetta smtp.eu.mailgun.org. Käyttäjätunnus ja "
+"salasana: lähettävän domainisi SMTP-tunnukset."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Vaihda isännän alue omaksesi. Käyttäjätunnus ja salasana: SES-konsolissa "
+"luodut SMTP-tunnukset (ei AWS-käyttöavaimesi)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "Käyttäjätunnus ja salasana: molemmat ovat Server API -tokenisi."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Käytä osoitetta smtp.zoho.com EU:n ulkopuolisille tileille. Kaksivaiheisen "
+"kirjautumisen kanssa luo sovelluskohtainen salasana."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Käyttäjätunnus: API-avain. Salasana: salainen avain."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Käyttäjätunnus ja salasana: SMTP-käyttäjä, joka on luotu kohdassa Sending → "
+"SMTP Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Käyttäjätunnus: koko postilaatikon osoite. Salasana: postilaatikon salasana."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Käytä näillä alueilla osoitetta smtp.ionos.de tai smtp.ionos.co.uk. "
+"Käyttäjätunnus: koko postilaatikon osoite."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Lähettää kaiken WordPress-sähköpostin oman SMTP-palvelimesi kautta, "
+"sisältäen haettavan sähköpostilokin, uudelleenlähetyksen, varayhteyden, "
+"virheilmoitukset ja yhteysdiagnostiikan. Ei lisämyyntiä."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Isäntä: SES-alueesi SMTP-päätepiste, joka näkyy SES-konsolissa SMTP-"
+"asetuksissa. Käyttäjätunnus ja salasana: SES-konsolissa luodut SMTP-"
+"tunnistetiedot (eivät AWS-käyttöavaimesi)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Valinnainen. Slack- tai Discord-saapuva webhook tai oma HTTPS-päätepisteesi "
+"(JSON, jossa on \"text\" ja \"content\"). Lisäosa lähettää sinne vain "
+"virhetekstin — ei mitään muuta, ja vain kun määrität URL-osoitteen."
+
+msgid "Is %s doing its job?"
+msgstr "Toimiiko %s niin kuin pitää?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Olet käyttänyt sitä jo pari viikkoa. Jos se toimii sinulle, lyhyt arvostelu "
+"WordPress.orgissa auttaa muita sivuston omistajia löytämään sen — myös "
+"rehelliset ja kriittiset arviot ovat tervetulleita."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Olet käyttänyt sitä jo pari viikkoa. Jos se toimii sinulle — tai jos jotain "
+"puuttuu — kerro siitä julkisella tiekartallamme. Päätämme seuraavat "
+"kehityskohteet palautteen perusteella."
+
+msgid "(opens in a new tab)"
+msgstr "(avautuu uuteen välilehteen)"
+
+msgid "Share feedback"
+msgstr "Anna palautetta"
+
+msgid "Maybe later"
+msgstr "Ehkä myöhemmin"
+
+msgid "Don't ask again"
+msgstr "Älä kysy uudelleen"
+
+msgid "Something not working? Ask for help"
+msgstr "Jokin ei toimi? Pyydä apua"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce on käytössä"
+
+msgid "a form plugin is active"
+msgstr "lomakelaajennus on käytössä"
+
+msgid "the site is set up for Denmark"
+msgstr "sivusto on asetettu Tanskaan"
+
+msgid "comments are open"
+msgstr "kommentit ovat avoinna"
+
+msgid "tracking tags are active"
+msgstr "seurantatunnisteet ovat käytössä"
+
+msgid "visitors can create accounts"
+msgstr "vierailijat voivat luoda tilejä"
+
+msgid "Suggested because %l."
+msgstr "Ehdotettu koska %l."
+
+msgid "Suggested for this site"
+msgstr "Ehdotettu tälle sivustolle"
+
+msgid "Hide suggestions"
+msgstr "Piilota ehdotukset"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Muut Lynbro-laajennukset, jotka sopivat tämän sivuston käyttöön. Mitään ei "
+"asenneta ennen kuin klikkaat."
+
+msgid "All Lynbro plugins"
+msgstr "Kaikki Lynbro-laajennukset"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Valittu sen perusteella, mitä tällä sivustolla jo käytetään — luetaan vain "
+"tältä sivustolta, mitään ei lähetetä minnekään."
+
+msgid "Image Optimizer"
+msgstr "Kuvien optimointi"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Muunna WebP- ja AVIF-muotoon, pienennä liian suuret kuvat ja käytä laiskaa "
+"latausta — kaikki omalla palvelimellasi."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Kirjoita ja kuvittele julkaisuja tekoälyllä omalla OpenAI-avaimellasi — "
+"ilman välikäsiä tai krediittejä."
+
+msgid "Analytics"
+msgstr "Analytiikka"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Oma palvelin, evästeetön analytiikka ja suppilot. Vierailijatiedot eivät "
+"poistu tietokannastasi."
+
+msgid "Tags"
+msgstr "Tunnisteet"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel ja muut ilman koodia — jokainen "
+"tunniste odottaa suostumusta."
+
+msgid "Forms"
+msgstr "Lomakkeet"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Lomakkeet, joiden vastaukset tallennetaan ilmaiseksi ilman rajoitusta, "
+"ehdollinen logiikka tarkistetaan palvelimella ja allekirjoitetut webhookit."
+
+msgid "Verify"
+msgstr "Vahvista"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Tunnista väärin kirjoitetut sähköpostiosoitteet ja virheelliset "
+"puhelinnumerot, ja vahvista ne kertakoodilla sähköpostitse tai "
+"tekstiviestillä."
+
+msgid "Cache"
+msgstr "Välimuisti"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Luotettava tyhjennys nginx FastCGI- ja Redis-välimuisteille, jokainen "
+"tyhjennys tarkistetaan välimuistista."
+
+msgid "Translate"
+msgstr "Käännä"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Sivustosi useilla kielillä, konekäännös omalla OpenAI-avaimellasi — ei "
+"mittarointia, ei sanakohtaisia maksuja."
+
+msgid "Shield"
+msgstr "Suojaus"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Turvaotsikot, HTTPS HSTS:llä, pieni palomuuri injektiotarkistuksia vastaan "
+"ja kovennuskytkimet, joita jokainen sivusto tarvitsee."
+
+msgid "Anti-Spam"
+msgstr "Roskapostin esto"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Roskapostisuodatus omalla palvelimellasi. Ei tiliä, ei tilausta, jokainen "
+"esto perustellaan — ja mikään viesti ei katoa."
+
+msgid "Login Guard"
+msgstr "Kirjautumissuoja"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Siirrä wp-login.php, rajoita epäonnistuneita kirjautumisia ja lisää "
+"sovelluspohjainen kaksivaiheinen tunnistus — kolme palautustapaa."
+
+msgid "Cookie Consent"
+msgstr "Evästesuostumus"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR- ja ePrivacy-banneri Consent Mode v2:lla, yhtä näkyvä Hylkää-painike ja"
+" 35 kieltä."
+
+msgid "Activity Log"
+msgstr "Toimintaloki"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Kuka teki mitä, milloin ja mistä — kirjataan omalle palvelimellesi, "
+"haettavissa, vietävissä ja poistetaan aikataulusi mukaan."
+
+msgid "Data Retention"
+msgstr "Tietojen säilytys"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Etsi, missä henkilötiedot todella sijaitsevat tietokannassasi, ja poista ne "
+"aikataulun mukaan — kokeile ensin kuivaharjoittelulla."
+
+msgid "Accessibility"
+msgstr "Saavutettavuus"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Tarkista jokainen sivu WCAG 2.2 AA -vaatimusten mukaan ja korjaa "
+"turvallisesti korjattavat. Ei päällekkäisyyksiä, ei sivurajoja."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Kevyt SEO ilmaisella LocalBusiness-skeemalla, sivukartoilla ja "
+"somekorteilla. Mitään ei lähetetä ulos."
+
+msgid "SMTP Mailer"
+msgstr "SMTP-lähetys"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress-sähköposti omalla SMTP-palvelimellasi — sähköpostiloki, "
+"uudelleenlähetys, varayhteys ja virhehälytykset."
+
+msgid "Social Feed"
+msgstr "Sosiaalinen syöte"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Instagram-syöte sivustollesi ilman Meta-tunnusta WordPressissä."
+
+msgid "Reviews Cache"
+msgstr "Arvosteluvälimuisti"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Näytä Google-arvostelusi ilman API-avainta WordPressissä."
+
+msgid "Links"
+msgstr "Linkit"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Etsi rikkinäiset linkit ja hallitse uudelleenohjauksia omalla "
+"palvelimellasi, jokaisen päätöksen syy näkyy."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse-automaattitäyttö"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Tanskalainen osoitteen automaattinen täydennys ja validointi WooCommerce-, "
+"WPForms-, Gravity-, Fluent-, Formidable- ja EDD-lisäosille."
+
+msgid "Soge Lookup"
+msgstr "Soge-haku"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Hae tanskalaisia ajoneuvoja (DMR) ja yrityksiä (CVR) rekisterinumerolla, "
+"VIN:llä tai CVR-numerolla."
+
+msgid "CVR Checkout"
+msgstr "CVR-kassa"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Tanskalainen B2B-kassa WooCommercelle: CVR-yrityksen automaattitäyttö, "
+"CVR/EU-ALV (VIES) -tarkistus ja EAN/GLN-kenttä."
+
+msgid "Danish Shipping"
+msgstr "Tanskalainen toimitus"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Ilmainen noutopisteen valinta PostNordille ja GLS Denmarkille WooCommerce-"
+"kassalla sekä selkeät toimitustavat."
+
+msgid "API Auth"
+msgstr "API-todennus"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokenit REST API:lle, jotka voi todella peruuttaa, "
+"käyttöoikeuksilla ja kieltäytymislokilla."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Virheilmoituksia ei lähetetä sähköpostilla"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Hälytyssähköposti lähetetään PHP:n mail()-toiminnolla, joten se ei ole "
+"riippuvainen SMTP-palvelimesta, mutta PHP:n mail() epäonnistui tällä "
+"palvelimella: %s Käytä hälytyksiin webhookia tai pyydä palvelintasi ottamaan"
+" mail() käyttöön."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Tämä on Lynbro SMTP:n aiempi versio. Lynbro SMTP Mailer on korvannut sen ja "
+"käyttää samoja asetuksia. Poista kansio %s palveluntarjoajasi "
+"tiedostonhallinnalla, FTP:llä tai SSH:lla — älä käytä tässä Poista-"
+"toimintoa: lisäosan poistaminen tyhjentää jaetut SMTP-asetukset. Lynbro SMTP"
+" Mailer säilyttää varmuuskopion ja palauttaa asetukset, mutta vanha lisäosa "
+"tyhjentää myös sähköpostilokin."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Toinen lisäosa poisti SMTP-asetuksesi %s, ja ne on palautettu "
+"varmuuskopiosta. Sinun ei tarvitse tehdä mitään. Lähetä testiviesti, jos "
+"haluat varmistaa asian."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Tämä sivusto lähettää sähköpostit palvelimen omalla sähköpostitoiminnolla "
+"(PHP mail()). Testi näyttää, hyväksyikö palvelin sähköpostin; tarkista sen "
+"otsakkeet saapuneista viesteistä (Authentication-Results: spf=pass, "
+"dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Varmista, että se sisältää tämän verkkopalvelimen (sen IP-osoitteen muodossa"
+" ip4: tai ip6: tai siihen osoittavan a: / mx: -määrityksen)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"Sähköposti lähetetään tämän palvelimen omalla sähköpostitoiminnolla (PHP "
+"mail()) osoitteesta %s, ja Return-Path vastaa sitä."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path ei ole käytössä: palvelin merkitsee kirjekuoreen oman "
+"osoitteensa, joten SPF tarkistaa kyseisen toimialueen sinun toimialueesi "
+"sijaan."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"Sähköposti lähetetään palvelimen omalla sähköpostitoiminnolla, ja lähettäjä "
+"vastaa sitä"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP lähettää sähköpostit valintasi mukaan PHP mail() -toiminnolla ja"
+" asettaa From-osoitteen sekä Return-Path-arvon jokaiseen sähköpostiin. Lisää"
+" tämä palvelin toimialueen SPF-tietueeseen."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Tämän palvelimen oma sähköpostitoiminto (PHP mail(), ei SMTP:tä)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Palvelimille, jotka on määritetty lähettämään sähköpostia itse. "
+"Kirjautumista ei tarvita: alla määritetyt From-osoite ja Return-Path "
+"asetetaan silti jokaiseen sähköpostiin, jotta SPF ja DMARC täsmäävät. "
+"Toimialueen SPF-tietueen on sisällettävä tämä palvelin."

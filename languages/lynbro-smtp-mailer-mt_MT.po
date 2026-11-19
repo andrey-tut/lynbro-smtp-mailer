@@ -1,0 +1,1678 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: mt_MT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20) ? 2 : 3);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Ibgħat il-posta kollha ta’ WordPress permezz tal-host SMTP tiegħek."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Host"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Port"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Encryption"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Username"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Password"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (saved — leave blank to keep)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Email mitluba"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Isem mitlub"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Force From"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Ittella’ From għal kull posta ħierġa (irrakkomandat għad-deliverability)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Test send"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Ibgħat test"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Attività riċenti"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Mingħajr permessi biżżejjed."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Plugins by lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Qed jintbagħat…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Intbagħat."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Naqas."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Żball:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Żball tan-netwerk:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Projbit."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP test"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Riċevitur invalidu."
+
+msgid "Our plugins"
+msgstr "Il-plugins tagħna"
+
+msgid "Lynbro plugins"
+msgstr "Il-plugins ta’ Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Plugins ta’ WordPress ġenerużi u li jpoġġu l-privatezza l-ewwel — mibnija "
+"fid-Danimarka. Qlub b’xejn, l-ebda krediti, id-dejta tiegħek tibqa’ fuq is-"
+"sit tiegħek."
+
+msgid "More from Lynbro"
+msgstr "Aktar minn Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Is-suite tagħna dejjem tikber ta’ plugins b’xejn u li jpoġġu l-privatezza "
+"l-ewwel. Dawk li diġà huma installati huma mmarkati."
+
+msgid "Installed"
+msgstr "Installat"
+
+msgid "On WordPress.org"
+msgstr "Fuq WordPress.org"
+
+msgid "Coming soon"
+msgstr "Dalwaqt"
+
+msgid "Install"
+msgstr "Installa"
+
+msgid "Learn more"
+msgstr "Tgħallem aktar"
+
+msgid "About Lynbro"
+msgstr "Dwar Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro tibni plugins ta’ WordPress tassew b’xejn u li jpoġġu l-privatezza "
+"l-ewwel b’qlub b’xejn ġenerużi — l-ebda krediti, l-ebda paywalls fuq "
+"l-affarijiet essenzjali, id-dejta tiegħek fuq is-sit tiegħek stess. Magħmula"
+" fid-Danimarka."
+
+msgid "Visit Lynbro"
+msgstr "Żur Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Issuġġerixxi karatteristika jew irrapporta bug"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Ir-rispons jiftaħ ir-roadmap pubbliku tagħna fuq plugins.lynbro.dk f’tab "
+"ġdida — xejn ma jintbagħat mis-sit tiegħek."
+
+msgid "Tools"
+msgstr "Għodod"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Esporta s-settings ta’ dan il-plugin bħala backup JSON, jew irritornahom "
+"għad-defaults. 100% lokali — xejn ma joħroġ mis-sit tiegħek."
+
+msgid "Export settings (JSON)"
+msgstr "Esporta s-settings (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Irrisettja għad-defaults"
+
+msgid "About Lynbro SMTP"
+msgstr "Dwar Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress jibgħat email b'PHP mail() b’mod awtomatiku, li l-inboxes iqisuh "
+"suspettuż. Lynbro SMTP jibgħatha permezz ta’ server tal-posta reali u "
+"awtentikat minflok — dak tal-host tiegħek, tal-kaxxa tal-posta tiegħek jew "
+"ta’ servizz ta’ tibgħit — sabiex ir-reset tal-password, l-ordnijiet u "
+"l-formoli ta’ kuntatt jaslu."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Kollox jinsab fil-plugin b’xejn: il-log, ibgħat mill-ġdid, il-konnessjoni "
+"ta’ backup, l-avviżi, id-dijanjosi u WP-CLI. M’hemm l-ebda verżjoni mħallsa."
+
+msgid "How your data is handled"
+msgstr "Kif jiġu ttrattati d-data tiegħek"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"L-email tmur direttament mis-server tiegħek lejn is-server SMTP li "
+"ssettjajt. Il-plugin ma jikkuntattja l-ebda servizz ta’ Lynbro u ma jibgħat "
+"l-ebda statistika imkien."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"Il-password tal-SMTP tiġi kriptata biċ-ċwievet ta’ sigurtà tas-sit tiegħek, "
+"qatt ma tintwera mill-ġdid u qatt ma tinkiteb fil-log jew fl-esportazzjoni "
+"tas-settings."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Il-log iżomm ir-riċevituri, is-suġġett u l-istatus fid-database tiegħek "
+"stess. Il-kontenut tal-messaġġ biss għal emails falluti b’mod awtomatiku, u "
+"kull entrata titħassar wara l-perjodu ta’ żamma."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"L-entrati tal-log huma inklużi f’Għodod → Esporta Dati Personali u Ħassar "
+"Dati Personali."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Webhook ta’ falliment, jekk issettjajt wieħed, jirċievi biss it-test tal-"
+"iżball u link għall-log tiegħek."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Żomm il-login fil-wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Kwalunkwe minn dawn il-kostanti tissostitwixxi l-field fis-Settings, u "
+"l-valur qatt ma jasal fid-database jew fil-backups tagħha:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Verżjoni u links"
+
+msgid "Version"
+msgstr "Verżjoni"
+
+msgid "Plugin home page"
+msgstr "Paġna ewlenija tal-plugin"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Ibgħat email tat-test"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Għadu ma ġie ssettjat l-ebda server SMTP, allura t-test jintbagħat b'PHP "
+"mail(). Imla s-Settings l-ewwel biex tittestja l-SMTP."
+
+msgid "Recipient"
+msgstr "Riċevitur"
+
+msgid "Test the backup connection"
+msgstr "Ittestja l-konnessjoni ta’ backup"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "Konversazzjoni SMTP (password moħbija)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"L-emails tat-test jinjoraw il-modalità tat-test u l-modalità \"tibgħatx\", "
+"sabiex tkun tista’ tivverifika l-konnessjoni fuq kopja ta’ staging."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Dan is-server jista’ jilħaq is-server SMTP?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Ħafna hosts jimblukkaw il-portijiet tal-posta ħierġa. Dan jiċċekkja l-aktar "
+"komuni lejn il-host salv tiegħek, minn dan is-server web."
+
+msgid "Check ports"
+msgstr "Iċċekkja l-portijiet"
+
+msgid "Sender domain: %s"
+msgstr "Dominju tal-mittent: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "It-tfittxijiet DNS mhumiex disponibbli fuq dan is-server."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Kun żgur li jinkludi lill-fornitur tal-SMTP tiegħek (pereżempju "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"L-ebda rekord SPF. Żid wieħed mal-host tad-DNS tiegħek li jsemmi l-fornitur "
+"tal-SMTP tiegħek, jew ħafna inboxes ma jafdawx l-email."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"L-ebda rekord DMARC. Gmail u Yahoo jeħtieġu wieħed għal min jibgħat bil-"
+"massa; anke \"v=DMARC1; p=none\" sempliċi jgħin."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM huwa ssettjat għand il-fornitur tal-SMTP tiegħek (huma jagħtuk ir-"
+"rekord DNS). Ma jistax jiġi ċċekkjat minn hawn mingħajr l-isem tas-selector."
+
+msgid "Environment"
+msgstr "Ambjent"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "nieqes — TLS u SSL ma jaħdmux"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Plugins oħra tal-posta"
+
+msgid "none found"
+msgstr "ma nstab xejn"
+
+msgid "Scheduled cleanup"
+msgstr "Tindif skedat"
+
+msgid "scheduled"
+msgstr "skedat"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "mhux skedat — iddiżattiva u erġa’ attiva l-plugin"
+
+msgid "Sent"
+msgstr "Mibgħut"
+
+msgid "Failed"
+msgstr "Falli"
+
+msgid "Not sent (delivery off)"
+msgstr "Mhux mibgħut (it-trażmissjoni mitfija)"
+
+msgid "Unknown"
+msgstr "Mhux magħruf"
+
+msgid "Main SMTP"
+msgstr "SMTP prinċipali"
+
+msgid "Backup SMTP"
+msgstr "SMTP ta’ riżerva"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Modalità ta’ test (ridirett)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr ""
+"Ir-reġistru huwa mitfi fis-Settings — ma jiġu rreġistrati l-ebda emails "
+"ġodda."
+
+msgid "Sent, 30 days"
+msgstr "Mibgħut, 30 jum"
+
+msgid "Failed, 30 days"
+msgstr "Falli, 30 jum"
+
+msgid "Held back, 30 days"
+msgstr "Miżmum lura, 30 jum"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "All statuses"
+msgstr "L-istatus kollha"
+
+msgid "Recipient, subject or error"
+msgstr "Riċevitur, suġġett jew żball"
+
+msgid "Search the log"
+msgstr "Fittex fir-reġistru"
+
+msgid "Filter"
+msgstr "Iffiltra"
+
+msgid "Clear"
+msgstr "Ħassar"
+
+msgid "No emails match this filter."
+msgstr "L-ebda email ma taqbel ma’ dan il-filtru."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Għadu ma hemm l-ebda email irreġistrata. Ibgħat test mit-tab Test & "
+"diagnostics biex tara l-ewwel entrata hawnhekk."
+
+msgid "Select all"
+msgstr "Agħżel kollox"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "To"
+msgstr "Lil"
+
+msgid "Subject"
+msgstr "Suġġett"
+
+msgid "Sent through"
+msgstr "Mibgħut permezz ta’"
+
+msgid "Actions"
+msgstr "Azzjonijiet"
+
+msgid "Select"
+msgstr "Agħżel"
+
+msgid "(no subject)"
+msgstr "(mingħajr suġġett)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Annessi (ma jinżammux): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Trażmissjoni mill-ġdid ta’ entrata #%d"
+
+msgid "Content not kept."
+msgstr "Il-kontenut ma jinżammx."
+
+msgid "Resend"
+msgstr "Ibgħat mill-ġdid"
+
+msgid "Delete the selected entries?"
+msgstr "Tħassar l-entrati magħżula?"
+
+msgid "Delete selected"
+msgstr "Ħassar magħżula"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s entrati · jitħassru awtomatikament wara %2$s jiem"
+
+msgid "Checking…"
+msgstr "Qed jiġi ċċekkjat…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Mibgħut. Iċċekkja l-inbox (u l-folder tal-ispam) tar-riċevitur."
+
+msgid "Not sent."
+msgstr "Mhux mibgħut."
+
+msgid "open"
+msgstr "miftuħ"
+
+msgid "blocked"
+msgstr "imblukkat"
+
+msgid "Request failed:"
+msgstr "It-talba falliet:"
+
+msgid "Delivered through:"
+msgstr "Konsenjat minn:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "M'għandekx permessi biżżejjed biex taċċessa din il-paġna."
+
+msgid "Settings"
+msgstr "Is-settings"
+
+msgid "Test & diagnostics"
+msgstr "Test u dijanjostika"
+
+msgid "Email log"
+msgstr "Log tal-email"
+
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "About"
+msgstr "Dwar"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Ibgħat kull email ta' WordPress permezz tas-server SMTP tiegħek stess — "
+"b'log tal-email, tibgħat mill-ġdid, konnessjoni ta' riżerva u twissijiet "
+"dwar falliment. Kollox b'xejn, mingħajr upsells."
+
+msgid "The email was sent again."
+msgstr "L-email intbagħtet mill-ġdid."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"L-email ma setgħetx tintbagħat mill-ġdid — ara l-aktar daħla reċenti fil-log"
+" għar-raġuni."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr ""
+"Il-kontenut ta' din l-email ma nżammx, allura ma tistax tintbagħat mill-"
+"ġdid."
+
+msgid "Log entries deleted."
+msgstr "Id-daħliet tal-log tħassru."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Is-settings ġew importati. Daħħal il-password SMTP darba u salva — il-"
+"passwords qatt ma jiġu kkopjati minn plugins oħra."
+
+msgid "Set in wp-config.php"
+msgstr "Impostat f'wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "L-email tintbagħat permezz ta' %1$s fuq il-port %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"Għad m'hemmx server SMTP issettjat — WordPress għadu jibgħat b'PHP mail(). "
+"Agħżel il-fornitur tiegħek hawn taħt, imla d-dettalji tal-login u salva."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr ""
+"Il-kunsinna hija mitfija: l-emails jiġu rreġistrati iżda ma jintbagħtux."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr ""
+"Modalità ta' test: kull email tmur għand %s minflok lir-riċevituri tagħha."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Il-password salvata ma tistax tinqara aktar għax iċ-ċwievet tas-sigurtà tas-"
+"sit inbidlu. Daħħalha mill-ġdid u salva."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "L-aħħar falliment %1$s ilu: %2$s"
+
+msgid "Show failed emails"
+msgstr "Uri l-emails falluti"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Attiv ukoll: %s. Żewġ plugins tal-posta qed jiġġieldu fuq l-istess email — "
+"iddiżattiva l-ieħor."
+
+msgid "Import settings from %s"
+msgstr "Importa s-settings minn %s"
+
+msgid "SMTP server"
+msgstr "Server SMTP"
+
+msgid "Provider"
+msgstr "Fornitur"
+
+msgid "Port and encryption"
+msgstr "Port u encryption"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — normalment port 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — normalment port 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Xejn — biss għal server fl-istess netwerk"
+
+msgid "Authentication"
+msgstr "Awtentikazzjoni"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "Is-server jeħtieġ username u password (kważi dejjem)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Il-password tiġi minn LYNBRO_SMTP_PASS f'wp-config.php u ma tinħażinx fid-"
+"database."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Salvat — ħalliha vojta biex iżżommha"
+
+msgid "Remove the saved password"
+msgstr "Neħħi l-password salvata"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Maħżuna b'mod kriptat biċ-ċwievet tas-sigurtà tas-sit tiegħek u qatt ma "
+"tintwera mill-ġdid. Biex iżżommha kompletament barra mid-database, "
+"iddefinixxiha f'wp-config.php (ara Dwar)."
+
+msgid "Certificate"
+msgstr "Ċertifikat"
+
+msgid "Verify the server certificate"
+msgstr "Ivverifika ċ-ċertifikat tas-server"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr "Neħħi l-marka biss għal server tiegħek b'ċertifikat self-signed."
+
+msgid "Sender"
+msgstr "Mittent"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Ġiegħel dan l-indirizz fuq kull email, irrispettivament minn x’jissettjaw "
+"plugini oħra"
+
+msgid "Recommended"
+msgstr "Rakkomandat"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Uża indirizz fuq dominju li l-kont SMTP tiegħek jista’ jibgħat għalih, jew "
+"il-fornituri jirrifjutaw l-email jew ipoġġuha fil-folder tal-ispam."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Ġiegħel dan l-isem ukoll (mitfi: il-formoli u l-ħwienet iżommu l-isem tal-"
+"mittent tagħhom stess)"
+
+msgid "Default Reply-To"
+msgstr "Default Reply-To"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Użat biss meta email ma jkollhiex Reply-To tagħha stess, sabiex it-tweġibiet"
+" tal-formoli ta’ kuntatt xorta jaslu għand il-viżitatur."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Ibgħat il-bounces lill-indirizz From"
+
+msgid "Backup connection"
+msgstr "Konnessjoni ta’ riżerva"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Meta s-server ewlieni jonqos, l-istess email tintbagħat mill-ġdid minnufih "
+"permezz tar-riżerva — il-viżitatur qatt ma jara żball."
+
+msgid "Backup"
+msgstr "Riżerva"
+
+msgid "Use a backup when the main server fails"
+msgstr "Uża riżerva meta s-server ewlieni jonqos"
+
+msgid "Another SMTP server"
+msgstr "Server SMTP ieħor"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr ""
+"PHP mail() ta’ dan is-server (aħjar minn xejn; jista’ jispiċċa fl-ispam)"
+
+msgid "Backup host"
+msgstr "Ospitanti tar-riżerva"
+
+msgid "Backup port"
+msgstr "Port tar-riżerva"
+
+msgid "Backup encryption"
+msgstr "Kriptar tar-riżerva"
+
+msgid "None"
+msgstr "Xejn"
+
+msgid "Backup login"
+msgstr "Login tar-riżerva"
+
+msgid "Backup password"
+msgstr "Password tar-riżerva"
+
+msgid "Delivery mode"
+msgstr "Mod ta’ twassil"
+
+msgid "Mode"
+msgstr "Mod"
+
+msgid "Send normally"
+msgstr "Ibgħat b’mod normali"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Mod ta’ test: ibgħat kollox lil indirizz wieħed (Cc u Bcc jitneħħew)"
+
+msgid "Redirect address"
+msgstr "Indirizz ta’ ridirezzjoni"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Ibgħat l-ebda email (kopji ta’ staging) — l-emails xorta jiġu rreġistrati"
+
+msgid "Log"
+msgstr "Reġistru"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Żomm reġistru ta’ kull email (riċevitur, suġġett, status, żball)"
+
+msgid "Keep message content"
+msgstr "Żomm il-kontenut tal-messaġġ"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Biss ta’ emails falluti, sabiex ikunu jistgħu jintbagħtu mill-ġdid"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Ta’ kull email (jippermettilek tibgħat mill-ġdid kull ħaġa; ir-reġistru "
+"mbagħad iżomm links tar-reset tal-password u dettalji tal-ordni)"
+
+msgid "Never"
+msgstr "Qatt"
+
+msgid "Keep entries for"
+msgstr "Żomm l-entrati għal"
+
+msgid "days, then they are deleted automatically"
+msgstr "jum, imbagħad jitħassru awtomatikament"
+
+msgid "Failure alerts"
+msgstr "Twissijiet ta’ falliment"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"L-aktar wieħed kull siegħa. L-email tat-twissija tintbagħat b’PHP mail() ta’"
+" dan is-server, għax is-server SMTP jista’ jkun dak li qed jaqa’."
+
+msgid "Alert email"
+msgstr "Email tat-twissija"
+
+msgid "Webhook URL"
+msgstr "URL tal-webhook"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Facoltattiv. Flussi tax-xogħol ta’ Slack, Discord, Microsoft Teams, ntfy jew"
+" l-endpoint tiegħek stess (HTTPS). Il-plugin jibgħat it-test tal-iżball "
+"hemmhekk — xejn aktar, u biss meta tissettja URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Importa minn plugin SMTP ieħor"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Ikkopja l-host, il-port, l-encryption, l-isem tal-utent u l-mittent. Il-"
+"passwords jibqgħu fejn huma — daħħal tiegħek darba wara l-importazzjoni."
+
+msgid "Import from %s"
+msgstr "Importa minn %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Ma nstab l-ebda setting ta’ WP Mail SMTP, FluentSMTP, Easy WP SMTP jew Post "
+"SMTP fuq dan is-sit."
+
+msgid "Download the log (CSV)"
+msgstr "Niżżel il-log (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Tħassar kull entrata fil-log?"
+
+msgid "Empty the log"
+msgstr "Ixxotta l-log"
+
+msgid "Is it working for you?"
+msgstr "Jaħdem għalik?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP huwa b’xejn, mingħajr xejn imsakkar. Jekk għen biex l-email "
+"tiegħek tintbagħat, reviżjoni qasira tgħin lil oħrajn isibuh."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Ħalli reviżjoni fuq WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Xi ħaġa nieqsa jew miksura?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Rapporti ta’ bugs u ideat jinqraw min-nies li bnew il-plugin. Il-ftuħ ta’ "
+"dawn il-links ma jibgħat xejn mis-sit tiegħek."
+
+msgid "Ask in the support forum"
+msgstr "Staqsi fil-forum ta’ appoġġ"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Issuġġerixxi funzjonalità (roadmap pubblika)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Qed tippubblika linja tal-log? Neħħi l-indirizzi l-ewwel — it-tab Test diġà "
+"jaħbi l-password."
+
+msgid "You do not have permission to do that."
+msgstr "M’għandekx permess tagħmel dan."
+
+msgid "Enter a valid recipient address."
+msgstr "Daħħal indirizz riċevitur validu."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: il-konnessjoni SMTP ewlenija fallew u l-backup bagħat l-email. Żball: "
+"%2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: email ma setgħetx tintbagħat. Żball: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Entrata tal-log #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Problema fit-twassil tal-email"
+
+msgid "Email delivery"
+msgstr "Twassil tal-email"
+
+msgid "Email is sent through SMTP"
+msgstr "L-email tintbagħat permezz ta’ SMTP"
+
+msgid "Email"
+msgstr "Email"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP jibgħat l-email ta’ dan is-sit permezz ta’ server SMTP "
+"awtentikat."
+
+msgid "Open Lynbro SMTP"
+msgstr "Iftaħ Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "L-email tintbagħat b’PHP mail(), mhux bl-SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP huwa attiv imma l-ebda server SMTP ma huwa ssettjat, għalhekk "
+"l-email xorta toħroġ permezz ta’ PHP mail() u ħafna drabi tispiċċa fl-ispam."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Il-password SMTP salvata ma għadhiex tista’ tinqara"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Iċ-ċwievet tas-sigurtà tas-sit inbidlu wara li l-password ġiet salvata. "
+"Daħħal il-password SMTP mill-ġdid."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "L-emails ma ntbagħtux fl-aħħar 24 siegħa"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Il-konnessjoni SMTP ewlenija fallew fl-aħħar 24 siegħa"
+
+msgid "Email delivery (7 days)"
+msgstr "Twassil tal-email (7 ijiem)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Intbagħtu: %1$s · Fawwlu: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"Għadu ma ġiex issettjat server SMTP — l-email tintbagħat b’PHP mail()."
+
+msgid "Show failed"
+msgstr "Uri dawk li fallew"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Konnessjoni ewlenija: %1$s — Konnessjoni backup: %2$s"
+
+msgid "Test email from %s"
+msgstr "Test email minn %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Din hija email tat-test minn %1$s, mibgħuta minn Lynbro SMTP.\n"
+"\n"
+"Jekk tista’ taqraha, it-twassil tal-email qed jaħdem.\n"
+"\n"
+"Intbagħat: %2$s\n"
+"Konnessjoni: %3$s"
+
+msgid "backup"
+msgstr "backup"
+
+msgid "main"
+msgstr "prinċipali"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Is-server irrifjuta l-isem tal-utent jew il-password. Gmail, Outlook, Zoho u"
+" iCloud jeħtieġu app password, mhux waħda normali; SendGrid u Brevo jeħtieġu"
+" SMTP/API key."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365 għandha d-daħla SMTP mitfija għal din il-kaxxa tal-posta. "
+"Amministratur jista’ jattiva \"Authenticated SMTP\" għaliha, jew juża "
+"servizz ta’ relay minflok."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Is-server ma setax jintlaħaq. Ħafna hosts jimblukkaw il-portijiet ħerġin 25,"
+" 465 u 587 — agħmel il-kontroll tal-port hawn taħt, imbagħad itlob lill-host"
+" tiegħek jiftaħ il-port jew juża dak li hu miftuħ."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Il-konnessjoni sigura falliet. Iċċekkja li l-port u l-encryption jaqblu (587"
+" = TLS, 465 = SSL). Jekk is-server juża ċertifikat self-signed, neħħi "
+"l-marka minn \"Verify the server certificate\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Is-server ma jħallix lil dan il-kont jibgħat bħala l-indirizz From. Uża "
+"indirizz fuq domain li l-kont għandu, u ixgħel \"Force From email\"."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "L-isem tal-host ma jirrisolvix. Iċċekkjah għal żbalji ta’ kitba."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Aqra l-aħħar linji SERVER tat-transcript: is-server normalment jgħid eżatt "
+"x’ma għoġbux."
+
+msgid "No host set."
+msgstr "L-ebda host issettjat."
+
+msgid "That log entry no longer exists."
+msgstr "Dak l-entrata tal-log ma teżistix aktar."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Il-kontenut ta’ din l-email ma nżammx, għalhekk ma tistax tintbagħat mill-"
+"ġdid. Ibdel \"Keep message content\" f’Settings biex tibgħat emails futuri "
+"mill-ġdid."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"L-email ma setgħetx tintbagħat mill-ġdid. L-attentat il-ġdid u l-iżball "
+"tiegħu jinsabu fil-log."
+
+msgid "Date (UTC)"
+msgstr "Data (UTC)"
+
+msgid "Recipients"
+msgstr "Destinatarji"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP email log"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Il-bqija tas-suite. Dak li diġà hemm fuq dan is-sit hu mmarkat; xejn ma jiġi"
+" installat mingħajr ma titlob għalih."
+
+msgid "Active"
+msgstr "Attiv"
+
+msgid "Activate"
+msgstr "Attiva"
+
+msgid "Install now"
+msgstr "Installa issa"
+
+msgid "View on WordPress.org"
+msgstr "Ara fuq WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Komponenti kondiviżi ta’ Lynbro v%1$s, provduti minn %2$s (l-aktar verżjoni "
+"ġdida minn %3$d verżjonijiet fuq dan is-sit)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Irrisettja s-settings kollha għal dawk predefiniti?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Lynbro SMTP qed iwassallek l-email? Ftit kliem fuq WordPress.org jgħinu lil "
+"oħrajn isibu plugin għall-posta mingħajr upsells."
+
+msgid "Write a review"
+msgstr "Ikteb review"
+
+msgid "No thanks"
+msgstr "Le grazzi"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Il-modalità redirect teħtieġ indirizz biex tibgħat lejh — il-posta "
+"tintbagħat b’mod normali sakemm iżżid wieħed."
+
+msgid "Other SMTP server"
+msgstr "Server SMTP ieħor"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Uża d-dettalji SMTP mill-host jew mill-fornitur tal-email tiegħek."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Username: l-indirizz sħiħ tiegħek ta’ Gmail. Password: app password (Google "
+"Account → Security → 2-Step Verification → App passwords), mhux il-password "
+"normali tiegħek."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 teħtieġ li \"Authenticated SMTP\" ikun attivat għall-kaxxa "
+"tal-posta. Microsoft qed tneħħi s-sign-in bil-password għal SMTP; jekk il-"
+"login ifalli, uża servizz ta’ relay bħal Brevo jew l-SMTP tal-host tiegħek."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Username: il-login SMTP muri taħt SMTP & API. Password: SMTP key, mhux il-"
+"password tal-kont tiegħek."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Username: il-kelma \"apikey\". Password: il-API key ta’ SendGrid tiegħek."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"Kontijiet tal-UE jużaw smtp.eu.mailgun.org. Username u password: il-"
+"kredenzjali SMTP tad-dominju li minnu tibgħat."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Ibdel ir-reġjun fil-host tiegħek ma’ tiegħek. Username u password: "
+"kredenzjali SMTP maħluqa fil-console SES (mhux iċ-ċwievet tal-aċċess AWS "
+"tiegħek)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "Username u password: it-tnejn huma Server API token tiegħek."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Uża smtp.zoho.com għal kontijiet barra l-UE. B’two-factor sign-in, oħloq "
+"password speċifika għall-app."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Username: API key. Password: secret key."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr "Username u password: utent SMTP maħluq taħt Sending → SMTP Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Username: l-indirizz sħiħ tal-kaxxa tal-posta. Password: il-password tal-"
+"kaxxa tal-posta."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Uża smtp.ionos.de jew smtp.ionos.co.uk għal dawk ir-reġjuni. Username: "
+"l-indirizz sħiħ tal-kaxxa tal-posta."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Jibgħat l-imejls kollha ta' WordPress permezz tas-server SMTP tiegħek stess,"
+" b'log tal-imejls li jista' jitfittex, tibgħat mill-ġdid, konnessjoni ta' "
+"riżerva, twissijiet dwar fallimenti u dijanjostiċi tal-konnessjoni. L-ebda "
+"upsells."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Host: l-endpoint SMTP tar-reġjun SES tiegħek, muri fil-console SES taħt is-"
+"settings SMTP. Username u password: kredenzjali SMTP maħluqa fil-console SES"
+" (mhux iċ-ċwievet tal-aċċess AWS tiegħek)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Volontarju. Webhook deħlin ta’ Slack jew Discord, jew l-endpoint HTTPS "
+"tiegħek stess (JSON b’\"text\" u \"content\"). Il-plugin jibgħat it-test "
+"tal-iżball hemmhekk — xejn iżjed, u biss meta tissettja URL."
+
+msgid "Is %s doing its job?"
+msgstr "Qed jagħmel xogħlu %s?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Użajtu għal ftit ġimgħat issa. Jekk jaħdem għalik, reviżjoni qasira fuq "
+"WordPress.org tgħin lil sidien ta’ siti oħra jsibuh — anke dawk onesti u "
+"kritiċi."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Użajtu għal ftit ġimgħat issa. Jekk jaħdem għalik — jew jekk hemm xi ħaġa "
+"nieqsa — għidilna fuq ir-roadmap pubbliku tagħna. Hekk niddeċiedu x’se nibnu"
+" li jmiss."
+
+msgid "(opens in a new tab)"
+msgstr "(jiftaħ f'tab ġdid)"
+
+msgid "Share feedback"
+msgstr "Aqsam il-feedback"
+
+msgid "Maybe later"
+msgstr "Forsi aktar tard"
+
+msgid "Don't ask again"
+msgstr "Tgħidilix aktar"
+
+msgid "Something not working? Ask for help"
+msgstr "Xi ħaġa mhix taħdem? Itlob għajnuna"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce attiv"
+
+msgid "a form plugin is active"
+msgstr "plugin tal-formola attiv"
+
+msgid "the site is set up for Denmark"
+msgstr "is-sit issettjat għad-Danimarka"
+
+msgid "comments are open"
+msgstr "kummenti miftuħa"
+
+msgid "tracking tags are active"
+msgstr "tags tat-traċċar attivi"
+
+msgid "visitors can create accounts"
+msgstr "viżitaturi jistgħu joħolqu kontijiet"
+
+msgid "Suggested because %l."
+msgstr "Ssuġġerit minħabba %l."
+
+msgid "Suggested for this site"
+msgstr "Ssuġġerit għal dan is-sit"
+
+msgid "Hide suggestions"
+msgstr "Aħbi s-suġġerimenti"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Plugins Lynbro oħra li jaqblu ma’ dak li juża dan is-sit. Xejn ma jiġi "
+"installat sakemm ma tikklikkjax."
+
+msgid "All Lynbro plugins"
+msgstr "Il-plugins kollha ta’ Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Magħżula minn dak li diġà juża dan is-sit — moqrija fuq dan is-sit, xejn ma "
+"jintbagħat imkien."
+
+msgid "Image Optimizer"
+msgstr "Ottimizzatur tal-Immaġini"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Aqleb għal WebP u AVIF, daħħal immaġini kbar fid-daqs korrett u uża lazy-"
+"load — kollox fuq is-server tiegħek."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Ikteb u illustra postijiet bl-AI fuq OpenAI key tiegħek — bi spiża biss, "
+"mingħajr credits bejniethom."
+
+msgid "Analytics"
+msgstr "Analitiċi"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Analitiċi self-hosted, mingħajr cookies, b’funnels. Id-dejta tal-viżitaturi "
+"qatt ma titlaq mid-database tiegħek."
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel u aktar mingħajr kodiċi — kull tag "
+"jistenna l-kunsens."
+
+msgid "Forms"
+msgstr "Formoli"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formoli b’entrati salvati b’xejn u mingħajr limitu, loġika kondizzjonali "
+"vverifikata fuq is-server, u webhooks iffirmati."
+
+msgid "Verify"
+msgstr "Ivverifika"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Aqbad dominji tal-email żbaljati u numri tat-telefon ħżiena, u ivverifikahom"
+" b’kodiċi wieħed permezz ta’ email jew SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Tnaddif affidabbli għal nginx FastCGI cache u Redis object cache, b’kull "
+"tnaddif ivverifikat kontra l-cache innifsu."
+
+msgid "Translate"
+msgstr "Ittraduċi"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Iċċaqlaq is-sit tiegħek f’diversi lingwi, b’traduzzjoni awtomatika fuq "
+"OpenAI key tiegħek — xejn imkejjel, xejn mibjugħ bil-kelma."
+
+msgid "Shield"
+msgstr "Shield"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Headers ta’ sigurtà, HTTPS b’HSTS, firewall żgħir kontra probes ta’ "
+"injection u swiċċijiet ta’ hardening li kull sit jeħtieġ."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Kontrolli ta’ spam li jaħdmu fuq is-server tiegħek. L-ebda kont, l-ebda "
+"abbonament, kull blokk jispjega għaliex — u messaġġ miżmum qatt ma jintilef."
+
+msgid "Login Guard"
+msgstr "Login Guard"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Mexxi wp-login.php, illimita tentattivi falluti u żid two-factor ibbażat fuq"
+" app — b’tliet modi kif terġa’ tidħol."
+
+msgid "Cookie Consent"
+msgstr "Kunsens tal-Cookies"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Banner tal-GDPR u ePrivacy b’Consent Mode v2, buttuna Reject daqshekk "
+"prominenti u 35 lingwa."
+
+msgid "Activity Log"
+msgstr "Reġistru tal-Attività"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Min għamel xiex, meta u minn fejn — miktub fuq is-server tiegħek, jista’ "
+"jiġi mfittxet, esportat, u mħassar skont l-iskeda tiegħek."
+
+msgid "Data Retention"
+msgstr "Żamma tad-Dejta"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Sib fejn id-dejta personali tinsab fil-fatt fid-database tiegħek, imbagħad "
+"ħassarha skont skeda — b’prova niexfa qabel kull tħassir."
+
+msgid "Accessibility"
+msgstr "Aċċessibilità"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Iċċekkja kull paġna kontra WCAG 2.2 AA u issolvi dak li jista’ jiġi ffissat "
+"b’mod sigur. L-ebda overlay, l-ebda limitu ta’ paġni."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO ħafif b’schema LocalBusiness b’xejn, sitemaps u social cards. Xejn ma "
+"jibgħat dejta lura."
+
+msgid "SMTP Mailer"
+msgstr "SMTP Mailer"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Emails ta’ WordPress permezz tas-server SMTP tiegħek — b’log tal-emails, "
+"reġenerazzjoni, konnessjoni ta’ backup u alerts ta’ falliment."
+
+msgid "Social Feed"
+msgstr "Social Feed"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Feed ta’ Instagram fuq is-sit tiegħek mingħajr token ta’ Meta maħżun "
+"f’WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache tar-Reviżjonijiet"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr ""
+"Uri r-reviżjonijiet tiegħek ta’ Google mingħajr ma ddaħħal API key "
+"f’WordPress."
+
+msgid "Links"
+msgstr "Links"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Sib links miksura u immaniġġja redirects fuq is-server tiegħek, bir-raġuni "
+"għal kull deċiżjoni."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Autofill"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Autokompliment u validazzjoni ta’ indirizzi Daniżi għal WooCommerce, "
+"WPForms, Gravity, Fluent, Formidable u EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge Lookup"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Fittex vetturi Daniżi (DMR) u kumpaniji (CVR) permezz ta’ numru tal-pjanċa, "
+"VIN jew numru CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Checkout B2B Daniż għal WooCommerce: awtokompliment tal-kumpanija CVR, "
+"validazzjoni CVR/EU-VAT (VIES) u kamp EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Tbaħħir Daniż"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Għażla b’xejn ta’ punt ta’ ġbir għal PostNord u GLS Denmark fil-checkout ta’"
+" WooCommerce, flimkien ma’ metodi ta’ tbaħħir sempliċi."
+
+msgid "API Auth"
+msgstr "API Auth"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens għall-REST API li tista’ tħassar verament, b’skopi u "
+"reġistru ta’ rifjuti."
+
+msgid "Failure alerts by email do not get out"
+msgstr "It-twissijiet ta' falliment bl-email ma jintbagħtux"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"L-email tat-twissija tintbagħat b'PHP mail() sabiex ma tiddependix fuq is-"
+"server SMTP, iżda PHP mail() fallew fuq dan is-server: %s Uża webhook għat-"
+"twissijiet, jew staqsi lill-host tiegħek biex jattiva mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Din hija l-verżjoni preċedenti ta’ Lynbro SMTP. Lynbro SMTP Mailer ħa postha"
+" u juża l-istess settings. Neħħi l-folder %s bil-maniġer tal-fajls tal-host "
+"tiegħek, permezz tal-FTP jew tal-SSH — tużax Ħassar hawn: id-"
+"diżinstallazzjoni tiegħu tħassar is-settings SMTP kondiviżi. Lynbro SMTP "
+"Mailer iżomm kopja ta’ riżerva u jirrestawrahom, iżda l-plugin l-antik "
+"ineħħi wkoll ir-reġistru tal-emails."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Is-settings SMTP tiegħek tħassru minn plugin ieħor fis-%s u ġew restawrati "
+"mill-kopja ta’ riżerva. M’għandek għalfejn tagħmel xejn; jekk trid tkun "
+"ċert, ibgħat email tat-test."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Dan is-sit jibgħat l-emails permezz tas-sistema tal-posta tiegħu stess (PHP "
+"mail()). It-test juri jekk is-server aċċettax l-email; iċċekkja l-headers "
+"tagħha fil-kaxxa tal-inbox (Authentication-Results: spf=pass, dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Kun żgur li dan jinkludi dan is-web server (l-indirizz IP tiegħu b’ip4: jew "
+"ip6:, jew a: / mx: li jindika lejh)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"L-email tintbagħat permezz tas-sistema tal-posta ta’ dan is-server stess "
+"(PHP mail()), minn %s, b’Return-Path li jaqbel."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path huwa mitfi: is-server ipoġġi l-indirizz tiegħu stess fuq "
+"l-envelop, għalhekk l-SPF jiċċekkja dak id-dominju minflok tiegħek."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"L-email tintbagħat permezz tas-sistema tal-posta tas-server stess, "
+"b’indirizz tal-mittent li jaqbel"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP jibgħat permezz ta’ PHP mail() skont l-għażla tiegħek u "
+"jistabbilixxi l-indirizz From u Return-Path fuq kull email. Żomm dan is-"
+"server fir-rekord SPF tad-dominju."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr ""
+"Is-sistema tal-posta ta’ dan is-server stess (PHP mail(), mingħajr SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Għal servers konfigurati biex jibagħtu l-posta waħedhom. M’hemmx bżonn ta’ "
+"login: l-indirizz From u r-Return-Path hawn taħt xorta jiġu stabbiliti fuq "
+"kull email, sabiex l-SPF u d-DMARC ikunu jistgħu jaqblu. Ir-rekord SPF tad-"
+"dominju jrid jinkludi dan is-server."

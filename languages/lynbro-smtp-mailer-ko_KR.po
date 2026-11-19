@@ -1,0 +1,1500 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "모든 WordPress 메일을 SMTP 호스트를 통해 전송합니다."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "호스트"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "포트"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "암호화"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "사용자명"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "비밀번호"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (저장됨 — 유지하려면 비워 두세요)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "보내는 이메일"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "보내는 이름"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "보낸 사람 강제 적용"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr "모든 발신 메일의 보낸 사람을 덮어씁니다(전달률 향상에 권장)."
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "테스트 전송"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "테스트 보내기"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "최근 활동"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "권한이 부족합니다."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Plugins by lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "전송 중…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ 전송됨."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ 실패함."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "오류:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "네트워크 오류:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "금지됨."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP 테스트"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "유효하지 않은 수신자입니다."
+
+msgid "Our plugins"
+msgstr "우리 플러그인"
+
+msgid "Lynbro plugins"
+msgstr "Lynbro 플러그인"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"관대하고 개인정보 우선인 WordPress 플러그인 — 덴마크에서 제작. 무료 핵심 기능, 크레딧 없음, 데이터는 사이트에 그대로 "
+"유지됩니다."
+
+msgid "More from Lynbro"
+msgstr "Lynbro의 더 많은 플러그인"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr "무료이고 개인정보 우선인 플러그인 모음이 계속 늘어나고 있습니다. 이미 설치된 항목은 표시됩니다."
+
+msgid "Installed"
+msgstr "설치됨"
+
+msgid "On WordPress.org"
+msgstr "WordPress.org에서"
+
+msgid "Coming soon"
+msgstr "출시 예정"
+
+msgid "Install"
+msgstr "설치"
+
+msgid "Learn more"
+msgstr "자세히 알아보기"
+
+msgid "About Lynbro"
+msgstr "Lynbro 소개"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro는 진정으로 무료이고 개인정보 우선인 WordPress 플러그인을 만듭니다. 넉넉한 무료 핵심 기능 제공 — 크레딧 없음, "
+"필수 기능 유료화 없음, 데이터는 자신의 사이트에 보관됩니다. 덴마크에서 제작."
+
+msgid "Visit Lynbro"
+msgstr "Lynbro 방문"
+
+msgid "Suggest a feature or report a bug"
+msgstr "기능을 제안하거나 버그를 신고하세요"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"피드백을 보내면 plugins.lynbro.dk의 공개 로드맵이 새 탭에서 열립니다 — 사이트에서 아무것도 전송되지 않습니다."
+
+msgid "Tools"
+msgstr "도구"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"이 플러그인의 설정을 JSON 백업으로 내보내거나 기본값으로 재설정하세요. 100% 로컬 — 아무것도 사이트를 벗어나지 않습니다."
+
+msgid "Export settings (JSON)"
+msgstr "설정 내보내기 (JSON)"
+
+msgid "Reset to defaults"
+msgstr "기본값으로 재설정"
+
+msgid "About Lynbro SMTP"
+msgstr "Lynbro SMTP 소개"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress는 기본적으로 PHP mail()로 이메일을 보내는데, 받은편지함에서는 이를 의심스러운 것으로 봅니다. Lynbro "
+"SMTP는 대신 호스트, 사서함 또는 발송 서비스의 실제 인증된 메일 서버를 통해 전송하므로, 비밀번호 재설정, 주문, 문의 양식이 "
+"정상적으로 도착합니다."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"무료 플러그인에 모든 기능이 포함되어 있습니다: 로그, 재전송, 백업 연결, 알림, 진단, WP-CLI. 유료 버전은 없습니다."
+
+msgid "How your data is handled"
+msgstr "데이터 처리 방식"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"이메일은 서버에서 설정한 SMTP 서버로 바로 전송됩니다. 이 플러그인은 Lynbro 서비스에 접속하지 않으며 어디에도 통계를 전송하지 "
+"않습니다."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr "SMTP 비밀번호는 사이트의 보안 키로 암호화되며, 다시 표시되지 않고 로그나 설정 내보내기에 기록되지도 않습니다."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"로그에는 수신자, 제목, 상태가 자체 데이터베이스에 저장됩니다. 기본적으로는 실패한 이메일의 메시지 내용만 저장되며, 모든 항목은 보존 "
+"기간이 지나면 삭제됩니다."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr "로그 항목은 도구 → 개인 데이터 내보내기 및 개인 데이터 삭제에 포함됩니다."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr "실패 웹훅을 설정한 경우, 오류 텍스트와 로그 링크만 전송됩니다."
+
+msgid "Keep the login in wp-config.php"
+msgstr "wp-config.php에 로그인 정보를 유지하세요"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr "다음 상수 중 하나라도 설정하면 설정의 해당 필드를 덮어쓰며, 값은 데이터베이스나 백업에 저장되지 않습니다:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "버전 및 링크"
+
+msgid "Version"
+msgstr "버전"
+
+msgid "Plugin home page"
+msgstr "플러그인 홈페이지"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "테스트 이메일 보내기"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"아직 SMTP 서버가 설정되지 않아 테스트는 PHP mail()로 전송됩니다. SMTP를 테스트하려면 먼저 설정을 입력하세요."
+
+msgid "Recipient"
+msgstr "받는 사람"
+
+msgid "Test the backup connection"
+msgstr "백업 연결 테스트"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP 대화 (비밀번호 숨김)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr "테스트 이메일은 테스트 모드와 \"전송 안 함\" 모드를 무시하므로, 스테이징 복사본에서 연결을 확인할 수 있습니다."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "이 서버가 SMTP 서버에 연결할 수 있나요?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr "많은 호스팅은 발신 메일 포트를 차단합니다. 이 서버에서 저장된 호스트로 일반적인 포트를 확인합니다."
+
+msgid "Check ports"
+msgstr "포트 확인"
+
+msgid "Sender domain: %s"
+msgstr "보내는 사람 도메인: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "이 서버에서는 DNS 조회를 사용할 수 없습니다."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr "SMTP 제공업체가 포함되어 있는지 확인하세요(예: include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"SPF 레코드가 없습니다. DNS 호스트에 SMTP 제공업체를 지정하는 SPF 레코드를 추가하세요. 그렇지 않으면 많은 받은편지함에서 "
+"이메일을 신뢰하지 않습니다."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"DMARC 레코드가 없습니다. Gmail과 Yahoo는 대량 발신자에게 이를 요구합니다. 간단한 \"v=DMARC1; p=none\"도 "
+"도움이 됩니다."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM은 SMTP 제공업체에서 설정합니다(제공업체가 DNS 레코드를 제공합니다). 선택자 이름 없이는 여기서 확인할 수 없습니다."
+
+msgid "Environment"
+msgstr "환경"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "없음 — TLS와 SSL이 작동하지 않습니다"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "다른 메일 플러그인"
+
+msgid "none found"
+msgstr "찾지 못함"
+
+msgid "Scheduled cleanup"
+msgstr "예약된 정리"
+
+msgid "scheduled"
+msgstr "예약됨"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "예약되지 않음 — 플러그인을 비활성화했다가 다시 활성화하세요"
+
+msgid "Sent"
+msgstr "전송됨"
+
+msgid "Failed"
+msgstr "실패"
+
+msgid "Not sent (delivery off)"
+msgstr "전송되지 않음(전송 비활성화)"
+
+msgid "Unknown"
+msgstr "알 수 없음"
+
+msgid "Main SMTP"
+msgstr "주 SMTP"
+
+msgid "Backup SMTP"
+msgstr "백업 SMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "테스트 모드(리디렉션됨)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "설정에서 로그가 꺼져 있습니다 — 새 이메일은 기록되지 않습니다."
+
+msgid "Sent, 30 days"
+msgstr "전송됨, 30일"
+
+msgid "Failed, 30 days"
+msgstr "실패, 30일"
+
+msgid "Held back, 30 days"
+msgstr "보류됨, 30일"
+
+msgid "Status"
+msgstr "상태"
+
+msgid "All statuses"
+msgstr "모든 상태"
+
+msgid "Recipient, subject or error"
+msgstr "수신자, 제목 또는 오류"
+
+msgid "Search the log"
+msgstr "로그 검색"
+
+msgid "Filter"
+msgstr "필터"
+
+msgid "Clear"
+msgstr "지우기"
+
+msgid "No emails match this filter."
+msgstr "이 필터에 맞는 이메일이 없습니다."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr "아직 기록된 이메일이 없습니다. 첫 항목을 보려면 테스트 및 진단 탭에서 테스트 메일을 보내세요."
+
+msgid "Select all"
+msgstr "전체 선택"
+
+msgid "Date"
+msgstr "날짜"
+
+msgid "To"
+msgstr "받는 사람"
+
+msgid "Subject"
+msgstr "제목"
+
+msgid "Sent through"
+msgstr "전송 경로"
+
+msgid "Actions"
+msgstr "작업"
+
+msgid "Select"
+msgstr "선택"
+
+msgid "(no subject)"
+msgstr "(제목 없음)"
+
+msgid "Attachments (not kept): %s"
+msgstr "첨부파일(보관 안 됨): %s"
+
+msgid "Resend of entry #%d"
+msgstr "#%d 항목 재전송"
+
+msgid "Content not kept."
+msgstr "내용은 보관되지 않습니다."
+
+msgid "Resend"
+msgstr "재전송"
+
+msgid "Delete the selected entries?"
+msgstr "선택한 항목을 삭제하시겠습니까?"
+
+msgid "Delete selected"
+msgstr "선택 항목 삭제"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s개 항목 · %2$s일 후 자동 삭제"
+
+msgid "Checking…"
+msgstr "확인 중…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "전송되었습니다. 받는 사람의 받은편지함(및 스팸 폴더)을 확인하세요."
+
+msgid "Not sent."
+msgstr "전송되지 않았습니다."
+
+msgid "open"
+msgstr "열림"
+
+msgid "blocked"
+msgstr "차단됨"
+
+msgid "Request failed:"
+msgstr "요청 실패:"
+
+msgid "Delivered through:"
+msgstr "다음을 통해 전달됨:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "이 페이지에 접근할 권한이 없습니다."
+
+msgid "Settings"
+msgstr "설정"
+
+msgid "Test & diagnostics"
+msgstr "테스트 및 진단"
+
+msgid "Email log"
+msgstr "이메일 로그"
+
+msgid "Feedback"
+msgstr "피드백"
+
+msgid "About"
+msgstr "정보"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"자신의 SMTP 서버를 통해 모든 WordPress 이메일을 전송하세요 — 이메일 로그, 재전송, 백업 연결, 실패 알림 포함. 모두 "
+"무료이며 업셀도 없습니다."
+
+msgid "The email was sent again."
+msgstr "이메일이 다시 전송되었습니다."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr "이메일을 다시 전송할 수 없습니다 — 사유는 최신 로그 항목을 확인하세요."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "이 이메일의 내용이 저장되지 않아 다시 전송할 수 없습니다."
+
+msgid "Log entries deleted."
+msgstr "로그 항목이 삭제되었습니다."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr "설정을 가져왔습니다. SMTP 비밀번호는 한 번 입력한 뒤 저장하세요 — 다른 플러그인에서 비밀번호는 복사되지 않습니다."
+
+msgid "Set in wp-config.php"
+msgstr "wp-config.php에 설정됨"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "이메일은 %1$s의 %2$s 포트를 통해 전송됩니다."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"아직 SMTP 서버가 설정되지 않았습니다 — WordPress는 여전히 PHP mail()로 보냅니다. 아래에서 제공업체를 선택하고 "
+"로그인 정보를 입력한 뒤 저장하세요."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "전송이 꺼져 있습니다: 이메일은 기록되지만 전송되지는 않습니다."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "테스트 모드: 모든 이메일이 수신자 대신 %s로 전송됩니다."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr "사이트의 보안 키가 변경되어 저장된 비밀번호를 더 이상 읽을 수 없습니다. 다시 입력한 뒤 저장하세요."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "마지막 실패 %1$s 전: %2$s"
+
+msgid "Show failed emails"
+msgstr "실패한 이메일 표시"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr "또 활성화됨: %s. 두 메일 플러그인이 같은 이메일을 두고 충돌합니다 — 다른 플러그인을 비활성화하세요."
+
+msgid "Import settings from %s"
+msgstr "%s에서 설정 가져오기"
+
+msgid "SMTP server"
+msgstr "SMTP 서버"
+
+msgid "Provider"
+msgstr "제공업체"
+
+msgid "Port and encryption"
+msgstr "포트 및 암호화"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — 일반적으로 포트 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — 일반적으로 포트 465"
+
+msgid "None — only for a server on the same network"
+msgstr "없음 — 같은 네트워크의 서버에만 사용"
+
+msgid "Authentication"
+msgstr "인증"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "서버에는 사용자 이름과 비밀번호가 필요합니다(거의 항상)."
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr "비밀번호는 wp-config.php의 LYNBRO_SMTP_PASS에서 가져오며 데이터베이스에 저장되지 않습니다."
+
+msgid "Saved — leave empty to keep it"
+msgstr "저장됨 — 그대로 두면 유지됩니다"
+
+msgid "Remove the saved password"
+msgstr "저장된 비밀번호 제거"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"사이트의 보안 키로 암호화되어 저장되며 다시는 표시되지 않습니다. 데이터베이스에 아예 저장하지 않으려면 wp-config.php에 "
+"정의하세요(정보 참조)."
+
+msgid "Certificate"
+msgstr "인증서"
+
+msgid "Verify the server certificate"
+msgstr "서버 인증서 확인"
+
+msgid "Default"
+msgstr "기본값"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr "자체 서명 인증서를 사용하는 자신의 서버가 아닌 경우에만 체크를 해제하세요."
+
+msgid "Sender"
+msgstr "보낸 사람"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr "다른 플러그인이 설정한 값과 상관없이 이 주소를 모든 이메일에 강제로 사용"
+
+msgid "Recommended"
+msgstr "권장"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"SMTP 계정이 보낼 수 있는 도메인의 주소를 사용하세요. 그렇지 않으면 제공업체가 메일을 거부하거나 스팸으로 분류할 수 있습니다."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr "이 이름도 강제로 사용(끄면: 양식과 쇼핑몰은 자체 발신자 이름을 유지합니다)"
+
+msgid "Default Reply-To"
+msgstr "기본 Reply-To"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr "이메일에 자체 Reply-To가 없을 때만 사용되므로, 문의 양식 답장은 여전히 방문자에게 갑니다."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "반송 메일을 From 주소로 받기"
+
+msgid "Backup connection"
+msgstr "백업 연결"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr "주 서버가 실패하면 같은 이메일이 즉시 백업 서버를 통해 다시 전송됩니다. 방문자는 오류를 보지 못합니다."
+
+msgid "Backup"
+msgstr "백업"
+
+msgid "Use a backup when the main server fails"
+msgstr "주 서버가 실패하면 백업을 사용"
+
+msgid "Another SMTP server"
+msgstr "다른 SMTP 서버"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "이 서버의 PHP mail() (없는 것보다는 낫지만 스팸으로 갈 수 있음)"
+
+msgid "Backup host"
+msgstr "백업 호스트"
+
+msgid "Backup port"
+msgstr "백업 포트"
+
+msgid "Backup encryption"
+msgstr "백업 암호화"
+
+msgid "None"
+msgstr "없음"
+
+msgid "Backup login"
+msgstr "백업 로그인"
+
+msgid "Backup password"
+msgstr "백업 비밀번호"
+
+msgid "Delivery mode"
+msgstr "전송 모드"
+
+msgid "Mode"
+msgstr "모드"
+
+msgid "Send normally"
+msgstr "정상 전송"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "테스트 모드: 모든 메일을 한 주소로 보냄(Cc와 Bcc는 제외됨)"
+
+msgid "Redirect address"
+msgstr "전송 주소"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr "어떤 이메일도 보내지 않음(스테이징 복사본) — 이메일은 계속 기록됩니다"
+
+msgid "Log"
+msgstr "로그"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "모든 이메일의 기록을 보관(수신자, 제목, 상태, 오류)"
+
+msgid "Keep message content"
+msgstr "메시지 내용 보관"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "실패한 이메일만, 재전송할 수 있도록"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr "모든 이메일(아무 것이나 재전송할 수 있음; 그러면 로그에 비밀번호 재설정 링크와 주문 세부정보가 포함됩니다)"
+
+msgid "Never"
+msgstr "절대 안 함"
+
+msgid "Keep entries for"
+msgstr "보관 기간"
+
+msgid "days, then they are deleted automatically"
+msgstr "일 동안 보관한 뒤 자동으로 삭제"
+
+msgid "Failure alerts"
+msgstr "실패 알림"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"최대 한 시간에 한 번만 알림을 보냅니다. 알림 이메일은 이 서버의 PHP mail()로 전송됩니다. SMTP 서버 자체가 다운되었을 수"
+" 있기 때문입니다."
+
+msgid "Alert email"
+msgstr "알림 이메일"
+
+msgid "Webhook URL"
+msgstr "웹훅 URL"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"선택 사항입니다. Slack, Discord, Microsoft Teams 워크플로, ntfy 또는 자체 엔드포인트(HTTPS)를 사용할"
+" 수 있습니다. 플러그인은 오류 텍스트만 그곳에 전송하며, URL을 설정한 경우에만 보냅니다."
+
+msgid "Import from another SMTP plugin"
+msgstr "다른 SMTP 플러그인에서 가져오기"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"호스트, 포트, 암호화, 사용자 이름 및 발신자를 복사합니다. 비밀번호는 그대로 유지되며, 가져온 후 한 번만 입력하면 됩니다."
+
+msgid "Import from %s"
+msgstr "%s에서 가져오기"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"이 사이트에서 WP Mail SMTP, FluentSMTP, Easy WP SMTP 또는 Post SMTP 설정을 찾지 못했습니다."
+
+msgid "Download the log (CSV)"
+msgstr "로그 다운로드(CSV)"
+
+msgid "Delete every log entry?"
+msgstr "모든 로그 항목을 삭제하시겠습니까?"
+
+msgid "Empty the log"
+msgstr "로그 비우기"
+
+msgid "Is it working for you?"
+msgstr "잘 작동하나요?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP는 잠금 없이 무료입니다. 이메일 전송에 도움이 되었다면 짧은 리뷰를 남겨 다른 사람들도 찾을 수 있게 도와주세요."
+
+msgid "Leave a review on WordPress.org"
+msgstr "WordPress.org에 리뷰 남기기"
+
+msgid "Something missing or broken?"
+msgstr "빠진 기능이 있거나 문제가 있나요?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr "버그 제보와 아이디어는 플러그인을 만드는 사람들이 직접 읽습니다. 이 링크를 열어도 사이트에서는 아무것도 전송되지 않습니다."
+
+msgid "Ask in the support forum"
+msgstr "지원 포럼에 문의하기"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "기능 제안하기(공개 로드맵)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr "로그 줄을 게시하시나요? 먼저 주소를 제거하세요. 테스트 탭에서는 이미 비밀번호가 숨겨집니다."
+
+msgid "You do not have permission to do that."
+msgstr "이 작업을 수행할 권한이 없습니다."
+
+msgid "Enter a valid recipient address."
+msgstr "유효한 수신자 주소를 입력하세요."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr "%1$s: 기본 SMTP 연결에 실패했고 백업이 이메일을 전송했습니다. 오류: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: 이메일을 전송하지 못했습니다. 오류: %2$s"
+
+msgid "Log entry #%d"
+msgstr "로그 항목 #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] 이메일 전송 문제"
+
+msgid "Email delivery"
+msgstr "이메일 전송"
+
+msgid "Email is sent through SMTP"
+msgstr "이메일이 SMTP를 통해 전송됩니다"
+
+msgid "Email"
+msgstr "이메일"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr "Lynbro SMTP는 이 사이트의 이메일을 인증된 SMTP 서버를 통해 전송합니다."
+
+msgid "Open Lynbro SMTP"
+msgstr "Lynbro SMTP 열기"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "이메일이 SMTP가 아닌 PHP mail()로 전송됩니다"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP가 활성화되어 있지만 SMTP 서버가 설정되지 않아 이메일이 여전히 PHP mail()로 전송되며, 스팸함에 들어갈 "
+"수 있습니다."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "저장된 SMTP 비밀번호를 더 이상 읽을 수 없습니다"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr "비밀번호를 저장한 후 사이트의 보안 키가 변경되었습니다. SMTP 비밀번호를 다시 입력하세요."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "지난 24시간 동안 이메일 전송에 실패했습니다"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "지난 24시간 동안 기본 SMTP 연결이 실패했습니다"
+
+msgid "Email delivery (7 days)"
+msgstr "이메일 전송(7일)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "전송됨: %1$s · 실패: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr "아직 SMTP 서버가 설정되지 않아 이메일이 PHP mail()로 전송됩니다."
+
+msgid "Show failed"
+msgstr "실패만 보기"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "기본 연결: %1$s — 백업 연결: %2$s"
+
+msgid "Test email from %s"
+msgstr "%s에서 보낸 테스트 이메일"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"이것은 Lynbro SMTP가 보낸 %1$s의 테스트 이메일입니다.\n"
+"\n"
+"이 내용을 읽을 수 있다면 이메일 전송이 정상입니다.\n"
+"\n"
+"전송됨: %2$s\n"
+"연결: %3$s"
+
+msgid "backup"
+msgstr "백업"
+
+msgid "main"
+msgstr "메인"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"서버가 사용자 이름 또는 비밀번호를 거부했습니다. Gmail, Outlook, Zoho, iCloud는 일반 비밀번호가 아니라 앱 "
+"비밀번호가 필요합니다. SendGrid와 Brevo는 SMTP/API 키가 필요합니다."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365는 이 사서함의 SMTP 로그인 기능이 꺼져 있습니다. 관리자가 이 사서함에 대해 \"Authenticated "
+"SMTP\"를 활성화하거나, 대신 릴레이 서비스를 사용할 수 있습니다."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"서버에 연결할 수 없습니다. 많은 호스트가 25, 465, 587 포트의 발신을 차단합니다. 아래 포트 확인을 실행한 다음, 호스트에 "
+"해당 포트를 열어 달라고 요청하거나 열려 있는 포트를 사용하세요."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"보안 연결에 실패했습니다. 포트와 암호화 설정이 일치하는지 확인하세요(587 = TLS, 465 = SSL). 서버가 자체 서명 인증서를"
+" 사용하는 경우 \"서버 인증서 확인\" 선택을 해제하세요."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"서버가 이 계정이 From 주소로 보내는 것을 허용하지 않습니다. 계정이 소유한 도메인의 주소를 사용하고 \"Force From "
+"email\"을 켜세요."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "호스트 이름을 확인할 수 없습니다. 오타가 없는지 확인하세요."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr "전송 기록의 마지막 SERVER 줄을 읽어보세요. 서버는 보통 무엇이 마음에 들지 않았는지 정확히 말해줍니다."
+
+msgid "No host set."
+msgstr "호스트가 설정되지 않았습니다."
+
+msgid "That log entry no longer exists."
+msgstr "해당 로그 항목은 더 이상 존재하지 않습니다."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"이 이메일의 내용이 보관되지 않아 다시 보낼 수 없습니다. 이후 이메일을 다시 보내려면 설정에서 \"메시지 내용 보관\"을 변경하세요."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr "이메일을 다시 보낼 수 없습니다. 새 시도와 오류가 로그에 있습니다."
+
+msgid "Date (UTC)"
+msgstr "날짜(UTC)"
+
+msgid "Recipients"
+msgstr "받는 사람"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP 이메일 로그"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr "나머지 suite입니다. 이 사이트에 이미 있는 항목은 표시되며, 요청하기 전에는 아무것도 설치되지 않습니다."
+
+msgid "Active"
+msgstr "활성"
+
+msgid "Activate"
+msgstr "활성화"
+
+msgid "Install now"
+msgstr "지금 설치"
+
+msgid "View on WordPress.org"
+msgstr "WordPress.org에서 보기"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr "공유 Lynbro 구성요소 v%1$s, %2$s 제공(이 사이트의 최신 %3$d개 버전 중)."
+
+msgid "Reset all settings to defaults?"
+msgstr "모든 설정을 기본값으로 재설정하시겠습니까?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Lynbro SMTP가 이메일을 제대로 전달하고 있나요? WordPress.org에 몇 마디 남기면, 다른 사람들이 추가 판매 없이 메일"
+" 플러그인을 찾는 데 도움이 됩니다."
+
+msgid "Write a review"
+msgstr "리뷰 작성"
+
+msgid "No thanks"
+msgstr "아니요"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr "리디렉션 모드에는 리디렉션할 주소가 필요합니다. 하나를 추가하기 전까지는 메일이 정상적으로 전송됩니다."
+
+msgid "Other SMTP server"
+msgstr "기타 SMTP 서버"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "호스트나 이메일 제공업체의 SMTP 정보를 사용하세요."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"사용자 이름: 전체 Gmail 주소. 비밀번호: 일반 비밀번호가 아니라 앱 비밀번호(Google 계정 → 보안 → 2단계 인증 → 앱 "
+"비밀번호)."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365는 사서함에 \"Authenticated SMTP\"가 활성화되어 있어야 합니다. Microsoft는 SMTP용 "
+"비밀번호 로그인을 종료 중입니다. 로그인에 실패하면 Brevo 또는 호스트의 SMTP 같은 릴레이 서비스를 사용하세요."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr "사용자 이름: SMTP & API 아래에 표시된 SMTP 로그인. 비밀번호: 계정 비밀번호가 아니라 SMTP 키."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "사용자 이름: \"apikey\"라는 단어. 비밀번호: SendGrid API 키."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr "EU 계정은 smtp.eu.mailgun.org를 사용합니다. 사용자 이름과 비밀번호: 발신 도메인의 SMTP 자격 증명."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"호스트의 리전을 자신의 지역으로 변경하세요. 사용자 이름과 비밀번호: SES 콘솔에서 생성한 SMTP 자격 증명(AWS 액세스 키 "
+"아님)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "사용자 이름과 비밀번호: 둘 다 Server API 토큰입니다."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr "EU 외 지역 계정은 smtp.zoho.com을 사용하세요. 2단계 인증을 사용하는 경우, 앱 전용 비밀번호를 생성하세요."
+
+msgid "Username: API key. Password: secret key."
+msgstr "사용자 이름: API 키. 비밀번호: 비밀 키."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr "사용자 이름과 비밀번호: Sending → SMTP Users에서 생성한 SMTP 사용자."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr "사용자 이름: 전체 사서함 주소. 비밀번호: 사서함 비밀번호."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr "해당 지역에서는 smtp.ionos.de 또는 smtp.ionos.co.uk를 사용하세요. 사용자 이름: 전체 사서함 주소."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"검색 가능한 이메일 로그, 재전송, 백업 연결, 실패 알림 및 연결 진단 기능과 함께, 모든 WordPress 이메일을 자체 SMTP "
+"서버를 통해 전송합니다. 추가 판매는 없습니다."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"호스트: SES 리전의 SMTP 엔드포인트로, SES 콘솔의 SMTP 설정에서 확인할 수 있습니다. 사용자 이름과 비밀번호: SES "
+"콘솔에서 생성한 SMTP 자격 증명입니다(귀하의 AWS 액세스 키가 아닙니다)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"선택 사항입니다. Slack 또는 Discord 수신 웹훅, 또는 사용자의 HTTPS 엔드포인트(JSON 형식의 \"text\" 및 "
+"\"content\"). 이 플러그인은 오류 텍스트만 해당 위치로 전송하며 — 그 외의 내용은 전송하지 않고, URL을 설정한 경우에만 "
+"전송합니다."
+
+msgid "Is %s doing its job?"
+msgstr "%s이(가) 제대로 작동하고 있나요?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"몇 주 동안 사용해 보셨죠. 잘 작동한다면 WordPress.org에 짧은 리뷰를 남겨주세요 — 솔직한 의견, 비판도 환영합니다."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"몇 주 동안 사용해 보셨죠. 잘 작동하거나 부족한 점이 있다면 공개 로드맵에 의견을 남겨주세요. 다음 개발 방향을 결정하는 데 "
+"참고합니다."
+
+msgid "(opens in a new tab)"
+msgstr "(새 탭에서 열림)"
+
+msgid "Share feedback"
+msgstr "피드백 보내기"
+
+msgid "Maybe later"
+msgstr "나중에 할게요"
+
+msgid "Don't ask again"
+msgstr "다시 묻지 않기"
+
+msgid "Something not working? Ask for help"
+msgstr "문제가 있나요? 도움 요청하기"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce가 활성화됨"
+
+msgid "a form plugin is active"
+msgstr "폼 플러그인이 활성화됨"
+
+msgid "the site is set up for Denmark"
+msgstr "사이트가 덴마크로 설정됨"
+
+msgid "comments are open"
+msgstr "댓글이 열려 있음"
+
+msgid "tracking tags are active"
+msgstr "추적 태그가 활성화됨"
+
+msgid "visitors can create accounts"
+msgstr "방문자가 계정을 만들 수 있음"
+
+msgid "Suggested because %l."
+msgstr "%l 때문에 추천됨."
+
+msgid "Suggested for this site"
+msgstr "이 사이트에 추천"
+
+msgid "Hide suggestions"
+msgstr "추천 숨기기"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr "이 사이트에 맞는 다른 Lynbro 플러그인입니다. 클릭하지 않으면 설치되지 않습니다."
+
+msgid "All Lynbro plugins"
+msgstr "모든 Lynbro 플러그인"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr "이 사이트에서 이미 사용 중인 것에서 선택됨 — 이 사이트에서만 읽으며, 외부로 전송되지 않습니다."
+
+msgid "Image Optimizer"
+msgstr "이미지 최적화"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr "WebP 및 AVIF로 변환하고, 큰 이미지는 자동으로 크기 조정하며, 서버에서 직접 지연 로딩합니다."
+
+msgid "AI Studio"
+msgstr "AI 스튜디오"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"자신의 OpenAI 키로 AI를 활용해 게시글을 작성하고 그림을 그릴 수 있습니다. 중간 수수료나 크레딧 없이 실비로 이용하세요."
+
+msgid "Analytics"
+msgstr "분석"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr "퍼널이 포함된 자체 호스팅, 쿠키 없는 분석. 방문자 데이터는 데이터베이스를 벗어나지 않습니다."
+
+msgid "Tags"
+msgstr "태그"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr "GA4, 태그 관리자, Google Ads, Meta 픽셀 등 코딩 없이 설정 — 각 태그는 동의 후에만 작동합니다."
+
+msgid "Forms"
+msgstr "폼"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr "엔트리 무제한 저장, 서버 측 조건부 논리, 서명된 웹훅을 지원하는 폼."
+
+msgid "Verify"
+msgstr "검증"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr "잘못 입력된 이메일 도메인과 잘못된 전화번호를 잡아내고, 이메일 또는 SMS로 일회용 코드로 확인합니다."
+
+msgid "Cache"
+msgstr "캐시"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr "nginx FastCGI 캐시와 Redis 오브젝트 캐시의 신뢰성 있는 삭제 — 삭제 결과를 캐시에서 직접 검증합니다."
+
+msgid "Translate"
+msgstr "번역"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr "여러 언어로 사이트 운영, 자신의 OpenAI 키로 기계 번역 — 단어당 과금이나 제한 없음."
+
+msgid "Shield"
+msgstr "보호"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr "보안 헤더, HSTS 포함 HTTPS, 인젝션 탐지용 소형 방화벽, 필수 보안 설정 제공."
+
+msgid "Anti-Spam"
+msgstr "스팸 방지"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr "서버에서 직접 실행되는 스팸 검사. 계정, 구독 불필요, 차단 사유 표시 — 보류 메시지는 절대 유실되지 않습니다."
+
+msgid "Login Guard"
+msgstr "로그인 가드"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr "wp-login.php 이동, 로그인 실패 제한, 앱 기반 2단계 인증 추가 — 3가지 복구 방법 제공."
+
+msgid "Cookie Consent"
+msgstr "쿠키 동의"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr "GDPR 및 ePrivacy 배너, Consent Mode v2, 동등하게 눈에 띄는 거부 버튼, 35개 언어 지원."
+
+msgid "Activity Log"
+msgstr "활동 로그"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr "누가 언제 어디서 무엇을 했는지 서버에 기록, 검색 및 내보내기 가능, 원하는 일정에 따라 삭제."
+
+msgid "Data Retention"
+msgstr "데이터 보관 기간"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr "개인정보가 실제로 저장된 위치를 찾아 일정에 따라 삭제 — 삭제 전 미리보기 제공."
+
+msgid "Accessibility"
+msgstr "접근성"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"모든 페이지를 WCAG 2.2 AA 기준으로 검사하고, 안전하게 수정 가능한 부분만 자동 수정. 오버레이나 페이지 제한 없음."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr "무료 LocalBusiness 스키마, 사이트맵, 소셜 카드 포함 간결한 SEO. 외부 전송 없음."
+
+msgid "SMTP Mailer"
+msgstr "SMTP 메일러"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr "자신의 SMTP 서버로 워드프레스 이메일 발송 — 이메일 로그, 재전송, 백업 연결, 실패 알림 지원."
+
+msgid "Social Feed"
+msgstr "소셜 피드"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Meta 토큰을 워드프레스에 저장하지 않고 사이트에 인스타그램 피드 표시."
+
+msgid "Reviews Cache"
+msgstr "리뷰 캐시"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "API 키 없이 Google 리뷰를 워드프레스에 표시."
+
+msgid "Links"
+msgstr "링크"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr "서버에서 직접 끊어진 링크를 찾고 리디렉션 관리 — 모든 결과에 사유 표시."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse 자동완성"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"WooCommerce, WPForms, Gravity, Fluent, Formidable, EDD를 위한 덴마크 주소 자동완성 및 검증."
+
+msgid "Soge Lookup"
+msgstr "Soge 조회"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr "번호판, VIN 또는 CVR 번호로 덴마크 차량(DMR) 및 기업(CVR) 조회."
+
+msgid "CVR Checkout"
+msgstr "CVR 결제"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"WooCommerce용 덴마크 B2B 결제: CVR 기업 자동완성, CVR/EU-VAT(VIES) 검증 및 EAN/GLN 필드 제공."
+
+msgid "Danish Shipping"
+msgstr "덴마크 배송"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr "WooCommerce 결제 시 PostNord 및 GLS Denmark의 무료 픽업 포인트 선택, 간편한 배송 방법 포함."
+
+msgid "API Auth"
+msgstr "API 인증"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr "실제로 취소 가능한 REST API용 JSON Web Token, 범위 및 거부 이력 제공."
+
+msgid "Failure alerts by email do not get out"
+msgstr "이메일 실패 알림이 전송되지 않습니다"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"알림 이메일은 SMTP 서버에 의존하지 않도록 PHP mail()로 전송되지만, 이 서버에서는 PHP mail()이 실패했습니다: %s "
+"알림에는 웹훅을 사용하거나, 호스팅 제공업체에 mail()을 활성화해 달라고 요청하세요."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"이 플러그인은 이전 버전의 Lynbro SMTP입니다. Lynbro SMTP Mailer가 이를 대체했으며 동일한 설정을 사용합니다. "
+"호스팅 업체의 파일 관리자, FTP 또는 SSH를 사용해 %s 폴더를 삭제하세요. 여기서 삭제하지 마세요. 플러그인을 제거하면 공유 "
+"SMTP 설정이 지워집니다. Lynbro SMTP Mailer는 설정을 백업하고 복원하지만, 이전 플러그인은 이메일 로그도 비웁니다."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"%s에 다른 플러그인이 SMTP 설정을 삭제해 백업에서 복원했습니다. 별도로 하실 일은 없습니다. 확인하려면 테스트 이메일을 보내세요."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"이 사이트는 서버 자체 메일(PHP mail())을 사용해 메일을 보냅니다. 테스트를 통해 서버가 메일을 수락했는지 확인할 수 있습니다."
+" 받은편지함에서 헤더(Authentication-Results: spf=pass, dmarc=pass)를 확인하세요."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"웹 서버가 포함되어 있는지 확인하세요(웹 서버의 IP 주소를 ip4: 또는 ip6:로 지정하거나, 해당 서버를 가리키는 a: / mx: "
+"레코드를 지정)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr "이 서버 자체 메일(PHP mail())을 사용해 %s에서 메일을 보내며, Return-Path도 일치하도록 설정합니다."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path가 비활성화되어 있습니다. 서버가 봉투 발신 주소에 자체 주소를 사용하므로, SPF는 사용자의 도메인이 아닌 해당 "
+"주소의 도메인을 확인합니다."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr "서버 자체 메일을 사용해 메일을 보내며, 발신자 주소도 일치합니다."
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP는 사용자가 선택하면 PHP mail()을 사용해 메일을 보내고, 모든 메일에 From 주소와 Return-Path를"
+" 설정합니다. 도메인의 SPF 레코드에 이 서버를 포함하세요."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "이 서버의 자체 메일(PHP mail(), SMTP 사용 안 함)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"메일을 직접 보내도록 설정된 서버용입니다. 로그인은 필요하지 않습니다. 아래의 From 주소와 Return-Path는 모든 메일에 "
+"설정되므로 SPF와 DMARC가 일치할 수 있습니다. 도메인의 SPF 레코드에 이 서버를 포함해야 합니다."

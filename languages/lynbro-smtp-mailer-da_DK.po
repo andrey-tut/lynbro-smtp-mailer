@@ -1,0 +1,2072 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: https://soge.dk\n"
+"POT-Creation-Date: 2026-11-18 05:49+0100\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/about-tab.php:21
+msgid "About Lynbro SMTP"
+msgstr "Om Lynbro SMTP"
+
+#: admin/about-tab.php:22
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress sender som standard e-mail med PHP mail(), hvilket indbakker "
+"opfatter som mistænkeligt. Lynbro SMTP sender det i stedet via en rigtig, "
+"godkendt mailserver – enten din hosts, din mailboks' eller en "
+"afsendelsestjenestes – så nulstillinger af adgangskoder, ordrer og "
+"kontaktformularer når frem."
+
+#: admin/about-tab.php:23
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Alt er i det gratis plugin: loggen, gensendelse, backupforbindelsen, "
+"alarmer, diagnostik og WP-CLI. Der findes ingen betalt version."
+
+#: admin/about-tab.php:27
+msgid "How your data is handled"
+msgstr "Sådan håndteres dine data"
+
+#: admin/about-tab.php:29
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"E-mail sendes direkte fra din server til den SMTP-server, du har angivet. "
+"Pluginet kontakter ingen Lynbro-tjeneste og sender ingen statistik nogen "
+"steder."
+
+#: admin/about-tab.php:30
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"SMTP-adgangskoden krypteres med dit websteds sikkerhedsnøgler, vises aldrig "
+"igen og skrives aldrig til loggen eller eksporten af indstillinger."
+
+#: admin/about-tab.php:31
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Loggen gemmer modtagere, emne og status i din egen database. Beskedindhold "
+"kun for mislykkede e-mails som standard, og hver post slettes efter "
+"opbevaringsperioden."
+
+#: admin/about-tab.php:32
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Logposter er med i Værktøjer → Eksportér personoplysninger og Slet "
+"personoplysninger."
+
+#: admin/about-tab.php:33
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"En fejl-webhook, hvis du har sat en op, modtager kun fejlteksten og et link "
+"til din log."
+
+#: admin/about-tab.php:38
+msgid "Keep the login in wp-config.php"
+msgstr "Behold login i wp-config.php"
+
+#: admin/about-tab.php:39
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Enhver af disse konstanter tilsidesætter feltet i Indstillinger, og værdien "
+"når aldrig databasen eller dens sikkerhedskopier:"
+
+#: admin/about-tab.php:44
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+#: admin/about-tab.php:49
+msgid "Version & links"
+msgstr "Version og links"
+
+#: admin/about-tab.php:50
+msgid "Version"
+msgstr "Version"
+
+#: admin/about-tab.php:52
+msgid "Plugin home page"
+msgstr "Pluginets hjemmeside"
+
+#: admin/about-tab.php:53
+msgid "Lynbro"
+msgstr "Lynbro"
+
+#: admin/diagnostics-tab.php:22
+msgid "Send a test email"
+msgstr "Send en test-e-mail"
+
+#: admin/diagnostics-tab.php:24
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Dette websted sender via serverens egen mailfunktion (PHP mail()). Testen "
+"viser, om serveren accepterede e-mailen. Tjek dens headere i indbakken "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+
+#: admin/diagnostics-tab.php:26
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Der er endnu ikke angivet nogen SMTP-server, så testen sendes med PHP "
+"mail(). Udfyld først Indstillinger for at teste SMTP."
+
+#: admin/diagnostics-tab.php:29
+msgid "Recipient"
+msgstr "Modtager"
+
+#: admin/diagnostics-tab.php:31
+msgid "Send test"
+msgstr "Send test"
+
+#: admin/diagnostics-tab.php:33
+msgid "Test the backup connection"
+msgstr "Test backupforbindelsen"
+
+#: admin/diagnostics-tab.php:38
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP-samtale (adgangskode skjult)"
+
+#: admin/diagnostics-tab.php:41
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Test-e-mails ignorerer testtilstand og \"send ikke\"-tilstand, så du kan "
+"kontrollere forbindelsen på en staging-kopi."
+
+#: admin/diagnostics-tab.php:45
+msgid "Can this server reach the SMTP server?"
+msgstr "Kan denne server nå SMTP-serveren?"
+
+#: admin/diagnostics-tab.php:46
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Mange hosts blokerer udgående mailporte. Dette tjekker de almindelige porte "
+"til din gemte host fra denne webserver."
+
+#: admin/diagnostics-tab.php:47
+msgid "Check ports"
+msgstr "Tjek porte"
+
+#: admin/diagnostics-tab.php:55
+#, php-format
+msgid "Sender domain: %s"
+msgstr "Afsenderdomæne: %s"
+
+#: admin/diagnostics-tab.php:59
+msgid "DNS lookups are not available on this server."
+msgstr "DNS-opslag er ikke tilgængelige på denne server."
+
+#: admin/diagnostics-tab.php:67
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Sørg for, at den omfatter denne webserver (dens IP-adresse med ip4: eller "
+"ip6:, eller en a: / mx:-post, der peger på den)."
+
+#: admin/diagnostics-tab.php:69
+msgid ""
+"Make sure it includes your SMTP provider (for example include:spf.brevo.com)."
+msgstr ""
+"Sørg for, at den inkluderer din SMTP-udbyder (f.eks. include:spf.brevo.com)."
+
+#: admin/diagnostics-tab.php:72
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Ingen SPF-post. Tilføj en hos din DNS-udbyder, der angiver din SMTP-udbyder, "
+"ellers vil mange indbakker ikke stole på e-mailen."
+
+#: admin/diagnostics-tab.php:80
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple "
+"\"v=DMARC1; p=none\" helps."
+msgstr ""
+"Ingen DMARC-post. Gmail og Yahoo kræver en for afsendere med store "
+"udsendelser; selv en enkel \"v=DMARC1; p=none\" hjælper."
+
+#: admin/diagnostics-tab.php:83
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM er sat op hos din SMTP-udbyder (de giver dig DNS-posten). Det kan ikke "
+"kontrolleres herfra uden navnet på selector'en."
+
+#: admin/diagnostics-tab.php:89
+msgid "Environment"
+msgstr "Miljø"
+
+#: admin/diagnostics-tab.php:91
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+#: admin/diagnostics-tab.php:91
+msgid "missing — TLS and SSL will not work"
+msgstr "mangler – TLS og SSL vil ikke virke"
+
+#: admin/diagnostics-tab.php:92
+msgid "PHP"
+msgstr "PHP"
+
+#: admin/diagnostics-tab.php:93
+msgid "Other mail plugins"
+msgstr "Andre mailplugins"
+
+#: admin/diagnostics-tab.php:93
+msgid "none found"
+msgstr "ingen fundet"
+
+#: admin/diagnostics-tab.php:94
+msgid "Scheduled cleanup"
+msgstr "Planlagt oprydning"
+
+#: admin/diagnostics-tab.php:94
+msgid "scheduled"
+msgstr "planlagt"
+
+#: admin/diagnostics-tab.php:94
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "ikke planlagt – deaktiver og aktiver pluginet igen"
+
+#: admin/log-tab.php:21
+msgid "Sent"
+msgstr "Sendt"
+
+#: admin/log-tab.php:22
+msgid "Failed"
+msgstr "Mislykkedes"
+
+#: admin/log-tab.php:23
+msgid "Not sent (delivery off)"
+msgstr "Ikke sendt (levering slået fra)"
+
+#: admin/log-tab.php:24
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: admin/log-tab.php:37
+msgid "Main SMTP"
+msgstr "Primær SMTP"
+
+#: admin/log-tab.php:38
+msgid "Backup SMTP"
+msgstr "Backup SMTP"
+
+#: admin/log-tab.php:39
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+#: admin/log-tab.php:40
+msgid "Test mode (redirected)"
+msgstr "Testtilstand (videresendt)"
+
+#: admin/log-tab.php:72
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "Loggen er slået fra i Indstillinger – ingen nye e-mails registreres."
+
+#: admin/log-tab.php:76
+msgid "Sent, 30 days"
+msgstr "Sendt, 30 dage"
+
+#: admin/log-tab.php:77
+msgid "Failed, 30 days"
+msgstr "Mislykkedes, 30 dage"
+
+#: admin/log-tab.php:78
+msgid "Held back, 30 days"
+msgstr "Tilbageholdt, 30 dage"
+
+#: admin/log-tab.php:84 admin/log-tab.php:114 admin/settings.php:234
+#: includes/log.php:363
+msgid "Status"
+msgstr "Status"
+
+#: admin/log-tab.php:85
+msgid "All statuses"
+msgstr "Alle statusser"
+
+#: admin/log-tab.php:90
+msgid "Recipient, subject or error"
+msgstr "Modtager, emne eller fejl"
+
+#: admin/log-tab.php:90
+msgid "Search the log"
+msgstr "Søg i loggen"
+
+#: admin/log-tab.php:91
+msgid "Filter"
+msgstr "Filtrer"
+
+#: admin/log-tab.php:93
+msgid "Clear"
+msgstr "Ryd"
+
+#: admin/log-tab.php:99
+msgid "No emails match this filter."
+msgstr "Ingen e-mails matcher dette filter."
+
+#: admin/log-tab.php:99
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the "
+"first entry here."
+msgstr ""
+"Ingen e-mails er endnu logget. Send en test fra fanen Test og diagnostik for "
+"at se den første post her."
+
+#: admin/log-tab.php:112
+msgid "Select all"
+msgstr "Markér alle"
+
+#: admin/log-tab.php:113
+msgid "Date"
+msgstr "Dato"
+
+#: admin/log-tab.php:115
+msgid "To"
+msgstr "Til"
+
+#: admin/log-tab.php:116 includes/log.php:359
+msgid "Subject"
+msgstr "Emne"
+
+#: admin/log-tab.php:117
+msgid "Sent through"
+msgstr "Sendt via"
+
+#: admin/log-tab.php:118
+msgid "Actions"
+msgstr "Handlinger"
+
+#: admin/log-tab.php:129
+msgid "Select"
+msgstr "Vælg"
+
+#: admin/log-tab.php:143
+msgid "(no subject)"
+msgstr "(intet emne)"
+
+#: admin/log-tab.php:154
+#, php-format
+msgid "Attachments (not kept): %s"
+msgstr "Vedhæftede filer (gemmes ikke): %s"
+
+#: admin/log-tab.php:162
+#, php-format
+msgid "Resend of entry #%d"
+msgstr "Gensendelse af post #%d"
+
+#: admin/log-tab.php:170
+msgid "Content not kept."
+msgstr "Indhold gemmes ikke."
+
+#: admin/log-tab.php:177
+msgid "Resend"
+msgstr "Gensend"
+
+#: admin/log-tab.php:185
+msgid "Delete the selected entries?"
+msgstr "Slet de valgte poster?"
+
+#: admin/log-tab.php:185
+msgid "Delete selected"
+msgstr "Slet valgte"
+
+#: admin/log-tab.php:189
+#, php-format
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s poster · slettes automatisk efter %2$s dage"
+
+#: admin/settings.php:43 admin/settings.php:44
+msgid "SMTP"
+msgstr "SMTP"
+
+#: admin/settings.php:82
+msgid "Sending…"
+msgstr "Sender…"
+
+#: admin/settings.php:83
+msgid "Checking…"
+msgstr "Tjekker…"
+
+#: admin/settings.php:84
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Sendt. Tjek indbakken (og spam-mappen) hos modtageren."
+
+#: admin/settings.php:85
+msgid "Not sent."
+msgstr "Ikke sendt."
+
+#: admin/settings.php:86
+msgid "open"
+msgstr "åben"
+
+#: admin/settings.php:87
+msgid "blocked"
+msgstr "blokeret"
+
+#: admin/settings.php:88
+msgid "Request failed:"
+msgstr "Anmodning mislykkedes:"
+
+#: admin/settings.php:89
+msgid "Delivered through:"
+msgstr "Leveret via:"
+
+#: admin/settings.php:114 admin/settings.php:570
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Du har ikke tilstrækkelige rettigheder til at få adgang til denne side."
+
+#: admin/settings.php:119 lynbro-smtp-mailer.php:111
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: admin/settings.php:120
+msgid "Test & diagnostics"
+msgstr "Test og diagnostik"
+
+#: admin/settings.php:121 admin/settings.php:453 admin/settings.php:525
+#: includes/alerts.php:207 includes/log.php:347
+msgid "Email log"
+msgstr "E-mail-log"
+
+#: admin/settings.php:122 includes/lynbro-core/lynbro-core.php:1642
+msgid "Tools"
+msgstr "Værktøjer"
+
+#: admin/settings.php:123
+msgid "Feedback"
+msgstr "Feedback"
+
+#: admin/settings.php:124
+msgid "About"
+msgstr "Om"
+
+#: admin/settings.php:130
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:131
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log, "
+"resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Send hver WordPress-e-mail via din egen SMTP-server – med e-mail-log, "
+"gensendelse, en backup-forbindelse og advarsler ved fejl. Helt gratis, ingen "
+"mersalg."
+
+#: admin/settings.php:179
+msgid "The email was sent again."
+msgstr "E-mailen blev sendt igen."
+
+#: admin/settings.php:180
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr "E-mailen kunne ikke sendes igen – se den nyeste logpost for årsagen."
+
+#: admin/settings.php:181
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "Indholdet af denne e-mail blev ikke gemt, så den kan ikke sendes igen."
+
+#: admin/settings.php:182
+msgid "Log entries deleted."
+msgstr "Logposter slettet."
+
+#: admin/settings.php:183
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Indstillinger importeret. Indtast SMTP-adgangskoden én gang og gem – "
+"adgangskoder kopieres aldrig fra andre plugins."
+
+#: admin/settings.php:212
+msgid "Set in wp-config.php"
+msgstr "Angivet i wp-config.php"
+
+#: admin/settings.php:240
+#, php-format
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"E-mail sendes via serverens egen mailfunktion (PHP mail()) fra %s med en "
+"matchende Return-Path."
+
+#: admin/settings.php:244
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path er slået fra: Serveren bruger sin egen adresse på konvolutten, "
+"så SPF kontrollerer dette domæne i stedet for dit."
+
+#: admin/settings.php:250
+#, php-format
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "E-mail sendes via %1$s på port %2$s."
+
+#: admin/settings.php:254
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"Ingen SMTP-server er endnu angivet – WordPress sender stadig med PHP mail(). "
+"Vælg din udbyder nedenfor, udfyld login-oplysningerne og gem."
+
+#: admin/settings.php:257
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "Levering er slået fra: e-mails logges, men sendes ikke."
+
+#: admin/settings.php:262
+#, php-format
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "Testtilstand: hver e-mail sendes til %s i stedet for modtagerne."
+
+#: admin/settings.php:267
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Den gemte adgangskode kan ikke længere læses, fordi webstedets "
+"sikkerhedsnøgler er ændret. Indtast den igen, og gem."
+
+#: admin/settings.php:273
+#, php-format
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Sidste fejl for %1$s siden: %2$s"
+
+#: admin/settings.php:275
+msgid "Show failed emails"
+msgstr "Vis mislykkede e-mails"
+
+#: admin/settings.php:282
+#, php-format
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the "
+"other one."
+msgstr ""
+"Også aktiv: %s. To mail-plugins kæmper om den samme e-mail – deaktivér det "
+"andet."
+
+#: admin/settings.php:293
+#, php-format
+msgid "Import settings from %s"
+msgstr "Importér indstillinger fra %s"
+
+#: admin/settings.php:305
+msgid "SMTP server"
+msgstr "SMTP-server"
+
+#: admin/settings.php:308
+msgid "Provider"
+msgstr "Udbyder"
+
+#: admin/settings.php:319
+msgid "Host"
+msgstr "Vært"
+
+#: admin/settings.php:323
+msgid "Port and encryption"
+msgstr "Port og kryptering"
+
+#: admin/settings.php:326
+msgid "Encryption"
+msgstr "Kryptering"
+
+#: admin/settings.php:327
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) – normalt port 587"
+
+#: admin/settings.php:328
+msgid "SSL — usually port 465"
+msgstr "SSL – normalt port 465"
+
+#: admin/settings.php:329
+msgid "None — only for a server on the same network"
+msgstr "Ingen – kun til en server på samme netværk"
+
+#: admin/settings.php:334
+msgid "Authentication"
+msgstr "Godkendelse"
+
+#: admin/settings.php:335
+msgid "The server needs a username and password (almost always)"
+msgstr "Serveren kræver et brugernavn og en adgangskode (næsten altid)"
+
+#: admin/settings.php:338 admin/settings.php:427
+msgid "Username"
+msgstr "Brugernavn"
+
+#: admin/settings.php:342 admin/settings.php:428
+msgid "Password"
+msgstr "Adgangskode"
+
+#: admin/settings.php:345
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Adgangskoden kommer fra LYNBRO_SMTP_PASS i wp-config.php og gemmes ikke i "
+"databasen."
+
+#: admin/settings.php:347 admin/settings.php:428
+msgid "Saved — leave empty to keep it"
+msgstr "Gemt – lad feltet være tomt for at beholde den"
+
+#: admin/settings.php:349 admin/settings.php:430
+msgid "Remove the saved password"
+msgstr "Fjern den gemte adgangskode"
+
+#: admin/settings.php:351
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see About)."
+msgstr ""
+"Gemt krypteret med webstedets sikkerhedsnøgler og vises aldrig igen. Hvis du "
+"vil holde den helt ude af databasen, så definer den i wp-config.php (se Om)."
+
+#: admin/settings.php:356
+msgid "Certificate"
+msgstr "Certifikat"
+
+#: admin/settings.php:358
+msgid "Verify the server certificate"
+msgstr "Bekræft servercertifikatet"
+
+#: admin/settings.php:359 admin/settings.php:393 admin/settings.php:443
+#: admin/settings.php:457 admin/settings.php:462
+msgid "Default"
+msgstr "Standard"
+
+#: admin/settings.php:360
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr ""
+"Fjern kun markeringen for din egen server med et selvsigneret certifikat."
+
+#: admin/settings.php:367
+msgid "Sender"
+msgstr "Afsender"
+
+#: admin/settings.php:370
+msgid "From email"
+msgstr "Afsender-e-mail"
+
+#: admin/settings.php:373
+msgid "Force this address on every email, whatever other plugins set"
+msgstr "Tving denne adresse på hver e-mail, uanset hvad andre plugins sætter"
+
+#: admin/settings.php:373
+msgid "Recommended"
+msgstr "Anbefalet"
+
+#: admin/settings.php:374
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Brug en adresse på et domæne, som din SMTP-konto må sende for, ellers "
+"afviser udbydere e-mailen eller markerer den som spam."
+
+#: admin/settings.php:378
+msgid "From name"
+msgstr "Afsendernavn"
+
+#: admin/settings.php:381
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Tving også dette navn (fra: formularer og shops beholder deres eget "
+"afsendernavn)"
+
+#: admin/settings.php:385
+msgid "Default Reply-To"
+msgstr "Standard svar-til"
+
+#: admin/settings.php:388
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Bruges kun, når en e-mail ikke har sit eget svar-til, så svar fra "
+"kontaktformularer stadig går til den besøgende."
+
+#: admin/settings.php:392
+msgid "Return-Path"
+msgstr "Return-Path"
+
+#: admin/settings.php:393
+msgid "Send bounces to the From address"
+msgstr "Send afvisninger til Fra-adressen"
+
+#: admin/settings.php:399
+msgid "Backup connection"
+msgstr "Backup-forbindelse"
+
+#: admin/settings.php:400
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Når hovedserveren fejler, sendes den samme e-mail straks igen via backupen – "
+"den besøgende ser aldrig en fejl."
+
+#: admin/settings.php:403
+msgid "Backup"
+msgstr "Backup"
+
+#: admin/settings.php:405
+msgid "Use a backup when the main server fails"
+msgstr "Brug en backup, når hovedserveren fejler"
+
+#: admin/settings.php:407
+msgid "Another SMTP server"
+msgstr "En anden SMTP-server"
+
+#: admin/settings.php:408
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "Denne servers PHP mail() (bedre end ingenting; kan ende i spam)"
+
+#: admin/settings.php:413
+msgid "Backup host"
+msgstr "Backup-vært"
+
+#: admin/settings.php:416
+msgid "Backup port"
+msgstr "Backup-port"
+
+#: admin/settings.php:417
+msgid "Backup encryption"
+msgstr "Backup-kryptering"
+
+#: admin/settings.php:420
+msgid "None"
+msgstr "Ingen"
+
+#: admin/settings.php:425
+msgid "Backup login"
+msgstr "Backup-login"
+
+#: admin/settings.php:428
+msgid "Backup password"
+msgstr "Backup-adgangskode"
+
+#: admin/settings.php:438
+msgid "Delivery mode"
+msgstr "Leveringstilstand"
+
+#: admin/settings.php:441
+msgid "Mode"
+msgstr "Tilstand"
+
+#: admin/settings.php:443
+msgid "Send normally"
+msgstr "Send normalt"
+
+#: admin/settings.php:444
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Testtilstand: send alt til én adresse (Cc og Bcc droppes)"
+
+#: admin/settings.php:445
+msgid "Redirect address"
+msgstr "Omdirigeringsadresse"
+
+#: admin/settings.php:446
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr "Send ingen e-mail (staging-kopier) – e-mails bliver stadig logget"
+
+#: admin/settings.php:456
+msgid "Log"
+msgstr "Log"
+
+#: admin/settings.php:457
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Gem en log over hver e-mail (modtager, emne, status, fejl)"
+
+#: admin/settings.php:460
+msgid "Keep message content"
+msgstr "Behold beskedindhold"
+
+#: admin/settings.php:462
+msgid "Only of failed emails, so they can be resent"
+msgstr "Kun for mislykkede e-mails, så de kan sendes igen"
+
+#: admin/settings.php:463
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"For hver e-mail (giver dig mulighed for at gensende alt; loggen indeholder "
+"derefter links til nulstilling af adgangskoder og ordreoplysninger)"
+
+#: admin/settings.php:464
+msgid "Never"
+msgstr "Aldrig"
+
+#: admin/settings.php:468
+msgid "Keep entries for"
+msgstr "Behold poster i"
+
+#: admin/settings.php:469
+msgid "days, then they are deleted automatically"
+msgstr "dage, derefter slettes de automatisk"
+
+#: admin/settings.php:475
+msgid "Failure alerts"
+msgstr "Fejlalarmer"
+
+#: admin/settings.php:476
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Højst én alarm i timen. Alarm-e-mailen sendes med denne servers PHP mail(), "
+"fordi SMTP-serveren kan være den, der er nede."
+
+#: admin/settings.php:479
+msgid "Alert email"
+msgstr "Alarm-e-mail"
+
+#: admin/settings.php:483
+msgid "Webhook URL"
+msgstr "Webhook-URL"
+
+#: admin/settings.php:486
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Valgfrit. En indgående webhook til Slack eller Discord eller dit eget HTTPS-"
+"endpoint (JSON med \"text\" og \"content\"). Pluginet sender kun fejlteksten "
+"dertil – intet andet, og kun når du angiver en URL."
+
+#: admin/settings.php:506
+msgid "Import from another SMTP plugin"
+msgstr "Importer fra et andet SMTP-plugin"
+
+#: admin/settings.php:508
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Kopierer vært, port, kryptering, brugernavn og afsender. Adgangskoder bliver "
+"hvor de er – indtast din egen én gang efter importen."
+
+#: admin/settings.php:514
+#, php-format
+msgid "Import from %s"
+msgstr "Importer fra %s"
+
+#: admin/settings.php:520
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Ingen indstillinger fra WP Mail SMTP, FluentSMTP, Easy WP SMTP eller Post "
+"SMTP blev fundet på dette websted."
+
+#: admin/settings.php:527
+msgid "Download the log (CSV)"
+msgstr "Download loggen (CSV)"
+
+#: admin/settings.php:528
+msgid "Delete every log entry?"
+msgstr "Slette hver logpost?"
+
+#: admin/settings.php:528
+msgid "Empty the log"
+msgstr "Tøm loggen"
+
+#: admin/settings.php:545
+msgid "Is it working for you?"
+msgstr "Virker det for dig?"
+
+#: admin/settings.php:546
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP er gratis, uden noget låst bag betaling. Hvis det fik din e-mail "
+"leveret, hjælper en kort anmeldelse andre med at finde det."
+
+#: admin/settings.php:548
+msgid "Leave a review on WordPress.org"
+msgstr "Skriv en anmeldelse på WordPress.org"
+
+#: admin/settings.php:552
+msgid "Something missing or broken?"
+msgstr "Mangler der noget, eller er noget i stykker?"
+
+#: admin/settings.php:553
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Fejlrapporter og idéer læses af dem, der bygger pluginet. Når du åbner disse "
+"links, sendes intet fra dit websted."
+
+#: admin/settings.php:555
+msgid "Ask in the support forum"
+msgstr "Spørg i supportforummet"
+
+#: admin/settings.php:556
+msgid "Suggest a feature (public roadmap)"
+msgstr "Foreslå en funktion (offentlig roadmap)"
+
+#: admin/settings.php:558
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Poster du en loglinje? Fjern adresser først – Test-fanen skjuler allerede "
+"adgangskoden."
+
+#: admin/settings.php:608 admin/settings.php:629
+msgid "You do not have permission to do that."
+msgstr "Du har ikke tilladelse til at gøre det."
+
+#: admin/settings.php:612
+msgid "Enter a valid recipient address."
+msgstr "Indtast en gyldig modtageradresse."
+
+#: includes/alerts.php:48
+#, php-format
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: den primære SMTP-forbindelse fejlede, og backupen leverede e-mailen. "
+"Fejl: %2$s"
+
+#: includes/alerts.php:50
+#, php-format
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: en e-mail kunne ikke sendes. Fejl: %2$s"
+
+#: includes/alerts.php:54
+#, php-format
+msgid "Log entry #%d"
+msgstr "Logpost #%d"
+
+#: includes/alerts.php:64
+#, php-format
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Problem med e-maillevering"
+
+#: includes/alerts.php:100
+msgid "Email delivery"
+msgstr "E-maillevering"
+
+#: includes/alerts.php:115
+msgid "Email is sent through SMTP"
+msgstr "E-mail sendes via SMTP"
+
+#: includes/alerts.php:118
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/alerts.php:121
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP sender dette websteds e-mail via en autentificeret SMTP-server."
+
+#: includes/alerts.php:122
+msgid "Open Lynbro SMTP"
+msgstr "Åbn Lynbro SMTP"
+
+#: includes/alerts.php:128
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "E-mail sendes med PHP mail(), ikke SMTP"
+
+#: includes/alerts.php:129
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP er aktivt, men ingen SMTP-server er sat op, så e-mail sendes "
+"stadig via PHP mail() og ender ofte i spam."
+
+#: includes/alerts.php:133
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"E-mail sendes via serverens egen mailfunktion med en matchende afsender"
+
+#: includes/alerts.php:134
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP sender via PHP mail() efter dit valg og angiver From-adressen og "
+"Return-Path på hver e-mail. Sørg for, at denne server er med i domænets SPF-"
+"post."
+
+#: includes/alerts.php:137
+msgid "The saved SMTP password can no longer be read"
+msgstr "Den gemte SMTP-adgangskode kan ikke længere læses"
+
+#: includes/alerts.php:138
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Webstedets sikkerhedsnøgler ændrede sig, efter at adgangskoden blev gemt. "
+"Indtast SMTP-adgangskoden igen."
+
+#: includes/alerts.php:145
+msgid "Emails failed to send in the last 24 hours"
+msgstr "E-mails kunne ikke sendes i løbet af de sidste 24 timer"
+
+#: includes/alerts.php:146
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Den primære SMTP-forbindelse fejlede i løbet af de sidste 24 timer"
+
+#: includes/alerts.php:153
+msgid "Failure alerts by email do not get out"
+msgstr "Fejlalarmer via e-mail bliver ikke sendt"
+
+#: includes/alerts.php:159
+#, php-format
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Alarm-e-mailen sendes med PHP mail(), så den ikke afhænger af SMTP-serveren, "
+"men PHP mail() fejlede på denne server: %s Brug en webhook til alarmer, "
+"eller bed din hostingudbyder om at slå mail() til."
+
+#: includes/alerts.php:180
+msgid "Email delivery (7 days)"
+msgstr "E-maillevering (7 dage)"
+
+#: includes/alerts.php:197
+#, php-format
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Sendt: %1$s · Fejlet: %2$s"
+
+#: includes/alerts.php:204
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr "Ingen SMTP-server er endnu sat op – e-mail sendes med PHP mail()."
+
+#: includes/alerts.php:209
+msgid "Show failed"
+msgstr "Vis fejlede"
+
+#: includes/class-lynbro-smtp-retry-mailer.php:100
+#, php-format
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Primær forbindelse: %1$s – Backup-forbindelse: %2$s"
+
+#: includes/diagnostics.php:35
+#, php-format
+msgid "Test email from %s"
+msgstr "Testmail fra %s"
+
+#: includes/diagnostics.php:38
+#, php-format
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Dette er en testmail fra %1$s, sendt af Lynbro SMTP.\n"
+"\n"
+"Hvis du kan læse den, virker e-maillevering.\n"
+"\n"
+"Sendt: %2$s\n"
+"Forbindelse: %3$s"
+
+#: includes/diagnostics.php:41
+msgid "backup"
+msgstr "backup"
+
+#: includes/diagnostics.php:41
+msgid "main"
+msgstr "hoved"
+
+#: includes/diagnostics.php:121
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud "
+"need an app password, not the normal one; SendGrid and Brevo need an SMTP/"
+"API key."
+msgstr ""
+"Serveren afviste brugernavnet eller adgangskoden. Gmail, Outlook, Zoho og "
+"iCloud kræver en app-adgangskode, ikke den normale; SendGrid og Brevo kræver "
+"en SMTP/API-nøgle."
+
+#: includes/diagnostics.php:124
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365 har SMTP-login slået fra for denne postkasse. En administrator "
+"kan aktivere \"Authenticated SMTP\" for den, eller i stedet bruge en relay-"
+"tjeneste."
+
+#: includes/diagnostics.php:127
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and "
+"587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Serveren kunne ikke nås. Mange hosts blokerer udgående porte 25, 465 og 587 "
+"– kør porttjekket nedenfor, og bed derefter din host om at åbne porten eller "
+"brug den, der er åben."
+
+#: includes/diagnostics.php:130
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Den sikre forbindelse mislykkedes. Tjek at port og kryptering passer sammen "
+"(587 = TLS, 465 = SSL). Hvis serveren bruger et selvsigneret certifikat, "
+"skal du fjerne markeringen i \"Verificér serverens certifikat\"."
+
+#: includes/diagnostics.php:133
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Serveren tillader ikke, at denne konto sender som From-adressen. Brug en "
+"adresse på et domæne, som kontoen ejer, og slå \"Force From email\" til."
+
+#: includes/diagnostics.php:136
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Værtsnavnet kan ikke opløses. Tjek det for stavefejl."
+
+#: includes/diagnostics.php:139
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Læs de sidste SERVER-linjer i transskriptionen: serveren siger normalt "
+"præcis, hvad den ikke kunne lide."
+
+#: includes/diagnostics.php:156
+msgid "No host set."
+msgstr "Ingen vært angivet."
+
+#: includes/legacy-guard.php:137
+#, php-format
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced "
+"it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Dette er den tidligere version af Lynbro SMTP. Lynbro SMTP Mailer har "
+"erstattet den og bruger de samme indstillinger. Fjern mappen %s med din "
+"hosts filhåndtering, FTP eller SSH – brug ikke Slet her: afinstallationen "
+"sletter de delte SMTP-indstillinger. Lynbro SMTP Mailer gemmer en "
+"sikkerhedskopi og gendanner indstillingerne, men det gamle plugin tømmer "
+"også e-mailloggen."
+
+#: includes/legacy-guard.php:185
+#, php-format
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Dine SMTP-indstillinger blev slettet af et andet plugin den %s og er blevet "
+"gendannet fra sikkerhedskopien. Du behøver ikke gøre noget; send en "
+"testmail, hvis du vil være sikker."
+
+#: includes/log.php:314
+msgid "That log entry no longer exists."
+msgstr "Den logpost findes ikke længere."
+
+#: includes/log.php:317
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Indholdet af denne e-mail blev ikke gemt, så den kan ikke sendes igen. Skift "
+"\"Behold beskedindhold\" i Indstillinger for at sende fremtidige e-mails "
+"igen."
+
+#: includes/log.php:324
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"E-mailen kunne ikke sendes igen. Det nye forsøg og dets fejl er i loggen."
+
+#: includes/log.php:351
+msgid "Date (UTC)"
+msgstr "Dato (UTC)"
+
+#: includes/log.php:355
+msgid "Recipients"
+msgstr "Modtagere"
+
+#: includes/log.php:403 includes/log.php:418
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP-e-maillog"
+
+#: includes/lynbro-core/lynbro-core.php:310
+#: includes/lynbro-core/lynbro-core.php:311
+msgid "Our plugins"
+msgstr "Vores plugins"
+
+#: includes/lynbro-core/lynbro-core.php:467
+msgid "Image Optimizer"
+msgstr "Billedoptimering"
+
+#: includes/lynbro-core/lynbro-core.php:468
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Konverter til WebP og AVIF, tilpas store billeder og lazy-load dem – alt på "
+"din egen server."
+
+#: includes/lynbro-core/lynbro-core.php:471
+msgid "AI Studio"
+msgstr "AI Studio"
+
+#: includes/lynbro-core/lynbro-core.php:472
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no "
+"credits in between."
+msgstr ""
+"Skriv og illustrér indlæg med AI på din egen OpenAI-nøgle – til kostpris, "
+"uden mellemliggende credits."
+
+#: includes/lynbro-core/lynbro-core.php:475
+msgid "Analytics"
+msgstr "Analyser"
+
+#: includes/lynbro-core/lynbro-core.php:476
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Selvhostet, cookiefri analyse med funnels. Besøgsdata forlader aldrig din "
+"database."
+
+#: includes/lynbro-core/lynbro-core.php:479
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/lynbro-core/lynbro-core.php:480
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel og mere uden kode – hvert tag "
+"venter på samtykke."
+
+#: includes/lynbro-core/lynbro-core.php:483
+msgid "Forms"
+msgstr "Formularer"
+
+#: includes/lynbro-core/lynbro-core.php:484
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formularer med gratis og ubegrænset gemte indsendelser, server-side betinget "
+"logik og signerede webhooks."
+
+#: includes/lynbro-core/lynbro-core.php:487
+msgid "Verify"
+msgstr "Verificér"
+
+#: includes/lynbro-core/lynbro-core.php:488
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a "
+"one-time code by e-mail or SMS."
+msgstr ""
+"Fang fejlindtastede e-maildomæner og forkerte telefonnumre, og bekræft dem "
+"med en engangskode via e-mail eller SMS."
+
+#: includes/lynbro-core/lynbro-core.php:491
+msgid "Cache"
+msgstr "Cache"
+
+#: includes/lynbro-core/lynbro-core.php:492
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Pålidelig tømning af nginx FastCGI-cache og Redis objekt-cache, hvor hver "
+"tømning verificeres mod selve cachen."
+
+#: includes/lynbro-core/lynbro-core.php:495
+msgid "Booking"
+msgstr "Booking"
+
+#: includes/lynbro-core/lynbro-core.php:496
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Aftalebooking til én virksomhed på din egen server: ydelser, medarbejdere, "
+"tidsplaner, påmindelser og flytning fra Amelia med ét klik."
+
+#: includes/lynbro-core/lynbro-core.php:499
+msgid "Translate"
+msgstr "Oversæt"
+
+#: includes/lynbro-core/lynbro-core.php:500
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Kør dit site på flere sprog med maskinoversættelse på din egen OpenAI-nøgle "
+"– intet målt, intet solgt pr. ord."
+
+#: includes/lynbro-core/lynbro-core.php:503
+msgid "Contact Buttons"
+msgstr "Kontaktknapper"
+
+#: includes/lynbro-core/lynbro-core.php:504
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, telefon og livechat i én hurtig knap – chatscripts "
+"indlæses kun, når en besøgende beder om det."
+
+#: includes/lynbro-core/lynbro-core.php:507
+msgid "Shield"
+msgstr "Skjold"
+
+#: includes/lynbro-core/lynbro-core.php:508
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes "
+"and the hardening switches every site needs."
+msgstr ""
+"Sikkerheds-headere, HTTPS med HSTS, en lille firewall mod injektionsforsøg "
+"og de hærdningsindstillinger, alle sites har brug for."
+
+#: includes/lynbro-core/lynbro-core.php:511
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+#: includes/lynbro-core/lynbro-core.php:512
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Spamkontrol der kører på din egen server. Ingen konto, intet abonnement, "
+"hver blokering forklares – og en tilbageholdt besked går aldrig tabt."
+
+#: includes/lynbro-core/lynbro-core.php:515
+msgid "Login Guard"
+msgstr "Loginbeskyttelse"
+
+#: includes/lynbro-core/lynbro-core.php:516
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with "
+"three ways back in."
+msgstr ""
+"Flyt wp-login.php, begræns mislykkede logins og tilføj app-baseret to-faktor "
+"– med tre måder at komme ind igen."
+
+#: includes/lynbro-core/lynbro-core.php:519
+msgid "Cookie Consent"
+msgstr "Cookie-samtykke"
+
+#: includes/lynbro-core/lynbro-core.php:520
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject "
+"button and 35 languages."
+msgstr ""
+"Et GDPR- og ePrivacy-banner med Consent Mode v2, en lige så fremtrædende "
+"Afvis-knap og 35 sprog."
+
+#: includes/lynbro-core/lynbro-core.php:523
+msgid "Activity Log"
+msgstr "Aktivitetslog"
+
+#: includes/lynbro-core/lynbro-core.php:524
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Hvem gjorde hvad, hvornår og hvorfra – gemt på din egen server, søgbart, "
+"eksportérbart og slettet efter din tidsplan."
+
+#: includes/lynbro-core/lynbro-core.php:527
+msgid "Data Retention"
+msgstr "Databeholdning"
+
+#: includes/lynbro-core/lynbro-core.php:528
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a "
+"schedule — with a dry run before every deletion."
+msgstr ""
+"Find hvor persondata faktisk ligger i din database, og slet det efter en "
+"tidsplan – med prøvekørsel før hver sletning."
+
+#: includes/lynbro-core/lynbro-core.php:531
+msgid "Accessibility"
+msgstr "Tilgængelighed"
+
+#: includes/lynbro-core/lynbro-core.php:532
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Scan alle sider for WCAG 2.2 AA og ret det, der kan rettes sikkert. Ingen "
+"overlay, ingen sideloft."
+
+#: includes/lynbro-core/lynbro-core.php:535
+msgid "Site Check"
+msgstr "Hjemmeside-tjek"
+
+#: includes/lynbro-core/lynbro-core.php:536
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Et gratis webstedstjek for dine besøgende: HTTPS, headere, cookies før "
+"samtykke, tilgængelighed, SPF/DKIM/DMARC – rapport på skærmen."
+
+#: includes/lynbro-core/lynbro-core.php:539
+msgid "SEO"
+msgstr "SEO"
+
+#: includes/lynbro-core/lynbro-core.php:540
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Letvægts-SEO med gratis LocalBusiness-schema, sitemaps og sociale kort. "
+"Intet sender data hjem."
+
+#: includes/lynbro-core/lynbro-core.php:543
+msgid "SMTP Mailer"
+msgstr "SMTP-mailer"
+
+#: includes/lynbro-core/lynbro-core.php:544
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress-e-mails via din egen SMTP-server – med e-mail-log, gensend, "
+"backupforbindelse og fejlalarmer."
+
+#: includes/lynbro-core/lynbro-core.php:547
+msgid "Newsletter"
+msgstr "Nyhedsbrev"
+
+#: includes/lynbro-core/lynbro-core.php:548
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the "
+"last edit and approval by typing the exact recipient count."
+msgstr ""
+"Selvhostede nyhedsbreve med sikker udsendelse: samtykkeregistrering, en test "
+"efter den seneste redigering og godkendelse ved at indtaste det præcise "
+"antal modtagere."
+
+#: includes/lynbro-core/lynbro-core.php:551
+msgid "Social Feed"
+msgstr "Socialt feed"
+
+#: includes/lynbro-core/lynbro-core.php:552
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Et Instagram-feed på dit site uden en Meta-token gemt i WordPress."
+
+#: includes/lynbro-core/lynbro-core.php:555
+msgid "Reviews Cache"
+msgstr "Anmeldelses-cache"
+
+#: includes/lynbro-core/lynbro-core.php:556
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Vis dine Google-anmeldelser uden at lægge en API-nøgle i WordPress."
+
+#: includes/lynbro-core/lynbro-core.php:559
+msgid "Links"
+msgstr "Links"
+
+#: includes/lynbro-core/lynbro-core.php:560
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Find døde links og håndter viderestillinger på din egen server, med årsagen "
+"til hver afgørelse."
+
+#: includes/lynbro-core/lynbro-core.php:563
+msgid "Danadresse Autofill"
+msgstr "Danadresse Autofuldførelse"
+
+#: includes/lynbro-core/lynbro-core.php:564
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Dansk adresse-autofuldførelse og validering til WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable og EDD."
+
+#: includes/lynbro-core/lynbro-core.php:567
+msgid "Soge Lookup"
+msgstr "Soge Lookup"
+
+#: includes/lynbro-core/lynbro-core.php:568
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Slå danske køretøjer (DMR) og virksomheder (CVR) op via nummerplade, "
+"stelnummer eller CVR-nummer."
+
+#: includes/lynbro-core/lynbro-core.php:571
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+#: includes/lynbro-core/lynbro-core.php:572
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES) "
+"validation and an EAN/GLN field."
+msgstr ""
+"Dansk B2B-checkout til WooCommerce: CVR-virksomhedsautoudfyldning, CVR/EU-"
+"moms (VIES) validering og et EAN/GLN-felt."
+
+#: includes/lynbro-core/lynbro-core.php:575
+msgid "Danish Shipping"
+msgstr "Dansk Forsendelse"
+
+#: includes/lynbro-core/lynbro-core.php:576
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Gratis valg af afhentningssted for PostNord og GLS Danmark ved WooCommerce-"
+"checkout samt rene forsendelsesmetoder."
+
+#: includes/lynbro-core/lynbro-core.php:579
+msgid "API Auth"
+msgstr "API-godkendelse"
+
+#: includes/lynbro-core/lynbro-core.php:580
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens til REST API, som du faktisk kan tilbagekalde, med scopes og "
+"log over afvisninger."
+
+#: includes/lynbro-core/lynbro-core.php:780
+#: includes/lynbro-core/lynbro-core.php:1550
+#: includes/lynbro-core/lynbro-core.php:1755
+#: includes/lynbro-core/lynbro-core.php:1781
+msgid "Insufficient permissions."
+msgstr "Utilstrækkelige rettigheder."
+
+#: includes/lynbro-core/lynbro-core.php:791
+msgid "Lynbro plugins"
+msgstr "Lynbro-plugins"
+
+#: includes/lynbro-core/lynbro-core.php:792
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no "
+"credits, your data stays on your site."
+msgstr ""
+"Generøse WordPress-plugins med fokus på privatliv – udviklet i Danmark. "
+"Gratis kerner, ingen credits, dine data bliver på dit site."
+
+#: includes/lynbro-core/lynbro-core.php:799
+msgid "More from Lynbro"
+msgstr "Flere fra Lynbro"
+
+#: includes/lynbro-core/lynbro-core.php:800
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Resten af pakken. Det, der allerede er på dette websted, er markeret; intet "
+"installeres uden at du beder om det."
+
+#: includes/lynbro-core/lynbro-core.php:824
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/lynbro-core/lynbro-core.php:826
+msgid "Installed"
+msgstr "Installeret"
+
+#: includes/lynbro-core/lynbro-core.php:828
+msgid "On WordPress.org"
+msgstr "På WordPress.org"
+
+#: includes/lynbro-core/lynbro-core.php:830
+msgid "Coming soon"
+msgstr "Kommer snart"
+
+#: includes/lynbro-core/lynbro-core.php:837
+msgid "Activate"
+msgstr "Aktivér"
+
+#: includes/lynbro-core/lynbro-core.php:839
+#: includes/lynbro-core/lynbro-core.php:1463
+msgid "Install now"
+msgstr "Installer nu"
+
+#: includes/lynbro-core/lynbro-core.php:842
+#: includes/lynbro-core/lynbro-core.php:1467
+msgid "View on WordPress.org"
+msgstr "Se på WordPress.org"
+
+#: includes/lynbro-core/lynbro-core.php:844
+#: includes/lynbro-core/lynbro-core.php:1469
+msgid "Learn more"
+msgstr "Lær mere"
+
+#: includes/lynbro-core/lynbro-core.php:853
+msgid "About Lynbro"
+msgstr "Om Lynbro"
+
+#: includes/lynbro-core/lynbro-core.php:854
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro udvikler ægte gratis WordPress-plugins med fokus på privatliv og "
+"generøse gratis kerner – ingen credits, ingen betalingsmure for det "
+"væsentlige, dine data på dit eget site. Lavet i Danmark."
+
+#: includes/lynbro-core/lynbro-core.php:856
+msgid "Visit Lynbro"
+msgstr "Besøg Lynbro"
+
+#: includes/lynbro-core/lynbro-core.php:857
+msgid "Suggest a feature or report a bug"
+msgstr "Foreslå en funktion eller rapportér en fejl"
+
+#: includes/lynbro-core/lynbro-core.php:859
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Feedback åbner vores offentlige roadmap på plugins.lynbro.dk i en ny fane – "
+"intet sendes fra dit site."
+
+#: includes/lynbro-core/lynbro-core.php:885
+#, php-format
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on "
+"this site)."
+msgstr ""
+"Delte Lynbro-komponenter v%1$s, leveret af %2$s (nyeste af %3$d versioner på "
+"dette websted)."
+
+#: includes/lynbro-core/lynbro-core.php:1350
+#, php-format
+msgid "Is %s doing its job?"
+msgstr "Gør %s sit arbejde?"
+
+#: includes/lynbro-core/lynbro-core.php:1354
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Du har brugt det i et par uger nu. Hvis det virker for dig, hjælper en kort "
+"anmeldelse på WordPress.org andre med at finde det – ærlige anmeldelser er "
+"velkomne, også de kritiske."
+
+#: includes/lynbro-core/lynbro-core.php:1356
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Du har brugt det i et par uger nu. Fortæl os på vores offentlige roadmap, om "
+"det virker for dig – eller om noget mangler. Det er sådan, vi beslutter, "
+"hvad vi bygger næste gang."
+
+#: includes/lynbro-core/lynbro-core.php:1361 includes/onboarding.php:85
+msgid "Write a review"
+msgstr "Skriv en anmeldelse"
+
+#: includes/lynbro-core/lynbro-core.php:1361
+#: includes/lynbro-core/lynbro-core.php:1363
+#: includes/lynbro-core/lynbro-core.php:1369
+#: includes/lynbro-core/lynbro-core.php:1467
+#: includes/lynbro-core/lynbro-core.php:1469
+msgid "(opens in a new tab)"
+msgstr "(åbner i en ny fane)"
+
+#: includes/lynbro-core/lynbro-core.php:1363
+msgid "Share feedback"
+msgstr "Giv feedback"
+
+#: includes/lynbro-core/lynbro-core.php:1365
+msgid "Maybe later"
+msgstr "Måske senere"
+
+#: includes/lynbro-core/lynbro-core.php:1366
+msgid "Don't ask again"
+msgstr "Spørg ikke igen"
+
+#: includes/lynbro-core/lynbro-core.php:1369
+msgid "Something not working? Ask for help"
+msgstr "Virker noget ikke? Få hjælp"
+
+#: includes/lynbro-core/lynbro-core.php:1423
+msgid "WooCommerce is active"
+msgstr "WooCommerce er aktivt"
+
+#: includes/lynbro-core/lynbro-core.php:1424
+msgid "a form plugin is active"
+msgstr "et formular-plugin er aktivt"
+
+#: includes/lynbro-core/lynbro-core.php:1425
+msgid "the site is set up for Denmark"
+msgstr "webstedet er sat op til Danmark"
+
+#: includes/lynbro-core/lynbro-core.php:1426
+msgid "comments are open"
+msgstr "kommentarer er åbne"
+
+#: includes/lynbro-core/lynbro-core.php:1427
+msgid "tracking tags are active"
+msgstr "sporingstags er aktive"
+
+#: includes/lynbro-core/lynbro-core.php:1428
+msgid "visitors can create accounts"
+msgstr "besøgende kan oprette konti"
+
+#: includes/lynbro-core/lynbro-core.php:1437
+msgid "Suggested because %l."
+msgstr "Foreslået, fordi %l."
+
+#: includes/lynbro-core/lynbro-core.php:1491
+#: includes/lynbro-core/lynbro-core.php:1522
+msgid "Suggested for this site"
+msgstr "Forslag til dette websted"
+
+#: includes/lynbro-core/lynbro-core.php:1492
+msgid "Hide suggestions"
+msgstr "Skjul forslag"
+
+#: includes/lynbro-core/lynbro-core.php:1494
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Andre Lynbro-plugins, der passer til det, webstedet bruger. Intet "
+"installeres, medmindre du klikker."
+
+#: includes/lynbro-core/lynbro-core.php:1495
+msgid "All Lynbro plugins"
+msgstr "Alle Lynbro-plugins"
+
+#: includes/lynbro-core/lynbro-core.php:1523
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent "
+"anywhere."
+msgstr ""
+"Udvalgt ud fra det, webstedet allerede bruger – læst her på webstedet, intet "
+"sendes nogen steder hen."
+
+#: includes/lynbro-core/lynbro-core.php:1643
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Eksportér dette plugins indstillinger som en JSON-sikkerhedskopi, eller "
+"nulstil dem til standardindstillinger. 100% lokalt – intet forlader dit site."
+
+#: includes/lynbro-core/lynbro-core.php:1649
+msgid "Export settings (JSON)"
+msgstr "Eksportér indstillinger (JSON)"
+
+#: includes/lynbro-core/lynbro-core.php:1651
+msgid "Reset all settings to defaults?"
+msgstr "Nulstil alle indstillinger til standardværdier?"
+
+#: includes/lynbro-core/lynbro-core.php:1655
+msgid "Reset to defaults"
+msgstr "Nulstil til standardindstillinger"
+
+#: includes/onboarding.php:81
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Sender Lynbro SMTP din e-mail? Et par ord på WordPress.org hjælper andre med "
+"at finde et mail-plugin uden mersalg."
+
+#: includes/onboarding.php:87
+msgid "No thanks"
+msgstr "Nej tak"
+
+#: includes/options.php:194
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Omdirigeringstilstand kræver en adresse at omdirigere til – mail sendes "
+"normalt, indtil du tilføjer en."
+
+#: includes/providers.php:19
+msgid "Other SMTP server"
+msgstr "Anden SMTP-server"
+
+#: includes/providers.php:23
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Brug SMTP-oplysningerne fra din host eller e-mailudbyder."
+
+#: includes/providers.php:26
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Denne servers egen mailfunktion (PHP mail(), uden SMTP)"
+
+#: includes/providers.php:30
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Til servere, der er konfigureret til selv at sende e-mail. Intet login "
+"nødvendigt: From-adressen og Return-Path nedenfor angives stadig på hver e-"
+"mail, så SPF og DMARC kan stemme overens. Domænets SPF-post skal omfatte "
+"denne server."
+
+#: includes/providers.php:37
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account "
+"→ Security → 2-Step Verification → App passwords), not your normal password."
+msgstr ""
+"Brugernavn: din fulde Gmail-adresse. Adgangskode: en app-adgangskode (Google-"
+"konto → Sikkerhed → 2-trinsbekræftelse → App-adgangskoder), ikke din normale "
+"adgangskode."
+
+#: includes/providers.php:44
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay "
+"service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 kræver, at \"Authenticated SMTP\" er aktiveret for postkassen. "
+"Microsoft udfaser adgangskode-login til SMTP; hvis login fejler, så brug en "
+"relay-tjeneste som Brevo eller din hosts SMTP."
+
+#: includes/providers.php:51
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Brugernavn: det SMTP-login, der vises under SMTP & API. Adgangskode: en SMTP-"
+"nøgle, ikke din kontoadgangskode."
+
+#: includes/providers.php:58
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Brugernavn: ordet \"apikey\". Adgangskode: din SendGrid API-nøgle."
+
+#: includes/providers.php:65
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"EU-konti bruger smtp.eu.mailgun.org. Brugernavn og adgangskode: SMTP-"
+"oplysningerne for dit afsendelsesdomæne."
+
+#: includes/providers.php:72
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Vært: SMTP-slutpunktet for din SES-region, vist i SES-konsollen under SMTP-"
+"indstillinger. Brugernavn og adgangskode: SMTP-legitimationsoplysninger "
+"oprettet i SES-konsollen (ikke dine AWS-adgangsnøgler)."
+
+#: includes/providers.php:79
+msgid "Username and password: both are your Server API token."
+msgstr "Brugernavn og adgangskode: begge er dit Server API-token."
+
+#: includes/providers.php:86
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Brug smtp.zoho.com for konti uden for EU. Ved totrinslogin skal du oprette "
+"en app-specifik adgangskode."
+
+#: includes/providers.php:93
+msgid "Username: API key. Password: secret key."
+msgstr "Brugernavn: API-nøgle. Adgangskode: hemmelig nøgle."
+
+#: includes/providers.php:100
+msgid "Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Brugernavn og adgangskode: en SMTP-bruger oprettet under Sending → SMTP "
+"Users."
+
+#: includes/providers.php:107 includes/providers.php:114
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Brugernavn: den fulde postkasseadresse. Adgangskode: postkassens adgangskode."
+
+#: includes/providers.php:121
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Brug smtp.ionos.de eller smtp.ionos.co.uk for disse regioner. Brugernavn: "
+"den fulde postkasseadresse."
+
+#. Plugin Name of the plugin
+#: lynbro-smtp-mailer.php
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+#. Plugin URI of the plugin
+#: lynbro-smtp-mailer.php
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+#. Description of the plugin
+#: lynbro-smtp-mailer.php
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Sender al WordPress-e-mail via din egen SMTP-server med en søgbar e-mail-"
+"log, gensendelse, en backupforbindelse, fejlalarmer og "
+"forbindelsesdiagnostik. Ingen mersalg."
+
+#. Author of the plugin
+#: lynbro-smtp-mailer.php
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+#. Author URI of the plugin
+#: lynbro-smtp-mailer.php
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+#~ msgid "Send all WordPress mail through your SMTP host."
+#~ msgstr "Send al WordPress-mail via din SMTP-vært."
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "•••••••• (saved — leave blank to keep)"
+#~ msgstr "•••••••• (gemt – lad feltet være tomt for at beholde)"
+
+#~ msgid "Force From"
+#~ msgstr "Tving afsender"
+
+#~ msgid ""
+#~ "Override From for every outgoing mail (recommended for deliverability)"
+#~ msgstr ""
+#~ "Overskriv afsender for al udgående mail (anbefales for leveringsmulighed)"
+
+#~ msgid "Test send"
+#~ msgstr "Testsend"
+
+#~ msgid "Recent activity"
+#~ msgstr "Seneste aktivitet"
+
+#~ msgid "Plugins by lynbro aps — lynbro.dk"
+#~ msgstr "Plugins by lynbro aps – lynbro.dk"
+
+#~ msgid "✓ Sent."
+#~ msgstr "✓ Sendt."
+
+#~ msgid "✗ Failed."
+#~ msgstr "✗ Mislykkedes."
+
+#~ msgid "Error:"
+#~ msgstr "Fejl:"
+
+#~ msgid "Network error:"
+#~ msgstr "Netværksfejl:"
+
+#~ msgid "Forbidden."
+#~ msgstr "Forbudt."
+
+#~ msgid "Lynbro SMTP test"
+#~ msgstr "Lynbro SMTP-test"
+
+#~ msgid "Invalid recipient."
+#~ msgstr "Ugyldig modtager."
+
+#~ msgid ""
+#~ "Our growing suite of free, privacy-first plugins. Already-installed ones "
+#~ "are marked."
+#~ msgstr ""
+#~ "Vores voksende udvalg af gratis plugins med fokus på privatliv. Allerede "
+#~ "installerede er markeret."
+
+#~ msgid "Install"
+#~ msgstr "Installer"
+
+#~ msgid ""
+#~ "Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+#~ "endpoint (HTTPS). The plugin posts the error text there — nothing else, "
+#~ "and only when you set a URL."
+#~ msgstr ""
+#~ "Valgfrit. Slack-, Discord-, Microsoft Teams-workflows, ntfy eller dit "
+#~ "eget endpoint (HTTPS). Pluginet sender fejlteksten dertil – intet andet, "
+#~ "og kun når du angiver en URL."
+
+#~ msgid ""
+#~ "Change the region in the host to yours. Username and password: SMTP "
+#~ "credentials created in the SES console (not your AWS access keys)."
+#~ msgstr ""
+#~ "Skift regionen hos hosten til din egen. Brugernavn og adgangskode: SMTP-"
+#~ "oplysninger oprettet i SES-konsollen (ikke dine AWS-adgangsnøgler)."
+
+#~ msgid "https://plugins.lynbro.dk/lynbro-smtp"
+#~ msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+#~ msgid "lynbro aps"
+#~ msgstr "lynbro aps"

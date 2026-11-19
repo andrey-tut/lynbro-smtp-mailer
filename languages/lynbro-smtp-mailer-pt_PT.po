@@ -1,0 +1,1687 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Envie todo o correio do WordPress através do seu anfitrião SMTP."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Servidor"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Porta"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Encriptação"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Nome de utilizador"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Palavra-passe"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (guardado — deixe em branco para manter)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Email de origem"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Nome de origem"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Forçar origem"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Substituir a origem em todos os emails enviados (recomendado para melhor "
+"entregabilidade)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Envio de teste"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Enviar teste"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Atividade recente"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Permissões insuficientes."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Plugins por lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "A enviar…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Enviado."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Falhou."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Erro:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Erro de rede:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Proibido."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Teste do Lynbro SMTP"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Destinatário inválido."
+
+msgid "Our plugins"
+msgstr "Os nossos plugins"
+
+msgid "Lynbro plugins"
+msgstr "Plugins Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Plugins WordPress generosos e focados na privacidade — criados na Dinamarca."
+" Núcleos gratuitos, sem créditos, os seus dados ficam no seu site."
+
+msgid "More from Lynbro"
+msgstr "Mais da Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"A nossa coleção crescente de plugins gratuitos e focados na privacidade. Os "
+"já instalados estão assinalados."
+
+msgid "Installed"
+msgstr "Instalado"
+
+msgid "On WordPress.org"
+msgstr "No WordPress.org"
+
+msgid "Coming soon"
+msgstr "Em breve"
+
+msgid "Install"
+msgstr "Instalar"
+
+msgid "Learn more"
+msgstr "Saber mais"
+
+msgid "About Lynbro"
+msgstr "Sobre a Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"A Lynbro cria plugins WordPress verdadeiramente gratuitos e focados na "
+"privacidade, com núcleos gratuitos generosos — sem créditos, sem paywalls "
+"nas funcionalidades essenciais, com os seus dados no seu próprio site. Feito"
+" na Dinamarca."
+
+msgid "Visit Lynbro"
+msgstr "Visitar a Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Sugerir uma funcionalidade ou reportar um erro"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"O feedback abre o nosso roadmap público em plugins.lynbro.dk num novo "
+"separador — nada é enviado a partir do seu site."
+
+msgid "Tools"
+msgstr "Ferramentas"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Exporte as definições deste plugin como uma cópia de segurança JSON, ou "
+"repor para os valores predefinidos. 100% local — nada sai do seu site."
+
+msgid "Export settings (JSON)"
+msgstr "Exportar definições (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Repor valores predefinidos"
+
+msgid "About Lynbro SMTP"
+msgstr "Sobre o Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"Por predefinição, o WordPress envia emails com PHP mail(), que as caixas de "
+"correio tratam como suspeitos. O Lynbro SMTP envia-os através de um servidor"
+" de correio real e autenticado — o do seu alojamento, a sua caixa de correio"
+" ou um serviço de envio — para que reposições de palavra-passe, encomendas e"
+" formulários de contacto cheguem."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Tudo está no plugin gratuito: o registo, o reenvio, a ligação de segurança, "
+"os alertas, os diagnósticos e o WP-CLI. Não existe versão paga."
+
+msgid "How your data is handled"
+msgstr "Como os seus dados são tratados"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"O email vai diretamente do seu servidor para o servidor SMTP que definiu. O "
+"plugin não contacta nenhum serviço Lynbro e não envia estatísticas para lado"
+" nenhum."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"A palavra-passe SMTP é encriptada com as chaves de segurança do seu site, "
+"nunca é mostrada novamente e nunca é escrita no registo nem na exportação "
+"das definições."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"O registo guarda destinatários, assunto e estado na sua própria base de "
+"dados. O conteúdo da mensagem só é guardado, por predefinição, para emails "
+"com falha, e cada entrada é eliminada após o período de retenção."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"As entradas do registo estão incluídas em Ferramentas → Exportar Dados "
+"Pessoais e Apagar Dados Pessoais."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Um webhook de falha, se definir um, recebe apenas o texto do erro e uma "
+"ligação para o seu registo."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Guarde o login em wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Qualquer uma destas constantes substitui o campo em Definições, e o valor "
+"nunca chega à base de dados nem às respetivas cópias de segurança:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Versão e ligações"
+
+msgid "Version"
+msgstr "Versão"
+
+msgid "Plugin home page"
+msgstr "Página inicial do plugin"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Enviar um email de teste"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Ainda não foi definido nenhum servidor SMTP, por isso o teste é enviado com "
+"PHP mail(). Preencha primeiro as Definições para testar o SMTP."
+
+msgid "Recipient"
+msgstr "Destinatário"
+
+msgid "Test the backup connection"
+msgstr "Testar a ligação de segurança"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "Conversa SMTP (palavra-passe oculta)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Os emails de teste ignoram o modo de teste e o modo \"não enviar\", para que"
+" possa verificar a ligação numa cópia de testes."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Este servidor consegue alcançar o servidor SMTP?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Muitos alojamentos bloqueiam as portas de saída de email. Isto verifica as "
+"habituais para o seu host guardado, a partir deste servidor web."
+
+msgid "Check ports"
+msgstr "Verificar portas"
+
+msgid "Sender domain: %s"
+msgstr "Domínio do remetente: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "As consultas DNS não estão disponíveis neste servidor."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Certifique-se de que inclui o seu fornecedor SMTP (por exemplo, "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Sem registo SPF. Adicione um no seu fornecedor de DNS que identifique o seu "
+"fornecedor SMTP, ou muitas caixas de correio irão desconfiar do email."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Sem registo DMARC. O Gmail e o Yahoo exigem um para remetentes em massa; "
+"mesmo um simples \"v=DMARC1; p=none\" ajuda."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"O DKIM é configurado no seu fornecedor SMTP (eles fornecem o registo DNS). "
+"Não pode ser verificado daqui sem o nome do seletor."
+
+msgid "Environment"
+msgstr "Ambiente"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "em falta — TLS e SSL não funcionarão"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Outros plugins de email"
+
+msgid "none found"
+msgstr "não encontrado"
+
+msgid "Scheduled cleanup"
+msgstr "Limpeza agendada"
+
+msgid "scheduled"
+msgstr "agendada"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "não agendada — desative e ative o plugin"
+
+msgid "Sent"
+msgstr "Enviado"
+
+msgid "Failed"
+msgstr "Falhou"
+
+msgid "Not sent (delivery off)"
+msgstr "Não enviado (envio desativado)"
+
+msgid "Unknown"
+msgstr "Desconhecido"
+
+msgid "Main SMTP"
+msgstr "SMTP principal"
+
+msgid "Backup SMTP"
+msgstr "SMTP de reserva"
+
+msgid "PHP mail()"
+msgstr "mail() do PHP"
+
+msgid "Test mode (redirected)"
+msgstr "Modo de teste (redirecionado)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr ""
+"O registo está desativado em Definições — não são registados novos emails."
+
+msgid "Sent, 30 days"
+msgstr "Enviado, 30 dias"
+
+msgid "Failed, 30 days"
+msgstr "Falhou, 30 dias"
+
+msgid "Held back, 30 days"
+msgstr "Retido, 30 dias"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "All statuses"
+msgstr "Todos os estados"
+
+msgid "Recipient, subject or error"
+msgstr "Destinatário, assunto ou erro"
+
+msgid "Search the log"
+msgstr "Pesquisar no registo"
+
+msgid "Filter"
+msgstr "Filtrar"
+
+msgid "Clear"
+msgstr "Limpar"
+
+msgid "No emails match this filter."
+msgstr "Nenhum email corresponde a este filtro."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Ainda não há emails registados. Envie um teste no separador Teste e "
+"diagnóstico para ver aqui a primeira entrada."
+
+msgid "Select all"
+msgstr "Selecionar tudo"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "To"
+msgstr "Para"
+
+msgid "Subject"
+msgstr "Assunto"
+
+msgid "Sent through"
+msgstr "Enviado através de"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Select"
+msgstr "Selecionar"
+
+msgid "(no subject)"
+msgstr "(sem assunto)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Anexos (não guardados): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Reenvio da entrada #%d"
+
+msgid "Content not kept."
+msgstr "Conteúdo não guardado."
+
+msgid "Resend"
+msgstr "Reenviar"
+
+msgid "Delete the selected entries?"
+msgstr "Eliminar as entradas selecionadas?"
+
+msgid "Delete selected"
+msgstr "Eliminar selecionadas"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s entradas · eliminadas automaticamente após %2$s dias"
+
+msgid "Checking…"
+msgstr "A verificar…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr ""
+"Enviado. Verifique a caixa de entrada (e a pasta de spam) do destinatário."
+
+msgid "Not sent."
+msgstr "Não enviado."
+
+msgid "open"
+msgstr "abrir"
+
+msgid "blocked"
+msgstr "bloqueado"
+
+msgid "Request failed:"
+msgstr "Falha no pedido:"
+
+msgid "Delivered through:"
+msgstr "Entregue por:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Não tem permissões suficientes para aceder a esta página."
+
+msgid "Settings"
+msgstr "Definições"
+
+msgid "Test & diagnostics"
+msgstr "Teste e diagnósticos"
+
+msgid "Email log"
+msgstr "Registo de emails"
+
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Envie todos os emails do WordPress através do seu próprio servidor SMTP — "
+"com registo de emails, reenvio, ligação de reserva e alertas de falhas. Tudo"
+" grátis, sem upsells."
+
+msgid "The email was sent again."
+msgstr "O email foi reenviado."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"Não foi possível reenviar o email — consulte a entrada mais recente do "
+"registo para ver o motivo."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr ""
+"O conteúdo deste email não foi guardado, por isso não pode ser reenviado."
+
+msgid "Log entries deleted."
+msgstr "Entradas do registo eliminadas."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Definições importadas. Introduza a palavra-passe SMTP uma vez e guarde — as "
+"palavras-passe nunca são copiadas de outros plugins."
+
+msgid "Set in wp-config.php"
+msgstr "Definido em wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "O email é enviado através de %1$s na porta %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"Ainda não foi definido nenhum servidor SMTP — o WordPress continua a enviar "
+"com PHP mail(). Escolha o seu fornecedor abaixo, preencha os dados de início"
+" de sessão e guarde."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "O envio está desativado: os emails são registados, mas não enviados."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr ""
+"Modo de teste: todos os emails vão para %s em vez dos respetivos "
+"destinatários."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"A palavra-passe guardada já não pode ser lida porque as chaves de segurança "
+"do site mudaram. Introduza-a novamente e guarde."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Última falha há %1$s: %2$s"
+
+msgid "Show failed emails"
+msgstr "Mostrar emails falhados"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Também ativo: %s. Dois plugins de email estão a competir pelo mesmo email — "
+"desative o outro."
+
+msgid "Import settings from %s"
+msgstr "Importar definições de %s"
+
+msgid "SMTP server"
+msgstr "Servidor SMTP"
+
+msgid "Provider"
+msgstr "Fornecedor"
+
+msgid "Port and encryption"
+msgstr "Porta e encriptação"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — normalmente porta 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — normalmente porta 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Nenhuma — apenas para um servidor na mesma rede"
+
+msgid "Authentication"
+msgstr "Autenticação"
+
+msgid "The server needs a username and password (almost always)"
+msgstr ""
+"O servidor precisa de um nome de utilizador e uma palavra-passe (quase "
+"sempre)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"A palavra-passe vem de LYNBRO_SMTP_PASS em wp-config.php e não é guardada na"
+" base de dados."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Guardado — deixe em branco para manter"
+
+msgid "Remove the saved password"
+msgstr "Remover a palavra-passe guardada"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Guardada encriptada com as chaves de segurança do seu site e nunca é "
+"mostrada novamente. Para a manter fora da base de dados, defina-a em wp-"
+"config.php (ver Acerca de)."
+
+msgid "Certificate"
+msgstr "Certificado"
+
+msgid "Verify the server certificate"
+msgstr "Verificar o certificado do servidor"
+
+msgid "Default"
+msgstr "Predefinição"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr ""
+"Desmarque apenas para o seu próprio servidor com um certificado "
+"autoassinado."
+
+msgid "Sender"
+msgstr "Remetente"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Forçar este endereço em todos os emails, independentemente do que outros "
+"plugins definirem"
+
+msgid "Recommended"
+msgstr "Recomendado"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Use um endereço num domínio para o qual a sua conta SMTP possa enviar, ou os"
+" fornecedores rejeitam o email ou enviam-no para o spam."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Forçar também este nome (desativado: os formulários e lojas mantêm o seu "
+"próprio nome de remetente)"
+
+msgid "Default Reply-To"
+msgstr "Responder-Para predefinido"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Usado apenas quando um email não tem o seu próprio Responder-Para, para que "
+"as respostas aos formulários de contacto continuem a ir para o visitante."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Enviar as devoluções para o endereço De"
+
+msgid "Backup connection"
+msgstr "Ligação de reserva"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Quando o servidor principal falha, o mesmo email é reenviado de imediato "
+"através da reserva — o visitante nunca vê um erro."
+
+msgid "Backup"
+msgstr "Reserva"
+
+msgid "Use a backup when the main server fails"
+msgstr "Usar uma reserva quando o servidor principal falhar"
+
+msgid "Another SMTP server"
+msgstr "Outro servidor SMTP"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "PHP mail() deste servidor (melhor do que nada; pode ir para spam)"
+
+msgid "Backup host"
+msgstr "Host de reserva"
+
+msgid "Backup port"
+msgstr "Porta de reserva"
+
+msgid "Backup encryption"
+msgstr "Encriptação de reserva"
+
+msgid "None"
+msgstr "Nenhuma"
+
+msgid "Backup login"
+msgstr "Login de reserva"
+
+msgid "Backup password"
+msgstr "Palavra-passe de reserva"
+
+msgid "Delivery mode"
+msgstr "Modo de entrega"
+
+msgid "Mode"
+msgstr "Modo"
+
+msgid "Send normally"
+msgstr "Enviar normalmente"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Modo de teste: enviar tudo para um endereço (Cc e Bcc são removidos)"
+
+msgid "Redirect address"
+msgstr "Endereço de redirecionamento"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Não enviar qualquer email (cópias de preparação) — os emails continuam a ser"
+" registados"
+
+msgid "Log"
+msgstr "Registo"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Manter um registo de cada email (destinatário, assunto, estado, erro)"
+
+msgid "Keep message content"
+msgstr "Manter o conteúdo da mensagem"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Apenas dos emails com falha, para poderem ser reenviados"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"De todos os emails (permite reenviar qualquer um; o registo passa então a "
+"conter ligações de redefinição de palavra-passe e detalhes da encomenda)"
+
+msgid "Never"
+msgstr "Nunca"
+
+msgid "Keep entries for"
+msgstr "Manter entradas durante"
+
+msgid "days, then they are deleted automatically"
+msgstr "dias, depois são eliminadas automaticamente"
+
+msgid "Failure alerts"
+msgstr "Alertas de falha"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"No máximo um alerta por hora. O email de alerta é enviado com o PHP mail() "
+"deste servidor, porque o servidor SMTP pode ser o que está em baixo."
+
+msgid "Alert email"
+msgstr "Email de alerta"
+
+msgid "Webhook URL"
+msgstr "URL do webhook"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Opcional. Fluxos de trabalho do Slack, Discord, Microsoft Teams, ntfy ou o "
+"seu próprio endpoint (HTTPS). O plugin envia para lá o texto do erro — mais "
+"nada, e apenas quando definir um URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Importar de outro plugin SMTP"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Copia o host, a porta, a encriptação, o nome de utilizador e o remetente. As"
+" palavras-passe ficam onde estão — introduza a sua uma vez após importar."
+
+msgid "Import from %s"
+msgstr "Importar de %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Não foram encontradas definições de WP Mail SMTP, FluentSMTP, Easy WP SMTP "
+"ou Post SMTP neste site."
+
+msgid "Download the log (CSV)"
+msgstr "Descarregar o registo (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Apagar todas as entradas do registo?"
+
+msgid "Empty the log"
+msgstr "Limpar o registo"
+
+msgid "Is it working for you?"
+msgstr "Está a funcionar para si?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"O Lynbro SMTP é gratuito, sem nada bloqueado. Se ajudou o seu email a ser "
+"entregue, uma breve avaliação ajuda outras pessoas a encontrá-lo."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Deixar uma avaliação no WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Falta algo ou está avariado?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Os relatórios de erros e ideias são lidos pelas pessoas que desenvolvem o "
+"plugin. Abrir estes links não envia nada do seu site."
+
+msgid "Ask in the support forum"
+msgstr "Perguntar no fórum de suporte"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Sugerir uma funcionalidade (roadmap público)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Vai publicar uma linha do registo? Remova primeiro os endereços — o "
+"separador Teste já oculta a palavra-passe."
+
+msgid "You do not have permission to do that."
+msgstr "Não tem permissão para fazer isso."
+
+msgid "Enter a valid recipient address."
+msgstr "Introduza um endereço de destinatário válido."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: a ligação SMTP principal falhou e a de backup entregou o email. Erro: "
+"%2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: não foi possível enviar um email. Erro: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Entrada do registo #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Problema na entrega de email"
+
+msgid "Email delivery"
+msgstr "Entrega de email"
+
+msgid "Email is sent through SMTP"
+msgstr "O email é enviado através de SMTP"
+
+msgid "Email"
+msgstr "Email"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"O Lynbro SMTP envia o email deste site através de um servidor SMTP "
+"autenticado."
+
+msgid "Open Lynbro SMTP"
+msgstr "Abrir o Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "O email é enviado com PHP mail(), não com SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"O Lynbro SMTP está ativo, mas não está configurado nenhum servidor SMTP, por"
+" isso o email continua a ser enviado através de PHP mail() e muitas vezes "
+"vai parar ao spam."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "A palavra-passe SMTP guardada já não pode ser lida"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"As chaves de segurança do site foram alteradas depois de a palavra-passe ter"
+" sido guardada. Introduza novamente a palavra-passe SMTP."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "Falhou o envio de emails nas últimas 24 horas"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "A ligação SMTP principal falhou nas últimas 24 horas"
+
+msgid "Email delivery (7 days)"
+msgstr "Entrega de email (7 dias)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Enviados: %1$s · Falhados: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"Ainda não está configurado nenhum servidor SMTP — o email é enviado com PHP "
+"mail()."
+
+msgid "Show failed"
+msgstr "Mostrar falhados"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Ligação principal: %1$s — Ligação de backup: %2$s"
+
+msgid "Test email from %s"
+msgstr "Email de teste de %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Este é um email de teste de %1$s, enviado pelo Lynbro SMTP.\n"
+"\n"
+"Se o conseguir ler, a entrega de email está a funcionar.\n"
+"\n"
+"Enviado: %2$s\n"
+"Ligação: %3$s"
+
+msgid "backup"
+msgstr "backup"
+
+msgid "main"
+msgstr "principal"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"O servidor recusou o nome de utilizador ou a palavra-passe. Gmail, Outlook, "
+"Zoho e iCloud precisam de uma palavra-passe de aplicação, não a normal; "
+"SendGrid e Brevo precisam de uma chave SMTP/API."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"O Microsoft 365 tem o início de sessão SMTP desativado para esta caixa de "
+"correio. Um administrador pode ativar \"Authenticated SMTP\" para ela, ou "
+"usar um serviço de relay em vez disso."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Não foi possível contactar o servidor. Muitos alojamentos bloqueiam as "
+"portas de saída 25, 465 e 587 — execute abaixo a verificação da porta e "
+"depois peça ao seu alojamento para abrir a porta ou use a que estiver "
+"aberta."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"A ligação segura falhou. Verifique se a porta e a encriptação correspondem "
+"(587 = TLS, 465 = SSL). Se o servidor usar um certificado autoassinado, "
+"desmarque \"Verify the server certificate\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"O servidor não permite que esta conta envie como o endereço From. Use um "
+"endereço num domínio que a conta possua e ative \"Force From email\"."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "O nome do anfitrião não resolve. Verifique se tem erros de escrita."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Leia as últimas linhas SERVER do registo: normalmente o servidor diz "
+"exatamente o que não gostou."
+
+msgid "No host set."
+msgstr "Sem anfitrião definido."
+
+msgid "That log entry no longer exists."
+msgstr "Essa entrada de registo já não existe."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"O conteúdo deste email não foi guardado, por isso não pode ser reenviado. "
+"Altere \"Keep message content\" em Definições para reenviar emails futuros."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"Não foi possível enviar novamente o email. A nova tentativa e o respetivo "
+"erro estão no registo."
+
+msgid "Date (UTC)"
+msgstr "Data (UTC)"
+
+msgid "Recipients"
+msgstr "Destinatários"
+
+msgid "Lynbro SMTP email log"
+msgstr "Registo de emails SMTP do Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"O restante da suite. O que já está neste site está assinalado; nada é "
+"instalado sem o seu pedido."
+
+msgid "Active"
+msgstr "Ativo"
+
+msgid "Activate"
+msgstr "Ativar"
+
+msgid "Install now"
+msgstr "Instalar agora"
+
+msgid "View on WordPress.org"
+msgstr "Ver em WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Componentes partilhados do Lynbro v%1$s, fornecidos por %2$s (a mais recente"
+" de %3$d versões neste site)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Repor todas as definições para os valores predefinidos?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"O Lynbro SMTP está a entregar os seus emails? Algumas palavras no "
+"WordPress.org ajudam outras pessoas a encontrar um plugin de correio sem "
+"upsells."
+
+msgid "Write a review"
+msgstr "Escrever uma avaliação"
+
+msgid "No thanks"
+msgstr "Não, obrigado"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"O modo de redirecionamento precisa de um endereço para onde redirecionar — o"
+" email é enviado normalmente até adicionar um."
+
+msgid "Other SMTP server"
+msgstr "Outro servidor SMTP"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Use os dados SMTP do seu alojamento ou fornecedor de email."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Nome de utilizador: o seu endereço Gmail completo. Palavra-passe: uma "
+"palavra-passe de aplicação (Google Account → Security → 2-Step Verification "
+"→ App passwords), não a sua palavra-passe normal."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"O Microsoft 365 precisa de \"Authenticated SMTP\" ativado para a caixa de "
+"correio. A Microsoft está a descontinuar o início de sessão por palavra-"
+"passe para SMTP; se o início de sessão falhar, use um serviço de relay como "
+"o Brevo ou o SMTP do seu alojamento."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Nome de utilizador: o início de sessão SMTP mostrado em SMTP & API. Palavra-"
+"passe: uma chave SMTP, não a palavra-passe da sua conta."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr ""
+"Nome de utilizador: a palavra \"apikey\". Palavra-passe: a sua chave API do "
+"SendGrid."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"As contas da UE usam smtp.eu.mailgun.org. Nome de utilizador e palavra-"
+"passe: as credenciais SMTP do seu domínio de envio."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Altere a região no anfitrião para a sua. Nome de utilizador e palavra-passe:"
+" credenciais SMTP criadas na consola SES (não as suas chaves de acesso AWS)."
+
+msgid "Username and password: both are your Server API token."
+msgstr ""
+"Nome de utilizador e palavra-passe: ambos são o seu token de API do "
+"servidor."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Use smtp.zoho.com para contas fora da UE. Com início de sessão em dois "
+"fatores, crie uma palavra-passe específica para a aplicação."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Nome de utilizador: chave API. Palavra-passe: chave secreta."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Nome de utilizador e palavra-passe: um utilizador SMTP criado em Envio → "
+"Utilizadores SMTP."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Nome de utilizador: o endereço completo da caixa de correio. Palavra-passe: "
+"a palavra-passe da caixa de correio."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Use smtp.ionos.de ou smtp.ionos.co.uk para essas regiões. Nome de "
+"utilizador: o endereço completo da caixa de correio."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Envia todos os e-mails do WordPress através do seu próprio servidor SMTP, "
+"com um registo de e-mails pesquisável, reenvio, uma ligação de reserva, "
+"alertas de falha e diagnósticos de ligação. Sem upsells."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Host: o endpoint SMTP da sua região SES, mostrado na consola do SES em "
+"definições SMTP. Username e password: credenciais SMTP criadas na consola do"
+" SES (não as suas chaves de acesso AWS)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Opcional. Um webhook de entrada do Slack ou Discord, ou o seu próprio "
+"endpoint HTTPS (JSON com \"text\" e \"content\"). O plugin publica aí o "
+"texto do erro — nada mais, e só quando definir um URL."
+
+msgid "Is %s doing its job?"
+msgstr "O %s está a cumprir a sua função?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Já o utiliza há algumas semanas. Se funciona para si, uma breve avaliação no"
+" WordPress.org ajuda outros proprietários de sites a encontrá-lo — sejam "
+"opiniões positivas ou críticas."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Já o utiliza há algumas semanas. Se funciona para si — ou se falta alguma "
+"coisa — diga-nos na nossa roadmap pública. É assim que decidimos o que "
+"desenvolver a seguir."
+
+msgid "(opens in a new tab)"
+msgstr "(abre numa nova aba)"
+
+msgid "Share feedback"
+msgstr "Partilhar feedback"
+
+msgid "Maybe later"
+msgstr "Talvez mais tarde"
+
+msgid "Don't ask again"
+msgstr "Não perguntar novamente"
+
+msgid "Something not working? Ask for help"
+msgstr "Algo não está a funcionar? Peça ajuda"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce está ativo"
+
+msgid "a form plugin is active"
+msgstr "um plugin de formulários está ativo"
+
+msgid "the site is set up for Denmark"
+msgstr "o site está configurado para a Dinamarca"
+
+msgid "comments are open"
+msgstr "os comentários estão abertos"
+
+msgid "tracking tags are active"
+msgstr "as etiquetas de rastreamento estão ativas"
+
+msgid "visitors can create accounts"
+msgstr "os visitantes podem criar contas"
+
+msgid "Suggested because %l."
+msgstr "Sugerido porque %l."
+
+msgid "Suggested for this site"
+msgstr "Sugerido para este site"
+
+msgid "Hide suggestions"
+msgstr "Ocultar sugestões"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Outros plugins Lynbro que se adequam ao que este site utiliza. Nada é "
+"instalado sem clicar."
+
+msgid "All Lynbro plugins"
+msgstr "Todos os plugins Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Selecionado com base no que este site já utiliza — lido apenas neste site, "
+"nada é enviado para fora."
+
+msgid "Image Optimizer"
+msgstr "Otimizador de Imagens"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Converta para WebP e AVIF, redimensione imagens grandes e ative o lazy-load "
+"— tudo no seu próprio servidor."
+
+msgid "AI Studio"
+msgstr "Estúdio de IA"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Escreva e ilustre artigos com IA usando a sua própria chave OpenAI — sem "
+"intermediários nem créditos."
+
+msgid "Analytics"
+msgstr "Análises"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Análises auto-hospedadas, sem cookies, com funis. Os dados dos visitantes "
+"nunca saem da sua base de dados."
+
+msgid "Tags"
+msgstr "Etiquetas"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel e mais sem código — cada etiqueta "
+"aguarda consentimento."
+
+msgid "Forms"
+msgstr "Formulários"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formulários com registos gratuitos e ilimitados, lógica condicional no "
+"servidor e webhooks assinados."
+
+msgid "Verify"
+msgstr "Verificar"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Detete domínios de e-mail incorretos e números de telefone inválidos, e "
+"confirme-os com um código único por e-mail ou SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Limpeza fiável para cache nginx FastCGI e cache de objetos Redis, com cada "
+"limpeza verificada no próprio cache."
+
+msgid "Translate"
+msgstr "Traduzir"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Execute o seu site em vários idiomas, com tradução automática usando a sua "
+"chave OpenAI — sem limites nem cobrança por palavra."
+
+msgid "Shield"
+msgstr "Proteção"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Cabeçalhos de segurança, HTTPS com HSTS, firewall leve contra injeções e "
+"opções de reforço essenciais."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Verificações de spam no seu próprio servidor. Sem conta, sem subscrição, "
+"cada bloqueio explica o motivo — e nenhuma mensagem retida se perde."
+
+msgid "Login Guard"
+msgstr "Proteção de Login"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Mude o wp-login.php, limite tentativas falhadas e adicione autenticação de "
+"dois fatores por app — com três formas de recuperação."
+
+msgid "Cookie Consent"
+msgstr "Consentimento de Cookies"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Banner de GDPR e ePrivacy com Consent Mode v2, botão Rejeitar igualmente "
+"visível e 35 idiomas."
+
+msgid "Activity Log"
+msgstr "Registo de Atividades"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Quem fez o quê, quando e de onde — registado no seu servidor, pesquisável, "
+"exportável e apagado conforme o seu agendamento."
+
+msgid "Data Retention"
+msgstr "Retenção de Dados"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Encontre onde os dados pessoais estão na sua base de dados e apague-os "
+"conforme o agendamento — com simulação antes de cada eliminação."
+
+msgid "Accessibility"
+msgstr "Acessibilidade"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Analise cada página segundo a WCAG 2.2 AA e corrija o que for seguro. Sem "
+"overlay, sem limite de páginas."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO simples com schema LocalBusiness gratuito, sitemaps e cartões sociais. "
+"Nada comunica para fora."
+
+msgid "SMTP Mailer"
+msgstr "SMTP Mailer"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"E-mails do WordPress pelo seu próprio servidor SMTP — com registo de "
+"e-mails, reenvio, ligação de backup e alertas de falha."
+
+msgid "Social Feed"
+msgstr "Feed Social"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Feed do Instagram no seu site sem token Meta guardado no WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache de Avaliações"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr ""
+"Mostre as suas avaliações do Google sem colocar uma chave API no WordPress."
+
+msgid "Links"
+msgstr "Ligações"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Encontre links quebrados e gere redirecionamentos no seu servidor, com o "
+"motivo de cada decisão."
+
+msgid "Danadresse Autofill"
+msgstr "Preenchimento automático de morada Danadresse"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Autocompletar e validar moradas dinamarquesas para WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable e EDD."
+
+msgid "Soge Lookup"
+msgstr "Pesquisa Soge"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Pesquise veículos dinamarqueses (DMR) e empresas (CVR) por matrícula, VIN ou"
+" número CVR."
+
+msgid "CVR Checkout"
+msgstr "Checkout CVR"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Checkout B2B dinamarquês para WooCommerce: preenchimento automático de "
+"empresa CVR, validação CVR/IVA-UE (VIES) e campo EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Envio Dinamarquês"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Seleção gratuita de ponto de recolha para PostNord e GLS Dinamarca no "
+"checkout WooCommerce, além de métodos de envio simplificados."
+
+msgid "API Auth"
+msgstr "Autenticação API"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens para a REST API que pode realmente revogar, com permissões e"
+" registo de recusas."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Os alertas de falha por email não são enviados"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"O email de alerta é enviado com PHP mail() para não depender do servidor "
+"SMTP, mas o PHP mail() falhou neste servidor: %s Use um webhook para os "
+"alertas ou peça ao seu alojamento para ativar mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Esta é a versão anterior do Lynbro SMTP. O Lynbro SMTP Mailer substituiu-a e"
+" utiliza as mesmas definições. Remova a pasta %s através do gestor de "
+"ficheiros do seu alojamento, por FTP ou SSH — não utilize a opção Eliminar "
+"aqui: a desinstalação apaga as definições SMTP partilhadas. O Lynbro SMTP "
+"Mailer mantém uma cópia de segurança e repõe-nas, mas o plugin antigo também"
+" esvazia o registo de emails."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"As suas definições SMTP foram eliminadas por outro plugin em %s e foram "
+"repostas a partir da cópia de segurança. Não precisa de fazer nada; se "
+"quiser confirmar, envie um email de teste."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Este site envia mensagens através do serviço de correio do próprio servidor "
+"(PHP mail()). O teste indica se o servidor aceitou o email; verifique os "
+"cabeçalhos na caixa de entrada (Authentication-Results: spf=pass, "
+"dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Certifique-se de que inclui este servidor Web (o respetivo endereço IP com "
+"ip4: ou ip6:, ou um registo a: / mx: que resolva para o servidor)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"O email é enviado através do serviço de correio do próprio servidor (PHP "
+"mail()), de %s, com um Return-Path correspondente."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"O Return-Path está desativado: o servidor usa o próprio endereço no "
+"envelope, pelo que o SPF verifica esse domínio em vez do seu."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"O email é enviado através do serviço de correio do próprio servidor, com um "
+"remetente correspondente"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"O Lynbro SMTP envia através de PHP mail(), por opção sua, e define o "
+"endereço From e o Return-Path em todos os emails. Mantenha este servidor no "
+"registo SPF do domínio."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Serviço de correio do próprio servidor (PHP mail(), sem SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Para servidores configurados para enviar correio diretamente. Não é "
+"necessário iniciar sessão: o endereço From e o Return-Path abaixo continuam "
+"a ser definidos em todos os emails, para que o SPF e o DMARC possam estar "
+"alinhados. O registo SPF do domínio tem de incluir este servidor."

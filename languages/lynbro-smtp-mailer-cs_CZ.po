@@ -1,0 +1,1661 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Odesílejte veškerou poštu WordPressu přes svého SMTP poskytovatele."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Hostitel"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Port"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Šifrování"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Heslo"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (uloženo — ponechte prázdné pro zachování)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Odesílatelský e-mail"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Jméno odesílatele"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Vynutit odesílatele"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Přepsat odesílatele pro každou odchozí e-mailovou zprávu (doporučeno pro "
+"doručitelnost)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Testovací odeslání"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Odeslat test"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Nedávná aktivita"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Nedostatečná oprávnění."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Pluginy od lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Odesílání…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Odesláno."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Chyba."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Chyba:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Chyba sítě:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Zakázáno."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP test"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Neplatný příjemce."
+
+msgid "Our plugins"
+msgstr "Naše pluginy"
+
+msgid "Lynbro plugins"
+msgstr "Pluginy Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Velkorysé pluginy pro WordPress zaměřené na soukromí — vytvořené v Dánsku. "
+"Bezplatné jádro, bez kreditů, vaše data zůstávají na vašem webu."
+
+msgid "More from Lynbro"
+msgstr "Další od Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Naše rostoucí sada bezplatných pluginů zaměřených na soukromí. Již "
+"nainstalované jsou označené."
+
+msgid "Installed"
+msgstr "Nainstalováno"
+
+msgid "On WordPress.org"
+msgstr "Na WordPress.org"
+
+msgid "Coming soon"
+msgstr "Již brzy"
+
+msgid "Install"
+msgstr "Instalovat"
+
+msgid "Learn more"
+msgstr "Zjistit více"
+
+msgid "About Lynbro"
+msgstr "O Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro vytváří skutečně bezplatné pluginy pro WordPress zaměřené na soukromí"
+" s velkorysým bezplatným jádrem — bez kreditů, bez paywallu u základních "
+"funkcí, vaše data zůstávají na vašem vlastním webu. Vyrobeno v Dánsku."
+
+msgid "Visit Lynbro"
+msgstr "Navštívit Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Navrhnout funkci nebo nahlásit chybu"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Zpětná vazba otevře náš veřejný roadmap na plugins.lynbro.dk v nové kartě — "
+"z vašeho webu se nic neodesílá."
+
+msgid "Tools"
+msgstr "Nástroje"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Exportujte nastavení tohoto pluginu jako zálohu JSON nebo je obnovte na "
+"výchozí hodnoty. 100% lokálně — nic neopustí váš web."
+
+msgid "Export settings (JSON)"
+msgstr "Exportovat nastavení (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Obnovit výchozí hodnoty"
+
+msgid "About Lynbro SMTP"
+msgstr "O Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress ve výchozím nastavení odesílá e-maily pomocí PHP mail(), což "
+"doručené schránky považují za podezřelé. Lynbro SMTP je místo toho posílá "
+"přes skutečný ověřený poštovní server — váš hosting, vaši schránku nebo "
+"odesílací službu — takže obnovy hesla, objednávky a kontaktní formuláře "
+"dorazí."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Vše je v bezplatném pluginu: log, opětovné odeslání, záložní připojení, "
+"upozornění, diagnostika i WP-CLI. Neexistuje žádná placená verze."
+
+msgid "How your data is handled"
+msgstr "Jak jsou vaše data zpracována"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"E-mail jde přímo z vašeho serveru na SMTP server, který jste nastavili. "
+"Plugin se nepřipojuje k žádné službě Lynbro a nikam neposílá žádné "
+"statistiky."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"SMTP heslo je zašifrováno pomocí bezpečnostních klíčů vašeho webu, nikdy se "
+"znovu nezobrazí a nikdy se nezapíše do logu ani do exportu nastavení."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Log uchovává příjemce, předmět a stav ve vaší vlastní databázi. Obsah zprávy"
+" jen u neúspěšných e-mailů ve výchozím nastavení a každá položka je po "
+"uplynutí doby uchování smazána."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Záznamy z logu jsou zahrnuty v Nástroje → Export osobních údajů a Vymazání "
+"osobních údajů."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Webhook při selhání, pokud ho nastavíte, obdrží pouze text chyby a odkaz na "
+"váš log."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Nechat přihlašovací údaje ve wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Kterákoli z těchto konstant přepíše pole v Nastavení a hodnota se nikdy "
+"nedostane do databáze ani do jejích záloh:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Verze a odkazy"
+
+msgid "Version"
+msgstr "Verze"
+
+msgid "Plugin home page"
+msgstr "Domovská stránka pluginu"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Odeslat testovací e-mail"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Zatím není nastaven žádný SMTP server, takže test se odešle přes PHP mail()."
+" Nejprve vyplňte Nastavení a pak otestujte SMTP."
+
+msgid "Recipient"
+msgstr "Příjemce"
+
+msgid "Test the backup connection"
+msgstr "Otestovat záložní připojení"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP komunikace (heslo skryto)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Testovací e-maily ignorují testovací režim i režim „neodesílat“, takže "
+"můžete ověřit připojení na stagingové kopii."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Dokáže se tento server připojit k SMTP serveru?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Mnoho hostingů blokuje odchozí poštovní porty. Tohle z webového serveru "
+"zkontroluje obvyklé porty pro váš uložený host."
+
+msgid "Check ports"
+msgstr "Zkontrolovat porty"
+
+msgid "Sender domain: %s"
+msgstr "Doména odesílatele: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "Na tomto serveru nejsou k dispozici DNS dotazy."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Ujistěte se, že zahrnuje vašeho poskytovatele SMTP (například "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Žádný SPF záznam. Přidejte jej u svého DNS hostitele a uveďte v něm svého "
+"poskytovatele SMTP, jinak budou mnohé schránky e-mailu nedůvěřovat."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Žádný DMARC záznam. Gmail a Yahoo jej pro hromadné odesílatele vyžadují; i "
+"jednoduchý „v=DMARC1; p=none“ pomůže."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM je nastavený u vašeho poskytovatele SMTP (dodá vám DNS záznam). Bez "
+"názvu selektoru jej odsud nelze zkontrolovat."
+
+msgid "Environment"
+msgstr "Prostředí"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "chybí — TLS a SSL nebudou fungovat"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Další poštovní pluginy"
+
+msgid "none found"
+msgstr "žádné nenalezeny"
+
+msgid "Scheduled cleanup"
+msgstr "Naplánované čištění"
+
+msgid "scheduled"
+msgstr "naplánováno"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "nenaplánováno — deaktivujte a znovu aktivujte plugin"
+
+msgid "Sent"
+msgstr "Odesláno"
+
+msgid "Failed"
+msgstr "Chyba"
+
+msgid "Not sent (delivery off)"
+msgstr "Neodesláno (odesílání vypnuto)"
+
+msgid "Unknown"
+msgstr "Neznámé"
+
+msgid "Main SMTP"
+msgstr "Hlavní SMTP"
+
+msgid "Backup SMTP"
+msgstr "Záložní SMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Testovací režim (přesměrováno)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "Záznamy jsou v Nastavení vypnuté — nové e-maily se neukládají."
+
+msgid "Sent, 30 days"
+msgstr "Odesláno, 30 dní"
+
+msgid "Failed, 30 days"
+msgstr "Chyba, 30 dní"
+
+msgid "Held back, 30 days"
+msgstr "Pozastaveno, 30 dní"
+
+msgid "Status"
+msgstr "Stav"
+
+msgid "All statuses"
+msgstr "Všechny stavy"
+
+msgid "Recipient, subject or error"
+msgstr "Příjemce, předmět nebo chyba"
+
+msgid "Search the log"
+msgstr "Prohledat záznamy"
+
+msgid "Filter"
+msgstr "Filtrovat"
+
+msgid "Clear"
+msgstr "Vymazat"
+
+msgid "No emails match this filter."
+msgstr "Tomuto filtru neodpovídají žádné e-maily."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Zatím nejsou žádné zaznamenané e-maily. Pošlete test z karty Test a "
+"diagnostika, abyste zde viděli první záznam."
+
+msgid "Select all"
+msgstr "Vybrat vše"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "To"
+msgstr "Komu"
+
+msgid "Subject"
+msgstr "Předmět"
+
+msgid "Sent through"
+msgstr "Odesláno přes"
+
+msgid "Actions"
+msgstr "Akce"
+
+msgid "Select"
+msgstr "Vybrat"
+
+msgid "(no subject)"
+msgstr "(bez předmětu)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Přílohy (neuchovávají se): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Opětovné odeslání záznamu č. %d"
+
+msgid "Content not kept."
+msgstr "Obsah se neuchovává."
+
+msgid "Resend"
+msgstr "Znovu odeslat"
+
+msgid "Delete the selected entries?"
+msgstr "Smazat vybrané záznamy?"
+
+msgid "Delete selected"
+msgstr "Smazat vybrané"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s záznamů · automaticky smazáno po %2$s dnech"
+
+msgid "Checking…"
+msgstr "Kontroluje se…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Odesláno. Zkontrolujte doručenou poštu (a složku spam) příjemce."
+
+msgid "Not sent."
+msgstr "Neodesláno."
+
+msgid "open"
+msgstr "otevřené"
+
+msgid "blocked"
+msgstr "blokované"
+
+msgid "Request failed:"
+msgstr "Žádost selhala:"
+
+msgid "Delivered through:"
+msgstr "Doručeno přes:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemáte dostatečná oprávnění pro přístup na tuto stránku."
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Test & diagnostics"
+msgstr "Testování a diagnostika"
+
+msgid "Email log"
+msgstr "Protokol e-mailů"
+
+msgid "Feedback"
+msgstr "Zpětná vazba"
+
+msgid "About"
+msgstr "O pluginu"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Odesílejte každý e-mail z WordPressu přes svůj vlastní SMTP server — s "
+"protokolem e-mailů, opětovným odesláním, záložním připojením a upozorněními "
+"na chyby. Vše zdarma, bez upsellů."
+
+msgid "The email was sent again."
+msgstr "E-mail byl odeslán znovu."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"E-mail se nepodařilo odeslat znovu — důvod najdete v nejnovějším záznamu "
+"protokolu."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "Obsah tohoto e-mailu nebyl uložen, takže jej nelze odeslat znovu."
+
+msgid "Log entries deleted."
+msgstr "Záznamy protokolu smazány."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Nastavení importováno. Zadejte heslo k SMTP jednou a uložte — hesla se z "
+"jiných pluginů nikdy nekopírují."
+
+msgid "Set in wp-config.php"
+msgstr "Nastaveno ve wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "E-mail se odesílá přes %1$s na portu %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"SMTP server zatím není nastaven — WordPress stále odesílá pomocí PHP mail()."
+" Níže vyberte svého poskytovatele, vyplňte přihlašovací údaje a uložte."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr ""
+"Odesílání je vypnuto: e-maily se zapisují do protokolu, ale neodesílají se."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "Testovací režim: každý e-mail se místo příjemcům odešle na %s."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Uložené heslo už nelze přečíst, protože se změnily bezpečnostní klíče webu. "
+"Zadejte ho znovu a uložte."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Poslední selhání před %1$s: %2$s"
+
+msgid "Show failed emails"
+msgstr "Zobrazit neúspěšné e-maily"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Aktivní také: %s. Dva e-mailové pluginy bojují o stejný e-mail — deaktivujte"
+" ten druhý."
+
+msgid "Import settings from %s"
+msgstr "Importovat nastavení z %s"
+
+msgid "SMTP server"
+msgstr "SMTP server"
+
+msgid "Provider"
+msgstr "Poskytovatel"
+
+msgid "Port and encryption"
+msgstr "Port a šifrování"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — obvykle port 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — obvykle port 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Žádné — jen pro server ve stejné síti"
+
+msgid "Authentication"
+msgstr "Ověřování"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "Server vyžaduje uživatelské jméno a heslo (téměř vždy)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Heslo se načítá z LYNBRO_SMTP_PASS ve wp-config.php a neukládá se do "
+"databáze."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Uloženo — ponechte prázdné, pokud chcete zachovat"
+
+msgid "Remove the saved password"
+msgstr "Odstranit uložené heslo"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Uloženo šifrovaně pomocí bezpečnostních klíčů webu a už se nikdy nezobrazí. "
+"Pokud ho chcete držet úplně mimo databázi, definujte ho ve wp-config.php "
+"(viz O pluginu)."
+
+msgid "Certificate"
+msgstr "Certifikát"
+
+msgid "Verify the server certificate"
+msgstr "Ověřit certifikát serveru"
+
+msgid "Default"
+msgstr "Výchozí"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr "Zrušte zaškrtnutí jen pro vlastní server se self-signed certifikátem."
+
+msgid "Sender"
+msgstr "Odesílatel"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Vynutit tuto adresu u každého e-mailu, bez ohledu na to, co nastaví jiné "
+"pluginy"
+
+msgid "Recommended"
+msgstr "Doporučeno"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Použijte adresu na doméně, ze které váš účet SMTP smí odesílat, jinak "
+"poskytovatelé e-mail odmítnou nebo pošlou do spamu."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Vynutit také toto jméno (vypnuto: formuláře a obchody si ponechají vlastní "
+"jméno odesílatele)"
+
+msgid "Default Reply-To"
+msgstr "Výchozí Reply-To"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Použije se jen tehdy, když e-mail nemá vlastní Reply-To, takže odpovědi z "
+"kontaktního formuláře stále míří na návštěvníka."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Posílat nedoručené zprávy na adresu From"
+
+msgid "Backup connection"
+msgstr "Záložní připojení"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Když hlavní server selže, stejný e-mail se ihned odešle přes záložní — "
+"návštěvník nikdy neuvidí chybu."
+
+msgid "Backup"
+msgstr "Záloha"
+
+msgid "Use a backup when the main server fails"
+msgstr "Použít zálohu, když hlavní server selže"
+
+msgid "Another SMTP server"
+msgstr "Jiný SMTP server"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "PHP mail() tohoto serveru (lepší než nic; může skončit ve spamu)"
+
+msgid "Backup host"
+msgstr "Záložní hostitel"
+
+msgid "Backup port"
+msgstr "Záložní port"
+
+msgid "Backup encryption"
+msgstr "Záložní šifrování"
+
+msgid "None"
+msgstr "Žádné"
+
+msgid "Backup login"
+msgstr "Záložní přihlašovací údaje"
+
+msgid "Backup password"
+msgstr "Záložní heslo"
+
+msgid "Delivery mode"
+msgstr "Režim doručování"
+
+msgid "Mode"
+msgstr "Režim"
+
+msgid "Send normally"
+msgstr "Odesílat normálně"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Testovací režim: vše posílat na jednu adresu (Cc a Bcc se zahodí)"
+
+msgid "Redirect address"
+msgstr "Přesměrovací adresa"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Neodesílat žádné e-maily (kopie pro staging) — e-maily se stále "
+"zaznamenávají"
+
+msgid "Log"
+msgstr "Záznam"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Uchovávat záznam o každém e-mailu (příjemce, předmět, stav, chyba)"
+
+msgid "Keep message content"
+msgstr "Uchovávat obsah zprávy"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Jen u nepodařených e-mailů, aby je bylo možné znovu odeslat"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"U každého e-mailu (umožní znovu odeslat cokoli; záznam pak obsahuje odkazy "
+"pro reset hesla a detaily objednávky)"
+
+msgid "Never"
+msgstr "Nikdy"
+
+msgid "Keep entries for"
+msgstr "Uchovávat záznamy po"
+
+msgid "days, then they are deleted automatically"
+msgstr "dní, poté se automaticky smažou"
+
+msgid "Failure alerts"
+msgstr "Upozornění na chyby"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Nanejvýš jedno upozornění za hodinu. Upozorňovací e-mail se odesílá přes PHP"
+" mail() tohoto serveru, protože problém může být právě na SMTP serveru."
+
+msgid "Alert email"
+msgstr "Upozorňovací e-mail"
+
+msgid "Webhook URL"
+msgstr "URL webhooku"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Volitelné. Workflow pro Slack, Discord, Microsoft Teams, ntfy nebo váš "
+"vlastní endpoint (HTTPS). Plugin tam odešle text chyby — nic víc, a jen když"
+" nastavíte URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Import z jiného SMTP pluginu"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Zkopíruje hostitele, port, šifrování, uživatelské jméno a odesílatele. Hesla"
+" zůstanou tam, kde jsou — po importu stačí jednou zadat vaše."
+
+msgid "Import from %s"
+msgstr "Import z %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Na tomto webu nebyla nalezena žádná nastavení WP Mail SMTP, FluentSMTP, Easy"
+" WP SMTP ani Post SMTP."
+
+msgid "Download the log (CSV)"
+msgstr "Stáhnout protokol (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Smazat každou položku protokolu?"
+
+msgid "Empty the log"
+msgstr "Vyprázdnit protokol"
+
+msgid "Is it working for you?"
+msgstr "Funguje vám to?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP je zdarma a nic není uzamčené. Pokud díky němu dorazil váš "
+"e-mail, krátká recenze pomůže ostatním ho najít."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Zanechat recenzi na WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Něco chybí nebo nefunguje?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Chybové hlášky a nápady čtou přímo lidé, kteří plugin vyvíjejí. Otevřením "
+"těchto odkazů se z vašeho webu nic neodesílá."
+
+msgid "Ask in the support forum"
+msgstr "Položit dotaz ve fóru podpory"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Navrhnout funkci (veřejný plán)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Přidáváte řádek protokolu? Nejdřív odstraňte adresy — karta Test už heslo "
+"skryje."
+
+msgid "You do not have permission to do that."
+msgstr "Nemáte oprávnění k této akci."
+
+msgid "Enter a valid recipient address."
+msgstr "Zadejte platnou adresu příjemce."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: hlavní SMTP spojení selhalo a e-mail byl doručen přes záložní. Chyba: "
+"%2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: e-mail se nepodařilo odeslat. Chyba: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Položka protokolu č. %d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Problém s doručením e-mailu"
+
+msgid "Email delivery"
+msgstr "Doručování e-mailů"
+
+msgid "Email is sent through SMTP"
+msgstr "E-mail je odesílán přes SMTP"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr "Lynbro SMTP posílá e-maily z tohoto webu přes ověřený SMTP server."
+
+msgid "Open Lynbro SMTP"
+msgstr "Otevřít Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "E-mail je odesílán pomocí PHP mail(), ne přes SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP je aktivní, ale není nastaven žádný SMTP server, takže e-maily "
+"stále odcházejí přes PHP mail() a často končí ve spamu."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Uložené SMTP heslo už nelze přečíst"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Po uložení hesla se změnily bezpečnostní klíče webu. Zadejte SMTP heslo "
+"znovu."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "Za posledních 24 hodin se nepodařilo odeslat e-maily"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Za posledních 24 hodin selhalo hlavní SMTP spojení"
+
+msgid "Email delivery (7 days)"
+msgstr "Doručování e-mailů (7 dní)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Odesláno: %1$s · Neúspěšně: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"Ještě není nastaven žádný SMTP server — e-mail je odesílán pomocí PHP "
+"mail()."
+
+msgid "Show failed"
+msgstr "Zobrazit neúspěšné"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Hlavní spojení: %1$s — Záložní spojení: %2$s"
+
+msgid "Test email from %s"
+msgstr "Testovací e-mail z %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Toto je testovací e-mail z %1$s, odeslaný pomocí Lynbro SMTP.\n"
+"\n"
+"Pokud jej umíte přečíst, doručování e-mailů funguje.\n"
+"\n"
+"Odesláno: %2$s\n"
+"Spojení: %3$s"
+
+msgid "backup"
+msgstr "záloha"
+
+msgid "main"
+msgstr "hlavní"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Server odmítl uživatelské jméno nebo heslo. Gmail, Outlook, Zoho a iCloud "
+"vyžadují heslo pro aplikaci, ne běžné heslo; SendGrid a Brevo vyžadují klíč "
+"SMTP/API."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365 má pro tuto schránku vypnuté přihlašování přes SMTP. Správce "
+"může pro ni povolit \"Authenticated SMTP\", nebo místo toho použijte relé "
+"službu."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"K serveru se nepodařilo připojit. Mnoho hostitelů blokuje odchozí porty 25, "
+"465 a 587 — spusťte níže kontrolu portu a pak požádejte hostitele, aby port "
+"otevřel, nebo použijte ten, který je otevřený."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Zabezpečené připojení selhalo. Zkontrolujte, že port a šifrování odpovídají "
+"(587 = TLS, 465 = SSL). Pokud server používá self-signed certifikát, "
+"odškrtněte \"Verify the server certificate\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Server nedovoluje tomuto účtu odesílat jako adresa From. Použijte adresu na "
+"doméně, kterou účet vlastní, a zapněte \"Force From email\"."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr ""
+"Název hostitele se nepřekládá. Zkontrolujte, zda v něm nejsou překlepy."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Přečtěte si poslední SERVER řádky přepisu: server obvykle přesně napíše, co "
+"se mu nelíbilo."
+
+msgid "No host set."
+msgstr "Není nastaven žádný hostitel."
+
+msgid "That log entry no longer exists."
+msgstr "Tento záznam protokolu už neexistuje."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Obsah tohoto e-mailu nebyl uložen, takže jej nelze znovu odeslat. Pro "
+"budoucí e-maily změňte v Nastavení volbu \"Keep message content\"."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"E-mail se nepodařilo odeslat znovu. Nový pokus a jeho chyba jsou v "
+"protokolu."
+
+msgid "Date (UTC)"
+msgstr "Datum (UTC)"
+
+msgid "Recipients"
+msgstr "Příjemci"
+
+msgid "Lynbro SMTP email log"
+msgstr "Protokol e-mailů Lynbro SMTP"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Zbytek balíku. Co už je na tomto webu, je označeno; nic se nenainstaluje bez"
+" vašeho výslovného souhlasu."
+
+msgid "Active"
+msgstr "Aktivní"
+
+msgid "Activate"
+msgstr "Aktivovat"
+
+msgid "Install now"
+msgstr "Nainstalovat nyní"
+
+msgid "View on WordPress.org"
+msgstr "Zobrazit na WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Sdílené komponenty Lynbro v%1$s, poskytované %2$s (nejnovější z %3$d verzí "
+"na tomto webu)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Obnovit všechna nastavení na výchozí?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Pomáhá Lynbro SMTP doručovat vaše e-maily? Pár slov na WordPress.org pomůže "
+"ostatním najít e-mailový plugin bez upsellů."
+
+msgid "Write a review"
+msgstr "Napsat recenzi"
+
+msgid "No thanks"
+msgstr "Ne, děkuji"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Režim přesměrování vyžaduje adresu pro přesměrování — pošta se odesílá "
+"běžně, dokud nějakou nepřidáte."
+
+msgid "Other SMTP server"
+msgstr "Jiný SMTP server"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Použijte údaje SMTP od vašeho hostitele nebo poskytovatele e-mailu."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Uživatelské jméno: vaše plná adresa Gmail. Heslo: heslo pro aplikaci (Google"
+" účet → Zabezpečení → Ověření ve 2 krocích → Hesla pro aplikace), ne vaše "
+"běžné heslo."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 vyžaduje pro poštovní schránku povolené \"Authenticated "
+"SMTP\". Microsoft ruší přihlašování pomocí hesla pro SMTP; pokud se "
+"přihlášení nezdaří, použijte relé službu, například Brevo, nebo SMTP vašeho "
+"hostitele."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Uživatelské jméno: přihlašovací jméno SMTP uvedené v části SMTP & API. "
+"Heslo: klíč SMTP, ne heslo k účtu."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Uživatelské jméno: slovo \"apikey\". Heslo: váš API klíč SendGrid."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"Účty EU používají smtp.eu.mailgun.org. Uživatelské jméno a heslo: "
+"přihlašovací údaje SMTP vašeho odesílacího doménového jména."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Změňte region v hostiteli na svůj. Uživatelské jméno a heslo: přihlašovací "
+"údaje SMTP vytvořené v konzoli SES (ne vaše přístupové klíče AWS)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "Uživatelské jméno a heslo: obojí je váš Server API token."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Pro účty mimo EU použijte smtp.zoho.com. Při dvoufázovém přihlášení vytvořte"
+" heslo pro konkrétní aplikaci."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Uživatelské jméno: API klíč. Heslo: tajný klíč."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Uživatelské jméno a heslo: uživatel SMTP vytvořený v části Sending → SMTP "
+"Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr "Uživatelské jméno: celá adresa schránky. Heslo: heslo ke schránce."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Pro tyto regiony použijte smtp.ionos.de nebo smtp.ionos.co.uk. Uživatelské "
+"jméno: celá adresa schránky."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Odesílá veškerý e-mail z WordPressu přes váš vlastní SMTP server s "
+"prohledávatelným e-mailovým logem, opětovným odesláním, záložním připojením,"
+" upozorněními na selhání a diagnostikou připojení. Žádné upsell nabídky."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Hostitel: SMTP koncový bod vašeho regionu SES, zobrazený v konzoli SES v "
+"části nastavení SMTP. Uživatelské jméno a heslo: přihlašovací údaje SMTP "
+"vytvořené v konzoli SES (ne vaše přístupové klíče AWS)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Volitelné. Příchozí webhook ze Slacku nebo Discordu, nebo váš vlastní HTTPS "
+"endpoint (JSON s \"text\" a \"content\"). Plugin tam odešle pouze text chyby"
+" — nic jiného, a jen když nastavíte URL."
+
+msgid "Is %s doing its job?"
+msgstr "Plní %s svou funkci?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Používáte ho už pár týdnů. Pokud vám vyhovuje, krátká recenze na "
+"WordPress.org pomůže ostatním — ať už pozitivní, nebo kritická."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Používáte ho už pár týdnů. Pokud vám vyhovuje — nebo vám něco chybí — "
+"napište nám to na naši veřejnou roadmapu. Podle toho určujeme, co budeme "
+"vyvíjet dál."
+
+msgid "(opens in a new tab)"
+msgstr "(otevře se v novém panelu)"
+
+msgid "Share feedback"
+msgstr "Sdílet zpětnou vazbu"
+
+msgid "Maybe later"
+msgstr "Možná později"
+
+msgid "Don't ask again"
+msgstr "Nezobrazovat znovu"
+
+msgid "Something not working? Ask for help"
+msgstr "Něco nefunguje? Požádejte o pomoc"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce je aktivní"
+
+msgid "a form plugin is active"
+msgstr "plugin pro formuláře je aktivní"
+
+msgid "the site is set up for Denmark"
+msgstr "web je nastaven pro Dánsko"
+
+msgid "comments are open"
+msgstr "komentáře jsou povolené"
+
+msgid "tracking tags are active"
+msgstr "sledovací tagy jsou aktivní"
+
+msgid "visitors can create accounts"
+msgstr "návštěvníci si mohou vytvářet účty"
+
+msgid "Suggested because %l."
+msgstr "Doporučeno, protože %l."
+
+msgid "Suggested for this site"
+msgstr "Doporučeno pro tento web"
+
+msgid "Hide suggestions"
+msgstr "Skrýt doporučení"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Další pluginy Lynbro, které odpovídají použití tohoto webu. Nic se "
+"neinstaluje, dokud nekliknete."
+
+msgid "All Lynbro plugins"
+msgstr "Všechny pluginy Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Vybráno podle toho, co tento web už používá — čte se pouze zde, nic se nikam"
+" neposílá."
+
+msgid "Image Optimizer"
+msgstr "Optimalizace obrázků"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Převádějte do WebP a AVIF, zmenšujte příliš velké obrázky a načítejte je "
+"líně — vše na vašem serveru."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Pište a ilustrujte příspěvky pomocí AI na vlastním OpenAI klíči — za "
+"náklady, bez prostředníků."
+
+msgid "Analytics"
+msgstr "Analytika"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Vlastní, bezsouborná analytika s trychtýři. Údaje o návštěvnících nikdy "
+"neopustí vaši databázi."
+
+msgid "Tags"
+msgstr "Značky"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel a další bez kódu — každá značka "
+"čeká na souhlas."
+
+msgid "Forms"
+msgstr "Formuláře"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formuláře s neomezeným ukládáním záznamů zdarma, podmíněnou logikou na "
+"serveru a podepsanými webhooky."
+
+msgid "Verify"
+msgstr "Ověření"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Zachyťte chybně zadané e-maily a špatná čísla, potvrďte je jednorázovým "
+"kódem e-mailem nebo SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Spolehlivé mazání pro nginx FastCGI cache a Redis object cache, každé "
+"vymazání ověřeno proti cache."
+
+msgid "Translate"
+msgstr "Překlad"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Provozujte web ve více jazycích, s automatickým překladem na vlastním OpenAI"
+" klíči — bez měření, bez poplatků za slovo."
+
+msgid "Shield"
+msgstr "Ochrana"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Bezpečnostní hlavičky, HTTPS s HSTS, malý firewall proti útokům a zpevnění, "
+"které potřebuje každý web."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Antispamové kontroly běží na vašem serveru. Bez účtu, bez předplatného, "
+"každý blok má důvod — a zadržená zpráva se nikdy neztratí."
+
+msgid "Login Guard"
+msgstr "Ochrana přihlášení"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Přesuňte wp-login.php, omezte neúspěšná přihlášení a přidejte dvoufaktor "
+"přes aplikaci — se třemi způsoby obnovení."
+
+msgid "Cookie Consent"
+msgstr "Souhlas s cookies"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR a ePrivacy banner s Consent Mode v2, stejně výrazné tlačítko Odmítnout "
+"a 35 jazyků."
+
+msgid "Activity Log"
+msgstr "Záznam aktivit"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Kdo co udělal, kdy a odkud — zaznamenáno na vašem serveru, vyhledatelné, "
+"exportovatelné a mazatelné dle plánu."
+
+msgid "Data Retention"
+msgstr "Doba uchování dat"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Najděte, kde jsou osobní údaje ve vaší databázi, a smažte je dle plánu — s "
+"testem nanečisto před každým smazáním."
+
+msgid "Accessibility"
+msgstr "Přístupnost"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Zkontrolujte každou stránku podle WCAG 2.2 AA a opravte, co lze bezpečně "
+"opravit. Bez překryvu, bez omezení stránek."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Jednoduché SEO s bezplatným LocalBusiness schématem, sitemapami a sociálními"
+" kartami. Žádné odesílání dat."
+
+msgid "SMTP Mailer"
+msgstr "SMTP Mailer"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress e-maily přes vlastní SMTP server — s logem e-mailů, opakováním, "
+"záložním připojením a upozorněním na chyby."
+
+msgid "Social Feed"
+msgstr "Sociální feed"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Instagram feed na vašem webu bez Meta tokenu uloženého ve WordPressu."
+
+msgid "Reviews Cache"
+msgstr "Cache recenzí"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Zobrazte své Google recenze bez API klíče ve WordPressu."
+
+msgid "Links"
+msgstr "Odkazy"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Najděte nefunkční odkazy a spravujte přesměrování na svém serveru, s důvodem"
+" každého rozhodnutí."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse automatické vyplnění"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Dánské automatické doplňování a ověřování adres pro WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable a EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge vyhledávání"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Vyhledávání dánských vozidel (DMR) a firem (CVR) podle SPZ, VIN nebo čísla "
+"CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR pokladna"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Dánská B2B pokladna pro WooCommerce: automatické vyplnění firmy podle CVR, "
+"ověření CVR/EU-VAT (VIES) a pole pro EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Dánská doprava"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Výběr výdejního místa zdarma pro PostNord a GLS Denmark při pokladně "
+"WooCommerce, včetně přehledných způsobů dopravy."
+
+msgid "API Auth"
+msgstr "API ověření"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokeny pro REST API, které lze skutečně zneplatnit, s rozsahy a "
+"záznamem odmítnutí."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Upozornění o selhání e-mailem se neodesílají"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Upozorňovací e-mail se odesílá přes PHP mail(), takže nezávisí na SMTP "
+"serveru, ale PHP mail() na tomto serveru selhalo: %s Použijte pro upozornění"
+" webhook nebo požádejte svého hostingu, aby povolil mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Toto je předchozí verze Lynbro SMTP. Nahradil ji Lynbro SMTP Mailer, který "
+"používá stejné nastavení. Složku %s odstraňte pomocí správce souborů svého "
+"hostingu, FTP nebo SSH — nepoužívejte zde možnost Smazat: při odinstalaci "
+"smaže sdílené nastavení SMTP. Lynbro SMTP Mailer uchovává zálohu a nastavení"
+" obnoví, ale starý plugin také vymaže záznamy e-mailů."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Nastavení SMTP odstranil jiný plugin dne %s a bylo obnoveno ze zálohy. "
+"Nemusíte nic dělat; chcete-li se ujistit, odešlete zkušební e-mail."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Tento web odesílá e-maily pomocí vlastního poštovního systému serveru (PHP "
+"mail()). Test ukazuje, zda server e-mail přijal; zkontrolujte jeho hlavičky "
+"v doručené poště (Authentication-Results: spf=pass, dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Ujistěte se, že zahrnuje tento webový server (jeho IP adresu s ip4: nebo "
+"ip6:, případně a: / mx:, které na něj odkazují)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"E-mail se odesílá pomocí vlastního poštovního systému tohoto serveru (PHP "
+"mail()) z adresy %s a se shodnou adresou Return-Path."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Adresa Return-Path je vypnutá: server do obálky vloží vlastní adresu, takže "
+"SPF ověřuje tuto doménu namísto vaší."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"E-mail se odesílá pomocí vlastního poštovního systému serveru se shodnou "
+"adresou odesílatele"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP podle vašeho výběru odesílá e-maily pomocí PHP mail() a u "
+"každého e-mailu nastaví adresu From a Return-Path. Zahrňte tento server do "
+"záznamu SPF domény."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Vlastní poštovní systém tohoto serveru (PHP mail(), bez SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Pro servery nakonfigurované k samostatnému odesílání e-mailů. Přihlášení "
+"není potřeba: níže uvedené adresy From a Return-Path se nastavují u každého "
+"e-mailu, takže SPF a DMARC mohou být v souladu. Záznam SPF domény musí "
+"zahrnovat tento server."

@@ -1,0 +1,1669 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Skicka all WordPress-post via din SMTP-värd."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Värd"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Port"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Kryptering"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Användarnamn"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Lösenord"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (sparad — lämna tomt för att behålla)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Från-e-post"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Från-namn"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Tvinga Från"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Överskriv Från för all utgående e-post (rekommenderas för leveranssäkerhet)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Testsändning"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Skicka test"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Senaste aktivitet"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Otillräckliga behörigheter."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Plugins by lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Skickar…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Skickat."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Misslyckades."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Fel:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Nätverksfel:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Förbjuden."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP-test"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Ogiltig mottagare."
+
+msgid "Our plugins"
+msgstr "Våra tillägg"
+
+msgid "Lynbro plugins"
+msgstr "Lynbro-tillägg"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Generösa WordPress-tillägg med integritet först — byggda i Danmark. Gratis "
+"kärnor, inga krediter, dina data stannar på din webbplats."
+
+msgid "More from Lynbro"
+msgstr "Fler från Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Vårt växande utbud av gratis tillägg med integritet först. De som redan är "
+"installerade är markerade."
+
+msgid "Installed"
+msgstr "Installerat"
+
+msgid "On WordPress.org"
+msgstr "På WordPress.org"
+
+msgid "Coming soon"
+msgstr "Kommer snart"
+
+msgid "Install"
+msgstr "Installera"
+
+msgid "Learn more"
+msgstr "Läs mer"
+
+msgid "About Lynbro"
+msgstr "Om Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro bygger genuint gratis WordPress-tillägg med integritet först och "
+"generösa gratis kärnor — inga krediter, inga betalväggar för det viktigaste,"
+" dina data på din egen webbplats. Tillverkade i Danmark."
+
+msgid "Visit Lynbro"
+msgstr "Besök Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Föreslå en funktion eller rapportera en bugg"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Feedback öppnar vår offentliga roadmap på plugins.lynbro.dk i en ny flik — "
+"inget skickas från din webbplats."
+
+msgid "Tools"
+msgstr "Verktyg"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Exportera detta tilläggs inställningar som en JSON-säkerhetskopia, eller "
+"återställ dem till standardvärden. 100% lokalt — inget lämnar din webbplats."
+
+msgid "Export settings (JSON)"
+msgstr "Exportera inställningar (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Återställ till standardvärden"
+
+msgid "About Lynbro SMTP"
+msgstr "Om Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress skickar e-post med PHP mail() som standard, vilket inkorgar ser "
+"som misstänkt. Lynbro SMTP skickar i stället via en riktig, autentiserad "
+"e-postserver — hos ditt webbhotell, din brevlåda eller en utskickstjänst — "
+"så att återställningar av lösenord, beställningar och kontaktformulär kommer"
+" fram."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Allt finns i gratispluginet: loggen, skicka igen, reservanslutningen, "
+"aviseringar, diagnoser och WP-CLI. Det finns ingen betalversion."
+
+msgid "How your data is handled"
+msgstr "Så hanteras dina uppgifter"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"E-post går direkt från din server till den SMTP-server du har angett. "
+"Pluginet kontaktar ingen Lynbro-tjänst och skickar inga statistikuppgifter "
+"någonstans."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"SMTP-lösenordet krypteras med webbplatsens säkerhetsnycklar, visas aldrig "
+"igen och skrivs aldrig till loggen eller exporten av inställningarna."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Loggen sparar mottagare, ämne och status i din egen databas. "
+"Meddelandeinnehåll endast för misslyckade e-postmeddelanden som standard, "
+"och varje post raderas efter lagringstiden."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Loggposter ingår i Verktyg → Exportera personuppgifter och Radera "
+"personuppgifter."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"En webhook för fel, om du har ställt in en, får bara feltexten och en länk "
+"till din logg."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Behåll inloggningen i wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Någon av dessa konstanter åsidosätter fältet i Inställningar, och värdet når"
+" aldrig databasen eller dess säkerhetskopior:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Version och länkar"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Plugin home page"
+msgstr "Pluginets startsida"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Skicka ett testmeddelande"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Ingen SMTP-server har angetts ännu, så testet skickas med PHP mail(). Fyll i"
+" Inställningar först för att testa SMTP."
+
+msgid "Recipient"
+msgstr "Mottagare"
+
+msgid "Test the backup connection"
+msgstr "Testa reservanslutningen"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP-konversation (lösenord dolt)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Testmeddelanden ignorerar testläge och läget \"skicka inte\", så du kan "
+"kontrollera anslutningen på en stagingkopia."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Kan den här servern nå SMTP-servern?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Många webbhotell blockerar utgående e-postportar. Detta testar de vanliga "
+"till din sparade värd, från den här webbservern."
+
+msgid "Check ports"
+msgstr "Kontrollera portar"
+
+msgid "Sender domain: %s"
+msgstr "Avsändardomän: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "DNS-sökningar är inte tillgängliga på den här servern."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Se till att den innehåller din SMTP-leverantör (till exempel "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Ingen SPF-post. Lägg till en hos din DNS-leverantör som anger din SMTP-"
+"leverantör, annars kommer många inkorgar att misstro e-postmeddelandet."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Ingen DMARC-post. Gmail och Yahoo kräver en för massutskickare; även en "
+"enkel \"v=DMARC1; p=none\" hjälper."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM är konfigurerat hos din SMTP-leverantör (de ger dig DNS-posten). Det "
+"kan inte kontrolleras här utan selektornamnet."
+
+msgid "Environment"
+msgstr "Miljö"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "saknas — TLS och SSL fungerar inte"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Andra e-postpluginer"
+
+msgid "none found"
+msgstr "inga hittade"
+
+msgid "Scheduled cleanup"
+msgstr "Schemalagd rensning"
+
+msgid "scheduled"
+msgstr "schemalagd"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "inte schemalagd — inaktivera och aktivera pluginet"
+
+msgid "Sent"
+msgstr "Skickat"
+
+msgid "Failed"
+msgstr "Misslyckades"
+
+msgid "Not sent (delivery off)"
+msgstr "Skickades inte (leverans avstängd)"
+
+msgid "Unknown"
+msgstr "Okänt"
+
+msgid "Main SMTP"
+msgstr "Primär SMTP"
+
+msgid "Backup SMTP"
+msgstr "Reserv-SMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Testläge (omdirigerat)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr ""
+"Loggen är avstängd i Inställningar — inga nya e-postmeddelanden registreras."
+
+msgid "Sent, 30 days"
+msgstr "Skickat, 30 dagar"
+
+msgid "Failed, 30 days"
+msgstr "Misslyckades, 30 dagar"
+
+msgid "Held back, 30 days"
+msgstr "Hålls tillbaka, 30 dagar"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "All statuses"
+msgstr "Alla statusar"
+
+msgid "Recipient, subject or error"
+msgstr "Mottagare, ämne eller fel"
+
+msgid "Search the log"
+msgstr "Sök i loggen"
+
+msgid "Filter"
+msgstr "Filtrera"
+
+msgid "Clear"
+msgstr "Rensa"
+
+msgid "No emails match this filter."
+msgstr "Inga e-postmeddelanden matchar detta filter."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Inga e-postmeddelanden har loggats ännu. Skicka ett test från fliken Test "
+"och diagnostik för att se den första posten här."
+
+msgid "Select all"
+msgstr "Välj alla"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "To"
+msgstr "Till"
+
+msgid "Subject"
+msgstr "Ämne"
+
+msgid "Sent through"
+msgstr "Skickat via"
+
+msgid "Actions"
+msgstr "Åtgärder"
+
+msgid "Select"
+msgstr "Välj"
+
+msgid "(no subject)"
+msgstr "(inget ämne)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Bilagor (sparas inte): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Skickar igen post #%d"
+
+msgid "Content not kept."
+msgstr "Innehållet sparas inte."
+
+msgid "Resend"
+msgstr "Skicka igen"
+
+msgid "Delete the selected entries?"
+msgstr "Ta bort de valda posterna?"
+
+msgid "Delete selected"
+msgstr "Ta bort valda"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s poster · raderas automatiskt efter %2$s dagar"
+
+msgid "Checking…"
+msgstr "Kontrollerar…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Skickat. Kontrollera inkorgen (och skräpposten) hos mottagaren."
+
+msgid "Not sent."
+msgstr "Skickades inte."
+
+msgid "open"
+msgstr "öppna"
+
+msgid "blocked"
+msgstr "blockerad"
+
+msgid "Request failed:"
+msgstr "Begäran misslyckades:"
+
+msgid "Delivered through:"
+msgstr "Levereras via:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har inte tillräckliga behörigheter för att komma åt den här sidan."
+
+msgid "Settings"
+msgstr "Inställningar"
+
+msgid "Test & diagnostics"
+msgstr "Test och diagnostik"
+
+msgid "Email log"
+msgstr "E-postlogg"
+
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "About"
+msgstr "Om"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Skicka varje WordPress-e-post via din egen SMTP-server — med e-postlogg, "
+"återskick, en reservanslutning och varningar vid fel. Helt gratis, inga "
+"uppsäljningar."
+
+msgid "The email was sent again."
+msgstr "E-postmeddelandet skickades igen."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"E-postmeddelandet kunde inte skickas igen — se den senaste loggposten för "
+"orsaken."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr ""
+"Innehållet i detta e-postmeddelande sparades inte, så det kan inte skickas "
+"igen."
+
+msgid "Log entries deleted."
+msgstr "Loggposter raderade."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Inställningar importerade. Ange SMTP-lösenordet en gång och spara — lösenord"
+" kopieras aldrig från andra tillägg."
+
+msgid "Set in wp-config.php"
+msgstr "Anges i wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "E-post skickas via %1$s på port %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"Ingen SMTP-server har angetts ännu — WordPress skickar fortfarande med PHP "
+"mail(). Välj din leverantör nedan, fyll i inloggningen och spara."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "Leverans är avstängd: e-post loggas men skickas inte."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr ""
+"Testläge: varje e-postmeddelande går till %s i stället för till mottagarna."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Det sparade lösenordet kan inte längre läsas eftersom sajtens "
+"säkerhetsnycklar har ändrats. Ange det igen och spara."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Senaste felet för %1$s sedan: %2$s"
+
+msgid "Show failed emails"
+msgstr "Visa misslyckade e-postmeddelanden"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Även aktivt: %s. Två e-posttillägg konkurrerar om samma e-post — inaktivera "
+"det andra."
+
+msgid "Import settings from %s"
+msgstr "Importera inställningar från %s"
+
+msgid "SMTP server"
+msgstr "SMTP-server"
+
+msgid "Provider"
+msgstr "Leverantör"
+
+msgid "Port and encryption"
+msgstr "Port och kryptering"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — vanligtvis port 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — vanligtvis port 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Ingen — endast för en server på samma nätverk"
+
+msgid "Authentication"
+msgstr "Autentisering"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "Servern behöver ett användarnamn och lösenord (nästan alltid)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Lösenordet kommer från LYNBRO_SMTP_PASS i wp-config.php och lagras inte i "
+"databasen."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Sparat — lämna tomt för att behålla det"
+
+msgid "Remove the saved password"
+msgstr "Ta bort det sparade lösenordet"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Lagrat krypterat med sajtens säkerhetsnycklar och visas aldrig igen. För att"
+" hålla det helt utanför databasen, definiera det i wp-config.php (se Om)."
+
+msgid "Certificate"
+msgstr "Certifikat"
+
+msgid "Verify the server certificate"
+msgstr "Verifiera serverns certifikat"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr ""
+"Avmarkera endast för din egen server med ett självsignerat certifikat."
+
+msgid "Sender"
+msgstr "Avsändare"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr "Tvinga denna adress på varje e-post, oavsett vad andra tillägg sätter"
+
+msgid "Recommended"
+msgstr "Rekommenderas"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Använd en adress på en domän som ditt SMTP-konto får skicka för, annars kan "
+"leverantörer avvisa eller lägga mejlet i skräppost."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Tvinga även detta namn (av: formulär och butiker behåller sitt eget "
+"avsändarnamn)"
+
+msgid "Default Reply-To"
+msgstr "Standard för svar till"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Används bara när ett mejl saknar eget Svar till, så att svar på "
+"kontaktformulär fortfarande går till besökaren."
+
+msgid "Return-Path"
+msgstr "Returväg"
+
+msgid "Send bounces to the From address"
+msgstr "Skicka studsar till Från-adressen"
+
+msgid "Backup connection"
+msgstr "Säkerhetskopierad anslutning"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"När huvudservern misslyckas skickas samma e-post igen direkt via "
+"säkerhetskopian — besökaren ser aldrig något fel."
+
+msgid "Backup"
+msgstr "Säkerhetskopia"
+
+msgid "Use a backup when the main server fails"
+msgstr "Använd en säkerhetskopia när huvudservern misslyckas"
+
+msgid "Another SMTP server"
+msgstr "En annan SMTP-server"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "Denna servers PHP mail() (bättre än inget; kan hamna i skräppost)"
+
+msgid "Backup host"
+msgstr "Backupvärd"
+
+msgid "Backup port"
+msgstr "Backupport"
+
+msgid "Backup encryption"
+msgstr "Backupkryptering"
+
+msgid "None"
+msgstr "Ingen"
+
+msgid "Backup login"
+msgstr "Backupinloggning"
+
+msgid "Backup password"
+msgstr "Backuplösenord"
+
+msgid "Delivery mode"
+msgstr "Leveransläge"
+
+msgid "Mode"
+msgstr "Läge"
+
+msgid "Send normally"
+msgstr "Skicka normalt"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Testläge: skicka allt till en adress (Cc och Bcc tas bort)"
+
+msgid "Redirect address"
+msgstr "Omdirigeringsadress"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Skicka ingen e-post alls (stagingkopior) — e-posten loggas fortfarande"
+
+msgid "Log"
+msgstr "Logg"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr ""
+"Spara en logg över varje e-postmeddelande (mottagare, ämne, status, fel)"
+
+msgid "Keep message content"
+msgstr "Spara meddelandeinnehåll"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Endast för misslyckade mejl, så att de kan skickas igen"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"För varje mejl (låter dig skicka om vad som helst; loggen innehåller då "
+"länkar för återställning av lösenord och orderuppgifter)"
+
+msgid "Never"
+msgstr "Aldrig"
+
+msgid "Keep entries for"
+msgstr "Spara poster i"
+
+msgid "days, then they are deleted automatically"
+msgstr "dagar, sedan raderas de automatiskt"
+
+msgid "Failure alerts"
+msgstr "Felvarningar"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Högst en varning per timme. Varningsmejlet skickas med den här serverns PHP "
+"mail(), eftersom SMTP-servern kan vara det som ligger nere."
+
+msgid "Alert email"
+msgstr "Varningsmejl"
+
+msgid "Webhook URL"
+msgstr "Webhook-URL"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Valfritt. Arbetsflöden för Slack, Discord, Microsoft Teams, ntfy eller din "
+"egen slutpunkt (HTTPS). Tillägget skickar feltexten dit — inget annat, och "
+"bara när du har angett en URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Importera från ett annat SMTP-plugin"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Kopierar värd, port, kryptering, användarnamn och avsändare. Lösenord "
+"stannar där de är — ange ditt en gång efter importen."
+
+msgid "Import from %s"
+msgstr "Importera från %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Inga inställningar för WP Mail SMTP, FluentSMTP, Easy WP SMTP eller Post "
+"SMTP hittades på den här webbplatsen."
+
+msgid "Download the log (CSV)"
+msgstr "Ladda ner loggen (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Ta bort varje loggpost?"
+
+msgid "Empty the log"
+msgstr "Töm loggen"
+
+msgid "Is it working for you?"
+msgstr "Fungerar det för dig?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP är gratis, utan något låst. Om det fick din e-post levererad "
+"hjälper en kort recension andra att hitta det."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Lämna en recension på WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Saknas något eller är något trasigt?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Felrapporter och idéer läses av personerna som bygger pluginet. Att öppna "
+"dessa länkar skickar inget från din webbplats."
+
+msgid "Ask in the support forum"
+msgstr "Fråga i supportforumet"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Föreslå en funktion (offentlig färdplan)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Ska du lägga upp en loggrad? Ta bort adresser först — på Test-fliken döljs "
+"redan lösenordet."
+
+msgid "You do not have permission to do that."
+msgstr "Du har inte behörighet att göra det."
+
+msgid "Enter a valid recipient address."
+msgstr "Ange en giltig mottagaradress."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: huvudanslutningen till SMTP misslyckades och reservanslutningen "
+"levererade e-postmeddelandet. Fel: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: ett e-postmeddelande kunde inte skickas. Fel: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Loggpost #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Problem med e-postleverans"
+
+msgid "Email delivery"
+msgstr "E-postleverans"
+
+msgid "Email is sent through SMTP"
+msgstr "E-post skickas via SMTP"
+
+msgid "Email"
+msgstr "E-post"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP skickar den här webbplatsens e-post via en autentiserad SMTP-"
+"server."
+
+msgid "Open Lynbro SMTP"
+msgstr "Öppna Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "E-post skickas med PHP mail(), inte SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP är aktivt men ingen SMTP-server är inställd, så e-post går "
+"fortfarande via PHP mail() och hamnar ofta i skräppost."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Det sparade SMTP-lösenordet kan inte längre läsas"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Webbplatsens säkerhetsnycklar ändrades efter att lösenordet sparades. Ange "
+"SMTP-lösenordet igen."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "E-post kunde inte skickas under de senaste 24 timmarna"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Huvudanslutningen till SMTP misslyckades under de senaste 24 timmarna"
+
+msgid "Email delivery (7 days)"
+msgstr "E-postleverans (7 dagar)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Skickat: %1$s · Misslyckat: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr "Ingen SMTP-server är inställd ännu — e-post skickas med PHP mail()."
+
+msgid "Show failed"
+msgstr "Visa misslyckade"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Huvudanslutning: %1$s — Reservanslutning: %2$s"
+
+msgid "Test email from %s"
+msgstr "Testmejl från %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Detta är ett testmejl från %1$s, skickat av Lynbro SMTP.\n"
+"\n"
+"Om du kan läsa det fungerar e-postleveransen.\n"
+"\n"
+"Skickat: %2$s\n"
+"Anslutning: %3$s"
+
+msgid "backup"
+msgstr "reserv"
+
+msgid "main"
+msgstr "huvudmeny"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Servern avvisade användarnamnet eller lösenordet. Gmail, Outlook, Zoho och "
+"iCloud behöver ett applösenord, inte det vanliga; SendGrid och Brevo behöver"
+" en SMTP/API-nyckel."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365 har SMTP-inloggning avstängd för den här brevlådan. En "
+"administratör kan aktivera \"Authenticated SMTP\" för den, eller använda en "
+"vidarebefordringstjänst i stället."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Servern gick inte att nå. Många webbhotell blockerar utgående portar 25, 465"
+" och 587 — kör portkontrollen nedan och be sedan ditt webbhotell att öppna "
+"porten eller använda den som är öppen."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Den säkra anslutningen misslyckades. Kontrollera att port och kryptering "
+"stämmer (587 = TLS, 465 = SSL). Om servern använder ett självsignerat "
+"certifikat, avmarkera \"Verifiera servercertifikatet\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Servern tillåter inte att det här kontot skickar som Från-adressen. Använd "
+"en adress på en domän som kontot äger och slå på \"Tvinga Från-e-post\"."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Värdnamnet kan inte slås upp. Kontrollera om det innehåller stavfel."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Läs de sista SERVER-raderna i transkriptet: servern brukar säga exakt vad "
+"den inte gillade."
+
+msgid "No host set."
+msgstr "Ingen värd angiven."
+
+msgid "That log entry no longer exists."
+msgstr "Den loggposten finns inte längre."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Innehållet i det här e-postmeddelandet sparades inte, så det kan inte "
+"skickas igen. Ändra \"Behåll meddelandeinnehåll\" i Inställningar för att "
+"kunna skicka framtida e-post igen."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"E-postmeddelandet kunde inte skickas igen. Det nya försöket och dess fel "
+"finns i loggen."
+
+msgid "Date (UTC)"
+msgstr "Datum (UTC)"
+
+msgid "Recipients"
+msgstr "Mottagare"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP e-postlogg"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Resten av sviten. Det som redan finns på den här webbplatsen är markerat; "
+"inget installeras utan att du ber om det."
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Activate"
+msgstr "Aktivera"
+
+msgid "Install now"
+msgstr "Installera nu"
+
+msgid "View on WordPress.org"
+msgstr "Visa på WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Delade Lynbro-komponenter v%1$s, tillhandahållna av %2$s (senaste av %3$d "
+"versioner på den här webbplatsen)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Återställ alla inställningar till standardvärden?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Levererar Lynbro SMTP din e-post? Några ord på WordPress.org hjälper andra "
+"att hitta ett e-postplugin utan merförsäljning."
+
+msgid "Write a review"
+msgstr "Skriv en recension"
+
+msgid "No thanks"
+msgstr "Nej tack"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Omdirigeringsläget behöver en adress att omdirigera till — e-post skickas "
+"normalt tills du lägger till en."
+
+msgid "Other SMTP server"
+msgstr "Annan SMTP-server"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Använd SMTP-uppgifterna från din värd eller e-postleverantör."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Användarnamn: din fullständiga Gmail-adress. Lösenord: ett applösenord "
+"(Google-konto → Säkerhet → Tvåstegsverifiering → Applösenord), inte ditt "
+"vanliga lösenord."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 kräver att \"Authenticated SMTP\" är aktiverat för brevlådan. "
+"Microsoft avvecklar lösenordsinloggning för SMTP; om inloggningen "
+"misslyckas, använd en vidarebefordringstjänst som Brevo eller din värds "
+"SMTP."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Användarnamn: inloggningen för SMTP som visas under SMTP & API. Lösenord: en"
+" SMTP-nyckel, inte ditt kontolösenord."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Användarnamn: ordet \"apikey\". Lösenord: din SendGrid API-nyckel."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"EU-konton använder smtp.eu.mailgun.org. Användarnamn och lösenord: SMTP-"
+"uppgifterna för din avsändardomän."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Byt region i värden till din. Användarnamn och lösenord: SMTP-uppgifter "
+"skapade i SES-konsolen (inte dina AWS-åtkomstnycklar)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "Användarnamn och lösenord: båda är din Server API-token."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Använd smtp.zoho.com för konton utanför EU. Vid tvåfaktorsinloggning, skapa "
+"ett appspecifikt lösenord."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Användarnamn: API-nyckel. Lösenord: hemlig nyckel."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Användarnamn och lösenord: en SMTP-användare skapad under Sending → SMTP "
+"Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Användarnamn: den fullständiga brevlådeadressen. Lösenord: brevlådans "
+"lösenord."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Använd smtp.ionos.de eller smtp.ionos.co.uk för dessa regioner. "
+"Användarnamn: den fullständiga brevlådeadressen."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Skickar all WordPress-e-post via din egen SMTP-server, med en sökbar "
+"e-postlogg, återutskick, en reservanslutning, varningar vid fel och "
+"anslutningsdiagnostik. Inga merförsäljningar."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Värd: SMTP-slutpunkten för din SES-region, visas i SES-konsolen under SMTP-"
+"inställningar. Användarnamn och lösenord: SMTP-uppgifter skapade i SES-"
+"konsolen (inte dina AWS-åtkomstnycklar)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Valfritt. En inkommande Slack- eller Discord-webhook, eller din egen HTTPS-"
+"slutpunkt (JSON med \"text\" och \"content\"). Tillägget skickar feltexten "
+"dit — inget annat, och endast när du anger en URL."
+
+msgid "Is %s doing its job?"
+msgstr "Gör %s sitt jobb?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Du har använt det i ett par veckor nu. Om det fungerar för dig hjälper en "
+"kort recension på WordPress.org andra sajtägare att hitta det — både ärliga "
+"och kritiska omdömen."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Du har använt det i ett par veckor nu. Om det fungerar för dig — eller om "
+"något saknas — berätta för oss på vår offentliga roadmap. Det är så vi "
+"bestämmer vad vi ska bygga härnäst."
+
+msgid "(opens in a new tab)"
+msgstr "(öppnas i en ny flik)"
+
+msgid "Share feedback"
+msgstr "Dela feedback"
+
+msgid "Maybe later"
+msgstr "Kanske senare"
+
+msgid "Don't ask again"
+msgstr "Fråga inte igen"
+
+msgid "Something not working? Ask for help"
+msgstr "Något fungerar inte? Be om hjälp"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce är aktivt"
+
+msgid "a form plugin is active"
+msgstr "ett formulärplugin är aktivt"
+
+msgid "the site is set up for Denmark"
+msgstr "webbplatsen är inställd för Danmark"
+
+msgid "comments are open"
+msgstr "kommentarer är öppna"
+
+msgid "tracking tags are active"
+msgstr "spårningstaggar är aktiva"
+
+msgid "visitors can create accounts"
+msgstr "besökare kan skapa konton"
+
+msgid "Suggested because %l."
+msgstr "Föreslås eftersom %l."
+
+msgid "Suggested for this site"
+msgstr "Föreslås för denna webbplats"
+
+msgid "Hide suggestions"
+msgstr "Dölj förslag"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Andra Lynbro-plugins som passar det denna webbplats använder. Inget "
+"installeras om du inte klickar."
+
+msgid "All Lynbro plugins"
+msgstr "Alla Lynbro-plugins"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Valda utifrån vad denna webbplats redan använder — läses på denna webbplats,"
+" inget skickas någonstans."
+
+msgid "Image Optimizer"
+msgstr "Bildoptimerare"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Konvertera till WebP och AVIF, anpassa för stora bilder och ladda in dem vid"
+" behov — allt på din egen server."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Skriv och illustrera inlägg med AI via din egen OpenAI-nyckel — till "
+"självkostnadspris, utan mellanhänder."
+
+msgid "Analytics"
+msgstr "Analys"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Självhostad, cookiefri analys med flöden. Besöksdata lämnar aldrig din "
+"databas."
+
+msgid "Tags"
+msgstr "Taggar"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel och fler utan kod — varje tagg "
+"väntar på samtycke."
+
+msgid "Forms"
+msgstr "Formulär"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formulär med gratis sparade poster utan gräns, villkorslogik på serversidan "
+"och signerade webhooks."
+
+msgid "Verify"
+msgstr "Verifiera"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Fånga felstavade e-postdomäner och felaktiga telefonnummer, och bekräfta dem"
+" med engångskod via e-post eller SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Tillförlitlig rensning för nginx FastCGI-cache och Redis objektcache, med "
+"varje rensning verifierad mot cachen."
+
+msgid "Translate"
+msgstr "Översätt"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Kör din webbplats på flera språk, med maskinöversättning via din egen "
+"OpenAI-nyckel — inget mätvärde, inget säljs per ord."
+
+msgid "Shield"
+msgstr "Skydd"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Säkerhetsrubriker, HTTPS med HSTS, en liten brandvägg mot injektionsförsök "
+"och de härdningsinställningar varje webbplats behöver."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Spamskydd som körs på din egen server. Inget konto, ingen prenumeration, "
+"varje blockering förklaras — och ett kvarhållet meddelande försvinner "
+"aldrig."
+
+msgid "Login Guard"
+msgstr "Inloggningsskydd"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Flytta wp-login.php, begränsa misslyckade inloggningar och lägg till "
+"appbaserad tvåfaktorsautentisering — med tre sätt att återställa åtkomst."
+
+msgid "Cookie Consent"
+msgstr "Cookie-samtycke"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"En GDPR- och ePrivacy-banner med Consent Mode v2, lika framträdande Avvisa-"
+"knapp och 35 språk."
+
+msgid "Activity Log"
+msgstr "Aktivitetslogg"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Vem gjorde vad, när och varifrån — loggat på din egen server, sökbart, "
+"exportbart och raderas enligt ditt schema."
+
+msgid "Data Retention"
+msgstr "Databevarande"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Hitta var personuppgifter faktiskt finns i din databas och radera dem enligt"
+" schema — med testkörning före varje radering."
+
+msgid "Accessibility"
+msgstr "Tillgänglighet"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Skanna varje sida mot WCAG 2.2 AA och åtgärda det som kan fixas säkert. "
+"Ingen overlay, ingen sidgräns."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Enkel SEO med gratis LocalBusiness-schema, sitemaps och sociala kort. Ingen "
+"data skickas hem."
+
+msgid "SMTP Mailer"
+msgstr "SMTP-utskick"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress-e-post via din egen SMTP-server — med e-postlogg, återutsändning, "
+"reservanslutning och felaviseringar."
+
+msgid "Social Feed"
+msgstr "Socialt flöde"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Ett Instagram-flöde på din webbplats utan att Meta-token lagras i WordPress."
+
+msgid "Reviews Cache"
+msgstr "Recensionscache"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr ""
+"Visa dina Google-recensioner utan att lägga in en API-nyckel i WordPress."
+
+msgid "Links"
+msgstr "Länkar"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Hitta brutna länkar och hantera omdirigeringar på din egen server, med "
+"anledning till varje beslut."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Autofyll"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Dansk adressautofyll och validering för WooCommerce, WPForms, Gravity, "
+"Fluent, Formidable och EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge Uppslag"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Slå upp danska fordon (DMR) och företag (CVR) via registreringsnummer, VIN "
+"eller CVR-nummer."
+
+msgid "CVR Checkout"
+msgstr "CVR Kassa"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Dansk B2B-kassa för WooCommerce: CVR-företagsautofyll, CVR/EU-VAT "
+"(VIES)-validering och ett EAN/GLN-fält."
+
+msgid "Danish Shipping"
+msgstr "Dansk Frakt"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Gratis val av utlämningsställe för PostNord och GLS Danmark i WooCommerce-"
+"kassan, samt tydliga fraktalternativ."
+
+msgid "API Auth"
+msgstr "API-autentisering"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens för REST API som du faktiskt kan återkalla, med behörigheter"
+" och logg över avslag."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Felaviseringar via e-post skickas inte"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Varningsmejlet skickas med PHP mail() så att det inte är beroende av SMTP-"
+"servern, men PHP mail() misslyckades på den här servern: %s Använd en "
+"webhook för aviseringar, eller be din webbhotellleverantör att aktivera "
+"mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Det här är den tidigare versionen av Lynbro SMTP. Lynbro SMTP Mailer har "
+"ersatt den och använder samma inställningar. Ta bort mappen %s med "
+"webbhotellets filhanterare, FTP eller SSH – använd inte Ta bort här: "
+"avinstallationen raderar de delade SMTP-inställningarna. Lynbro SMTP Mailer "
+"sparar en säkerhetskopia och återställer inställningarna, men det gamla "
+"tillägget tömmer även e-postloggen."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Dina SMTP-inställningar raderades av ett annat tillägg den %s och har "
+"återställts från säkerhetskopian. Du behöver inte göra något; skicka ett "
+"testmejl om du vill vara säker."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Den här webbplatsen skickar e-post via serverns egen e-postfunktion (PHP "
+"mail()). Testet visar om servern tog emot e-postmeddelandet. Kontrollera "
+"dess headers i inkorgen (Authentication-Results: spf=pass, dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Se till att den omfattar den här webbservern (dess IP-adress med ip4: eller "
+"ip6:, eller en a: / mx: som pekar på den)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"E-post skickas via serverns egen e-postfunktion (PHP mail()), från %s, med "
+"en matchande Return-Path."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path är inaktiverad: servern anger sin egen adress i kuvertet, så SPF"
+" kontrollerar den domänen i stället för din."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"E-post skickas via serverns egen e-postfunktion, med en matchande avsändare"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP skickar via PHP mail() enligt ditt val och anger From-adressen "
+"och Return-Path för varje e-postmeddelande. Se till att den här servern "
+"finns med i domänens SPF-post."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Serverns egen e-postfunktion (PHP mail(), ingen SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"För servrar som är konfigurerade för att skicka e-post själva. Ingen "
+"inloggning behövs: From-adressen och Return-Path nedan anges ändå för varje "
+"e-postmeddelande, så att SPF och DMARC kan stämma överens. Domänens SPF-post"
+" måste omfatta den här servern."

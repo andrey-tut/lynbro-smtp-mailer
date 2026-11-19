@@ -1,0 +1,1683 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Trimite toate e-mailurile WordPress prin gazda ta SMTP."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Gazdă"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Port"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Criptare"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Nume de utilizator"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Parolă"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (salvat — lăsați gol pentru a păstra)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "E-mail expeditor"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Nume expeditor"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Forțează From"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Suprascrie From pentru fiecare e-mail trimis (recomandat pentru "
+"livrabilitate)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Trimitere de test"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Trimite test"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Activitate recentă"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Permisiuni insuficiente."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Pluginuri de la lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Se trimite…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Trimis."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Eșuat."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Eroare:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Eroare de rețea:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Interzis."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Test Lynbro SMTP"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Destinatar invalid."
+
+msgid "Our plugins"
+msgstr "Pluginurile noastre"
+
+msgid "Lynbro plugins"
+msgstr "Pluginurile Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Pluginuri WordPress generoase, axate pe confidențialitate — create în "
+"Danemarca. Nucleu gratuit, fără credite, datele tale rămân pe site-ul tău."
+
+msgid "More from Lynbro"
+msgstr "Mai multe de la Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Selecția noastră în creștere de pluginuri gratuite, axate pe "
+"confidențialitate. Cele deja instalate sunt marcate."
+
+msgid "Installed"
+msgstr "Instalat"
+
+msgid "On WordPress.org"
+msgstr "Pe WordPress.org"
+
+msgid "Coming soon"
+msgstr "În curând"
+
+msgid "Install"
+msgstr "Instalează"
+
+msgid "Learn more"
+msgstr "Află mai multe"
+
+msgid "About Lynbro"
+msgstr "Despre Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro creează pluginuri WordPress cu adevărat gratuite, axate pe "
+"confidențialitate, cu nuclee gratuite generoase — fără credite, fără paywall"
+" pentru funcțiile esențiale, datele tale rămân pe site-ul tău. Realizat în "
+"Danemarca."
+
+msgid "Visit Lynbro"
+msgstr "Vizitează Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Propune o funcționalitate sau raportează o eroare"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Feedback-ul deschide foaia noastră publică de parcurs pe plugins.lynbro.dk "
+"într-o filă nouă — nimic nu este trimis de pe site-ul tău."
+
+msgid "Tools"
+msgstr "Instrumente"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Exportă setările acestui plugin ca o copie de rezervă JSON sau resetează-le "
+"la valorile implicite. 100% local — nimic nu părăsește site-ul tău."
+
+msgid "Export settings (JSON)"
+msgstr "Exportă setările (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Resetează la valorile implicite"
+
+msgid "About Lynbro SMTP"
+msgstr "Despre Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress trimite e-mailuri implicit cu PHP mail(), pe care inboxurile îl "
+"consideră suspect. Lynbro SMTP le trimite în schimb printr-un server de "
+"e-mail real, autentificat — al gazdei tale, al căsuței tale poștale sau al "
+"unui serviciu de trimitere — astfel încât resetările de parolă, comenzile și"
+" formularele de contact ajung la destinație."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Totul este inclus în pluginul gratuit: jurnalul, retrimiterea, conexiunea de"
+" rezervă, alertele, diagnosticul și WP-CLI. Nu există versiune plătită."
+
+msgid "How your data is handled"
+msgstr "Cum sunt gestionate datele tale"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"E-mailurile merg direct de la serverul tău la serverul SMTP pe care îl "
+"setezi. Pluginul nu contactează niciun serviciu Lynbro și nu trimite "
+"statistici nicăieri."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"Parola SMTP este criptată cu cheile de securitate ale site-ului tău, nu este"
+" afișată din nou și nu este scrisă nici în jurnal, nici în exportul de "
+"setări."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Jurnalul păstrează destinatarii, subiectul și starea în propria bază de "
+"date. Conținutul mesajului doar pentru e-mailurile eșuate, implicit, iar "
+"fiecare intrare este ștearsă după perioada de păstrare."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Intrările din jurnal sunt incluse în Instrumente → Exportă datele personale "
+"și Șterge datele personale."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Un webhook de eșec, dacă setezi unul, primește doar textul erorii și un link"
+" către jurnalul tău."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Păstrează datele de autentificare în wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Oricare dintre aceste constante suprascrie câmpul din Setări, iar valoarea "
+"nu ajunge niciodată în baza de date sau în copiile ei de rezervă:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Versiune și linkuri"
+
+msgid "Version"
+msgstr "Versiune"
+
+msgid "Plugin home page"
+msgstr "Pagina principală a pluginului"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Trimite un e-mail de test"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Nu este setat încă niciun server SMTP, așa că testul va fi trimis cu PHP "
+"mail(). Completează mai întâi Setări pentru a testa SMTP."
+
+msgid "Recipient"
+msgstr "Destinatar"
+
+msgid "Test the backup connection"
+msgstr "Testează conexiunea de rezervă"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "Conversație SMTP (parola ascunsă)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"E-mailurile de test ignoră modul de test și modul „nu trimite”, astfel încât"
+" poți verifica conexiunea pe o copie de staging."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Poate acest server să ajungă la serverul SMTP?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Multe gazde blochează porturile de e-mail de ieșire. Aceasta verifică "
+"porturile uzuale către gazda salvată, de pe acest server web."
+
+msgid "Check ports"
+msgstr "Verifică porturile"
+
+msgid "Sender domain: %s"
+msgstr "Domeniu expeditor: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "Căutările DNS nu sunt disponibile pe acest server."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Asigură-te că include furnizorul tău SMTP (de exemplu "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Nu există înregistrare SPF. Adaugă una la furnizorul tău DNS care "
+"menționează furnizorul SMTP, altfel multe inboxuri nu vor avea încredere în "
+"e-mail."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Nu există înregistrare DMARC. Gmail și Yahoo cer una pentru expeditorii în "
+"volum; chiar și un simplu \"v=DMARC1; p=none\" ajută."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM este configurat la furnizorul tău SMTP (îți oferă ei înregistrarea "
+"DNS). Nu poate fi verificat de aici fără numele selectorului."
+
+msgid "Environment"
+msgstr "Mediu"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "lipsește — TLS și SSL nu vor funcționa"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Alte pluginuri de e-mail"
+
+msgid "none found"
+msgstr "nu s-a găsit niciunul"
+
+msgid "Scheduled cleanup"
+msgstr "Curățare programată"
+
+msgid "scheduled"
+msgstr "programată"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "neprogramată — dezactivează și reactivează pluginul"
+
+msgid "Sent"
+msgstr "Trimis"
+
+msgid "Failed"
+msgstr "Eșuat"
+
+msgid "Not sent (delivery off)"
+msgstr "Netrimis (livrarea dezactivată)"
+
+msgid "Unknown"
+msgstr "Necunoscut"
+
+msgid "Main SMTP"
+msgstr "SMTP principal"
+
+msgid "Backup SMTP"
+msgstr "SMTP de rezervă"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Mod test (redirecționat)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr ""
+"Jurnalul este dezactivat în Setări — nu se înregistrează e-mailuri noi."
+
+msgid "Sent, 30 days"
+msgstr "Trimis, 30 de zile"
+
+msgid "Failed, 30 days"
+msgstr "Eșuat, 30 de zile"
+
+msgid "Held back, 30 days"
+msgstr "Ținut în așteptare, 30 de zile"
+
+msgid "Status"
+msgstr "Stare"
+
+msgid "All statuses"
+msgstr "Toate stările"
+
+msgid "Recipient, subject or error"
+msgstr "Destinatar, subiect sau eroare"
+
+msgid "Search the log"
+msgstr "Caută în jurnal"
+
+msgid "Filter"
+msgstr "Filtrează"
+
+msgid "Clear"
+msgstr "Șterge"
+
+msgid "No emails match this filter."
+msgstr "Niciun e-mail nu corespunde acestui filtru."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Nu există încă e-mailuri înregistrate. Trimiteți un test din fila Test & "
+"diagnostic pentru a vedea prima intrare aici."
+
+msgid "Select all"
+msgstr "Selectează tot"
+
+msgid "Date"
+msgstr "Dată"
+
+msgid "To"
+msgstr "Către"
+
+msgid "Subject"
+msgstr "Subiect"
+
+msgid "Sent through"
+msgstr "Trimis prin"
+
+msgid "Actions"
+msgstr "Acțiuni"
+
+msgid "Select"
+msgstr "Selectează"
+
+msgid "(no subject)"
+msgstr "(fără subiect)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Atașamente (nu sunt păstrate): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Retrimitere a intrării #%d"
+
+msgid "Content not kept."
+msgstr "Conținutul nu este păstrat."
+
+msgid "Resend"
+msgstr "Retrimite"
+
+msgid "Delete the selected entries?"
+msgstr "Ștergeți intrările selectate?"
+
+msgid "Delete selected"
+msgstr "Șterge selectate"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s intrări · șterse automat după %2$s zile"
+
+msgid "Checking…"
+msgstr "Se verifică…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Trimis. Verificați inboxul (și folderul de spam) al destinatarului."
+
+msgid "Not sent."
+msgstr "Netrimis."
+
+msgid "open"
+msgstr "deschis"
+
+msgid "blocked"
+msgstr "blocat"
+
+msgid "Request failed:"
+msgstr "Cererea a eșuat:"
+
+msgid "Delivered through:"
+msgstr "Livrat prin:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nu aveți permisiuni suficiente pentru a accesa această pagină."
+
+msgid "Settings"
+msgstr "Setări"
+
+msgid "Test & diagnostics"
+msgstr "Testare și diagnosticare"
+
+msgid "Email log"
+msgstr "Jurnal email"
+
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "About"
+msgstr "Despre"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Trimiteți fiecare email WordPress prin propriul server SMTP — cu jurnal "
+"email, retrimitere, conexiune de rezervă și alerte de eșec. Totul gratuit, "
+"fără upsell-uri."
+
+msgid "The email was sent again."
+msgstr "Emailul a fost trimis din nou."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"Emailul nu a putut fi trimis din nou — vedeți cea mai recentă înregistrare "
+"din jurnal pentru motiv."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr ""
+"Conținutul acestui email nu a fost păstrat, așa că nu poate fi retrimis."
+
+msgid "Log entries deleted."
+msgstr "Înregistrările din jurnal au fost șterse."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Setări importate. Introduceți o dată parola SMTP și salvați — parolele nu "
+"sunt niciodată copiate din alte pluginuri."
+
+msgid "Set in wp-config.php"
+msgstr "Setat în wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "Emailul este trimis prin %1$s pe portul %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"Nu este setat încă niciun server SMTP — WordPress trimite în continuare cu "
+"PHP mail(). Alegeți mai jos furnizorul, completați datele de autentificare "
+"și salvați."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr ""
+"Livrarea este dezactivată: emailurile sunt înregistrate, dar nu sunt "
+"trimise."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "Mod test: fiecare email merge la %s în loc de destinatarii săi."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Parola salvată nu mai poate fi citită deoarece cheile de securitate ale "
+"site-ului s-au schimbat. Introduceți-o din nou și salvați."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Ultima eroare acum %1$s: %2$s"
+
+msgid "Show failed emails"
+msgstr "Afișați emailurile eșuate"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Activ și: %s. Două pluginuri de email intră în conflict pentru același email"
+" — dezactivați-l pe celălalt."
+
+msgid "Import settings from %s"
+msgstr "Importați setările din %s"
+
+msgid "SMTP server"
+msgstr "Server SMTP"
+
+msgid "Provider"
+msgstr "Furnizor"
+
+msgid "Port and encryption"
+msgstr "Port și criptare"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — de obicei portul 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — de obicei portul 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Niciuna — doar pentru un server din aceeași rețea"
+
+msgid "Authentication"
+msgstr "Autentificare"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "Serverul necesită nume de utilizator și parolă (aproape întotdeauna)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Parola provine din LYNBRO_SMTP_PASS din wp-config.php și nu este stocată în "
+"baza de date."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Salvat — lăsați gol pentru a păstra"
+
+msgid "Remove the saved password"
+msgstr "Eliminați parola salvată"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Stocată criptat cu cheile de securitate ale site-ului și nu este afișată "
+"niciodată din nou. Pentru a o păstra complet în afara bazei de date, "
+"definiți-o în wp-config.php (vedeți Despre)."
+
+msgid "Certificate"
+msgstr "Certificat"
+
+msgid "Verify the server certificate"
+msgstr "Verificați certificatul serverului"
+
+msgid "Default"
+msgstr "Implicit"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr "Debifați doar pentru propriul server cu un certificat self-signed."
+
+msgid "Sender"
+msgstr "Expeditor"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Forțează această adresă pentru fiecare e-mail, indiferent ce setează alte "
+"pluginuri"
+
+msgid "Recommended"
+msgstr "Recomandat"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Folosiți o adresă pe un domeniu pentru care contul SMTP poate trimite, "
+"altfel furnizorii pot respinge mesajul sau îl pot trimite în spam."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Forțează și acest nume (dezactivat: formularele și magazinele își păstrează "
+"propriul nume de expeditor)"
+
+msgid "Default Reply-To"
+msgstr "Reply-To implicit"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Folosit doar când un e-mail nu are propriul Reply-To, astfel încât "
+"răspunsurile din formulare să ajungă tot la vizitator."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Trimite mesajele returnate la adresa From"
+
+msgid "Backup connection"
+msgstr "Conexiune de rezervă"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Când serverul principal eșuează, același e-mail este retrimis imediat prin "
+"serverul de rezervă — vizitatorul nu vede nicio eroare."
+
+msgid "Backup"
+msgstr "Rezervă"
+
+msgid "Use a backup when the main server fails"
+msgstr "Folosește o rezervă când serverul principal eșuează"
+
+msgid "Another SMTP server"
+msgstr "Alt server SMTP"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr ""
+"PHP mail() al acestui server (mai bine decât nimic; poate ajunge în spam)"
+
+msgid "Backup host"
+msgstr "Gazdă de rezervă"
+
+msgid "Backup port"
+msgstr "Port de rezervă"
+
+msgid "Backup encryption"
+msgstr "Criptare de rezervă"
+
+msgid "None"
+msgstr "Niciuna"
+
+msgid "Backup login"
+msgstr "Autentificare de rezervă"
+
+msgid "Backup password"
+msgstr "Parolă de rezervă"
+
+msgid "Delivery mode"
+msgstr "Mod de livrare"
+
+msgid "Mode"
+msgstr "Mod"
+
+msgid "Send normally"
+msgstr "Trimite normal"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr ""
+"Mod test: trimite totul la o singură adresă (Cc și Bcc sunt eliminate)"
+
+msgid "Redirect address"
+msgstr "Adresă de redirecționare"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Nu trimite niciun e-mail (copii de staging) — e-mailurile sunt totuși "
+"jurnalizate"
+
+msgid "Log"
+msgstr "Jurnal"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr ""
+"Păstrează un jurnal pentru fiecare e-mail (destinatar, subiect, stare, "
+"eroare)"
+
+msgid "Keep message content"
+msgstr "Păstrează conținutul mesajului"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Doar pentru e-mailurile eșuate, ca să poată fi retrimise"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Pentru fiecare e-mail (îți permite să retrimiți orice; jurnalul va conține "
+"apoi linkuri de resetare a parolei și detalii despre comandă)"
+
+msgid "Never"
+msgstr "Niciodată"
+
+msgid "Keep entries for"
+msgstr "Păstrează intrările timp de"
+
+msgid "days, then they are deleted automatically"
+msgstr "zile, apoi sunt șterse automat"
+
+msgid "Failure alerts"
+msgstr "Alerte la eroare"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Cel mult o alertă pe oră. E-mailul de alertă este trimis cu PHP mail() de pe"
+" acest server, deoarece serverul SMTP poate fi cel care nu funcționează."
+
+msgid "Alert email"
+msgstr "E-mail de alertă"
+
+msgid "Webhook URL"
+msgstr "URL webhook"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Opțional. Fluxuri de lucru Slack, Discord, Microsoft Teams, ntfy sau "
+"propriul punct final (HTTPS). Pluginul trimite acolo textul erorii — nimic "
+"altceva, și numai când setați un URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Importă dintr-un alt plugin SMTP"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Copiază gazda, portul, criptarea, numele de utilizator și expeditorul. "
+"Parolele rămân unde sunt — introduceți-o pe a dvs. o singură dată după "
+"importare."
+
+msgid "Import from %s"
+msgstr "Importă din %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Nu s-au găsit pe acest site setări de la WP Mail SMTP, FluentSMTP, Easy WP "
+"SMTP sau Post SMTP."
+
+msgid "Download the log (CSV)"
+msgstr "Descarcă jurnalul (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Șterge toate intrările din jurnal?"
+
+msgid "Empty the log"
+msgstr "Golește jurnalul"
+
+msgid "Is it working for you?"
+msgstr "Funcționează pentru dvs.?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP este gratuit, fără nimic blocat. Dacă v-a ajutat să livrați "
+"e-mailul, o scurtă recenzie îi ajută pe alții să îl găsească."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Lasă o recenzie pe WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Lipsește ceva sau nu funcționează?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Raportările de erori și ideile sunt citite de cei care dezvoltă pluginul. "
+"Deschiderea acestor linkuri nu trimite nimic de pe site-ul dvs."
+
+msgid "Ask in the support forum"
+msgstr "Întreabă pe forumul de suport"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Propune o funcționalitate (roadmap public)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Postezi o linie din jurnal? Elimină mai întâi adresele — fila Test ascunde "
+"deja parola."
+
+msgid "You do not have permission to do that."
+msgstr "Nu aveți permisiunea pentru asta."
+
+msgid "Enter a valid recipient address."
+msgstr "Introduceți o adresă validă a destinatarului."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: conexiunea SMTP principală a eșuat, iar conexiunea de резервă a livrat"
+" e-mailul. Eroare: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: un e-mail nu a putut fi trimis. Eroare: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Intrare jurnal #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Problemă la livrarea e-mailului"
+
+msgid "Email delivery"
+msgstr "Livrarea e-mailului"
+
+msgid "Email is sent through SMTP"
+msgstr "E-mailul este trimis prin SMTP"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP trimite e-mailurile acestui site printr-un server SMTP "
+"autentificat."
+
+msgid "Open Lynbro SMTP"
+msgstr "Deschide Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "E-mailul este trimis cu PHP mail(), nu prin SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP este activ, dar nu este configurat niciun server SMTP, astfel că"
+" e-mailul este trimis tot prin PHP mail() și ajunge adesea în spam."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Parola SMTP salvată nu mai poate fi citită"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Cheile de securitate ale site-ului s-au schimbat după salvarea parolei. "
+"Introduceți din nou parola SMTP."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "Trimiterile de e-mail au eșuat în ultimele 24 de ore"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Conexiunea SMTP principală a eșuat în ultimele 24 de ore"
+
+msgid "Email delivery (7 days)"
+msgstr "Livrarea e-mailului (7 zile)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Trimise: %1$s · Eșuate: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"Încă nu este setat niciun server SMTP — e-mailul este trimis cu PHP mail()."
+
+msgid "Show failed"
+msgstr "Afișează eșuate"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Conexiune principală: %1$s — Conexiune de резервă: %2$s"
+
+msgid "Test email from %s"
+msgstr "E-mail de test de la %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Acesta este un e-mail de test de la %1$s, trimis de Lynbro SMTP.\n"
+"\n"
+"Dacă îl puteți citi, livrarea e-mailului funcționează.\n"
+"\n"
+"Trimis: %2$s\n"
+"Conexiune: %3$s"
+
+msgid "backup"
+msgstr "de rezervă"
+
+msgid "main"
+msgstr "principal"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Serverul a refuzat numele de utilizator sau parola. Gmail, Outlook, Zoho și "
+"iCloud au nevoie de o parolă de aplicație, nu de cea normală; SendGrid și "
+"Brevo au nevoie de o cheie SMTP/API."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365 are autentificarea SMTP dezactivată pentru această căsuță "
+"poștală. Un administrator poate activa „SMTP autentificat” pentru aceasta, "
+"sau folosiți în schimb un serviciu de relay."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Serverul nu a putut fi accesat. Mulți furnizori blochează porturile de "
+"ieșire 25, 465 și 587 — rulați mai jos verificarea portului, apoi cereți "
+"gazdei să deschidă portul sau folosiți portul care este deschis."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Conexiunea securizată a eșuat. Verificați că portul și criptarea corespund "
+"(587 = TLS, 465 = SSL). Dacă serverul folosește un certificat autosemnat, "
+"debifați „Verificați certificatul serverului”."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Serverul nu permite acestui cont să trimită ca adresa From. Folosiți o "
+"adresă de pe un domeniu deținut de cont și activați „Forțează adresa de "
+"e-mail From”."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Numele gazdei nu se rezolvă. Verificați-l pentru greșeli de tastare."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Citiți ultimele linii SERVER din transcript: de obicei serverul spune exact "
+"ce nu i-a plăcut."
+
+msgid "No host set."
+msgstr "Nu este setată nicio gazdă."
+
+msgid "That log entry no longer exists."
+msgstr "Acea înregistrare din jurnal nu mai există."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Conținutul acestui e-mail nu a fost păstrat, așa că nu poate fi retrimis. "
+"Schimbați „Păstrează conținutul mesajului” în Setări pentru a retrimite "
+"e-mailurile viitoare."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"E-mailul nu a putut fi trimis din nou. Noua încercare și eroarea ei sunt în "
+"jurnal."
+
+msgid "Date (UTC)"
+msgstr "Data (UTC)"
+
+msgid "Recipients"
+msgstr "Destinatari"
+
+msgid "Lynbro SMTP email log"
+msgstr "Jurnalul e-mailurilor Lynbro SMTP"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Restul suitei. Ceea ce este deja pe acest site este marcat; nimic nu se "
+"instalează fără să cereți acest lucru."
+
+msgid "Active"
+msgstr "Activ"
+
+msgid "Activate"
+msgstr "Activează"
+
+msgid "Install now"
+msgstr "Instalează acum"
+
+msgid "View on WordPress.org"
+msgstr "Vezi pe WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Componente Lynbro partajate v%1$s, furnizate de %2$s (cea mai recentă dintre"
+" %3$d versiuni de pe acest site)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Resetați toate setările la valorile implicite?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Îți livrează Lynbro SMTP e-mailurile? Câteva cuvinte pe WordPress.org îi "
+"ajută pe alții să găsească un plugin de e-mail fără vânzări suplimentare."
+
+msgid "Write a review"
+msgstr "Scrie o recenzie"
+
+msgid "No thanks"
+msgstr "Nu, mulțumesc"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Modul de redirecționare are nevoie de o adresă către care să redirecționeze "
+"— e-mailul este trimis normal până adăugați una."
+
+msgid "Other SMTP server"
+msgstr "Alt server SMTP"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr ""
+"Folosiți detaliile SMTP de la gazda dvs. sau de la furnizorul de e-mail."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Nume de utilizator: adresa dvs. completă Gmail. Parolă: o parolă de "
+"aplicație (Cont Google → Securitate → Verificare în 2 pași → Parole de "
+"aplicație), nu parola obișnuită."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 are nevoie ca „SMTP autentificat” să fie activat pentru căsuța"
+" poștală. Microsoft elimină autentificarea cu parolă pentru SMTP; dacă "
+"autentificarea eșuează, folosiți un serviciu de relay precum Brevo sau SMTP-"
+"ul gazdei dvs."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Nume de utilizator: loginul SMTP afișat sub SMTP & API. Parolă: o cheie "
+"SMTP, nu parola contului."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr ""
+"Nume de utilizator: cuvântul „apikey”. Parolă: cheia dvs. API SendGrid."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"Conturile din UE folosesc smtp.eu.mailgun.org. Nume de utilizator și parolă:"
+" credențialele SMTP ale domeniului dvs. de trimitere."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Schimbați regiunea în cea a dvs. Nume de utilizator și parolă: credențiale "
+"SMTP create în consola SES (nu cheile dvs. de acces AWS)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "Nume de utilizator și parolă: ambele sunt tokenul dvs. Server API."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Folosiți smtp.zoho.com pentru conturile din afara UE. Cu autentificare în "
+"doi pași, creați o parolă specifică aplicației."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Nume de utilizator: cheie API. Parolă: cheie secretă."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Nume de utilizator și parolă: un utilizator SMTP creat în Sending → SMTP "
+"Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Nume de utilizator: adresa completă a căsuței poștale. Parolă: parola "
+"căsuței poștale."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Folosiți smtp.ionos.de sau smtp.ionos.co.uk pentru acele regiuni. Nume de "
+"utilizator: adresa completă a căsuței poștale."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Trimite toate emailurile WordPress prin propriul server SMTP, cu un jurnal "
+"de emailuri căutabil, retrimitere, o conexiune de rezervă, alerte la eșec și"
+" diagnosticarea conexiunii. Fără upsell-uri."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Gazdă: punctul final SMTP al regiunii dvs. SES, afișat în consola SES la "
+"setările SMTP. Nume de utilizator și parolă: acreditive SMTP create în "
+"consola SES (nu cheile dvs. de acces AWS)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Opțional. Un webhook de intrare Slack sau Discord, ori propriul dvs. "
+"endpoint HTTPS (JSON cu \"text\" și \"content\"). Pluginul publică acolo "
+"textul erorii — nimic altceva, și numai atunci când setați o adresă URL."
+
+msgid "Is %s doing its job?"
+msgstr "Își face %s treaba?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Folosești pluginul de câteva săptămâni. Dacă funcționează pentru tine, o "
+"recenzie scurtă pe WordPress.org îi ajută pe alți proprietari de site să îl "
+"găsească — inclusiv recenzii oneste sau critice."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Folosești pluginul de câteva săptămâni. Dacă funcționează pentru tine — sau "
+"dacă lipsește ceva — spune-ne pe roadmap-ul nostru public. Așa decidem ce "
+"dezvoltăm în continuare."
+
+msgid "(opens in a new tab)"
+msgstr "(se deschide într-o filă nouă)"
+
+msgid "Share feedback"
+msgstr "Trimite feedback"
+
+msgid "Maybe later"
+msgstr "Poate mai târziu"
+
+msgid "Don't ask again"
+msgstr "Nu mai întreba"
+
+msgid "Something not working? Ask for help"
+msgstr "Ceva nu funcționează? Cere ajutor"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce este activ"
+
+msgid "a form plugin is active"
+msgstr "un plugin de formulare este activ"
+
+msgid "the site is set up for Denmark"
+msgstr "site-ul este configurat pentru Danemarca"
+
+msgid "comments are open"
+msgstr "comentariile sunt deschise"
+
+msgid "tracking tags are active"
+msgstr "etichetele de tracking sunt active"
+
+msgid "visitors can create accounts"
+msgstr "vizitatorii pot crea conturi"
+
+msgid "Suggested because %l."
+msgstr "Sugerat deoarece %l."
+
+msgid "Suggested for this site"
+msgstr "Sugerat pentru acest site"
+
+msgid "Hide suggestions"
+msgstr "Ascunde sugestiile"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Alte pluginuri Lynbro potrivite pentru ce folosește acest site. Nimic nu se "
+"instalează decât dacă dai click."
+
+msgid "All Lynbro plugins"
+msgstr "Toate pluginurile Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Selectate din ce folosește deja acest site — citit local, nimic nu este "
+"trimis nicăieri."
+
+msgid "Image Optimizer"
+msgstr "Optimizator de imagini"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Conversie în WebP și AVIF, redimensionare a imaginilor supradimensionate și "
+"încărcare întârziată — totul pe propriul server."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Scrie și ilustrează articole cu AI folosind propria cheie OpenAI — la cost, "
+"fără credite intermediare."
+
+msgid "Analytics"
+msgstr "Analitice"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Analitice găzduite local, fără cookie-uri, cu funnel-uri. Datele "
+"vizitatorilor nu părăsesc baza ta de date."
+
+msgid "Tags"
+msgstr "Etichete"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel și altele fără cod — fiecare "
+"etichetă așteaptă consimțământul."
+
+msgid "Forms"
+msgstr "Formulare"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formulare cu răspunsuri salvate gratuit și fără limită, logică condițională "
+"verificată pe server și webhook-uri semnate."
+
+msgid "Verify"
+msgstr "Verificare"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Detectează domenii de e-mail greșite și numere de telefon invalide, apoi "
+"confirmă-le cu un cod unic prin e-mail sau SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Golire fiabilă pentru cache nginx FastCGI și cache de obiecte Redis, cu "
+"fiecare golire verificată direct în cache."
+
+msgid "Translate"
+msgstr "Traducere"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Rulează site-ul în mai multe limbi, cu traducere automată prin propria cheie"
+" OpenAI — fără tarifare, fără vânzare la cuvânt."
+
+msgid "Shield"
+msgstr "Protecție"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Header-e de securitate, HTTPS cu HSTS, firewall împotriva atacurilor de tip "
+"injection și setările esențiale de securitate."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Verificări anti-spam care rulează pe propriul server. Fără cont, fără "
+"abonament, fiecare blocare explicată — iar mesajele reținute nu se pierd."
+
+msgid "Login Guard"
+msgstr "Protecție autentificare"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Mută wp-login.php, limitează autentificările eșuate și adaugă autentificare "
+"cu doi factori prin aplicație — cu trei metode de recuperare."
+
+msgid "Cookie Consent"
+msgstr "Consimțământ cookie"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Banner GDPR și ePrivacy cu Consent Mode v2, buton de respingere la fel de "
+"vizibil și 35 de limbi."
+
+msgid "Activity Log"
+msgstr "Jurnal activitate"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Cine, ce, când și de unde — înregistrat pe propriul server, căutabil, "
+"exportabil și șters conform programării tale."
+
+msgid "Data Retention"
+msgstr "Păstrare date"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Găsește unde sunt datele personale în baza ta de date, apoi șterge-le "
+"programat — cu simulare înainte de fiecare ștergere."
+
+msgid "Accessibility"
+msgstr "Accesibilitate"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Scanează fiecare pagină conform WCAG 2.2 AA și repară ce se poate în "
+"siguranță. Fără overlay, fără limită de pagini."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO simplu cu schema LocalBusiness gratuită, sitemap-uri și carduri sociale."
+" Fără transmitere de date externe."
+
+msgid "SMTP Mailer"
+msgstr "Mailer SMTP"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"E-mail WordPress prin propriul server SMTP — cu jurnal e-mail, retrimitere, "
+"conexiune de rezervă și alerte la eșec."
+
+msgid "Social Feed"
+msgstr "Feed social"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Feed Instagram pe site fără token Meta stocat în WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache recenzii"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Afișează recenziile Google fără a introduce cheia API în WordPress."
+
+msgid "Links"
+msgstr "Linkuri"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Găsește linkuri defecte și gestionează redirecționările pe propriul server, "
+"cu motivul fiecărei decizii."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Autofill"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Autocompletare și validare adresă daneză pentru WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable și EDD."
+
+msgid "Soge Lookup"
+msgstr "Căutare Soge"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Caută vehicule daneze (DMR) și companii (CVR) după număr de înmatriculare, "
+"VIN sau număr CVR."
+
+msgid "CVR Checkout"
+msgstr "Checkout CVR"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Checkout B2B danez pentru WooCommerce: autocompletare companie CVR, validare"
+" CVR/TVA-UE (VIES) și câmp EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Livrare daneză"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Selectare gratuită punct de ridicare pentru PostNord și GLS Danemarca la "
+"checkout WooCommerce, plus metode de livrare clare."
+
+msgid "API Auth"
+msgstr "Autentificare API"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens pentru REST API, revocabile, cu scope-uri și jurnal de "
+"refuzuri."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Alertele de eșec prin e-mail nu sunt trimise"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"E-mailul de alertă este trimis cu PHP mail(), astfel încât să nu depindă de "
+"serverul SMTP, dar PHP mail() a eșuat pe acest server: %s Folosiți un "
+"webhook pentru alerte sau cereți gazdei dvs. să activeze mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Aceasta este versiunea anterioară a Lynbro SMTP. Lynbro SMTP Mailer a "
+"înlocuit-o și folosește aceleași setări. Ștergeți dosarul %s folosind "
+"managerul de fișiere al găzduirii, FTP sau SSH — nu folosiți opțiunea "
+"Ștergeți de aici: dezinstalarea șterge setările SMTP comune. Lynbro SMTP "
+"Mailer păstrează o copie de rezervă și le restaurează, dar pluginul vechi "
+"golește și jurnalul de e-mailuri."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Setările SMTP au fost șterse de un alt plugin pe %s și au fost restaurate "
+"din copia de rezervă. Nu trebuie să faceți nimic; trimiteți un e-mail de "
+"test dacă doriți să vă asigurați."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Acest site trimite e-mailuri folosind propriul serviciu de e-mail al "
+"serverului (PHP mail()). Testul arată dacă serverul a acceptat e-mailul; "
+"verifică antetele acestuia în căsuța de e-mail (Authentication-Results: "
+"spf=pass, dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Asigură-te că include acest server web (adresa IP a acestuia cu ip4: sau "
+"ip6:, ori un a: / mx: care se rezolvă la adresa lui)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"E-mailul este trimis folosind propriul serviciu de e-mail al serverului (PHP"
+" mail()), de la %s, cu un Return-Path corespunzător."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path este dezactivat: serverul folosește propria adresă în plic, așa "
+"că SPF verifică domeniul respectiv în locul domeniului tău."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"E-mailul este trimis folosind serviciul de e-mail propriu al serverului, cu "
+"un expeditor corespunzător"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP trimite e-mailuri cu PHP mail(), la alegerea ta, și setează "
+"adresa From și Return-Path pentru fiecare e-mail. Păstrează acest server în "
+"înregistrarea SPF a domeniului."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Serviciul de e-mail propriu al acestui server (PHP mail(), fără SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Pentru serverele configurate să trimită singure e-mailuri. Nu este necesară "
+"autentificarea: adresa From și Return-Path de mai jos sunt setate în "
+"continuare pentru fiecare e-mail, astfel încât SPF și DMARC să poată fi "
+"aliniate. Înregistrarea SPF a domeniului trebuie să includă acest server."

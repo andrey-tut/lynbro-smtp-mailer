@@ -1,0 +1,1442 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "通过您的 SMTP 主机发送所有 WordPress 邮件。"
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "主机"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "端口"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "加密"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "用户名"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "密码"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "••••••••（已保存 — 留空可保留）"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "发件邮箱"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "发件名称"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "强制发件人"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr "为所有外发邮件覆盖发件人（建议用于提高送达率）"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "测试发送"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "发送测试"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "最近活动"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "权限不足。"
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Plugins by lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "发送中…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ 已发送。"
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ 发送失败。"
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "错误："
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "网络错误："
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "禁止。"
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP 测试"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "收件人无效。"
+
+msgid "Our plugins"
+msgstr "我们的插件"
+
+msgid "Lynbro plugins"
+msgstr "Lynbro 插件"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr "宽厚、隐私优先的 WordPress 插件——丹麦打造。核心功能免费，无积分，你的数据始终留在你自己的网站上。"
+
+msgid "More from Lynbro"
+msgstr "更多来自 Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr "我们不断扩展的免费、隐私优先插件套件。已安装的插件会标记出来。"
+
+msgid "Installed"
+msgstr "已安装"
+
+msgid "On WordPress.org"
+msgstr "在 WordPress.org 上"
+
+msgid "Coming soon"
+msgstr "即将推出"
+
+msgid "Install"
+msgstr "安装"
+
+msgid "Learn more"
+msgstr "了解更多"
+
+msgid "About Lynbro"
+msgstr "关于 Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro 开发真正免费的、隐私优先的 WordPress "
+"插件，提供宽厚的免费核心功能——无积分、基础功能无付费墙，你的数据保留在你自己的网站上。丹麦制造。"
+
+msgid "Visit Lynbro"
+msgstr "访问 Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "建议功能或报告错误"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr "反馈会在新标签页中打开我们位于 plugins.lynbro.dk 的公开路线图——不会从你的网站发送任何内容。"
+
+msgid "Tools"
+msgstr "工具"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr "将此插件的设置导出为 JSON 备份，或将其重置为默认值。100% 本地——不会有任何内容离开你的网站。"
+
+msgid "Export settings (JSON)"
+msgstr "导出设置（JSON）"
+
+msgid "Reset to defaults"
+msgstr "重置为默认值"
+
+msgid "About Lynbro SMTP"
+msgstr "关于 Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress 默认使用 PHP mail() 发送电子邮件，但收件箱会把它视为可疑邮件。Lynbro SMTP "
+"则通过真实、经过验证的邮件服务器发送——可以是你的主机、邮箱或发送服务——因此密码重置、订单和联系表单都能送达。"
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr "免费插件里已经包含所有功能：日志、重新发送、备用连接、提醒、诊断和 WP-CLI。没有付费版。"
+
+msgid "How your data is handled"
+msgstr "您的数据如何处理"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr "邮件会直接从你的服务器发送到你设置的 SMTP 服务器。插件不会连接任何 Lynbro 服务，也不会向任何地方发送统计信息。"
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr "SMTP 密码会使用你网站的安全密钥加密，之后不会再次显示，也不会写入日志或设置导出。"
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr "日志会将收件人、主题和状态保存在你自己的数据库中。默认仅对发送失败的邮件保存邮件内容，并且每条记录都会在保留期后删除。"
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr "日志条目包含在 工具 → 导出个人数据 和 擦除个人数据 中。"
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr "如果你设置了失败 webhook，它只会接收错误文本和指向你日志的链接。"
+
+msgid "Keep the login in wp-config.php"
+msgstr "将登录信息保留在 wp-config.php 中"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr "以下任一常量都会覆盖 设置 中的字段，而且该值不会进入数据库或其备份："
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "版本和链接"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "Plugin home page"
+msgstr "插件主页"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "发送测试邮件"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr "尚未设置 SMTP 服务器，因此测试将通过 PHP mail() 发送。请先在设置中填写信息，然后再测试 SMTP。"
+
+msgid "Recipient"
+msgstr "收件人"
+
+msgid "Test the backup connection"
+msgstr "测试备用连接"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP 会话（密码已隐藏）"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr "测试邮件会忽略测试模式和“不要发送”模式，因此你可以在预发布副本上检查连接。"
+
+msgid "Can this server reach the SMTP server?"
+msgstr "这台服务器能连接到 SMTP 服务器吗？"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr "许多主机会阻止外发邮件端口。此项会从这台 Web 服务器检查到你已保存主机的常用端口。"
+
+msgid "Check ports"
+msgstr "检查端口"
+
+msgid "Sender domain: %s"
+msgstr "发件人域名：%s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "此服务器无法进行 DNS 查询。"
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr "请确保其中包含你的 SMTP 服务提供商（例如 include:spf.brevo.com）。"
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr "没有 SPF 记录。请在你的 DNS 托管商处添加一条，注明你的 SMTP 服务提供商，否则许多收件箱会不信任该邮件。"
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr "没有 DMARC 记录。Gmail 和 Yahoo 要求群发者必须有该记录；即使是简单的“v=DMARC1; p=none”也有帮助。"
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr "DKIM 在你的 SMTP 服务提供商处配置（他们会提供 DNS 记录）。如果不知道选择器名称，这里无法检查。"
+
+msgid "Environment"
+msgstr "环境"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "缺失 — TLS 和 SSL 将无法工作"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "其他邮件插件"
+
+msgid "none found"
+msgstr "未找到"
+
+msgid "Scheduled cleanup"
+msgstr "计划清理"
+
+msgid "scheduled"
+msgstr "已计划"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "未计划 — 请停用并重新启用插件"
+
+msgid "Sent"
+msgstr "已发送"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Not sent (delivery off)"
+msgstr "未发送（已关闭投递）"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Main SMTP"
+msgstr "主 SMTP"
+
+msgid "Backup SMTP"
+msgstr "备用 SMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "测试模式（已重定向）"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "日志已在设置中关闭——不再记录新邮件。"
+
+msgid "Sent, 30 days"
+msgstr "已发送，30 天"
+
+msgid "Failed, 30 days"
+msgstr "失败，30 天"
+
+msgid "Held back, 30 days"
+msgstr "已拦截，30 天"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "All statuses"
+msgstr "全部状态"
+
+msgid "Recipient, subject or error"
+msgstr "收件人、主题或错误"
+
+msgid "Search the log"
+msgstr "搜索日志"
+
+msgid "Filter"
+msgstr "筛选"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "No emails match this filter."
+msgstr "没有邮件符合此筛选条件。"
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr "目前还没有记录邮件。请在“测试与诊断”选项卡中发送一封测试邮件，以便在这里看到第一条记录。"
+
+msgid "Select all"
+msgstr "全选"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "To"
+msgstr "收件人"
+
+msgid "Subject"
+msgstr "主题"
+
+msgid "Sent through"
+msgstr "通过以下方式发送"
+
+msgid "Actions"
+msgstr "操作"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "(no subject)"
+msgstr "（无主题）"
+
+msgid "Attachments (not kept): %s"
+msgstr "附件（未保留）：%s"
+
+msgid "Resend of entry #%d"
+msgstr "第 #%d 条记录的重新发送"
+
+msgid "Content not kept."
+msgstr "内容未保留。"
+
+msgid "Resend"
+msgstr "重新发送"
+
+msgid "Delete the selected entries?"
+msgstr "删除所选条目？"
+
+msgid "Delete selected"
+msgstr "删除所选"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s 条记录 · 在 %2$s 天后自动删除"
+
+msgid "Checking…"
+msgstr "正在检查…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "已发送。请检查收件人的收件箱（以及垃圾邮件文件夹）。"
+
+msgid "Not sent."
+msgstr "未发送。"
+
+msgid "open"
+msgstr "开启"
+
+msgid "blocked"
+msgstr "已拦截"
+
+msgid "Request failed:"
+msgstr "请求失败："
+
+msgid "Delivered through:"
+msgstr "通过以下方式投递："
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页面。"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Test & diagnostics"
+msgstr "测试与诊断"
+
+msgid "Email log"
+msgstr "邮件日志"
+
+msgid "Feedback"
+msgstr "反馈"
+
+msgid "About"
+msgstr "关于"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr "通过您自己的 SMTP 服务器发送每封 WordPress 邮件——包含邮件日志、重新发送、备用连接和失败提醒。全部免费，无升级推销。"
+
+msgid "The email was sent again."
+msgstr "邮件已重新发送。"
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr "邮件无法重新发送——请查看最新日志条目了解原因。"
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "此邮件内容未被保存，因此无法重新发送。"
+
+msgid "Log entries deleted."
+msgstr "日志条目已删除。"
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr "设置已导入。请输入 SMTP 密码并保存一次——密码绝不会从其他插件复制。"
+
+msgid "Set in wp-config.php"
+msgstr "已在 wp-config.php 中设置"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "邮件通过 %1$s 在 %2$s 端口发送。"
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr "尚未设置 SMTP 服务器——WordPress 仍在使用 PHP mail() 发送。请在下方选择您的提供商，填写登录信息并保存。"
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "投递已关闭：邮件会被记录，但不会发送。"
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "测试模式：所有邮件都会发送到 %s，而不是其收件人。"
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr "由于站点安全密钥已更改，已保存的密码无法再读取。请重新输入并保存。"
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "上次失败于 %1$s 前：%2$s"
+
+msgid "Show failed emails"
+msgstr "显示发送失败的邮件"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr "也已启用：%s。两个邮件插件会争用同一封邮件——请停用另一个。"
+
+msgid "Import settings from %s"
+msgstr "从 %s 导入设置"
+
+msgid "SMTP server"
+msgstr "SMTP 服务器"
+
+msgid "Provider"
+msgstr "提供商"
+
+msgid "Port and encryption"
+msgstr "端口和加密"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS（STARTTLS）——通常使用 587 端口"
+
+msgid "SSL — usually port 465"
+msgstr "SSL——通常使用 465 端口"
+
+msgid "None — only for a server on the same network"
+msgstr "无——仅适用于同一网络中的服务器"
+
+msgid "Authentication"
+msgstr "身份验证"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "服务器需要用户名和密码（几乎总是）"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr "密码来自 wp-config.php 中的 LYNBRO_SMTP_PASS，不会存储在数据库中。"
+
+msgid "Saved — leave empty to keep it"
+msgstr "已保存——留空可保持不变"
+
+msgid "Remove the saved password"
+msgstr "移除已保存的密码"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr "使用站点的安全密钥加密保存，且不会再次显示。若想完全不存入数据库，请在 wp-config.php 中定义它（见关于）。"
+
+msgid "Certificate"
+msgstr "证书"
+
+msgid "Verify the server certificate"
+msgstr "验证服务器证书"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr "仅在您自己的自签名证书服务器上取消勾选。"
+
+msgid "Sender"
+msgstr "发件人"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr "强制所有邮件使用此地址，无论其他插件设置为何"
+
+msgid "Recommended"
+msgstr "推荐"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr "请使用与您的 SMTP 账户允许发送的域名相符的地址，否则服务提供商可能会拒收或将邮件归为垃圾邮件。"
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr "也强制使用此名称（关闭后：表单和商店将保留各自的发件人名称）"
+
+msgid "Default Reply-To"
+msgstr "默认回复地址"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr "仅在邮件本身没有回复地址时使用，这样联系表单的回复仍会发送给访客。"
+
+msgid "Return-Path"
+msgstr "退信地址"
+
+msgid "Send bounces to the From address"
+msgstr "将退信发送到 From 地址"
+
+msgid "Backup connection"
+msgstr "备用连接"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr "当主服务器失败时，同一封邮件会立即通过备用服务器再次发送——访客不会看到错误。"
+
+msgid "Backup"
+msgstr "备用"
+
+msgid "Use a backup when the main server fails"
+msgstr "在主服务器失败时使用备用服务器"
+
+msgid "Another SMTP server"
+msgstr "另一台 SMTP 服务器"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "此服务器的 PHP mail()（总比没有好；可能会进入垃圾邮件）"
+
+msgid "Backup host"
+msgstr "备用主机"
+
+msgid "Backup port"
+msgstr "备用端口"
+
+msgid "Backup encryption"
+msgstr "备用加密"
+
+msgid "None"
+msgstr "无"
+
+msgid "Backup login"
+msgstr "备用登录名"
+
+msgid "Backup password"
+msgstr "备用密码"
+
+msgid "Delivery mode"
+msgstr "投递模式"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "Send normally"
+msgstr "正常发送"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "测试模式：将所有邮件发送到一个地址（Cc 和 Bcc 会被移除）"
+
+msgid "Redirect address"
+msgstr "重定向地址"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr "不发送任何邮件（预发布副本）——邮件仍会被记录"
+
+msgid "Log"
+msgstr "日志"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "记录每封邮件（收件人、主题、状态、错误）"
+
+msgid "Keep message content"
+msgstr "保留邮件内容"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "仅保留发送失败的邮件，以便重新发送"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr "保留所有邮件（可重新发送任何邮件；日志中会包含密码重置链接和订单详情）"
+
+msgid "Never"
+msgstr "从不"
+
+msgid "Keep entries for"
+msgstr "保留记录"
+
+msgid "days, then they are deleted automatically"
+msgstr "天，然后自动删除"
+
+msgid "Failure alerts"
+msgstr "失败提醒"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr "最多每小时一条提醒。提醒邮件通过本服务器的 PHP mail() 发送，因为出问题的可能正是 SMTP 服务器。"
+
+msgid "Alert email"
+msgstr "提醒邮件"
+
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"可选。Slack、Discord、Microsoft Teams 工作流、ntfy "
+"或您自己的端点（HTTPS）。插件会将错误文本发送到那里——仅此而已，而且只有在您设置了 URL 时才会发送。"
+
+msgid "Import from another SMTP plugin"
+msgstr "从另一个 SMTP 插件导入"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr "复制主机、端口、加密方式、用户名和发件人。密码保留在原处——导入后只需输入一次。"
+
+msgid "Import from %s"
+msgstr "从 %s 导入"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr "在此站点上未找到 WP Mail SMTP、FluentSMTP、Easy WP SMTP 或 Post SMTP 的设置。"
+
+msgid "Download the log (CSV)"
+msgstr "下载日志（CSV）"
+
+msgid "Delete every log entry?"
+msgstr "删除所有日志条目？"
+
+msgid "Empty the log"
+msgstr "清空日志"
+
+msgid "Is it working for you?"
+msgstr "对你有用吗？"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr "Lynbro SMTP 是免费的，没有任何功能被锁定。如果它帮助你成功送达了邮件，留个简短评价能帮助其他人找到它。"
+
+msgid "Leave a review on WordPress.org"
+msgstr "在 WordPress.org 上留下评价"
+
+msgid "Something missing or broken?"
+msgstr "有缺失或损坏的吗？"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr "错误报告和想法会被插件开发者直接看到。打开这些链接不会从你的网站发送任何内容。"
+
+msgid "Ask in the support forum"
+msgstr "在支持论坛提问"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "建议一个功能（公开路线图）"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr "要发布日志行吗？先移除地址——测试标签页已经隐藏了密码。"
+
+msgid "You do not have permission to do that."
+msgstr "你没有权限执行此操作。"
+
+msgid "Enter a valid recipient address."
+msgstr "请输入有效的收件人地址。"
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr "%1$s：主 SMTP 连接失败，备用连接已发送邮件。错误：%2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s：一封邮件无法发送。错误：%2$s"
+
+msgid "Log entry #%d"
+msgstr "日志条目 #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] 邮件投递问题"
+
+msgid "Email delivery"
+msgstr "邮件投递"
+
+msgid "Email is sent through SMTP"
+msgstr "邮件通过 SMTP 发送"
+
+msgid "Email"
+msgstr "邮件"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr "Lynbro SMTP 通过经过身份验证的 SMTP 服务器发送此网站的邮件。"
+
+msgid "Open Lynbro SMTP"
+msgstr "打开 Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "邮件通过 PHP mail() 发送，而不是 SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr "Lynbro SMTP 已启用，但未设置 SMTP 服务器，因此邮件仍通过 PHP mail() 发送，并且经常进入垃圾邮件。"
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "已保存的 SMTP 密码已无法读取"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr "网站的安全密钥在保存密码后发生了变化。请重新输入 SMTP 密码。"
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "在过去 24 小时内邮件发送失败"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "在过去 24 小时内主 SMTP 连接失败"
+
+msgid "Email delivery (7 days)"
+msgstr "邮件投递（7 天）"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "已发送：%1$s · 失败：%2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr "尚未设置 SMTP 服务器——邮件通过 PHP mail() 发送。"
+
+msgid "Show failed"
+msgstr "显示失败"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "主连接：%1$s — 备用连接：%2$s"
+
+msgid "Test email from %s"
+msgstr "来自 %s 的测试邮件"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"这是一封来自 %1$s 的测试邮件，由 Lynbro SMTP 发送。\n"
+"\n"
+"如果你能读到这封邮件，说明邮件投递正常。\n"
+"\n"
+"发送：%2$s\n"
+"连接：%3$s"
+
+msgid "backup"
+msgstr "备用"
+
+msgid "main"
+msgstr "主界面"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"服务器拒绝了用户名或密码。Gmail、Outlook、Zoho 和 iCloud 需要应用专用密码，而不是常规密码；SendGrid 和 Brevo "
+"需要 SMTP/API 密钥。"
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr "Microsoft 365 已为此邮箱关闭 SMTP 登录。管理员可以为其启用“经过身份验证的 SMTP”，或者改用中继服务。"
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr "无法连接到服务器。许多主机会阻止外发端口 25、465 和 587——请先运行下面的端口检查，然后要求主机开放该端口，或改用可用的端口。"
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"安全连接失败。请检查端口和加密方式是否匹配（587 = TLS，465 = SSL）。如果服务器使用自签名证书，请取消勾选“验证服务器证书”。"
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr "服务器不允许此帐户以 From 地址发送。请使用该帐户所属域名下的地址，并开启“强制 From 邮箱”。"
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "主机名无法解析。请检查是否有拼写错误。"
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr "请阅读转录中的最后几行 SERVER 记录：服务器通常会直接说明它不接受什么。"
+
+msgid "No host set."
+msgstr "未设置主机。"
+
+msgid "That log entry no longer exists."
+msgstr "该日志条目已不存在。"
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr "此邮件内容未被保存，因此无法重新发送。请在“设置”中将“保留邮件内容”改为开启，以便日后重发邮件。"
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr "邮件无法再次发送。新的尝试及其错误已记录在日志中。"
+
+msgid "Date (UTC)"
+msgstr "日期（UTC）"
+
+msgid "Recipients"
+msgstr "收件人"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP 邮件日志"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr "其余套件。此站点上已安装的会标记出来；未经过你确认，不会安装任何内容。"
+
+msgid "Active"
+msgstr "已启用"
+
+msgid "Activate"
+msgstr "启用"
+
+msgid "Install now"
+msgstr "立即安装"
+
+msgid "View on WordPress.org"
+msgstr "在 WordPress.org 上查看"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr "共享的 Lynbro 组件 v%1$s，由 %2$s 提供（此站点上 %3$d 个版本中最新的一个）。"
+
+msgid "Reset all settings to defaults?"
+msgstr "将所有设置重置为默认值？"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr "Lynbro SMTP 能帮你成功投递邮件吗？在 WordPress.org 留几句话，能帮助其他人找到一款没有强制推销的邮件插件。"
+
+msgid "Write a review"
+msgstr "写一篇评价"
+
+msgid "No thanks"
+msgstr "不用了，谢谢"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr "重定向模式需要一个重定向地址——在你添加地址之前，邮件会正常发送。"
+
+msgid "Other SMTP server"
+msgstr "其他 SMTP 服务器"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "使用来自你的主机或邮箱提供商的 SMTP 详细信息。"
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"用户名：你的完整 Gmail 地址。密码：应用专用密码（Google 账号 → 安全性 → 两步验证 → 应用专用密码），不是你的普通密码。"
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 需要为该邮箱启用“经过身份验证的 SMTP”。微软正逐步停用 SMTP 的密码登录；如果登录失败，请使用 Brevo "
+"或你的主机的 SMTP 等中继服务。"
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr "用户名：SMTP & API 下显示的 SMTP 登录名。密码：SMTP 密钥，不是你的账户密码。"
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "用户名：单词“apikey”。密码：你的 SendGrid API 密钥。"
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr "欧盟账户使用 smtp.eu.mailgun.org。用户名和密码：你的发件域的 SMTP 凭据。"
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr "请将主机中的地区更改为你的地区。用户名和密码：在 SES 控制台中创建的 SMTP 凭据（不是你的 AWS 访问密钥）。"
+
+msgid "Username and password: both are your Server API token."
+msgstr "用户名和密码：两者都是你的 Server API 令牌。"
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr "欧盟以外的账户请使用 smtp.zoho.com。启用双重验证后，请创建专用应用密码。"
+
+msgid "Username: API key. Password: secret key."
+msgstr "用户名：API 密钥。密码：密钥。"
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr "用户名和密码：在 Sending → SMTP Users 下创建的 SMTP 用户。"
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr "用户名：完整邮箱地址。密码：邮箱密码。"
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr "这些地区请使用 smtp.ionos.de 或 smtp.ionos.co.uk。用户名：完整邮箱地址。"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr "通过您自己的 SMTP 服务器发送所有 WordPress 邮件，并提供可搜索的邮件日志、重发、备用连接、失败提醒和连接诊断。无强制推销。"
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"主机：您 SES 区域的 SMTP 端点，可在 SES 控制台的 SMTP 设置中查看。用户名和密码：在 SES 控制台创建的 SMTP 凭证（不是您的"
+" AWS 访问密钥）。"
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"可选。Slack 或 Discord 的传入 webhook，或你自己的 HTTPS 端点（JSON "
+"中包含“text”和“content”）。插件只会将错误文本发布到那里——不包含其他内容，并且仅在你设置了 URL 时才会这样做。"
+
+msgid "Is %s doing its job?"
+msgstr "%s 正在发挥作用吗？"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr "您已经使用了几周。如果觉得好用，请在 WordPress.org 上写个简短评价，帮助其他站长发现它——无论是好评还是批评。"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr "您已经使用了几周。如果觉得好用，或者有缺失的功能，请在我们的公开路线图上反馈。这将决定我们下一步开发什么。"
+
+msgid "(opens in a new tab)"
+msgstr "（在新标签页打开）"
+
+msgid "Share feedback"
+msgstr "提交反馈"
+
+msgid "Maybe later"
+msgstr "稍后再说"
+
+msgid "Don't ask again"
+msgstr "不再提醒"
+
+msgid "Something not working? Ask for help"
+msgstr "有问题？寻求帮助"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce 已启用"
+
+msgid "a form plugin is active"
+msgstr "表单插件已启用"
+
+msgid "the site is set up for Denmark"
+msgstr "站点已设置为丹麦"
+
+msgid "comments are open"
+msgstr "评论已开放"
+
+msgid "tracking tags are active"
+msgstr "跟踪标签已启用"
+
+msgid "visitors can create accounts"
+msgstr "访客可以创建账户"
+
+msgid "Suggested because %l."
+msgstr "因 %l 推荐。"
+
+msgid "Suggested for this site"
+msgstr "为此站点推荐"
+
+msgid "Hide suggestions"
+msgstr "隐藏推荐"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr "其他适合本站使用的 Lynbro 插件。只有点击后才会安装。"
+
+msgid "All Lynbro plugins"
+msgstr "全部 Lynbro 插件"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr "根据本站已用内容推荐——仅在本站读取，不会发送到其他地方。"
+
+msgid "Image Optimizer"
+msgstr "图片优化器"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr "在您自己的服务器上将图片转换为 WebP 和 AVIF，自动调整过大图片尺寸并延迟加载。"
+
+msgid "AI Studio"
+msgstr "AI 工作室"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr "使用您自己的 OpenAI 密钥，通过 AI 撰写和插图文章——按成本计费，无中间积分。"
+
+msgid "Analytics"
+msgstr "分析"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr "自托管、无 Cookie 的分析，支持转化漏斗。访客数据始终保留在您的数据库中。"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr "无需代码集成 GA4、Tag Manager、Google Ads、Meta Pixel 等——每个标签都在获得同意后加载。"
+
+msgid "Forms"
+msgstr "表单"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr "表单免费保存提交，无数量上限，条件逻辑在服务器端校验，支持签名 Webhook。"
+
+msgid "Verify"
+msgstr "验证"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr "检测错误的邮箱域名和无效手机号，并通过一次性验证码（邮件或短信）确认。"
+
+msgid "Cache"
+msgstr "缓存"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr "为 nginx FastCGI 缓存和 Redis 对象缓存提供可靠清理，每次清理均自检验证。"
+
+msgid "Translate"
+msgstr "翻译"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr "多语言运行您的网站，机器翻译使用您自己的 OpenAI 密钥——无计量，无按字计费。"
+
+msgid "Shield"
+msgstr "防护"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr "安全头部、HTTPS（含 HSTS）、小型防火墙防注入探测，以及每个网站必备的加固开关。"
+
+msgid "Anti-Spam"
+msgstr "反垃圾"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr "垃圾信息检测在您自己的服务器上运行。无需账号，无订阅，每次拦截均有原因说明——被拦截信息绝不丢失。"
+
+msgid "Login Guard"
+msgstr "登录防护"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr "移动 wp-login.php，限制登录失败次数，添加基于应用的双重验证——提供三种找回方式。"
+
+msgid "Cookie Consent"
+msgstr "Cookie 同意"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr "符合 GDPR 和 ePrivacy 的横幅，支持 Consent Mode v2，拒绝按钮同样醒目，支持 35 种语言。"
+
+msgid "Activity Log"
+msgstr "活动日志"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr "谁在何时何地做了什么——全部记录在您自己的服务器上，可搜索、导出，并按计划删除。"
+
+msgid "Data Retention"
+msgstr "数据保留"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr "查找个人数据实际存储位置，并按计划删除——每次删除前可进行模拟演练。"
+
+msgid "Accessibility"
+msgstr "无障碍"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr "检测每个页面是否符合 WCAG 2.2 AA 标准，并安全修复可修复项。无覆盖层，无页面数量限制。"
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr "精简 SEO，免费本地企业 schema、站点地图和社交卡片。绝不回传数据。"
+
+msgid "SMTP Mailer"
+msgstr "SMTP 邮件"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr "通过您自己的 SMTP 服务器发送 WordPress 邮件——支持邮件日志、重发、备份连接和失败提醒。"
+
+msgid "Social Feed"
+msgstr "社交动态"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "在您的网站展示 Instagram 动态，无需在 WordPress 中存储 Meta 令牌。"
+
+msgid "Reviews Cache"
+msgstr "评论缓存"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "无需在 WordPress 中放置 API 密钥即可展示您的 Google 评论。"
+
+msgid "Links"
+msgstr "链接"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr "在您自己的服务器上查找失效链接并管理重定向，每个结果都说明原因。"
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse 自动填充"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr "适用于 WooCommerce、WPForms、Gravity、Fluent、Formidable 和 EDD 的丹麦地址自动补全与验证。"
+
+msgid "Soge Lookup"
+msgstr "Soge 查询"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr "通过车牌、VIN 或 CVR 号码查询丹麦车辆（DMR）和公司（CVR）。"
+
+msgid "CVR Checkout"
+msgstr "CVR 结账"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr "WooCommerce 丹麦 B2B 结账：CVR 公司自动填充，CVR/EU-VAT（VIES）验证及 EAN/GLN 字段。"
+
+msgid "Danish Shipping"
+msgstr "丹麦配送"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr "WooCommerce 结账页支持 PostNord 和 GLS 丹麦自提点免费选择，并优化配送方式。"
+
+msgid "API Auth"
+msgstr "API 认证"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr "REST API 的 JSON Web Token，可撤销，支持权限范围及拒绝日志。"
+
+msgid "Failure alerts by email do not get out"
+msgstr "电子邮件故障提醒未能发送"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"警报邮件通过 PHP mail() 发送，因此不依赖 SMTP 服务器，但此服务器上的 PHP mail() 失败了：%s 请改用 webhook "
+"发送提醒，或联系主机服务商启用 mail()。"
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"这是 Lynbro SMTP 的旧版本。Lynbro SMTP Mailer 已取代它，并使用相同的设置。请使用主机的文件管理器、FTP 或 SSH "
+"删除文件夹 %s——不要在此处使用“删除”：卸载时会清除共用的 SMTP 设置。Lynbro SMTP Mailer "
+"会保留备份并恢复这些设置，但旧插件还会清空邮件日志。"
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr "您的 SMTP 设置已于 %s 被另一个插件删除，并已从备份中恢复。您无需采取任何操作；如需确认，可以发送一封测试邮件。"
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"此网站使用服务器自带的邮件功能（PHP mail()）发送邮件。测试会显示服务器是否接受了邮件；请在收件箱中检查邮件头（Authentication-"
+"Results: spf=pass, dmarc=pass）。"
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr "请确保其中包含此 Web 服务器（其 IP 地址需带有 ip4: 或 ip6:，或者包含解析到该服务器的 a: / mx:）。"
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr "邮件通过此服务器自带的邮件功能（PHP mail()）发送，发件地址为 %s，且 Return-Path 与之匹配。"
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr "Return-Path 已关闭：服务器会在信封中填写自己的地址，因此 SPF 会检查该地址所属的域名，而不是您的域名。"
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr "邮件通过服务器自带的邮件功能发送，且发件人地址相匹配"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP 按您的选择使用 PHP mail() 发送邮件，并为每封邮件设置 From 地址和 Return-"
+"Path。请将此服务器加入域名的 SPF 记录。"
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "此服务器自带的邮件功能（PHP mail()，无 SMTP）"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"适用于配置为自行发送邮件的服务器。无需登录：下方的 From 地址和 Return-Path 仍会设置在每封邮件中，因此 SPF 和 DMARC "
+"可以保持一致。域名的 SPF 记录必须包含此服务器。"

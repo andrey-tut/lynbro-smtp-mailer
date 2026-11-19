@@ -1,0 +1,1658 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Kirim semua email WordPress melalui host SMTP Anda."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Host"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Port"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Enkripsi"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Nama pengguna"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Kata sandi"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (tersimpan — biarkan kosong untuk mempertahankan)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Email pengirim"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Nama pengirim"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Paksa Dari"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Terapkan Dari untuk setiap email keluar (disarankan untuk keterkiriman)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Kirim percobaan"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Kirim tes"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Aktivitas terbaru"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Izin tidak mencukupi."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Plugin oleh lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Mengirim…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Terkirim."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Gagal."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Galat:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Galat jaringan:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Dilarang."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Tes Lynbro SMTP"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Penerima tidak valid."
+
+msgid "Our plugins"
+msgstr "Plugin kami"
+
+msgid "Lynbro plugins"
+msgstr "Plugin Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Plugin WordPress yang dermawan dan mengutamakan privasi — dibuat di Denmark."
+" Inti gratis, tanpa kredit, data Anda tetap di situs Anda."
+
+msgid "More from Lynbro"
+msgstr "Lainnya dari Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Kumpulan plugin gratis kami yang terus bertambah, mengutamakan privasi. "
+"Plugin yang sudah terpasang ditandai."
+
+msgid "Installed"
+msgstr "Terpasang"
+
+msgid "On WordPress.org"
+msgstr "Di WordPress.org"
+
+msgid "Coming soon"
+msgstr "Segera hadir"
+
+msgid "Install"
+msgstr "Pasang"
+
+msgid "Learn more"
+msgstr "Pelajari lebih lanjut"
+
+msgid "About Lynbro"
+msgstr "Tentang Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro membuat plugin WordPress yang benar-benar gratis dan mengutamakan "
+"privasi dengan inti gratis yang dermawan — tanpa kredit, tanpa paywall untuk"
+" fitur penting, data Anda tetap di situs Anda sendiri. Dibuat di Denmark."
+
+msgid "Visit Lynbro"
+msgstr "Kunjungi Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Usulkan fitur atau laporkan bug"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Masukan akan membuka peta jalan publik kami di plugins.lynbro.dk di tab baru"
+" — tidak ada yang dikirim dari situs Anda."
+
+msgid "Tools"
+msgstr "Alat"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Ekspor pengaturan plugin ini sebagai cadangan JSON, atau atur ulang ke "
+"default. 100% lokal — tidak ada yang keluar dari situs Anda."
+
+msgid "Export settings (JSON)"
+msgstr "Ekspor pengaturan (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Atur ulang ke default"
+
+msgid "About Lynbro SMTP"
+msgstr "Tentang Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress mengirim email dengan PHP mail() secara bawaan, yang dianggap "
+"mencurigakan oleh kotak masuk. Lynbro SMTP mengirimnya melalui server email "
+"asli yang terautentikasi — milik host Anda, kotak surat Anda, atau layanan "
+"pengiriman — sehingga reset kata sandi, pesanan, dan formulir kontak tiba."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Semua fitur ada di plugin gratis: log, kirim ulang, koneksi cadangan, "
+"peringatan, diagnostik, dan WP-CLI. Tidak ada versi berbayar."
+
+msgid "How your data is handled"
+msgstr "Bagaimana data Anda diproses"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"Email dikirim langsung dari server Anda ke server SMTP yang Anda atur. "
+"Plugin ini tidak terhubung ke layanan Lynbro dan tidak mengirim statistik ke"
+" mana pun."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"Kata sandi SMTP dienkripsi dengan kunci keamanan situs Anda, tidak pernah "
+"ditampilkan lagi, dan tidak pernah ditulis ke log atau ekspor pengaturan."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Log menyimpan penerima, subjek, dan status di database Anda sendiri. Isi "
+"pesan hanya untuk email yang gagal secara default, dan setiap entri dihapus "
+"setelah masa retensi."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Entri log disertakan dalam Tools → Ekspor Data Pribadi dan Hapus Data "
+"Pribadi."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Webhook kegagalan, jika Anda mengaturnya, hanya menerima teks error dan "
+"tautan ke log Anda."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Simpan login di wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Salah satu konstanta ini akan menimpa kolom di Pengaturan, dan nilainya "
+"tidak pernah masuk ke database atau cadangannya:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Versi & tautan"
+
+msgid "Version"
+msgstr "Versi"
+
+msgid "Plugin home page"
+msgstr "Beranda plugin"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Kirim email percobaan"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Belum ada server SMTP yang diatur, jadi percobaan akan dikirim dengan PHP "
+"mail(). Isi Pengaturan terlebih dahulu untuk menguji SMTP."
+
+msgid "Recipient"
+msgstr "Penerima"
+
+msgid "Test the backup connection"
+msgstr "Uji koneksi cadangan"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "Percakapan SMTP (kata sandi disembunyikan)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Email percobaan mengabaikan mode percobaan dan mode \"jangan kirim\", "
+"sehingga Anda dapat memeriksa koneksi pada salinan staging."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Apakah server ini dapat terhubung ke server SMTP?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Banyak host memblokir port email keluar. Ini memeriksa port yang umum ke "
+"host yang Anda simpan, dari server web ini."
+
+msgid "Check ports"
+msgstr "Periksa port"
+
+msgid "Sender domain: %s"
+msgstr "Domain pengirim: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "Pencarian DNS tidak tersedia di server ini."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Pastikan mencakup penyedia SMTP Anda (misalnya include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Tidak ada record SPF. Tambahkan di penyedia DNS Anda yang menyebut penyedia "
+"SMTP Anda, atau banyak kotak masuk akan meragukan email tersebut."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Tidak ada record DMARC. Gmail dan Yahoo mewajibkannya untuk pengirim massal;"
+" bahkan \"v=DMARC1; p=none\" sederhana sudah membantu."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM diatur di penyedia SMTP Anda (mereka memberikan record DNS-nya). Ini "
+"tidak dapat diperiksa dari sini tanpa nama selector."
+
+msgid "Environment"
+msgstr "Lingkungan"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "hilang — TLS dan SSL tidak akan berfungsi"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Plugin mail lainnya"
+
+msgid "none found"
+msgstr "tidak ditemukan"
+
+msgid "Scheduled cleanup"
+msgstr "Pembersihan terjadwal"
+
+msgid "scheduled"
+msgstr "terjadwal"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "tidak terjadwal — nonaktifkan lalu aktifkan plugin"
+
+msgid "Sent"
+msgstr "Terkirim"
+
+msgid "Failed"
+msgstr "Gagal"
+
+msgid "Not sent (delivery off)"
+msgstr "Tidak terkirim (pengiriman nonaktif)"
+
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+msgid "Main SMTP"
+msgstr "SMTP utama"
+
+msgid "Backup SMTP"
+msgstr "SMTP cadangan"
+
+msgid "PHP mail()"
+msgstr "mail() PHP"
+
+msgid "Test mode (redirected)"
+msgstr "Mode uji (dialihkan)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "Log dinonaktifkan di Pengaturan — tidak ada email baru yang dicatat."
+
+msgid "Sent, 30 days"
+msgstr "Terkirim, 30 hari"
+
+msgid "Failed, 30 days"
+msgstr "Gagal, 30 hari"
+
+msgid "Held back, 30 days"
+msgstr "Ditahan, 30 hari"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "All statuses"
+msgstr "Semua status"
+
+msgid "Recipient, subject or error"
+msgstr "Penerima, subjek, atau galat"
+
+msgid "Search the log"
+msgstr "Cari log"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Clear"
+msgstr "Hapus"
+
+msgid "No emails match this filter."
+msgstr "Tidak ada email yang cocok dengan filter ini."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Belum ada email yang dicatat. Kirim tes dari tab Uji & diagnostik untuk "
+"melihat entri pertama di sini."
+
+msgid "Select all"
+msgstr "Pilih semua"
+
+msgid "Date"
+msgstr "Tanggal"
+
+msgid "To"
+msgstr "Kepada"
+
+msgid "Subject"
+msgstr "Subjek"
+
+msgid "Sent through"
+msgstr "Dikirim melalui"
+
+msgid "Actions"
+msgstr "Tindakan"
+
+msgid "Select"
+msgstr "Pilih"
+
+msgid "(no subject)"
+msgstr "(tanpa subjek)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Lampiran (tidak disimpan): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Kirim ulang entri #%d"
+
+msgid "Content not kept."
+msgstr "Konten tidak disimpan."
+
+msgid "Resend"
+msgstr "Kirim ulang"
+
+msgid "Delete the selected entries?"
+msgstr "Hapus entri yang dipilih?"
+
+msgid "Delete selected"
+msgstr "Hapus yang dipilih"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s entri · dihapus otomatis setelah %2$s hari"
+
+msgid "Checking…"
+msgstr "Memeriksa…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Terkirim. Periksa kotak masuk (dan folder spam) penerima."
+
+msgid "Not sent."
+msgstr "Tidak terkirim."
+
+msgid "open"
+msgstr "buka"
+
+msgid "blocked"
+msgstr "diblokir"
+
+msgid "Request failed:"
+msgstr "Permintaan gagal:"
+
+msgid "Delivered through:"
+msgstr "Dikirim melalui:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Anda tidak memiliki izin yang cukup untuk mengakses halaman ini."
+
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgid "Test & diagnostics"
+msgstr "Uji & diagnostik"
+
+msgid "Email log"
+msgstr "Log email"
+
+msgid "Feedback"
+msgstr "Masukan"
+
+msgid "About"
+msgstr "Tentang"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Kirim semua email WordPress melalui server SMTP Anda sendiri — dengan log "
+"email, kirim ulang, koneksi cadangan, dan peringatan kegagalan. Semua "
+"gratis, tanpa upsell."
+
+msgid "The email was sent again."
+msgstr "Email telah dikirim ulang."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"Email tidak dapat dikirim ulang — lihat entri log terbaru untuk alasannya."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "Konten email ini tidak disimpan, jadi tidak dapat dikirim ulang."
+
+msgid "Log entries deleted."
+msgstr "Entri log dihapus."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Pengaturan diimpor. Masukkan kata sandi SMTP sekali dan simpan — kata sandi "
+"tidak pernah disalin dari plugin lain."
+
+msgid "Set in wp-config.php"
+msgstr "Diatur di wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "Email dikirim melalui %1$s pada port %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"Belum ada server SMTP yang diatur — WordPress masih mengirim dengan PHP "
+"mail(). Pilih penyedia Anda di bawah, isi login, lalu simpan."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "Pengiriman dimatikan: email dicatat tetapi tidak dikirim."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "Mode uji: setiap email dikirim ke %s вместо ke penerimanya."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Kata sandi yang disimpan აღარ dapat dibaca karena kunci keamanan situs "
+"berubah. Masukkan lagi lalu simpan."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Kegagalan terakhir %1$s yang lalu: %2$s"
+
+msgid "Show failed emails"
+msgstr "Tampilkan email yang gagal"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Juga aktif: %s. Dua plugin email saling berebut email yang sama — "
+"nonaktifkan yang lain."
+
+msgid "Import settings from %s"
+msgstr "Impor pengaturan dari %s"
+
+msgid "SMTP server"
+msgstr "Server SMTP"
+
+msgid "Provider"
+msgstr "Penyedia"
+
+msgid "Port and encryption"
+msgstr "Port dan enkripsi"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — biasanya port 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — biasanya port 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Tidak ada — hanya untuk server di jaringan yang sama"
+
+msgid "Authentication"
+msgstr "Autentikasi"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "Server memerlukan nama pengguna dan kata sandi (hampir selalu)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Kata sandi diambil dari LYNBRO_SMTP_PASS di wp-config.php dan tidak disimpan"
+" di basis data."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Tersimpan — biarkan kosong untuk mempertahankan"
+
+msgid "Remove the saved password"
+msgstr "Hapus kata sandi yang disimpan"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Disimpan terenkripsi dengan kunci keamanan situs Anda dan tidak akan "
+"ditampilkan lagi. Untuk tidak menyimpannya di basis data sama sekali, "
+"definisikan di wp-config.php (lihat Tentang)."
+
+msgid "Certificate"
+msgstr "Sertifikat"
+
+msgid "Verify the server certificate"
+msgstr "Verifikasi sertifikat server"
+
+msgid "Default"
+msgstr "Bawaan"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr ""
+"Hapus centang hanya untuk server Anda sendiri dengan sertifikat self-signed."
+
+msgid "Sender"
+msgstr "Pengirim"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr "Paksa alamat ini pada setiap email, apa pun yang diatur plugin lain"
+
+msgid "Recommended"
+msgstr "Disarankan"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Gunakan alamat pada domain yang boleh digunakan untuk akun SMTP Anda, atau "
+"penyedia akan menolak email atau mengirimnya ke spam."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Paksa nama ini juga (nonaktif: formulir dan toko mempertahankan nama "
+"pengirimnya sendiri)"
+
+msgid "Default Reply-To"
+msgstr "Default Reply-To"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Hanya digunakan saat email tidak memiliki Reply-To sendiri, sehingga balasan"
+" formulir kontak tetap dikirim ke pengunjung."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Kirim bounce ke alamat From"
+
+msgid "Backup connection"
+msgstr "Koneksi cadangan"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Saat server utama gagal, email yang sama langsung dikirim lagi melalui "
+"cadangan — pengunjung tidak akan melihat kesalahan."
+
+msgid "Backup"
+msgstr "Cadangan"
+
+msgid "Use a backup when the main server fails"
+msgstr "Gunakan cadangan saat server utama gagal"
+
+msgid "Another SMTP server"
+msgstr "Server SMTP lain"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr ""
+"PHP mail() server ini (lebih baik daripada tidak ada; mungkin masuk spam)"
+
+msgid "Backup host"
+msgstr "Host cadangan"
+
+msgid "Backup port"
+msgstr "Port cadangan"
+
+msgid "Backup encryption"
+msgstr "Enkripsi cadangan"
+
+msgid "None"
+msgstr "Tidak ada"
+
+msgid "Backup login"
+msgstr "Login cadangan"
+
+msgid "Backup password"
+msgstr "Kata sandi cadangan"
+
+msgid "Delivery mode"
+msgstr "Mode pengiriman"
+
+msgid "Mode"
+msgstr "Mode"
+
+msgid "Send normally"
+msgstr "Kirim normal"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Mode uji: kirim semua ke satu alamat (Cc dan Bcc dihapus)"
+
+msgid "Redirect address"
+msgstr "Alamat pengalihan"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr "Jangan kirim email apa pun (salinan staging) — email tetap dicatat"
+
+msgid "Log"
+msgstr "Log"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Simpan log setiap email (penerima, subjek, status, kesalahan)"
+
+msgid "Keep message content"
+msgstr "Simpan isi pesan"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Hanya untuk email yang gagal, agar dapat dikirim ulang"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Untuk setiap email (memungkinkan Anda mengirim ulang apa pun; log kemudian "
+"menyimpan tautan pengaturan ulang kata sandi dan detail pesanan)"
+
+msgid "Never"
+msgstr "Tidak pernah"
+
+msgid "Keep entries for"
+msgstr "Simpan entri selama"
+
+msgid "days, then they are deleted automatically"
+msgstr "hari, lalu dihapus otomatis"
+
+msgid "Failure alerts"
+msgstr "Peringatan kegagalan"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Paling banyak satu peringatan per jam. Email peringatan dikirim dengan PHP "
+"mail() server ini, karena server SMTP bisa saja yang sedang bermasalah."
+
+msgid "Alert email"
+msgstr "Email peringatan"
+
+msgid "Webhook URL"
+msgstr "URL webhook"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Opsional. Workflow Slack, Discord, Microsoft Teams, ntfy, atau endpoint Anda"
+" sendiri (HTTPS). Plugin mengirim teks kesalahan ke sana — tidak ada yang "
+"lain, dan hanya saat Anda menetapkan URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Impor dari plugin SMTP lain"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Menyalin host, port, enkripsi, nama pengguna, dan pengirim. Kata sandi tetap"
+" di tempatnya — masukkan milik Anda sekali setelah impor."
+
+msgid "Import from %s"
+msgstr "Impor dari %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Tidak ditemukan pengaturan WP Mail SMTP, FluentSMTP, Easy WP SMTP, atau Post"
+" SMTP di situs ini."
+
+msgid "Download the log (CSV)"
+msgstr "Unduh log (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Hapus setiap entri log?"
+
+msgid "Empty the log"
+msgstr "Kosongkan log"
+
+msgid "Is it working for you?"
+msgstr "Apakah ini bekerja untuk Anda?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP gratis, tanpa fitur yang dikunci. Jika berhasil mengirim email "
+"Anda, ulasan singkat akan membantu orang lain menemukannya."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Tulis ulasan di WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Ada yang kurang atau rusak?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Laporan bug dan ide dibaca oleh orang yang membuat plugin ini. Membuka "
+"tautan ini tidak mengirim apa pun dari situs Anda."
+
+msgid "Ask in the support forum"
+msgstr "Tanyakan di forum dukungan"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Usulkan fitur (roadmap publik)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Menulis baris log? Hapus alamat terlebih dahulu — tab Test sudah "
+"menyembunyikan kata sandi."
+
+msgid "You do not have permission to do that."
+msgstr "Anda tidak memiliki izin untuk melakukan itu."
+
+msgid "Enter a valid recipient address."
+msgstr "Masukkan alamat penerima yang valid."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: koneksi SMTP utama gagal dan cadangan mengirim email. Error: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: email tidak dapat dikirim. Error: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Entri log #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Masalah pengiriman email"
+
+msgid "Email delivery"
+msgstr "Pengiriman email"
+
+msgid "Email is sent through SMTP"
+msgstr "Email dikirim melalui SMTP"
+
+msgid "Email"
+msgstr "Email"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP mengirim email situs ini melalui server SMTP terautentikasi."
+
+msgid "Open Lynbro SMTP"
+msgstr "Buka Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "Email dikirim dengan PHP mail(), bukan SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP aktif tetapi belum ada server SMTP yang diatur, jadi email masih"
+" dikirim melalui PHP mail() dan sering masuk ke spam."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Kata sandi SMTP yang tersimpan აღარ dapat dibaca"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Kunci keamanan situs berubah setelah kata sandi disimpan. Masukkan kembali "
+"kata sandi SMTP."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "Email gagal dikirim dalam 24 jam terakhir"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Koneksi SMTP utama gagal dalam 24 jam terakhir"
+
+msgid "Email delivery (7 days)"
+msgstr "Pengiriman email (7 hari)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Terkirim: %1$s · Gagal: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr "Belum ada server SMTP yang diatur — email dikirim dengan PHP mail()."
+
+msgid "Show failed"
+msgstr "Tampilkan yang gagal"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Koneksi utama: %1$s — Koneksi cadangan: %2$s"
+
+msgid "Test email from %s"
+msgstr "Email percobaan dari %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Ini adalah email percobaan dari %1$s, dikirim oleh Lynbro SMTP.\n"
+"\n"
+"Jika Anda dapat membacanya, pengiriman email berhasil.\n"
+"\n"
+"Terkirim: %2$s\n"
+"Koneksi: %3$s"
+
+msgid "backup"
+msgstr "cadangan"
+
+msgid "main"
+msgstr "utama"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Server menolak nama pengguna atau kata sandi. Gmail, Outlook, Zoho, dan "
+"iCloud memerlukan kata sandi aplikasi, bukan yang biasa; SendGrid dan Brevo "
+"memerlukan kunci SMTP/API."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365 mematikan masuk SMTP untuk kotak surat ini. Administrator "
+"dapat mengaktifkan \"Authenticated SMTP\" untuknya, atau gunakan layanan "
+"relay sebagai gantinya."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Server tidak dapat dijangkau. Banyak host memblokir port keluar 25, 465, dan"
+" 587 — jalankan pemeriksaan port di bawah, lalu minta host Anda membuka port"
+" tersebut atau gunakan port yang tersedia."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Koneksi aman gagal. Periksa apakah port dan enkripsi cocok (587 = TLS, 465 ="
+" SSL). Jika server menggunakan sertifikat self-signed, hilangkan centang "
+"\"Verify the server certificate\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Server tidak mengizinkan akun ini mengirim sebagai alamat From. Gunakan "
+"alamat pada domain yang dimiliki akun, dan aktifkan \"Force From email\"."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Nama host tidak dapat diresolusikan. Periksa apakah ada salah ketik."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Baca baris SERVER terakhir dari transkrip: server biasanya mengatakan dengan"
+" tepat apa yang tidak disukainya."
+
+msgid "No host set."
+msgstr "Tidak ada host yang disetel."
+
+msgid "That log entry no longer exists."
+msgstr "Entri log itu აღარ ada."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Konten email ini tidak disimpan, jadi tidak dapat dikirim ulang. Ubah \"Keep"
+" message content\" di Pengaturan untuk mengirim ulang email di masa "
+"mendatang."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"Email tidak dapat dikirim lagi. Percobaan baru dan galatnya ada di log."
+
+msgid "Date (UTC)"
+msgstr "Tanggal (UTC)"
+
+msgid "Recipients"
+msgstr "Penerima"
+
+msgid "Lynbro SMTP email log"
+msgstr "Log email SMTP Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Bagian lain dari suite ini. Yang sudah ada di situs ini ditandai; tidak ada "
+"yang dipasang tanpa Anda memintanya."
+
+msgid "Active"
+msgstr "Aktif"
+
+msgid "Activate"
+msgstr "Aktifkan"
+
+msgid "Install now"
+msgstr "Pasang sekarang"
+
+msgid "View on WordPress.org"
+msgstr "Lihat di WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Komponen Lynbro bersama v%1$s, disediakan oleh %2$s (versi terbaru dari %3$d"
+" versi di situs ini)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Atur ulang semua pengaturan ke default?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Apakah Lynbro SMTP membantu email Anda terkirim? Beberapa kata di "
+"WordPress.org membantu orang lain menemukan plugin email tanpa upsell."
+
+msgid "Write a review"
+msgstr "Tulis ulasan"
+
+msgid "No thanks"
+msgstr "Tidak, terima kasih"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Mode pengalihan memerlukan alamat tujuan pengalihan — email dikirim secara "
+"normal sampai Anda menambahkannya."
+
+msgid "Other SMTP server"
+msgstr "Server SMTP lain"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Gunakan detail SMTP dari host atau penyedia email Anda."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Nama pengguna: alamat Gmail lengkap Anda. Kata sandi: kata sandi aplikasi "
+"(Akun Google → Keamanan → Verifikasi 2 Langkah → Sandi aplikasi), bukan kata"
+" sandi biasa Anda."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 memerlukan \"Authenticated SMTP\" diaktifkan untuk kotak surat"
+" tersebut. Microsoft menghentikan sign-in kata sandi untuk SMTP; jika login "
+"gagal, gunakan layanan relay seperti Brevo atau SMTP dari host Anda."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Nama pengguna: login SMTP yang ditampilkan di bawah SMTP & API. Kata sandi: "
+"kunci SMTP, bukan kata sandi akun Anda."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Nama pengguna: kata \"apikey\". Kata sandi: kunci API SendGrid Anda."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"Akun EU menggunakan smtp.eu.mailgun.org. Nama pengguna dan kata sandi: "
+"kredensial SMTP dari domain pengirim Anda."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Ubah wilayah pada host ke wilayah Anda. Nama pengguna dan kata sandi: "
+"kredensial SMTP yang dibuat di konsol SES (bukan kunci akses AWS Anda)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "Nama pengguna dan kata sandi: keduanya adalah token Server API Anda."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Gunakan smtp.zoho.com untuk akun di luar EU. Dengan sign-in dua faktor, buat"
+" kata sandi khusus aplikasi."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Nama pengguna: kunci API. Kata sandi: kunci rahasia."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Nama pengguna dan kata sandi: pengguna SMTP yang dibuat di bawah Sending → "
+"SMTP Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Nama pengguna: alamat kotak surat lengkap. Kata sandi: kata sandi kotak "
+"surat."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Gunakan smtp.ionos.de atau smtp.ionos.co.uk untuk wilayah tersebut. Nama "
+"pengguna: alamat kotak surat lengkap."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Mengirim semua email WordPress melalui server SMTP Anda sendiri, dengan log "
+"email yang dapat dicari, pengiriman ulang, koneksi cadangan, peringatan "
+"kegagalan, dan diagnostik koneksi. Tanpa upsell."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Host: endpoint SMTP untuk wilayah SES Anda, ditampilkan di konsol SES di "
+"bawah pengaturan SMTP. Username dan password: kredensial SMTP yang dibuat di"
+" konsol SES (bukan access key AWS Anda)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Opsional. Webhook masuk Slack atau Discord, atau endpoint HTTPS Anda sendiri"
+" (JSON dengan \"text\" dan \"content\"). Plugin mengirim teks error ke sana "
+"— tidak ada yang lain, dan hanya saat Anda menetapkan URL."
+
+msgid "Is %s doing its job?"
+msgstr "Apakah %s bekerja dengan baik?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Anda telah menggunakannya selama beberapa minggu. Jika bermanfaat, ulasan "
+"singkat di WordPress.org akan membantu pemilik situs lain menemukannya — "
+"baik ulasan jujur maupun kritis."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Anda telah menggunakannya selama beberapa minggu. Jika bermanfaat — atau ada"
+" yang kurang — beri tahu kami di roadmap publik kami. Itulah cara kami "
+"menentukan fitur berikutnya."
+
+msgid "(opens in a new tab)"
+msgstr "(terbuka di tab baru)"
+
+msgid "Share feedback"
+msgstr "Bagikan masukan"
+
+msgid "Maybe later"
+msgstr "Mungkin nanti"
+
+msgid "Don't ask again"
+msgstr "Jangan tanyakan lagi"
+
+msgid "Something not working? Ask for help"
+msgstr "Ada yang tidak berfungsi? Minta bantuan"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce aktif"
+
+msgid "a form plugin is active"
+msgstr "plugin formulir aktif"
+
+msgid "the site is set up for Denmark"
+msgstr "situs diatur untuk Denmark"
+
+msgid "comments are open"
+msgstr "komentar terbuka"
+
+msgid "tracking tags are active"
+msgstr "tag pelacakan aktif"
+
+msgid "visitors can create accounts"
+msgstr "pengunjung dapat membuat akun"
+
+msgid "Suggested because %l."
+msgstr "Disarankan karena %l."
+
+msgid "Suggested for this site"
+msgstr "Disarankan untuk situs ini"
+
+msgid "Hide suggestions"
+msgstr "Sembunyikan saran"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Plugin Lynbro lain yang sesuai dengan penggunaan situs ini. Tidak ada yang "
+"terpasang kecuali Anda mengklik."
+
+msgid "All Lynbro plugins"
+msgstr "Semua plugin Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Dipilih dari apa yang sudah digunakan situs ini — dibaca di situs ini, tidak"
+" ada data yang dikirim ke mana pun."
+
+msgid "Image Optimizer"
+msgstr "Pengoptimal Gambar"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Konversi ke WebP dan AVIF, sesuaikan ukuran gambar yang terlalu besar, dan "
+"aktifkan lazy-load — semuanya di server Anda sendiri."
+
+msgid "AI Studio"
+msgstr "Studio AI"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Tulis dan ilustrasikan postingan dengan AI menggunakan kunci OpenAI Anda "
+"sendiri — tanpa biaya tambahan, tanpa sistem kredit."
+
+msgid "Analytics"
+msgstr "Analitik"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Analitik tanpa cookie yang dihosting sendiri dengan funnel. Data pengunjung "
+"tidak pernah keluar dari database Anda."
+
+msgid "Tags"
+msgstr "Tag"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel dan lainnya tanpa kode — setiap tag"
+" menunggu persetujuan."
+
+msgid "Forms"
+msgstr "Formulir"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formulir dengan entri tersimpan gratis tanpa batas, logika kondisional dicek"
+" di server, dan webhook yang ditandatangani."
+
+msgid "Verify"
+msgstr "Verifikasi"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Tangkap domain e-mail salah ketik dan nomor telepon tidak valid, serta "
+"konfirmasi dengan kode sekali pakai via e-mail atau SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Pembersihan andal untuk cache nginx FastCGI dan cache objek Redis, dengan "
+"setiap pembersihan diverifikasi langsung ke cache."
+
+msgid "Translate"
+msgstr "Terjemahkan"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Jalankan situs Anda dalam beberapa bahasa, dengan terjemahan mesin "
+"menggunakan kunci OpenAI Anda sendiri — tanpa biaya per kata."
+
+msgid "Shield"
+msgstr "Perisai"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Header keamanan, HTTPS dengan HSTS, firewall kecil untuk mencegah injeksi, "
+"dan penguatan yang dibutuhkan setiap situs."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Pemeriksaan spam dijalankan di server Anda sendiri. Tanpa akun, tanpa "
+"langganan, setiap blokir dijelaskan — dan pesan yang ditahan tidak pernah "
+"hilang."
+
+msgid "Login Guard"
+msgstr "Login Guard"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Pindahkan wp-login.php, batasi percobaan login gagal, dan tambahkan "
+"autentikasi dua faktor berbasis aplikasi — dengan tiga cara pemulihan."
+
+msgid "Cookie Consent"
+msgstr "Persetujuan Cookie"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Banner GDPR dan ePrivacy dengan Consent Mode v2, tombol Tolak yang sama "
+"mencolok, dan 35 bahasa."
+
+msgid "Activity Log"
+msgstr "Log Aktivitas"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Siapa melakukan apa, kapan, dan dari mana — dicatat di server Anda sendiri, "
+"bisa dicari, diekspor, dan dihapus sesuai jadwal Anda."
+
+msgid "Data Retention"
+msgstr "Retensi Data"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Temukan lokasi data pribadi di database Anda, lalu hapus sesuai jadwal — "
+"dengan simulasi sebelum setiap penghapusan."
+
+msgid "Accessibility"
+msgstr "Aksesibilitas"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Pindai setiap halaman sesuai WCAG 2.2 AA dan perbaiki yang bisa diperbaiki "
+"dengan aman. Tanpa overlay, tanpa batas halaman."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO ringan dengan schema LocalBusiness gratis, sitemap, dan kartu sosial. "
+"Tidak ada data yang dikirim keluar."
+
+msgid "SMTP Mailer"
+msgstr "SMTP Mailer"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Email WordPress melalui server SMTP Anda sendiri — dengan log email, kirim "
+"ulang, koneksi cadangan, dan notifikasi kegagalan."
+
+msgid "Social Feed"
+msgstr "Feed Sosial"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Feed Instagram di situs Anda tanpa token Meta yang disimpan di WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache Ulasan"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Tampilkan ulasan Google Anda tanpa memasukkan API key di WordPress."
+
+msgid "Links"
+msgstr "Tautan"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Temukan tautan rusak dan kelola redirect di server Anda sendiri, dengan "
+"alasan untuk setiap keputusan."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Isi Otomatis"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Otomatis isi dan validasi alamat Denmark untuk WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable, dan EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge Lookup"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Cari kendaraan (DMR) dan perusahaan (CVR) Denmark berdasarkan plat, VIN, "
+"atau nomor CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Checkout B2B Denmark untuk WooCommerce: isi otomatis perusahaan CVR, "
+"validasi CVR/EU-VAT (VIES), dan kolom EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Pengiriman Denmark"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Pilihan titik pengambilan gratis untuk PostNord dan GLS Denmark di checkout "
+"WooCommerce, serta metode pengiriman yang bersih."
+
+msgid "API Auth"
+msgstr "API Auth"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Token untuk REST API yang dapat dicabut, dengan scope dan jurnal "
+"penolakan."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Peringatan kegagalan melalui email tidak terkirim"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Email peringatan dikirim dengan PHP mail() sehingga tidak bergantung pada "
+"server SMTP, tetapi PHP mail() gagal di server ini: %s Gunakan webhook untuk"
+" peringatan, atau minta penyedia hosting Anda mengaktifkan mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Ini adalah versi sebelumnya dari Lynbro SMTP. Lynbro SMTP Mailer telah "
+"menggantikannya dan menggunakan pengaturan yang sama. Hapus folder %s "
+"menggunakan pengelola file hosting, FTP, atau SSH—jangan gunakan Hapus di "
+"sini: proses pencopotannya akan menghapus pengaturan SMTP bersama. Lynbro "
+"SMTP Mailer menyimpan cadangan dan memulihkannya, tetapi plugin lama juga "
+"mengosongkan log email."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Pengaturan SMTP Anda dihapus oleh plugin lain pada %s dan telah dipulihkan "
+"dari cadangan. Anda tidak perlu melakukan apa pun; kirim email uji jika "
+"ingin memastikannya."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Situs ini mengirim email menggunakan layanan email bawaan server (PHP "
+"mail()). Pengujian ini menunjukkan apakah server menerima email tersebut; "
+"periksa header-nya di kotak masuk (Authentication-Results: spf=pass, "
+"dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Pastikan entri tersebut mencakup server web ini (alamat IP-nya dengan ip4: "
+"atau ip6:, atau a: / mx: yang mengarah ke server ini)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"Email dikirim menggunakan layanan email bawaan server ini (PHP mail()), dari"
+" %s, dengan Return-Path yang cocok."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path nonaktif: server menggunakan alamatnya sendiri pada amplop "
+"email, sehingga SPF memeriksa domain tersebut, bukan domain Anda."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"Email dikirim menggunakan layanan email bawaan server, dengan alamat "
+"pengirim yang cocok"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP mengirim email menggunakan PHP mail() sesuai pilihan Anda, serta"
+" menetapkan alamat From dan Return-Path pada setiap email. Sertakan server "
+"ini dalam catatan SPF domain."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Layanan email bawaan server ini (PHP mail(), tanpa SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Untuk server yang dikonfigurasi agar mengirim email sendiri. Tidak perlu "
+"login: alamat From dan Return-Path di bawah ini tetap ditetapkan pada setiap"
+" email, sehingga SPF dan DMARC dapat selaras. Catatan SPF domain harus "
+"mencakup server ini."

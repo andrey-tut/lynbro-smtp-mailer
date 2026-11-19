@@ -1,0 +1,1675 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Sūtiet visu WordPress pastu caur savu SMTP serveri."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Resursdators"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Ports"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Šifrēšana"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Lietotājvārds"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Parole"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (saglabāts — atstājiet tukšu, lai paturētu)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "No e-pasta"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "No vārda"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Piespiedu No"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Pārraksta No adresi visiem izejošajiem e-pastiem (ieteicams piegādes "
+"nodrošināšanai)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Testa nosūtīšana"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Nosūtīt testu"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Nesenā aktivitāte"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Nepietiekamas atļaujas."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Spraudņi no lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Sūta…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Nosūtīts."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Neizdevās."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Kļūda:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Tīkla kļūda:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Aizliegts."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP tests"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Nederīgs saņēmējs."
+
+msgid "Our plugins"
+msgstr "Mūsu spraudņi"
+
+msgid "Lynbro plugins"
+msgstr "Lynbro spraudņi"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Dāsni, uz privātumu orientēti WordPress spraudņi — veidoti Dānijā. Bezmaksas"
+" pamatversijas, bez kredītiem, jūsu dati paliek jūsu vietnē."
+
+msgid "More from Lynbro"
+msgstr "Vairāk no Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Mūsu augošais bezmaksas, uz privātumu orientēto spraudņu klāsts. Jau "
+"instalētie ir atzīmēti."
+
+msgid "Installed"
+msgstr "Instalēts"
+
+msgid "On WordPress.org"
+msgstr "WordPress.org"
+
+msgid "Coming soon"
+msgstr "Drīzumā"
+
+msgid "Install"
+msgstr "Instalēt"
+
+msgid "Learn more"
+msgstr "Uzzināt vairāk"
+
+msgid "About Lynbro"
+msgstr "Par Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro izstrādā patiesi bezmaksas, uz privātumu orientētus WordPress "
+"spraudņus ar dāsniem bezmaksas pamatkomplektiem — bez kredītiem, bez maksas "
+"sienām būtiskajām funkcijām, jūsu dati jūsu pašu vietnē. Radīts Dānijā."
+
+msgid "Visit Lynbro"
+msgstr "Apmeklēt Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Ieteikt funkciju vai ziņot par kļūdu"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Atsauksmes atver mūsu publisko ceļvedi vietnē plugins.lynbro.dk jaunā cilnē "
+"— no jūsu vietnes nekas netiek nosūtīts."
+
+msgid "Tools"
+msgstr "Rīki"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Eksportējiet šī spraudņa iestatījumus kā JSON dublējumu vai atiestatiet tos "
+"uz noklusējuma vērtībām. 100% lokāli — nekas neatstāj jūsu vietni."
+
+msgid "Export settings (JSON)"
+msgstr "Eksportēt iestatījumus (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Atiestatīt uz noklusējuma vērtībām"
+
+msgid "About Lynbro SMTP"
+msgstr "Par Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"Pēc noklusējuma WordPress sūta e-pastu ar PHP mail(), ko iesūtnes uzskata "
+"par aizdomīgu. Lynbro SMTP to nosūta caur īstu, autentificētu pasta serveri "
+"— jūsu hostinga, jūsu pastkastes vai sūtīšanas pakalpojuma serveri — lai "
+"paroles atiestatīšana, pasūtījumi un kontaktformas pienāktu."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Viss ir iekļauts bezmaksas spraudnī: žurnāls, atkārtota nosūtīšana, rezerves"
+" savienojums, paziņojumi, diagnostika un WP-CLI. Nav maksas versijas."
+
+msgid "How your data is handled"
+msgstr "Kā tiek apstrādāti jūsu dati"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"E-pasts no jūsu servera nonāk tieši uz jūsu norādīto SMTP serveri. Spraudnis"
+" nesazinās ar nekādu Lynbro pakalpojumu un nesūta statistiku nekur citur."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"SMTP parole tiek šifrēta ar jūsu vietnes drošības atslēgām, netiek vairs "
+"rādīta un nekad netiek ierakstīta žurnālā vai iestatījumu eksportā."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Žurnāls jūsu datubāzē saglabā saņēmējus, tēmu un statusu. Ziņojuma saturs "
+"pēc noklusējuma tikai neveiksmīgiem e-pastiem, un katrs ieraksts tiek dzēsts"
+" pēc glabāšanas perioda."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Žurnāla ieraksti ir iekļauti Tools → Export Personal Data un Erase Personal "
+"Data."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Neveiksmes tīmekļa āķis, ja to esat iestatījis, saņem tikai kļūdas tekstu un"
+" saiti uz jūsu žurnālu."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Saglabājiet pieteikšanās datus wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Jebkura no šīm konstantēm pārraksta lauku sadaļā Iestatījumi, un vērtība "
+"nekad nenonāk datubāzē vai tās dublējumkopijās:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Versija un saites"
+
+msgid "Version"
+msgstr "Versija"
+
+msgid "Plugin home page"
+msgstr "Spraudņa sākumlapa"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Nosūtīt testa e-pastu"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"SMTP serveris vēl nav iestatīts, tāpēc tests tiks nosūtīts ar PHP mail(). "
+"Vispirms aizpildiet Iestatījumus, lai pārbaudītu SMTP."
+
+msgid "Recipient"
+msgstr "Saņēmējs"
+
+msgid "Test the backup connection"
+msgstr "Pārbaudīt rezerves savienojumu"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP saruna (parole paslēpta)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Testa e-pasti ignorē testa režīmu un režīmu \"nesūtīt\", tāpēc varat "
+"pārbaudīt savienojumu testa kopijā."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Vai šis serveris var sasniegt SMTP serveri?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Daudzi hostinga pakalpojumi bloķē izejošos pasta portus. Tas pārbauda "
+"ierastākos uz jūsu saglabāto resursdatoru no šī tīmekļa servera."
+
+msgid "Check ports"
+msgstr "Pārbaudīt portus"
+
+msgid "Sender domain: %s"
+msgstr "Sūtītāja domēns: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "DNS meklējumi šajā serverī nav pieejami."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Pārliecinieties, ka tajā ir iekļauts jūsu SMTP pakalpojuma sniedzējs "
+"(piemēram, include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Nav SPF ieraksta. Pievienojiet to pie sava DNS pakalpojuma sniedzēja, "
+"norādot jūsu SMTP pakalpojuma sniedzēju, citādi daudzas iesūtnes uzticēsies "
+"e-pastam mazāk."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Nav DMARC ieraksta. Gmail un Yahoo to pieprasa masveida sūtītājiem; pat "
+"vienkāršs \"v=DMARC1; p=none\" palīdz."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM ir iestatīts pie jūsu SMTP pakalpojuma sniedzēja (viņi dod DNS "
+"ierakstu). To šeit nevar pārbaudīt bez selektora nosaukuma."
+
+msgid "Environment"
+msgstr "Vide"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "trūkst — TLS un SSL nedarbosies"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Citi pasta spraudņi"
+
+msgid "none found"
+msgstr "nav atrasti"
+
+msgid "Scheduled cleanup"
+msgstr "Ieplānota tīrīšana"
+
+msgid "scheduled"
+msgstr "ieplānota"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "nav ieplānota — deaktivizējiet un aktivizējiet spraudni"
+
+msgid "Sent"
+msgstr "Nosūtīts"
+
+msgid "Failed"
+msgstr "Neizdevās"
+
+msgid "Not sent (delivery off)"
+msgstr "Nav nosūtīts (piegāde izslēgta)"
+
+msgid "Unknown"
+msgstr "Nezināms"
+
+msgid "Main SMTP"
+msgstr "Galvenais SMTP"
+
+msgid "Backup SMTP"
+msgstr "Rezerves SMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Testa režīms (pāradresēts)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "Žurnāls iestatījumos ir izslēgts — jauni e-pasti netiek reģistrēti."
+
+msgid "Sent, 30 days"
+msgstr "Nosūtīts, 30 dienas"
+
+msgid "Failed, 30 days"
+msgstr "Neizdevās, 30 dienas"
+
+msgid "Held back, 30 days"
+msgstr "Aizturēts, 30 dienas"
+
+msgid "Status"
+msgstr "Statuss"
+
+msgid "All statuses"
+msgstr "Visi statusi"
+
+msgid "Recipient, subject or error"
+msgstr "Saņēmējs, temats vai kļūda"
+
+msgid "Search the log"
+msgstr "Meklēt žurnālā"
+
+msgid "Filter"
+msgstr "Filtrēt"
+
+msgid "Clear"
+msgstr "Notīrīt"
+
+msgid "No emails match this filter."
+msgstr "Šim filtram neatbilst neviens e-pasts."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Vēl nav reģistrētu e-pastu. Nosūtiet testa e-pastu cilnē Testēšana un "
+"diagnostika, lai šeit redzētu pirmo ierakstu."
+
+msgid "Select all"
+msgstr "Atlasīt visu"
+
+msgid "Date"
+msgstr "Datums"
+
+msgid "To"
+msgstr "Kam"
+
+msgid "Subject"
+msgstr "Temats"
+
+msgid "Sent through"
+msgstr "Nosūtīts caur"
+
+msgid "Actions"
+msgstr "Darbības"
+
+msgid "Select"
+msgstr "Atlasīt"
+
+msgid "(no subject)"
+msgstr "(nav temata)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Pielikumi (netiek saglabāti): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Ieraksta #%d atkārtota nosūtīšana"
+
+msgid "Content not kept."
+msgstr "Saturs netiek saglabāts."
+
+msgid "Resend"
+msgstr "Nosūtīt vēlreiz"
+
+msgid "Delete the selected entries?"
+msgstr "Dzēst atlasītos ierakstus?"
+
+msgid "Delete selected"
+msgstr "Dzēst atlasītos"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s ieraksti · automātiski dzēsti pēc %2$s dienām"
+
+msgid "Checking…"
+msgstr "Pārbauda…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Nosūtīts. Pārbaudiet saņēmēja iesūtni (un surogātpasta mapi)."
+
+msgid "Not sent."
+msgstr "Nav nosūtīts."
+
+msgid "open"
+msgstr "atvērts"
+
+msgid "blocked"
+msgstr "bloķēts"
+
+msgid "Request failed:"
+msgstr "Pieprasījums neizdevās:"
+
+msgid "Delivered through:"
+msgstr "Piegādāts, izmantojot:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Jums nav pietiekamu tiesību piekļūt šai lapai."
+
+msgid "Settings"
+msgstr "Iestatījumi"
+
+msgid "Test & diagnostics"
+msgstr "Tests un diagnostika"
+
+msgid "Email log"
+msgstr "E-pasta žurnāls"
+
+msgid "Feedback"
+msgstr "Atsauksmes"
+
+msgid "About"
+msgstr "Par"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Sūtiet visus WordPress e-pastus caur savu SMTP serveri — ar e-pasta žurnālu,"
+" atkārtotu nosūtīšanu, rezerves savienojumu un kļūdu brīdinājumiem. Pilnīgi "
+"bez maksas, bez papildu piedāvājumiem."
+
+msgid "The email was sent again."
+msgstr "E-pasts tika nosūtīts vēlreiz."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"E-pastu nevarēja nosūtīt vēlreiz — skatiet jaunāko žurnāla ierakstu, lai "
+"uzzinātu iemeslu."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "Šī e-pasta saturs netika saglabāts, tāpēc to nevar atkārtoti nosūtīt."
+
+msgid "Log entries deleted."
+msgstr "Žurnāla ieraksti izdzēsti."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Iestatījumi importēti. Ievadiet SMTP paroli vienreiz un saglabājiet — "
+"paroles nekad netiek kopētas no citiem spraudņiem."
+
+msgid "Set in wp-config.php"
+msgstr "Iestatīts wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "E-pasts tiek sūtīts caur %1$s uz porta %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"SMTP serveris vēl nav iestatīts — WordPress joprojām sūta, izmantojot PHP "
+"mail(). Izvēlieties savu pakalpojumu sniedzēju zemāk, ievadiet pieteikšanās "
+"datus un saglabājiet."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "Piegāde ir izslēgta: e-pasti tiek reģistrēti, bet netiek nosūtīti."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "Testa režīms: visi e-pasti nonāk %s, nevis pie to saņēmējiem."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Saglabāto paroli vairs nevar nolasīt, jo vietnes drošības atslēgas ir "
+"mainījušās. Ievadiet to vēlreiz un saglabājiet."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Pēdējā kļūda pirms %1$s: %2$s"
+
+msgid "Show failed emails"
+msgstr "Rādīt neveiksmīgos e-pastus"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Aktīvs arī: %s. Divi pasta spraudņi konfliktē par vienu un to pašu e-pastu —"
+" deaktivizējiet otru."
+
+msgid "Import settings from %s"
+msgstr "Importēt iestatījumus no %s"
+
+msgid "SMTP server"
+msgstr "SMTP serveris"
+
+msgid "Provider"
+msgstr "Pakalpojumu sniedzējs"
+
+msgid "Port and encryption"
+msgstr "Ports un šifrēšana"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — parasti ports 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — parasti ports 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Nav — tikai serverim tajā pašā tīklā"
+
+msgid "Authentication"
+msgstr "Autentifikācija"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "Serverim nepieciešams lietotājvārds un parole (gandrīz vienmēr)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Parole tiek ņemta no LYNBRO_SMTP_PASS wp-config.php failā un netiek glabāta "
+"datubāzē."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Saglabāts — atstājiet tukšu, lai paturētu"
+
+msgid "Remove the saved password"
+msgstr "Noņemt saglabāto paroli"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Saglabāta šifrēti ar jūsu vietnes drošības atslēgām un nekad vairs netiek "
+"rādīta. Lai to vispār nesaglabātu datubāzē, definējiet to wp-config.php "
+"(skatiet sadaļu Par)."
+
+msgid "Certificate"
+msgstr "Sertifikāts"
+
+msgid "Verify the server certificate"
+msgstr "Pārbaudīt servera sertifikātu"
+
+msgid "Default"
+msgstr "Noklusējums"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr "Noņemiet atzīmi tikai savam serverim ar pašparakstītu sertifikātu."
+
+msgid "Sender"
+msgstr "Sūtītājs"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Piespiediet šo adresi visiem e-pastiem, neatkarīgi no tā, ko iestata citi "
+"spraudņi"
+
+msgid "Recommended"
+msgstr "Ieteicams"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Izmantojiet adresi domēnā, no kura jūsu SMTP konts drīkst sūtīt, citādi "
+"pakalpojumu sniedzēji var noraidīt e-pastu vai ievietot to surogātpasta "
+"mapē."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Piespiediet arī šo vārdu (izslēgts: formas un veikali saglabā savu sūtītāja "
+"vārdu)"
+
+msgid "Default Reply-To"
+msgstr "Noklusējuma atbildes adrese"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Tiek izmantots tikai tad, ja e-pastam nav savas atbildes adreses, lai "
+"kontakta formas atbildes joprojām nonāktu pie apmeklētāja."
+
+msgid "Return-Path"
+msgstr "Atgriešanas ceļš"
+
+msgid "Send bounces to the From address"
+msgstr "Sūtīt atlecošos ziņojumus uz No adresi"
+
+msgid "Backup connection"
+msgstr "Rezerves savienojums"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Kad galvenais serveris nedarbojas, tas pats e-pasts nekavējoties tiek "
+"nosūtīts vēlreiz, izmantojot rezerves savienojumu — apmeklētājs nekad neredz"
+" kļūdu."
+
+msgid "Backup"
+msgstr "Rezerves"
+
+msgid "Use a backup when the main server fails"
+msgstr "Izmantot rezervi, ja galvenais serveris nedarbojas"
+
+msgid "Another SMTP server"
+msgstr "Cits SMTP serveris"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "Šī servera PHP mail() (labāk nekā nekas; var nonākt surogātpastā)"
+
+msgid "Backup host"
+msgstr "Rezerves resursdators"
+
+msgid "Backup port"
+msgstr "Rezerves ports"
+
+msgid "Backup encryption"
+msgstr "Rezerves šifrēšana"
+
+msgid "None"
+msgstr "Nav"
+
+msgid "Backup login"
+msgstr "Rezerves pieteikšanās"
+
+msgid "Backup password"
+msgstr "Rezerves parole"
+
+msgid "Delivery mode"
+msgstr "Piegādes režīms"
+
+msgid "Mode"
+msgstr "Režīms"
+
+msgid "Send normally"
+msgstr "Sūtīt normāli"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Testa režīms: sūtīt visu uz vienu adresi (Cc un Bcc tiek noņemti)"
+
+msgid "Redirect address"
+msgstr "Pāradresācijas adrese"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Nesūtīt nevienu e-pastu (stendbija kopijas) — e-pasti joprojām tiek "
+"reģistrēti"
+
+msgid "Log"
+msgstr "Žurnāls"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Saglabāt katra e-pasta žurnālu (saņēmējs, temats, statuss, kļūda)"
+
+msgid "Keep message content"
+msgstr "Saglabāt ziņojuma saturu"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Tikai neveiksmīgajiem e-pastiem, lai tos varētu nosūtīt atkārtoti"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Katram e-pastam (ļauj atkārtoti nosūtīt jebkuru; žurnālā tad būs paroles "
+"atiestatīšanas saites un pasūtījuma dati)"
+
+msgid "Never"
+msgstr "Nekad"
+
+msgid "Keep entries for"
+msgstr "Saglabāt ierakstus"
+
+msgid "days, then they are deleted automatically"
+msgstr "dienas, pēc tam tie tiek automātiski dzēsti"
+
+msgid "Failure alerts"
+msgstr "Kļūdu brīdinājumi"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Ne vairāk kā viens brīdinājums stundā. Brīdinājuma e-pasts tiek nosūtīts, "
+"izmantojot šī servera PHP mail(), jo SMTP serveris var būt tas, kas "
+"nedarbojas."
+
+msgid "Alert email"
+msgstr "Brīdinājuma e-pasts"
+
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Pēc izvēles. Slack, Discord, Microsoft Teams darbplūsmas, ntfy vai jūsu paša"
+" galapunkts (HTTPS). Spraudnis tur nosūta tikai kļūdas tekstu — neko citu, "
+"un tikai tad, ja norādāt URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Importēt no cita SMTP spraudņa"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Kopē resursdatoru, portu, šifrēšanu, lietotājvārdu un sūtītāju. Paroles "
+"paliek tur, kur tās ir — ievadiet savu vienu reizi pēc importēšanas."
+
+msgid "Import from %s"
+msgstr "Importēt no %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Šajā vietnē netika atrasti WP Mail SMTP, FluentSMTP, Easy WP SMTP vai Post "
+"SMTP iestatījumi."
+
+msgid "Download the log (CSV)"
+msgstr "Lejupielādēt žurnālu (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Dzēst visus žurnāla ierakstus?"
+
+msgid "Empty the log"
+msgstr "Iztukšot žurnālu"
+
+msgid "Is it working for you?"
+msgstr "Vai tas jums darbojas?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP ir bez maksas, nekas nav bloķēts. Ja tas palīdzēja jūsu e-pastam"
+" tikt piegādātam, īsa atsauksme palīdzēs citiem to atrast."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Atstāt atsauksmi vietnē WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Kaut kas trūkst vai nedarbojas?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Kļūdu ziņojumus un idejas lasa tie paši cilvēki, kas veido spraudni. Atverot"
+" šīs saites, no jūsu vietnes nekas netiek nosūtīts."
+
+msgid "Ask in the support forum"
+msgstr "Jautāt atbalsta forumā"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Ieteikt funkciju (publisks ceļvedis)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Publicējat žurnāla rindu? Vispirms noņemiet adreses — cilnē Test jau ir "
+"paslēpta parole."
+
+msgid "You do not have permission to do that."
+msgstr "Jums nav atļaujas to darīt."
+
+msgid "Enter a valid recipient address."
+msgstr "Ievadiet derīgu saņēmēja adresi."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: galvenais SMTP savienojums neizdevās, un rezerves savienojums "
+"piegādāja e-pastu. Kļūda: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: e-pastu nevarēja nosūtīt. Kļūda: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Žurnāla ieraksts #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] E-pasta piegādes problēma"
+
+msgid "Email delivery"
+msgstr "E-pasta piegāde"
+
+msgid "Email is sent through SMTP"
+msgstr "E-pasts tiek nosūtīts caur SMTP"
+
+msgid "Email"
+msgstr "E-pasts"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP sūta šīs vietnes e-pastus caur autentificētu SMTP serveri."
+
+msgid "Open Lynbro SMTP"
+msgstr "Atvērt Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "E-pasts tiek nosūtīts ar PHP mail(), nevis SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP ir aktīvs, bet SMTP serveris nav iestatīts, tāpēc e-pasts "
+"joprojām tiek sūtīts caur PHP mail() un bieži nonāk mēstulēs."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Saglabāto SMTP paroli vairs nevar nolasīt"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Pēc paroles saglabāšanas vietnes drošības atslēgas ir mainījušās. Ievadiet "
+"SMTP paroli vēlreiz."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "E-pastus neizdevās nosūtīt pēdējo 24 stundu laikā"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Galvenais SMTP savienojums neizdevās pēdējo 24 stundu laikā"
+
+msgid "Email delivery (7 days)"
+msgstr "E-pasta piegāde (7 dienas)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Nosūtīti: %1$s · Neizdevās: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr "SMTP serveris vēl nav iestatīts — e-pasts tiek sūtīts ar PHP mail()."
+
+msgid "Show failed"
+msgstr "Rādīt neveiksmīgos"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Galvenais savienojums: %1$s — Rezerves savienojums: %2$s"
+
+msgid "Test email from %s"
+msgstr "Testa e-pasts no %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Šis ir testa e-pasts no %1$s, ko nosūtījis Lynbro SMTP.\n"
+"\n"
+"Ja jūs to varat izlasīt, e-pasta piegāde darbojas.\n"
+"\n"
+"Nosūtīts: %2$s\n"
+"Savienojums: %3$s"
+
+msgid "backup"
+msgstr "rezerves"
+
+msgid "main"
+msgstr "galvenais"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Serveris atteica lietotājvārdu vai paroli. Gmail, Outlook, Zoho un iCloud "
+"nepieciešama lietotnes parole, nevis parastā; SendGrid un Brevo nepieciešama"
+" SMTP/API atslēga."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365 šai pastkastītei ir izslēgta SMTP pieteikšanās. Administrators"
+" var tai iespējot \"Authenticated SMTP\", vai arī izmantot retranslācijas "
+"pakalpojumu."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Serverim neizdevās piekļūt. Daudzi resursdatori bloķē izejošos portus 25, "
+"465 un 587 — palaidiet zemāk esošo portu pārbaudi, pēc tam palūdziet savam "
+"resursdatoram atvērt portu vai izmantot to, kas ir pieejams."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Drošais savienojums neizdevās. Pārbaudiet, vai ports un šifrēšana sakrīt "
+"(587 = TLS, 465 = SSL). Ja serveris izmanto pašparakstītu sertifikātu, "
+"noņemiet atzīmi no \"Verify the server certificate\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Serveris neļauj šim kontam sūtīt kā From adresi. Izmantojiet adresi domēnā, "
+"kas pieder kontam, un ieslēdziet \"Force From email\"."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Resursdatora nosaukumu nevar atrisināt. Pārbaudiet, vai nav kļūdu."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Izlasiet transkripta pēdējās SERVER rindiņas: serveris parasti tieši pasaka,"
+" kas tam nepatika."
+
+msgid "No host set."
+msgstr "Nav iestatīts resursdators."
+
+msgid "That log entry no longer exists."
+msgstr "Šis žurnāla ieraksts vairs nepastāv."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Šī e-pasta saturs netika saglabāts, tāpēc to nevar nosūtīt vēlreiz. Lai "
+"varētu nosūtīt nākotnes e-pastus atkārtoti, iestatījumos mainiet \"Keep "
+"message content\"."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"E-pastu neizdevās nosūtīt vēlreiz. Jaunais mēģinājums un tā kļūda ir "
+"žurnālā."
+
+msgid "Date (UTC)"
+msgstr "Datums (UTC)"
+
+msgid "Recipients"
+msgstr "Saņēmēji"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP e-pasta žurnāls"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Pārējā komplekta daļa. Tas, kas šajā vietnē jau ir, ir atzīmēts; nekas "
+"netiek instalēts bez jūsu pieprasījuma."
+
+msgid "Active"
+msgstr "Aktīvs"
+
+msgid "Activate"
+msgstr "Aktivizēt"
+
+msgid "Install now"
+msgstr "Instalēt tagad"
+
+msgid "View on WordPress.org"
+msgstr "Skatīt WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Kopīgie Lynbro komponenti v%1$s, ko nodrošina %2$s (jaunākā no %3$d versijām"
+" šajā vietnē)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Atiestatīt visus iestatījumus uz noklusējuma vērtībām?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Vai Lynbro SMTP nodrošina jūsu e-pasta piegādi? Daži vārdi WordPress.org "
+"palīdz citiem atrast pasta spraudni bez papildpārdošanas."
+
+msgid "Write a review"
+msgstr "Rakstīt atsauksmi"
+
+msgid "No thanks"
+msgstr "Nē, paldies"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Pāradresācijas režīmam ir nepieciešama adrese, uz kuru pāradresēt — pasts "
+"tiek sūtīts parasti, līdz to pievienojat."
+
+msgid "Other SMTP server"
+msgstr "Cits SMTP serveris"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr ""
+"Izmantojiet SMTP iestatījumus no sava hostinga vai e-pasta pakalpojuma "
+"sniedzēja."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Lietotājvārds: jūsu pilnā Gmail adrese. Parole: lietotnes parole (Google "
+"konts → Drošība → 2 pakāpju verifikācija → Lietotņu paroles), nevis jūsu "
+"parastā parole."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 nepieciešams, lai pastkastītei būtu iespējots \"Authenticated "
+"SMTP\". Microsoft atsakās no paroles pieteikšanās SMTP; ja pieteikšanās "
+"neizdodas, izmantojiet retranslācijas pakalpojumu, piemēram, Brevo, vai sava"
+" hostinga SMTP."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Lietotājvārds: SMTP pieteikumvārds, kas redzams sadaļā SMTP & API. Parole: "
+"SMTP atslēga, nevis jūsu konta parole."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Lietotājvārds: vārds \"apikey\". Parole: jūsu SendGrid API atslēga."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"ES kontiem izmantojiet smtp.eu.mailgun.org. Lietotājvārds un parole: jūsu "
+"sūtīšanas domēna SMTP akreditācijas dati."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Nomainiet reģionu hostā uz savu. Lietotājvārds un parole: SMTP akreditācijas"
+" dati, kas izveidoti SES konsolē (nevis jūsu AWS piekļuves atslēgas)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "Lietotājvārds un parole: abi ir jūsu Server API marķieris."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Ārpus ES kontiem izmantojiet smtp.zoho.com. Ar divpakāpju pierakstīšanos "
+"izveidojiet lietotnei specifisku paroli."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Lietotājvārds: API atslēga. Parole: slepenā atslēga."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Lietotājvārds un parole: SMTP lietotājs, kas izveidots sadaļā Sending → SMTP"
+" Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Lietotājvārds: pilna pastkastītes adrese. Parole: pastkastītes parole."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Šiem reģioniem izmantojiet smtp.ionos.de vai smtp.ionos.co.uk. "
+"Lietotājvārds: pilna pastkastītes adrese."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Nosūta visu WordPress e-pastu caur jūsu pašu SMTP serveri, ar meklējamu "
+"e-pasta žurnālu, atkārtotu nosūtīšanu, rezerves savienojumu, brīdinājumiem "
+"par kļūdām un savienojuma diagnostiku. Bez papildpārdošanas."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Resursdators: jūsu SES reģiona SMTP galapunkts, kas redzams SES konsolē "
+"sadaļā SMTP iestatījumi. Lietotājvārds un parole: SMTP akreditācijas dati, "
+"kas izveidoti SES konsolē (nevis jūsu AWS piekļuves atslēgas)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP pastkastīte"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Neobligāti. Slack vai Discord ienākošais tīmekļa āķis, vai jūsu paša HTTPS "
+"galapunkts (JSON ar \"text\" un \"content\"). Spraudnis tur publicē kļūdas "
+"tekstu — neko citu, un tikai tad, kad iestatāt URL."
+
+msgid "Is %s doing its job?"
+msgstr "Vai %s dara savu darbu?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Jūs to izmantojat jau pāris nedēļas. Ja tas darbojas jums, īss atsauksmes "
+"ieraksts WordPress.org palīdzēs citiem vietņu īpašniekiem to atrast — arī "
+"godīgas un kritiskas atsauksmes."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Jūs to izmantojat jau pāris nedēļas. Ja tas darbojas jums — vai arī kaut kas"
+" pietrūkst — pastāstiet mums mūsu publiskajā ceļvedī. Tā mēs izlemjam, ko "
+"veidot tālāk."
+
+msgid "(opens in a new tab)"
+msgstr "(atveras jaunā cilnē)"
+
+msgid "Share feedback"
+msgstr "Dalīties ar atsauksmēm"
+
+msgid "Maybe later"
+msgstr "Varbūt vēlāk"
+
+msgid "Don't ask again"
+msgstr "Vairs nejautāt"
+
+msgid "Something not working? Ask for help"
+msgstr "Kaut kas nedarbojas? Lūdziet palīdzību"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce ir aktīvs"
+
+msgid "a form plugin is active"
+msgstr "formas spraudnis ir aktīvs"
+
+msgid "the site is set up for Denmark"
+msgstr "vietne ir iestatīta Dānijai"
+
+msgid "comments are open"
+msgstr "komentāri ir atvērti"
+
+msgid "tracking tags are active"
+msgstr "izsekošanas tagi ir aktīvi"
+
+msgid "visitors can create accounts"
+msgstr "apmeklētāji var izveidot kontus"
+
+msgid "Suggested because %l."
+msgstr "Ieteikts, jo %l."
+
+msgid "Suggested for this site"
+msgstr "Ieteikts šai vietnei"
+
+msgid "Hide suggestions"
+msgstr "Slēpt ieteikumus"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Citi Lynbro spraudņi, kas atbilst šīs vietnes lietojumam. Nekas netiek "
+"instalēts, kamēr nenoklikšķināt."
+
+msgid "All Lynbro plugins"
+msgstr "Visi Lynbro spraudņi"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Izvēlēts no tā, ko šī vietne jau izmanto — lasāms šajā vietnē, nekas netiek "
+"sūtīts nekur citur."
+
+msgid "Image Optimizer"
+msgstr "Attēlu optimizētājs"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Konvertējiet uz WebP un AVIF, samaziniet pārlieku lielus attēlus un "
+"ielādējiet tos slinkajā režīmā — viss uz jūsu servera."
+
+msgid "AI Studio"
+msgstr "AI Studija"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Rakstiet un ilustrējiet ierakstus ar AI, izmantojot savu OpenAI atslēgu — "
+"tikai par pašizmaksu, bez starpniekiem."
+
+msgid "Analytics"
+msgstr "Analītika"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Pašmitināta, bezsīkdatņu analītika ar piltuvēm. Apmeklētāju dati nepamet "
+"jūsu datubāzi."
+
+msgid "Tags"
+msgstr "Birkas"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel un citi bez koda — katra birka "
+"gaida piekrišanu."
+
+msgid "Forms"
+msgstr "Formas"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formas ar bezmaksas ierakstu saglabāšanu bez ierobežojuma, nosacījumu loģika"
+" servera pusē un parakstīti webhook."
+
+msgid "Verify"
+msgstr "Verificēt"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Pārbaudiet kļūdaini ievadītas e-pasta adreses un nepareizus tālruņa numurus,"
+" apstipriniet tos ar vienreizēju kodu pa e-pastu vai SMS."
+
+msgid "Cache"
+msgstr "Kešatmiņa"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Uzticama tīrīšana nginx FastCGI un Redis objektu kešatmiņai, katru tīrīšanu "
+"pārbaudot pret pašu kešatmiņu."
+
+msgid "Translate"
+msgstr "Tulkot"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Pārvaldiet savu vietni vairākās valodās ar mašīntulkojumu, izmantojot savu "
+"OpenAI atslēgu — bez apjoma ierobežojumiem, bez maksas par vārdiem."
+
+msgid "Shield"
+msgstr "Aizsardzība"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Drošības galvenes, HTTPS ar HSTS, neliels ugunsmūris pret injekciju "
+"uzbrukumiem un nepieciešamie aizsardzības slēdži katrai vietnei."
+
+msgid "Anti-Spam"
+msgstr "Pretspams"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Spama pārbaudes notiek uz jūsu servera. Nav konta, nav abonementa, katrs "
+"bloķējums norāda iemeslu — un aizturēta ziņa nekad nepazūd."
+
+msgid "Login Guard"
+msgstr "Pieteikšanās aizsargs"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Pārvietojiet wp-login.php, ierobežojiet neveiksmīgus pieteikumus un "
+"pievienojiet divu faktoru autentifikāciju ar lietotni — ar trim atgriešanās "
+"iespējām."
+
+msgid "Cookie Consent"
+msgstr "Sīkdatņu piekrišana"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR un e-privātuma paziņojums ar Consent Mode v2, vienlīdz redzamu Noraidīt"
+" pogu un 35 valodām."
+
+msgid "Activity Log"
+msgstr "Darbību žurnāls"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Kas ko, kad un no kurienes darīja — pierakstīts uz jūsu servera, meklējams, "
+"eksportējams un dzēšams pēc jūsu grafika."
+
+msgid "Data Retention"
+msgstr "Datu saglabāšana"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Atrodiet, kur personas dati patiesībā glabājas jūsu datubāzē, pēc tam "
+"dzēsiet tos pēc grafika — ar izmēģinājuma dzēšanu pirms katras dzēšanas."
+
+msgid "Accessibility"
+msgstr "Pieejamība"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Pārbaudiet katru lapu pēc WCAG 2.2 AA un salabojiet, ko var droši salabot. "
+"Nav pārklājuma, nav lapu ierobežojuma."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Vienkāršs SEO ar bezmaksas LocalBusiness shēmu, vietnes kartēm un "
+"sociālajiem attēliem. Nekas netiek sūtīts ārpusē."
+
+msgid "SMTP Mailer"
+msgstr "SMTP pasta sūtītājs"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress e-pasts caur jūsu SMTP serveri — ar e-pasta žurnālu, atkārtotu "
+"sūtīšanu, rezerves savienojumu un kļūdu brīdinājumiem."
+
+msgid "Social Feed"
+msgstr "Sociālo tīklu plūsma"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Instagram plūsma jūsu vietnē bez Meta piekļuves atslēgas glabāšanas "
+"WordPress."
+
+msgid "Reviews Cache"
+msgstr "Atsauksmju kešatmiņa"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr ""
+"Rādiet savas Google atsauksmes bez API atslēgas ievietošanas WordPress."
+
+msgid "Links"
+msgstr "Saites"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Atrodiet bojātas saites un pārvaldiet pāradresācijas uz sava servera, ar "
+"iemeslu katram lēmumam."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse automātiskā aizpilde"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Dānijas adrešu automātiskā aizpilde un validācija WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable un EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge meklēšana"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Meklēt Dānijas transportlīdzekļus (DMR) un uzņēmumus (CVR) pēc numura zīmes,"
+" VIN vai CVR numura."
+
+msgid "CVR Checkout"
+msgstr "CVR norēķins"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Dānijas B2B norēķins WooCommerce: CVR uzņēmuma automātiskā aizpilde, CVR/EU-"
+"PVN (VIES) validācija un EAN/GLN lauks."
+
+msgid "Danish Shipping"
+msgstr "Dānijas piegāde"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Bezmaksas pakomātu izvēle PostNord un GLS Denmark WooCommerce norēķinā, kā "
+"arī vienkāršotas piegādes metodes."
+
+msgid "API Auth"
+msgstr "API autentifikācija"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens REST API ar iespēju anulēt, ar piekļuves līmeņiem un "
+"atteikumu žurnālu."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Neveiksmju brīdinājumi pa e-pastu netiek nosūtīti"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Brīdinājuma e-pasts tiek sūtīts ar PHP mail(), lai tas nebūtu atkarīgs no "
+"SMTP servera, taču PHP mail() šajā serverī neizdevās: %s Brīdinājumiem "
+"izmantojiet tīmekļa saiti (webhook) vai lūdziet hostinga pakalpojumu "
+"sniedzējam iespējot mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Šī ir Lynbro SMTP iepriekšējā versija. Tā ir aizstāta ar Lynbro SMTP Mailer,"
+" kas izmanto tos pašus iestatījumus. Izdzēsiet mapi %s, izmantojot sava "
+"mitināšanas pakalpojuma failu pārvaldnieku, FTP vai SSH — neizmantojiet šeit"
+" pieejamo dzēšanas funkciju: tās atinstalēšana izdzēš koplietotos SMTP "
+"iestatījumus. Lynbro SMTP Mailer saglabā to dublējumu un atjauno, taču "
+"vecais spraudnis izdzēš arī e-pasta žurnālu."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Cits spraudnis %s izdzēsa jūsu SMTP iestatījumus, un tie tika atjaunoti no "
+"dublējuma. Jums nekas nav jādara; ja vēlaties pārliecināties, nosūtiet testa"
+" e-pastu."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Šī vietne sūta e-pasta ziņojumus, izmantojot servera paša pasta sūtīšanas "
+"funkciju (PHP mail()). Pārbaude parāda, vai serveris pieņēma e-pasta "
+"ziņojumu; pārbaudiet tā galvenes iesūtnē (Authentication-Results: spf=pass, "
+"dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Pārliecinieties, ka tajā ir iekļauts šis tīmekļa serveris (tā IP adrese ar "
+"ip4: vai ip6:, vai a: / mx:, kas norāda uz šo serveri)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"E-pasta ziņojumi tiek sūtīti, izmantojot šī servera paša pasta sūtīšanas "
+"funkciju (PHP mail()), no adreses %s, un Return-Path atbilst sūtītāja "
+"adresei."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path ir izslēgts: serveris aploksnē norāda savu adresi, tāpēc SPF "
+"pārbauda šo domēnu, nevis jūsu domēnu."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"E-pasta ziņojumi tiek sūtīti, izmantojot servera paša pasta sūtīšanas "
+"funkciju, un sūtītāja adrese tiem atbilst"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Pēc jūsu izvēles Lynbro SMTP sūta e-pasta ziņojumus, izmantojot PHP mail(), "
+"un katram ziņojumam iestata From adresi un Return-Path. Iekļaujiet šo "
+"serveri domēna SPF ierakstā."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Šī servera paša pasta sūtīšanas funkcija (PHP mail(), bez SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Serveriem, kas ir konfigurēti patstāvīgai e-pasta sūtīšanai. Pieteikšanās "
+"nav nepieciešama: katram e-pasta ziņojumam tik un tā tiek iestatīta tālāk "
+"norādītā From adrese un Return-Path, tāpēc SPF un DMARC ieraksti var "
+"sakrist. Domēna SPF ierakstā jābūt iekļautam šim serverim."

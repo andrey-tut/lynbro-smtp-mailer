@@ -1,0 +1,1687 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Minden WordPress levelet a SMTP-kiszolgálón keresztül küld."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Kiszolgáló"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Port"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Titkosítás"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Jelszó"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (elmentve — hagyd üresen a megtartáshoz)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Feladó e-mail címe"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Feladó neve"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Feladó kényszerítése"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"A kimenő levelek feladójának felülírása minden levélnél (kézbesíthetőség "
+"miatt ajánlott)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Tesztküldés"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Teszt küldése"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Legutóbbi aktivitás"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Nincs elegendő jogosultság."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Bővítmények a lynbro aps-től — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Küldés…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Elküldve."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Sikertelen."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Hiba:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Hálózati hiba:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Tiltott."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP teszt"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Érvénytelen címzett."
+
+msgid "Our plugins"
+msgstr "Bővítményeink"
+
+msgid "Lynbro plugins"
+msgstr "Lynbro bővítmények"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Nagylelkű, adatvédelem-központú WordPress bővítmények — Dániában fejlesztve."
+" Ingyenes alapverziók, nincs kreditrendszer, az adataid a saját oldaladon "
+"maradnak."
+
+msgid "More from Lynbro"
+msgstr "Továbbiak a Lynbro-tól"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Növekvő ingyenes, adatvédelem-központú bővítménykínálatunk. A már telepített"
+" elemek meg vannak jelölve."
+
+msgid "Installed"
+msgstr "Telepítve"
+
+msgid "On WordPress.org"
+msgstr "A WordPress.org-on"
+
+msgid "Coming soon"
+msgstr "Hamarosan"
+
+msgid "Install"
+msgstr "Telepítés"
+
+msgid "Learn more"
+msgstr "További információ"
+
+msgid "About Lynbro"
+msgstr "A Lynbro-ról"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"A Lynbro valóban ingyenes, adatvédelem-központú WordPress bővítményeket "
+"készít nagylelkű ingyenes alapverziókkal — nincs kreditrendszer, nincs "
+"fizetőfal az alapvető funkcióknál, az adataid a saját oldaladon maradnak. "
+"Dániában készült."
+
+msgid "Visit Lynbro"
+msgstr "Lynbro meglátogatása"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Javasolj egy funkciót vagy jelents hibát"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"A visszajelzés megnyitja a plugins.lynbro.dk nyilvános ütemtervünket egy új "
+"lapon — a webhelyedről semmi sem kerül elküldésre."
+
+msgid "Tools"
+msgstr "Eszközök"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Exportáld ennek a bővítménynek a beállításait JSON biztonsági mentésként, "
+"vagy állítsd vissza az alapértelmezett értékekre. 100% helyben — semmi sem "
+"hagyja el a webhelyedet."
+
+msgid "Export settings (JSON)"
+msgstr "Beállítások exportálása (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Visszaállítás alapértelmezettre"
+
+msgid "About Lynbro SMTP"
+msgstr "A Lynbro SMTP-ről"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"A WordPress alapértelmezés szerint a PHP mail() függvénnyel küld e-mailt, "
+"amit a postafiókok gyanúsnak tekintenek. A Lynbro SMTP egy valódi, "
+"hitelesített levelezőszerveren keresztül küldi el — a tárhelyed, a "
+"postafiókod vagy egy küldőszolgáltatás szerverén —, így a jelszó-"
+"visszaállítások, rendelések és kapcsolatfelvételi űrlapok megérkeznek."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Minden benne van az ingyenes bővítményben: a napló, az újraküldés, a "
+"tartalék kapcsolat, a figyelmeztetések, a diagnosztika és a WP-CLI. Nincs "
+"fizetős verzió."
+
+msgid "How your data is handled"
+msgstr "Hogyan kezeljük az adataidat"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"Az e-mail közvetlenül a szerveredről a beállított SMTP szerverre megy. A "
+"bővítmény nem kapcsolódik a Lynbro egyik szolgáltatásához sem, és sehová nem"
+" küld statisztikákat."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"Az SMTP jelszó a webhelyed biztonsági kulcsaival titkosítva van, soha többé "
+"nem jelenik meg, és soha nem kerül be a naplóba vagy a beállítások "
+"exportjába."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"A napló a címzetteket, a tárgyat és az állapotot a saját adatbázisodban "
+"tárolja. Alapértelmezés szerint csak a sikertelen e-mailek üzenettartalmát, "
+"és minden bejegyzés törlődik a megőrzési idő lejárta után."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"A naplóbejegyzések szerepelnek az Eszközök → Személyes adatok exportálása és"
+" Személyes adatok törlése funkcióban."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Ha beállítasz hibajelző webhookot, az csak a hiba szövegét és egy "
+"hivatkozást kap a naplódhoz."
+
+msgid "Keep the login in wp-config.php"
+msgstr "A bejelentkezési adatokat a wp-config.php fájlban tárold"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Bármelyik ilyen konstans felülírja a mezőt a Beállításokban, és az érték "
+"soha nem kerül be az adatbázisba vagy a biztonsági mentésekbe:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Verzió és hivatkozások"
+
+msgid "Version"
+msgstr "Verzió"
+
+msgid "Plugin home page"
+msgstr "Bővítmény kezdőoldala"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Teszt e-mail küldése"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Még nincs beállítva SMTP szerver, ezért a teszt PHP mail() használatával "
+"megy ki. Az SMTP teszteléséhez előbb töltsd ki a Beállításokat."
+
+msgid "Recipient"
+msgstr "Címzett"
+
+msgid "Test the backup connection"
+msgstr "A tartalék kapcsolat tesztelése"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP beszélgetés (jelszó elrejtve)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"A teszt e-mailek figyelmen kívül hagyják a teszt módot és a „ne küldj” "
+"módot, így a kapcsolatot egy staging másolaton is ellenőrizheted."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Eléri ez a szerver az SMTP szervert?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Sok tárhelyszolgáltató blokkolja a kimenő levelezési portokat. Ez a szokásos"
+" portokat ellenőrzi a mentett hosthoz erről a webszerverről."
+
+msgid "Check ports"
+msgstr "Portok ellenőrzése"
+
+msgid "Sender domain: %s"
+msgstr "Feladó domaine: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "Ezen a szerveren a DNS-lekérdezések nem érhetők el."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Győződj meg róla, hogy tartalmazza az SMTP szolgáltatót (például "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Nincs SPF rekord. Adj hozzá egyet a DNS szolgáltatódnál, amely megnevezi az "
+"SMTP szolgáltatódat, különben sok postafiók bizalmatlan lesz az e-maillel "
+"szemben."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Nincs DMARC rekord. A Gmail és a Yahoo megköveteli a tömeges küldőktől; még "
+"egy egyszerű „v=DMARC1; p=none” is segít."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"A DKIM az SMTP szolgáltatódnál van beállítva (ők adják meg a DNS rekordot). "
+"A kiválasztó név nélkül innen nem ellenőrizhető."
+
+msgid "Environment"
+msgstr "Környezet"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "hiányzik — a TLS és SSL nem működik"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Egyéb levelező bővítmények"
+
+msgid "none found"
+msgstr "nem található"
+
+msgid "Scheduled cleanup"
+msgstr "Ütemezett tisztítás"
+
+msgid "scheduled"
+msgstr "ütemezve"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "nincs ütemezve — a bővítmény deaktiválása és aktiválása szükséges"
+
+msgid "Sent"
+msgstr "Elküldve"
+
+msgid "Failed"
+msgstr "Sikertelen"
+
+msgid "Not sent (delivery off)"
+msgstr "Nincs elküldve (kézbesítés kikapcsolva)"
+
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgid "Main SMTP"
+msgstr "Elsődleges SMTP"
+
+msgid "Backup SMTP"
+msgstr "Tartalék SMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Tesztmód (átirányítva)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr ""
+"A napló ki van kapcsolva a Beállításokban — új e-mailek nem kerülnek "
+"rögzítésre."
+
+msgid "Sent, 30 days"
+msgstr "Elküldve, 30 nap"
+
+msgid "Failed, 30 days"
+msgstr "Sikertelen, 30 nap"
+
+msgid "Held back, 30 days"
+msgstr "Visszatartva, 30 nap"
+
+msgid "Status"
+msgstr "Állapot"
+
+msgid "All statuses"
+msgstr "Minden állapot"
+
+msgid "Recipient, subject or error"
+msgstr "Címzett, tárgy vagy hiba"
+
+msgid "Search the log"
+msgstr "Keresés a naplóban"
+
+msgid "Filter"
+msgstr "Szűrés"
+
+msgid "Clear"
+msgstr "Törlés"
+
+msgid "No emails match this filter."
+msgstr "Nem található ehhez a szűrőhöz illő e-mail."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Még nincs naplózott e-mail. Küldj egy tesztet a Teszt és diagnosztika lapon,"
+" hogy az első bejegyzés itt megjelenjen."
+
+msgid "Select all"
+msgstr "Összes kijelölése"
+
+msgid "Date"
+msgstr "Dátum"
+
+msgid "To"
+msgstr "Címzett"
+
+msgid "Subject"
+msgstr "Tárgy"
+
+msgid "Sent through"
+msgstr "Küldés módja"
+
+msgid "Actions"
+msgstr "Műveletek"
+
+msgid "Select"
+msgstr "Kijelölés"
+
+msgid "(no subject)"
+msgstr "(nincs tárgy)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Mellékletek (nem megőrzött): %s"
+
+msgid "Resend of entry #%d"
+msgstr "A(z) #%d bejegyzés újraküldése"
+
+msgid "Content not kept."
+msgstr "A tartalom nincs megőrizve."
+
+msgid "Resend"
+msgstr "Újraküldés"
+
+msgid "Delete the selected entries?"
+msgstr "Törli a kijelölt bejegyzéseket?"
+
+msgid "Delete selected"
+msgstr "Kijelöltek törlése"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s bejegyzés · automatikusan törölve %2$s nap után"
+
+msgid "Checking…"
+msgstr "Ellenőrzés…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Elküldve. Ellenőrizd a címzett postaládáját (és a spam mappát)."
+
+msgid "Not sent."
+msgstr "Nincs elküldve."
+
+msgid "open"
+msgstr "nyitva"
+
+msgid "blocked"
+msgstr "blokkolva"
+
+msgid "Request failed:"
+msgstr "A kérés sikertelen:"
+
+msgid "Delivered through:"
+msgstr "Kiszolgálja:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nincs elegendő jogosultságod az oldal eléréséhez."
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Test & diagnostics"
+msgstr "Tesztelés és diagnosztika"
+
+msgid "Email log"
+msgstr "E-mail napló"
+
+msgid "Feedback"
+msgstr "Visszajelzés"
+
+msgid "About"
+msgstr "Névjegy"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Küldj minden WordPress e-mailt a saját SMTP szervereden keresztül — e-mail "
+"naplóval, újraküldéssel, tartalék kapcsolattal és hibaértesítésekkel. "
+"Teljesen ingyenes, nincs upsell."
+
+msgid "The email was sent again."
+msgstr "Az e-mailt újraküldtük."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"Az e-mailt nem sikerült újraküldeni — az okot lásd a legújabb "
+"naplóbejegyzésben."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "Az e-mail tartalmát nem mentettük el, ezért nem küldhető el újra."
+
+msgid "Log entries deleted."
+msgstr "A naplóbejegyzéseket töröltük."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"A beállítások importálva. Add meg egyszer az SMTP jelszót, majd mentsd el — "
+"a jelszavak soha nem kerülnek át más bővítményekből."
+
+msgid "Set in wp-config.php"
+msgstr "A wp-config.php fájlban beállítva"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr ""
+"Az e-mail a(z) %1$s szolgáltatáson keresztül, a %2$s porton kerül "
+"elküldésre."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"Még nincs beállítva SMTP szerver — a WordPress továbbra is a PHP mail()-t "
+"használja. Válaszd ki lent a szolgáltatódat, add meg a bejelentkezési "
+"adatokat, majd mentsd el."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr ""
+"A kézbesítés ki van kapcsolva: az e-mailek naplózásra kerülnek, de nem "
+"kerülnek elküldésre."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "Teszt mód: minden e-mail %s címre megy a címzettjei helyett."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"A mentett jelszó már nem olvasható, mert a webhely biztonsági kulcsai "
+"megváltoztak. Add meg újra, majd mentsd el."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Utolsó hiba %1$s ezelőtt: %2$s"
+
+msgid "Show failed emails"
+msgstr "Sikertelen e-mailek megjelenítése"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Szintén aktív: %s. Két levelezőbővítmény ugyanazon e-mailen verseng — "
+"kapcsold ki a másikat."
+
+msgid "Import settings from %s"
+msgstr "Beállítások importálása innen: %s"
+
+msgid "SMTP server"
+msgstr "SMTP szerver"
+
+msgid "Provider"
+msgstr "Szolgáltató"
+
+msgid "Port and encryption"
+msgstr "Port és titkosítás"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — általában 587-es port"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — általában 465-ös port"
+
+msgid "None — only for a server on the same network"
+msgstr "Nincs — csak ugyanazon hálózaton lévő szerverhez"
+
+msgid "Authentication"
+msgstr "Hitelesítés"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "A szerver felhasználónevet és jelszót igényel (szinte mindig)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"A jelszó a wp-config.php fájlban lévő LYNBRO_SMTP_PASS értékből származik, "
+"és nincs az adatbázisban tárolva."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Mentve — hagyd üresen a megtartásához"
+
+msgid "Remove the saved password"
+msgstr "A mentett jelszó eltávolítása"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"A webhely biztonsági kulcsaival titkosítva tároljuk, és soha többé nem "
+"jelenítjük meg. Ha teljesen ki akarod hagyni az adatbázisból, add meg a wp-"
+"config.php fájlban (lásd: Névjegy)."
+
+msgid "Certificate"
+msgstr "Tanúsítvány"
+
+msgid "Verify the server certificate"
+msgstr "A szerver tanúsítványának ellenőrzése"
+
+msgid "Default"
+msgstr "Alapértelmezett"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr "Csak a saját, önaláírt tanúsítványú szerverednél vedd ki a jelölést."
+
+msgid "Sender"
+msgstr "Feladó"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Kényszerítse ezt a címet minden e-mailre, függetlenül attól, hogy más "
+"bővítmények mit állítanak be"
+
+msgid "Recommended"
+msgstr "Ajánlott"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Olyan domainen lévő címet használjon, amelyről az SMTP-fiókja küldhet, "
+"különben a szolgáltatók elutasíthatják az e-mailt, vagy a spam mappába "
+"tehetik."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Ezt a nevet is kényszerítse (ki: az űrlapok és boltok megtartják a saját "
+"feladónevüket)"
+
+msgid "Default Reply-To"
+msgstr "Alapértelmezett válaszcím"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Csak akkor használja, ha egy e-mailnek nincs saját Válaszcím mezője, így az "
+"űrlapos válaszok továbbra is a látogatóhoz kerülnek."
+
+msgid "Return-Path"
+msgstr "Visszaútvonal"
+
+msgid "Send bounces to the From address"
+msgstr "A visszapattanó üzeneteket a Feladó címre küldi"
+
+msgid "Backup connection"
+msgstr "Tartalék kapcsolat"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Ha a fő kiszolgáló hibát jelez, ugyanaz az e-mail azonnal a tartalékon "
+"keresztül is elküldésre kerül — a látogató sosem lát hibát."
+
+msgid "Backup"
+msgstr "Tartalék"
+
+msgid "Use a backup when the main server fails"
+msgstr "Tartalék használata, ha a fő kiszolgáló hibázik"
+
+msgid "Another SMTP server"
+msgstr "Másik SMTP-kiszolgáló"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "A szerver PHP mail() függvénye (jobb, mint a semmi; spambe kerülhet)"
+
+msgid "Backup host"
+msgstr "Tartalék host"
+
+msgid "Backup port"
+msgstr "Tartalék port"
+
+msgid "Backup encryption"
+msgstr "Tartalék titkosítás"
+
+msgid "None"
+msgstr "Nincs"
+
+msgid "Backup login"
+msgstr "Tartalék bejelentkezés"
+
+msgid "Backup password"
+msgstr "Tartalék jelszó"
+
+msgid "Delivery mode"
+msgstr "Kézbesítési mód"
+
+msgid "Mode"
+msgstr "Mód"
+
+msgid "Send normally"
+msgstr "Normál küldés"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr ""
+"Tesztmód: minden üzenet egy címre megy (a Cc és Bcc mezők elvetésre "
+"kerülnek)"
+
+msgid "Redirect address"
+msgstr "Átirányítási cím"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Ne küldjön egyetlen e-mailt sem (staging másolatok) — az e-mailek továbbra "
+"is naplózásra kerülnek"
+
+msgid "Log"
+msgstr "Napló"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Minden e-mail naplózása (címzett, tárgy, állapot, hiba)"
+
+msgid "Keep message content"
+msgstr "Üzenettartalom megőrzése"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Csak a sikertelen e-maileké, hogy újraküldhetők legyenek"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Minden e-mailé (így bármit újra elküldhet; a napló ekkor jelszó-visszaállító"
+" linkeket és rendelési adatokat is tartalmaz)"
+
+msgid "Never"
+msgstr "Soha"
+
+msgid "Keep entries for"
+msgstr "Bejegyzések megőrzése"
+
+msgid "days, then they are deleted automatically"
+msgstr "napig, majd automatikusan törlődnek"
+
+msgid "Failure alerts"
+msgstr "Hibaértesítések"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Legfeljebb óránként egy értesítés. Az értesítő e-mailt a szerver PHP mail() "
+"függvényével küldi, mert maga az SMTP-kiszolgáló is lehet a hibás."
+
+msgid "Alert email"
+msgstr "Értesítő e-mail"
+
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Opcionális. Slack, Discord, Microsoft Teams munkafolyamatok, ntfy vagy saját"
+" végpont (HTTPS). A bővítmény csak a hibaüzenetet küldi oda — semmi mást, és"
+" csak ha megad egy URL-t."
+
+msgid "Import from another SMTP plugin"
+msgstr "Importálás másik SMTP bővítményből"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Másolja a hosztot, a portot, a titkosítást, a felhasználónevet és a feladót."
+" A jelszavak maradnak a helyükön — az importálás után egyszer add meg a "
+"sajátodat."
+
+msgid "Import from %s"
+msgstr "Importálás innen: %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Ezen az oldalon nem találhatók a WP Mail SMTP, FluentSMTP, Easy WP SMTP vagy"
+" Post SMTP beállításai."
+
+msgid "Download the log (CSV)"
+msgstr "Napló letöltése (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Minden naplóbejegyzést töröljünk?"
+
+msgid "Empty the log"
+msgstr "Napló ürítése"
+
+msgid "Is it working for you?"
+msgstr "Nálad működik?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"A Lynbro SMTP ingyenes, semmi sincs lezárva. Ha segített az e-mailjeid "
+"kézbesítésében, egy rövid értékelés segít másoknak is rátalálni."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Írj értékelést a WordPress.org-on"
+
+msgid "Something missing or broken?"
+msgstr "Valami hiányzik vagy hibás?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"A hibajelentéseket és ötleteket maguk a bővítmény készítői olvassák. Ezekre "
+"a linkekre kattintva semmi sem küldődik el az oldaladról."
+
+msgid "Ask in the support forum"
+msgstr "Kérdezz a támogatási fórumon"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Javasolj egy funkciót (nyilvános ütemterv)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Naplósort posztolsz? Előbb távolítsd el a címeket — a Teszt fül már elrejti "
+"a jelszót."
+
+msgid "You do not have permission to do that."
+msgstr "Nincs jogosultságod ehhez."
+
+msgid "Enter a valid recipient address."
+msgstr "Adj meg egy érvényes címzettcímet."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: a fő SMTP-kapcsolat sikertelen volt, a tartalék kézbesítette az "
+"e-mailt. Hiba: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: egy e-mailt nem lehetett elküldeni. Hiba: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Naplóbejegyzés #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] E-mail kézbesítési probléma"
+
+msgid "Email delivery"
+msgstr "E-mail kézbesítés"
+
+msgid "Email is sent through SMTP"
+msgstr "Az e-mail SMTP-n keresztül kerül elküldésre"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"A Lynbro SMTP ezen webhely e-mailjeit hitelesített SMTP-kiszolgálón "
+"keresztül küldi."
+
+msgid "Open Lynbro SMTP"
+msgstr "A Lynbro SMTP megnyitása"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "Az e-mail PHP mail()-lel kerül elküldésre, nem SMTP-vel"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"A Lynbro SMTP aktív, de nincs beállítva SMTP-kiszolgáló, ezért az e-mail "
+"továbbra is a PHP mail()-en keresztül megy ki, és gyakran a spambe kerül."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "A mentett SMTP-jelszó már nem olvasható"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Az oldal biztonsági kulcsai megváltoztak a jelszó mentése után. Add meg újra"
+" az SMTP-jelszót."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "Az elmúlt 24 órában az e-mailek küldése sikertelen volt"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Az elmúlt 24 órában a fő SMTP-kapcsolat sikertelen volt"
+
+msgid "Email delivery (7 days)"
+msgstr "E-mail kézbesítés (7 nap)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Elküldve: %1$s · Sikertelen: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"Még nincs beállítva SMTP-kiszolgáló — az e-mail PHP mail()-lel kerül "
+"elküldésre."
+
+msgid "Show failed"
+msgstr "Sikertelenek megjelenítése"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Fő kapcsolat: %1$s — Tartalék kapcsolat: %2$s"
+
+msgid "Test email from %s"
+msgstr "Teszt e-mail innen: %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Ez egy teszt e-mail %1$s részéről, amelyet a Lynbro SMTP küldött.\n"
+"\n"
+"Ha el tudod olvasni, az e-mail kézbesítése működik.\n"
+"\n"
+"Elküldve: %2$s\n"
+"Kapcsolat: %3$s"
+
+msgid "backup"
+msgstr "tartalék"
+
+msgid "main"
+msgstr "főmenü"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"A szerver elutasította a felhasználónevet vagy a jelszót. A Gmail, Outlook, "
+"Zoho és iCloud alkalmazásjelszót igényel, nem a megszokottat; a SendGrid és "
+"a Brevo SMTP/API kulcsot igényel."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"A Microsoft 365-nél az SMTP-bejelentkezés le van tiltva ehhez a "
+"postafiókhoz. Egy rendszergazda engedélyezheti hozzá az „Authenticated SMTP”"
+" opciót, vagy használhat helyette átjáró szolgáltatást."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"A szervert nem sikerült elérni. Sok tárhelyszolgáltató blokkolja a 25-ös, "
+"465-ös és 587-es kimenő portokat — futtasd az alábbi portellenőrzést, majd "
+"kérd meg a szolgáltatót, hogy nyissa meg a portot, vagy használd azt, "
+"amelyik nyitva van."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"A biztonságos kapcsolat meghiúsult. Ellenőrizd, hogy a port és a titkosítás "
+"egyezik-e (587 = TLS, 465 = SSL). Ha a szerver önaláírt tanúsítványt "
+"használ, vedd ki a jelölést a „Verify the server certificate” mellett."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"A szerver nem engedi, hogy ez a fiók a From címként küldjön. Használj a fiók"
+" által birtokolt domainen lévő címet, és kapcsold be a „Force From email” "
+"opciót."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "A gépnév nem oldható fel. Ellenőrizd, nincs-e elgépelés."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Olvasd el az átirat utolsó SERVER sorait: a szerver általában pontosan "
+"megmondja, mi nem tetszett neki."
+
+msgid "No host set."
+msgstr "Nincs megadva gazdagép."
+
+msgid "That log entry no longer exists."
+msgstr "Ez a naplóbejegyzés már nem létezik."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Ennek az e-mailnek a tartalma nem lett megőrizve, ezért nem küldhető el "
+"újra. A jövőbeli e-mailek újraküldéséhez módosítsd a Beállításokban a „Keep "
+"message content” opciót."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"Az e-mailt nem sikerült újra elküldeni. Az új próbálkozás és annak hibája "
+"megtalálható a naplóban."
+
+msgid "Date (UTC)"
+msgstr "Dátum (UTC)"
+
+msgid "Recipients"
+msgstr "Címzettek"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP e-mail napló"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"A csomag többi része. Ami már ezen a webhelyen megtalálható, az meg van "
+"jelölve; semmi sem települ az engedélyed nélkül."
+
+msgid "Active"
+msgstr "Aktív"
+
+msgid "Activate"
+msgstr "Aktiválás"
+
+msgid "Install now"
+msgstr "Telepítés most"
+
+msgid "View on WordPress.org"
+msgstr "Megtekintés a WordPress.org-on"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Megosztott Lynbro komponensek v%1$s, amelyeket %2$s biztosít (ennek a "
+"webhelynek a %3$d verziója közül a legújabb)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Minden beállítást visszaállítasz az alapértelmezett értékekre?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"A Lynbro SMTP kézbesíti az e-mailjeidet? Néhány szó a WordPress.org-on segít"
+" másoknak upsell nélküli levelezőbővítményt találni."
+
+msgid "Write a review"
+msgstr "Értékelés írása"
+
+msgid "No thanks"
+msgstr "Nem, köszönöm"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Az átirányítási módhoz meg kell adni egy célt címet — addig a levelek normál"
+" módon mennek, amíg meg nem adsz egyet."
+
+msgid "Other SMTP server"
+msgstr "Egyéb SMTP-kiszolgáló"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Használd a tárhelyszolgáltatód vagy e-mail szolgáltatód SMTP adatait."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Felhasználónév: a teljes Gmail-címed. Jelszó: egy alkalmazásjelszó (Google "
+"Fiók → Biztonság → Kétlépcsős azonosítás → Alkalmazásjelszavak), nem a "
+"megszokott jelszavad."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"A Microsoft 365-nek engedélyezve kell lennie az „Authenticated SMTP”-nek a "
+"postafiókhoz. A Microsoft megszünteti az SMTP-hez használt jelszavas "
+"bejelentkezést; ha a belépés sikertelen, használj inkább átjáró "
+"szolgáltatást, például Brevo-t vagy a tárhelyed SMTP-jét."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Felhasználónév: az SMTP & API alatt látható SMTP bejelentkezés. Jelszó: egy "
+"SMTP kulcs, nem a fiók jelszava."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Felhasználónév: az „apikey” szó. Jelszó: a SendGrid API kulcsod."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"Az EU-s fiókokhoz a smtp.eu.mailgun.org címet használd. Felhasználónév és "
+"jelszó: a küldő domain SMTP hitelesítő adatai."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Állítsd át a régiót a sajátodra a tárhelyen. Felhasználónév és jelszó: az "
+"SES konzolban létrehozott SMTP hitelesítő adatok (nem az AWS hozzáférési "
+"kulcsaid)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "Felhasználónév és jelszó: mindkettő a Server API tokened."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"A EU-n kívüli fiókokhoz a smtp.zoho.com címet használd. Kétlépcsős "
+"bejelentkezésnél hozz létre alkalmazásspecifikus jelszót."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Felhasználónév: API kulcs. Jelszó: titkos kulcs."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Felhasználónév és jelszó: egy SMTP felhasználó a Küldés → SMTP felhasználók "
+"alatt létrehozva."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr "Felhasználónév: a teljes postafiók cím. Jelszó: a postafiók jelszava."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Az adott régiókhoz a smtp.ionos.de vagy a smtp.ionos.co.uk címet használd. "
+"Felhasználónév: a teljes postafiók cím."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Minden WordPress e-mailt a saját SMTP kiszolgálódon keresztül küld, "
+"kereshető e-mail naplóval, újraküldéssel, tartalék kapcsolattal, "
+"hibaértesítésekkel és kapcsolati diagnosztikával. Nincs ráerőltetett "
+"értékesítés."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Host: az Ön SES régiójának SMTP végpontja, amely az SES konzolon az SMTP "
+"beállítások alatt látható. Username and password: az SES konzolon "
+"létrehozott SMTP hitelesítő adatok (nem az AWS hozzáférési kulcsai)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Opcionális. Slack vagy Discord bejövő webhook, vagy a saját HTTPS végpontja "
+"(JSON formátumban \"text\" és \"content\" mezőkkel). A bővítmény csak a "
+"hibaszöveget küldi oda — mást nem, és csak akkor, ha megad egy URL-t."
+
+msgid "Is %s doing its job?"
+msgstr "A(z) %s jól végzi a dolgát?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Már néhány hete használja. Ha bevált Önnek, egy rövid értékelés a "
+"WordPress.org-on segít másoknak is — legyen őszinte, akár kritikus is."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Már néhány hete használja. Ha működik — vagy ha valami hiányzik — írja meg "
+"nekünk a nyilvános ütemtervünkön. Így döntjük el, min dolgozunk legközelebb."
+
+msgid "(opens in a new tab)"
+msgstr "(új lapon nyílik meg)"
+
+msgid "Share feedback"
+msgstr "Visszajelzés küldése"
+
+msgid "Maybe later"
+msgstr "Talán később"
+
+msgid "Don't ask again"
+msgstr "Ne kérdezze újra"
+
+msgid "Something not working? Ask for help"
+msgstr "Valami nem működik? Kérjen segítséget"
+
+msgid "WooCommerce is active"
+msgstr "A WooCommerce aktív"
+
+msgid "a form plugin is active"
+msgstr "Egy űrlap bővítmény aktív"
+
+msgid "the site is set up for Denmark"
+msgstr "Az oldal Dániára van beállítva"
+
+msgid "comments are open"
+msgstr "A hozzászólások nyitva vannak"
+
+msgid "tracking tags are active"
+msgstr "A követőkódok aktívak"
+
+msgid "visitors can create accounts"
+msgstr "A látogatók fiókot hozhatnak létre"
+
+msgid "Suggested because %l."
+msgstr "Ajánlott, mert %l."
+
+msgid "Suggested for this site"
+msgstr "Ajánlott ehhez az oldalhoz"
+
+msgid "Hide suggestions"
+msgstr "Javaslatok elrejtése"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Más Lynbro bővítmények, amelyek illenek ehhez az oldalhoz. Semmi sem "
+"települ, amíg nem kattint."
+
+msgid "All Lynbro plugins"
+msgstr "Összes Lynbro bővítmény"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Az oldal által már használtak alapján válogatva — csak ezen az oldalon "
+"olvasható, semmi nem kerül továbbításra."
+
+msgid "Image Optimizer"
+msgstr "Képoptimalizáló"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"WebP és AVIF konvertálás, túlméretezett képek átméretezése és lustított "
+"betöltés — mindezt a saját szervereden."
+
+msgid "AI Studio"
+msgstr "AI Stúdió"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Írj és illusztrálj bejegyzéseket AI segítségével a saját OpenAI kulcsoddal —"
+" közvetlen költségen, köztes kreditek nélkül."
+
+msgid "Analytics"
+msgstr "Analitika"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Saját szerveren futó, sütimentes analitika tölcsérekkel. A látogatói adatok "
+"sosem hagyják el az adatbázisodat."
+
+msgid "Tags"
+msgstr "Címkék"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel és még több kód nélkül — minden "
+"címke a hozzájárulásra vár."
+
+msgid "Forms"
+msgstr "Űrlapok"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Űrlapok ingyenes, korlátlan mentéssel, szerveroldali feltételes logikával és"
+" aláírt webhookokkal."
+
+msgid "Verify"
+msgstr "Ellenőrzés"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Elgépelések és hibás telefonszámok kiszűrése, majd egyszeri kóddal való "
+"megerősítés e-mailben vagy SMS-ben."
+
+msgid "Cache"
+msgstr "Gyorsítótár"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Megbízható ürítés nginx FastCGI és Redis objektum cache-hez, minden törlés "
+"ellenőrizve a cache-ben."
+
+msgid "Translate"
+msgstr "Fordítás"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Többnyelvű oldal gépi fordítással a saját OpenAI kulcsoddal — nincs mérés, "
+"nincs szószámlálás."
+
+msgid "Shield"
+msgstr "Védelem"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Biztonsági fejlécek, HTTPS HSTS-sel, kis tűzfal az injekciós próbálkozások "
+"ellen és minden szükséges védelem."
+
+msgid "Anti-Spam"
+msgstr "Spam elleni védelem"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Spam szűrés a saját szervereden. Nincs fiók, nincs előfizetés, minden "
+"blokkolás indokolt — és egyetlen visszatartott üzenet sem vész el."
+
+msgid "Login Guard"
+msgstr "Bejelentkezés védelem"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"A wp-login.php áthelyezése, hibás bejelentkezések korlátozása és "
+"alkalmazásalapú kétlépcsős azonosítás — három visszaállítási lehetőséggel."
+
+msgid "Cookie Consent"
+msgstr "Sütihozzájárulás"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR és ePrivacy banner Consent Mode v2-vel, ugyanolyan feltűnő Elutasítás "
+"gombbal és 35 nyelven."
+
+msgid "Activity Log"
+msgstr "Tevékenységnapló"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Ki, mit, mikor és honnan — mindez a saját szervereden naplózva, kereshetően,"
+" exportálhatóan, és az általad beállított időpontban törölve."
+
+msgid "Data Retention"
+msgstr "Adatmegőrzés"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Keresd meg, hol találhatóak a személyes adatok az adatbázisodban, majd "
+"töröld őket ütemezetten — minden törlés előtt próba futtatással."
+
+msgid "Accessibility"
+msgstr "Akadálymentesség"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Minden oldal átvizsgálása WCAG 2.2 AA szerint, és a biztonságosan javítható "
+"hibák javítása. Nincs átfedő réteg, nincs oldalszám-korlát."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Egyszerű SEO ingyenes LocalBusiness sémával, webhelytérképekkel és közösségi"
+" kártyákkal. Semmi nem küld adatot haza."
+
+msgid "SMTP Mailer"
+msgstr "SMTP levelező"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress e-mail a saját SMTP szervereden — e-mail naplóval, újraküldéssel, "
+"tartalék kapcsolattal és hibajelzésekkel."
+
+msgid "Social Feed"
+msgstr "Közösségi hírfolyam"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Instagram hírfolyam az oldaladon Meta token tárolása nélkül a WordPressben."
+
+msgid "Reviews Cache"
+msgstr "Vélemények gyorsítótára"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Mutasd meg Google véleményeidet API kulcs nélkül a WordPressben."
+
+msgid "Links"
+msgstr "Hivatkozások"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Találd meg a hibás hivatkozásokat és kezeld az átirányításokat a saját "
+"szervereden, minden döntés indoklásával."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse automatikus kitöltés"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Dán cím automatikus kiegészítés és ellenőrzés WooCommerce, WPForms, Gravity,"
+" Fluent, Formidable és EDD számára."
+
+msgid "Soge Lookup"
+msgstr "Soge lekérdezés"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Dán járművek (DMR) és cégek (CVR) keresése rendszám, alvázszám vagy CVR szám"
+" alapján."
+
+msgid "CVR Checkout"
+msgstr "CVR pénztár"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Dán B2B pénztár WooCommerce-hez: CVR cég automatikus kitöltés, CVR/EU-ÁFA "
+"(VIES) ellenőrzés és EAN/GLN mező."
+
+msgid "Danish Shipping"
+msgstr "Dán szállítás"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Ingyenes átvételi pont választás PostNord és GLS Denmark számára a "
+"WooCommerce pénztárnál, valamint egyszerű szállítási módok."
+
+msgid "API Auth"
+msgstr "API hitelesítés"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokenek a REST API-hoz, amelyek ténylegesen visszavonhatók, "
+"jogosultságokkal és elutasítási naplóval."
+
+msgid "Failure alerts by email do not get out"
+msgstr "A hibariasztások e-mailben nem kerülnek kiküldésre"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"A figyelmeztető e-mail PHP mail() segítségével kerül elküldésre, így nem "
+"függ az SMTP szervertől, de a PHP mail() ezen a szerveren meghiúsult: %s "
+"Használjon webhooks-ot az értesítésekhez, vagy kérje meg a "
+"tárhelyszolgáltatót, hogy engedélyezze a mail() függvényt."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Ez a Lynbro SMTP korábbi verziója. A Lynbro SMTP Mailer váltotta fel, és "
+"ugyanazokat a beállításokat használja. Távolítsa el a(z) %s mappát a "
+"tárhelyszolgáltató fájlkezelőjével, FTP-n vagy SSH-n keresztül — itt ne "
+"használja a Törlés lehetőséget, mert az eltávolítás törli a megosztott SMTP-"
+"beállításokat. A Lynbro SMTP Mailer biztonsági másolatot készít róluk, és "
+"visszaállítja őket, de a régi bővítmény az e-mail-naplót is kiüríti."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Egy másik bővítmény törölte az SMTP-beállításait ekkor: %s, de "
+"visszaállítottuk őket a biztonsági másolatból. Nincs további teendője; ha "
+"biztosra akar menni, küldjön egy teszt e-mailt."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Ez a webhely a szerver saját levelezőrendszerével küldi az e-maileket (PHP "
+"mail()). A teszt azt mutatja meg, hogy a szerver elfogadta-e az e-mailt; "
+"ellenőrizze a fejlécét a beérkező levelek között (Authentication-Results: "
+"spf=pass, dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Győződjön meg róla, hogy ez a webszerver is szerepel benne (az IP-címe ip4: "
+"vagy ip6: formában, illetve egy rá feloldódó a: / mx: rekord)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"Az e-mail a szerver saját levelezőrendszerével (PHP mail()) kerül elküldésre"
+" a(z) %s címről, egyező Return-Path fejlécértékkel."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"A Return-Path ki van kapcsolva: a szerver a saját címét teszi a borítékra, "
+"ezért az SPF-ellenőrzés az Ön domainje helyett ezt a domaint vizsgálja."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"Az e-mail a szerver saját levelezőrendszerével, egyező feladóval kerül "
+"elküldésre"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"A Lynbro SMTP az Ön választása alapján PHP mail() használatával küld, és "
+"minden e-mailnél beállítja a From címet és a Return-Path értékét. "
+"Szerepeltesse ezt a szervert a domain SPF-rekordjában."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "A szerver saját levelezőrendszere (PHP mail(), SMTP nélkül)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Olyan szerverekhez, amelyek saját maguk küldésére vannak beállítva. Nincs "
+"szükség bejelentkezésre: az alábbi From cím és Return-Path továbbra is "
+"minden e-mailnél be van állítva, így az SPF és a DMARC összhangban lehet. A "
+"domain SPF-rekordjának tartalmaznia kell ezt a szervert."

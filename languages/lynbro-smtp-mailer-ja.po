@@ -1,0 +1,1490 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "すべての WordPress メールを SMTP ホスト経由で送信します。"
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "ホスト"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "ポート"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "暗号化"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "ユーザー名"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "パスワード"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• （保存済み — 空欄のままにすると保持）"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "送信元メールアドレス"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "送信元名"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "送信元を強制"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr "すべての送信メールで送信元を上書きします（配信性向上のため推奨）"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "テスト送信"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "テストメールを送信"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "最近のアクティビティ"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "権限が不十分です。"
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "lynbro aps のプラグイン — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "送信中…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ 送信しました。"
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ 失敗しました。"
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "エラー:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "ネットワークエラー:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "禁止されています。"
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP テスト"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "宛先が無効です。"
+
+msgid "Our plugins"
+msgstr "私たちのプラグイン"
+
+msgid "Lynbro plugins"
+msgstr "Lynbroのプラグイン"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr "寛大な、プライバシー重視のWordPressプラグイン — デンマーク製。無料のコア、クレジット不要、あなたのデータはサイト上に残ります。"
+
+msgid "More from Lynbro"
+msgstr "Lynbroのその他のプラグイン"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr "無料でプライバシー重視のプラグインを拡充中。すでにインストール済みのものには印が付いています。"
+
+msgid "Installed"
+msgstr "インストール済み"
+
+msgid "On WordPress.org"
+msgstr "WordPress.orgで公開"
+
+msgid "Coming soon"
+msgstr "近日公開"
+
+msgid "Install"
+msgstr "インストール"
+
+msgid "Learn more"
+msgstr "詳しく見る"
+
+msgid "About Lynbro"
+msgstr "Lynbroについて"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbroは、真に無料でプライバシー重視のWordPressプラグインを、太っ腹な無料コア付きで提供しています。クレジット不要、基本機能に課金の壁はなく、データはあなた自身のサイト上にあります。デンマーク製です。"
+
+msgid "Visit Lynbro"
+msgstr "Lynbroを訪問"
+
+msgid "Suggest a feature or report a bug"
+msgstr "機能の提案やバグ報告"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"フィードバックを送ると、plugins.lynbro.dk の公開ロードマップが新しいタブで開きます — あなたのサイトから何も送信されません。"
+
+msgid "Tools"
+msgstr "ツール"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"このプラグインの設定をJSONバックアップとしてエクスポートするか、初期設定にリセットできます。100%ローカル — サイト外に何も送信されません。"
+
+msgid "Export settings (JSON)"
+msgstr "設定をエクスポート（JSON）"
+
+msgid "Reset to defaults"
+msgstr "初期設定にリセット"
+
+msgid "About Lynbro SMTP"
+msgstr "Lynbro SMTP について"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress は既定で PHP mail() を使ってメールを送信しますが、受信箱では不審と見なされがちです。Lynbro SMTP "
+"は、その代わりに実際の認証済みメールサーバー—ホスティング先、メールボックス、または送信サービスのいずれか—経由で送信するため、パスワード再設定、注文、問い合わせフォームのメールが届きます。"
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr "無料プラグインにすべて含まれています: ログ、再送信、バックアップ接続、アラート、診断、WP-CLI。有料版はありません。"
+
+msgid "How your data is handled"
+msgstr "データの取り扱い"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"メールは、あなたが設定した SMTP サーバーへサーバーから直接送信されます。プラグインは Lynbro のサービスに接続せず、統計情報も送信しません。"
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr "SMTP パスワードはサイトのセキュリティキーで暗号化され、再表示されることはなく、ログや設定エクスポートにも保存されません。"
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"ログには、受信者、件名、ステータスがあなた自身のデータベースに保存されます。メッセージ本文は既定では失敗したメールのみ保存され、各エントリは保持期間後に削除されます。"
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr "ログエントリは、ツール → 個人データをエクスポート と 個人データを消去 に含まれます。"
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr "失敗用 Webhook を設定している場合、エラー内容とログへのリンクのみが送信されます。"
+
+msgid "Keep the login in wp-config.php"
+msgstr "wp-config.php にログイン情報を保持する"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr "これらの定数のいずれかが設定画面の項目を上書きし、その値はデータベースやバックアップには保存されません:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "バージョンとリンク"
+
+msgid "Version"
+msgstr "バージョン"
+
+msgid "Plugin home page"
+msgstr "プラグインのホームページ"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "テストメールを送信"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"SMTP サーバーがまだ設定されていないため、テストは PHP mail() で送信されます。SMTP をテストするには、先に設定を入力してください。"
+
+msgid "Recipient"
+msgstr "宛先"
+
+msgid "Test the backup connection"
+msgstr "バックアップ接続をテスト"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP のやり取り（パスワードは非表示）"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr "テストメールはテストモードと「送信しない」モードを無視するため、ステージング環境で接続を確認できます。"
+
+msgid "Can this server reach the SMTP server?"
+msgstr "このサーバーは SMTP サーバーに接続できますか？"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"多くのホスティングでは送信メールのポートがブロックされています。ここでは、この Web サーバーから保存済みのホストへの一般的なポートを確認します。"
+
+msgid "Check ports"
+msgstr "ポートを確認"
+
+msgid "Sender domain: %s"
+msgstr "送信元ドメイン: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "このサーバーでは DNS 参照を利用できません。"
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr "SMTP プロバイダーが含まれていることを確認してください（例: include:spf.brevo.com）。"
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"SPF レコードがありません。DNS ホストで SMTP "
+"プロバイダーを指定するレコードを追加してください。追加しないと、ほとんどの受信箱でメールが信用されません。"
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"DMARC レコードがありません。Gmail と Yahoo は一括送信者にこれを要求します。簡単な「v=DMARC1; p=none」でも役立ちます。"
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr "DKIM は SMTP プロバイダー側で設定します（DNS レコードを提供します）。セレクター名がないため、ここでは確認できません。"
+
+msgid "Environment"
+msgstr "環境"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "がありません — TLS と SSL は動作しません"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "他のメールプラグイン"
+
+msgid "none found"
+msgstr "見つかりません"
+
+msgid "Scheduled cleanup"
+msgstr "定期クリーンアップ"
+
+msgid "scheduled"
+msgstr "予定済み"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "未予定 — プラグインを無効化してから再有効化してください"
+
+msgid "Sent"
+msgstr "送信済み"
+
+msgid "Failed"
+msgstr "失敗"
+
+msgid "Not sent (delivery off)"
+msgstr "未送信（配信オフ）"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "Main SMTP"
+msgstr "メインSMTP"
+
+msgid "Backup SMTP"
+msgstr "バックアップSMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "テストモード（リダイレクト済み）"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "ログは設定でオフになっています — 新しいメールは記録されません。"
+
+msgid "Sent, 30 days"
+msgstr "送信済み、30日"
+
+msgid "Failed, 30 days"
+msgstr "失敗、30日"
+
+msgid "Held back, 30 days"
+msgstr "保留、30日"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "All statuses"
+msgstr "すべてのステータス"
+
+msgid "Recipient, subject or error"
+msgstr "受信者、件名、またはエラー"
+
+msgid "Search the log"
+msgstr "ログを検索"
+
+msgid "Filter"
+msgstr "絞り込む"
+
+msgid "Clear"
+msgstr "クリア"
+
+msgid "No emails match this filter."
+msgstr "このフィルターに一致するメールはありません。"
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr "まだメールは記録されていません。最初の項目を表示するには、「テストと診断」タブからテスト送信してください。"
+
+msgid "Select all"
+msgstr "すべて選択"
+
+msgid "Date"
+msgstr "日付"
+
+msgid "To"
+msgstr "宛先"
+
+msgid "Subject"
+msgstr "件名"
+
+msgid "Sent through"
+msgstr "送信方法"
+
+msgid "Actions"
+msgstr "操作"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "(no subject)"
+msgstr "（件名なし）"
+
+msgid "Attachments (not kept): %s"
+msgstr "添付ファイル（保存されません）：%s"
+
+msgid "Resend of entry #%d"
+msgstr "エントリー #%d の再送信"
+
+msgid "Content not kept."
+msgstr "内容は保存されません。"
+
+msgid "Resend"
+msgstr "再送信"
+
+msgid "Delete the selected entries?"
+msgstr "選択した項目を削除しますか？"
+
+msgid "Delete selected"
+msgstr "選択した項目を削除"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s 件のエントリー · %2$s 日後に自動削除"
+
+msgid "Checking…"
+msgstr "確認中…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "送信しました。受信者の受信トレイ（および迷惑メールフォルダ）を確認してください。"
+
+msgid "Not sent."
+msgstr "未送信。"
+
+msgid "open"
+msgstr "開く"
+
+msgid "blocked"
+msgstr "ブロック済み"
+
+msgid "Request failed:"
+msgstr "失敗しました:"
+
+msgid "Delivered through:"
+msgstr "送信元:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Test & diagnostics"
+msgstr "テストと診断"
+
+msgid "Email log"
+msgstr "メールログ"
+
+msgid "Feedback"
+msgstr "フィードバック"
+
+msgid "About"
+msgstr "概要"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"WordPress のすべてのメールを、自分の SMTP "
+"サーバー経由で送信します。メールログ、再送信、バックアップ接続、失敗アラート付き。すべて無料で、上位版への誘導はありません。"
+
+msgid "The email was sent again."
+msgstr "メールを再送信しました。"
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr "メールは再送信できませんでした — 理由は最新のログエントリを確認してください。"
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "このメールの内容は保存されていないため、再送信できません。"
+
+msgid "Log entries deleted."
+msgstr "ログエントリを削除しました。"
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr "設定をインポートしました。SMTP パスワードは一度入力して保存してください — パスワードは他のプラグインからコピーされません。"
+
+msgid "Set in wp-config.php"
+msgstr "wp-config.php で設定済み"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "メールは %1$s の %2$s 番ポート経由で送信されます。"
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"まだ SMTP サーバーは設定されていません — WordPress は引き続き PHP mail() "
+"で送信します。以下からプロバイダーを選び、ログイン情報を入力して保存してください。"
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "配信はオフです: メールは記録されますが送信されません。"
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "テストモード: すべてのメールは受信者の代わりに %s に送信されます。"
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr "サイトのセキュリティキーが変更されたため、保存済みパスワードは読み取れなくなりました。もう一度入力して保存してください。"
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "最後の失敗から %1$s 前: %2$s"
+
+msgid "Show failed emails"
+msgstr "送信失敗メールを表示"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr "ほかにも有効です: %s。2 つのメールプラグインが同じメールを奪い合っています — もう一方を無効化してください。"
+
+msgid "Import settings from %s"
+msgstr "%s から設定をインポート"
+
+msgid "SMTP server"
+msgstr "SMTP サーバー"
+
+msgid "Provider"
+msgstr "プロバイダー"
+
+msgid "Port and encryption"
+msgstr "ポートと暗号化"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS（STARTTLS） — 通常はポート 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — 通常はポート 465"
+
+msgid "None — only for a server on the same network"
+msgstr "なし — 同じネットワーク上のサーバー専用"
+
+msgid "Authentication"
+msgstr "認証"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "サーバーにはユーザー名とパスワードが必要です（ほぼ必須）"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr "パスワードは wp-config.php の LYNBRO_SMTP_PASS から取得され、データベースには保存されません。"
+
+msgid "Saved — leave empty to keep it"
+msgstr "保存済み — 空欄のままにすると保持されます"
+
+msgid "Remove the saved password"
+msgstr "保存済みパスワードを削除"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"サイトのセキュリティキーで暗号化して保存され、再表示はされません。データベースに一切保存しないようにするには、wp-config.php "
+"で定義してください（概要を参照）。"
+
+msgid "Certificate"
+msgstr "証明書"
+
+msgid "Verify the server certificate"
+msgstr "サーバー証明書を検証する"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr "自己署名証明書を使う自分のサーバーの場合のみオフにしてください。"
+
+msgid "Sender"
+msgstr "送信者"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr "他のプラグインの設定に関係なく、このアドレスをすべてのメールに適用する"
+
+msgid "Recommended"
+msgstr "推奨"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"SMTPアカウントで送信できるドメインのアドレスを使用してください。そうしないと、プロバイダーに拒否されたり、迷惑メールに振り分けられたりします。"
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr "この名前も強制的に使用する（オフ: フォームやショップはそれぞれ独自の送信者名を使用します）"
+
+msgid "Default Reply-To"
+msgstr "デフォルトの返信先"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr "メールに独自の返信先がない場合のみ使用されます。お問い合わせフォームへの返信は引き続き訪問者に届きます。"
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "バウンスをFromアドレスに送信する"
+
+msgid "Backup connection"
+msgstr "バックアップ接続"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr "メインサーバーが失敗した場合、同じメールをすぐにバックアップ経由で再送信します。訪問者にエラーは表示されません。"
+
+msgid "Backup"
+msgstr "バックアップ"
+
+msgid "Use a backup when the main server fails"
+msgstr "メインサーバーが失敗した場合にバックアップを使用する"
+
+msgid "Another SMTP server"
+msgstr "別のSMTPサーバー"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "このサーバーの PHP mail()（ないよりはましですが、迷惑メールに入る場合があります）"
+
+msgid "Backup host"
+msgstr "バックアップホスト"
+
+msgid "Backup port"
+msgstr "バックアップポート"
+
+msgid "Backup encryption"
+msgstr "バックアップ暗号化"
+
+msgid "None"
+msgstr "なし"
+
+msgid "Backup login"
+msgstr "バックアップログイン"
+
+msgid "Backup password"
+msgstr "バックアップパスワード"
+
+msgid "Delivery mode"
+msgstr "配信モード"
+
+msgid "Mode"
+msgstr "モード"
+
+msgid "Send normally"
+msgstr "通常送信"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "テストモード: すべてを1つのアドレスに送信します（Cc と Bcc は削除されます）"
+
+msgid "Redirect address"
+msgstr "転送先アドレス"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr "メールを送信しない（ステージング用のコピー）— メールは引き続き記録されます"
+
+msgid "Log"
+msgstr "ログ"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "すべてのメールのログを保持する（宛先、件名、ステータス、エラー）"
+
+msgid "Keep message content"
+msgstr "メッセージ内容を保持する"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "失敗したメールのみ。再送信できるようにするため"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr "すべてのメール。何でも再送信できます（この場合、ログにはパスワードリセットリンクや注文詳細が保存されます）"
+
+msgid "Never"
+msgstr "しない"
+
+msgid "Keep entries for"
+msgstr "次の期間保持する"
+
+msgid "days, then they are deleted automatically"
+msgstr "日間、その後自動的に削除されます"
+
+msgid "Failure alerts"
+msgstr "失敗通知"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"1時間に最大1回の通知。通知メールはこのサーバーの PHP mail() で送信されます。SMTPサーバー自体がダウンしている可能性があるためです。"
+
+msgid "Alert email"
+msgstr "通知メール"
+
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"任意。Slack、Discord、Microsoft Teams "
+"のワークフロー、ntfy、または独自のエンドポイント（HTTPS）を指定できます。プラグインはエラー文のみをそこへ送信し、それ以外は送信しません。URLを設定した場合のみ送信されます。"
+
+msgid "Import from another SMTP plugin"
+msgstr "別のSMTPプラグインからインポート"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr "ホスト、ポート、暗号化、ユーザー名、送信者をコピーします。パスワードはそのまま残ります — インポート後に一度入力してください。"
+
+msgid "Import from %s"
+msgstr "%s からインポート"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"このサイトでは WP Mail SMTP、FluentSMTP、Easy WP SMTP、Post SMTP の設定は見つかりませんでした。"
+
+msgid "Download the log (CSV)"
+msgstr "ログをダウンロード（CSV）"
+
+msgid "Delete every log entry?"
+msgstr "すべてのログエントリを削除しますか？"
+
+msgid "Empty the log"
+msgstr "ログを空にする"
+
+msgid "Is it working for you?"
+msgstr "問題なく動作していますか？"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr "Lynbro SMTP は無料で、機能制限はありません。メール配信に役立ったなら、簡単なレビューで他の人が見つけやすくなります。"
+
+msgid "Leave a review on WordPress.org"
+msgstr "WordPress.org でレビューを書く"
+
+msgid "Something missing or broken?"
+msgstr "何か不足していますか、または壊れていますか？"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr "バグ報告やアイデアは、このプラグインを作っている人たちが確認します。これらのリンクを開いても、サイトからは何も送信されません。"
+
+msgid "Ask in the support forum"
+msgstr "サポートフォーラムで質問する"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "機能を提案する（公開ロードマップ）"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr "ログ行を投稿しますか？ まずアドレスを削除してください — テストタブではすでにパスワードが隠されています。"
+
+msgid "You do not have permission to do that."
+msgstr "その操作を行う権限がありません。"
+
+msgid "Enter a valid recipient address."
+msgstr "有効な受信者アドレスを入力してください。"
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr "%1$s: メインのSMTP接続に失敗し、バックアップがメールを配信しました。エラー: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: メールを送信できませんでした。エラー: %2$s"
+
+msgid "Log entry #%d"
+msgstr "ログエントリ #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] メール配信の問題"
+
+msgid "Email delivery"
+msgstr "メール配信"
+
+msgid "Email is sent through SMTP"
+msgstr "メールはSMTP経由で送信されます"
+
+msgid "Email"
+msgstr "メール"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr "Lynbro SMTP は、このサイトのメールを認証済みSMTPサーバー経由で送信します。"
+
+msgid "Open Lynbro SMTP"
+msgstr "Lynbro SMTP を開く"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "メールはSMTPではなくPHP mail() で送信されます"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP は有効ですがSMTPサーバーが設定されていないため、メールは引き続き PHP mail() "
+"で送信され、迷惑メールに入ることがよくあります。"
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "保存したSMTPパスワードを読み取れなくなりました"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr "パスワード保存後にサイトのセキュリティキーが変更されました。SMTPパスワードをもう一度入力してください。"
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "直近24時間でメールの送信に失敗しました"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "直近24時間でメインのSMTP接続に失敗しました"
+
+msgid "Email delivery (7 days)"
+msgstr "メール配信（7日間）"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "送信: %1$s · 失敗: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr "まだSMTPサーバーが設定されていません — メールは PHP mail() で送信されます。"
+
+msgid "Show failed"
+msgstr "失敗のみ表示"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "メイン接続: %1$s — バックアップ接続: %2$s"
+
+msgid "Test email from %s"
+msgstr "%s からのテストメール"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"これは %1$s から送信されたテストメールで、Lynbro SMTP により送られています。\n"
+"\n"
+"これが読める場合、メール配信は正常に動作しています。\n"
+"\n"
+"送信: %2$s\n"
+"接続: %3$s"
+
+msgid "backup"
+msgstr "バックアップ"
+
+msgid "main"
+msgstr "メイン"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"サーバーがユーザー名またはパスワードを拒否しました。Gmail、Outlook、Zoho、iCloud "
+"では通常のパスワードではなくアプリパスワードが必要です。SendGrid と Brevo では SMTP/API キーが必要です。"
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365 では、このメールボックスで SMTP "
+"サインインが無効になっています。管理者がこのメールボックスで「Authenticated "
+"SMTP」を有効にするか、代わりにリレーサービスを使用してください。"
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"サーバーに接続できませんでした。多くのホストは送信ポート 25、465、587 "
+"をブロックします。以下のポートチェックを実行し、ホストにポートを開放してもらうか、開いているポートを使用してください。"
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"安全な接続に失敗しました。ポートと暗号化の組み合わせが一致しているか確認してください（587 = TLS、465 = "
+"SSL）。サーバーが自己署名証明書を使用している場合は、「サーバー証明書を検証」のチェックを外してください。"
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"サーバーは、このアカウントが From アドレスとして送信することを許可していません。アカウントが所有するドメインのアドレスを使用し、「From "
+"メールアドレスを強制」をオンにしてください。"
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "ホスト名を解決できません。 টাইपोがないか確認してください。"
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr "トランスクリプトの最後の SERVER 行を読んでください。サーバーは通常、何が気に入らなかったのかを正確に示しています。"
+
+msgid "No host set."
+msgstr "ホストが設定されていません。"
+
+msgid "That log entry no longer exists."
+msgstr "そのログエントリはもう存在しません。"
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr "このメールの内容は保存されていないため、再送できません。今後のメールを再送するには、設定で「メッセージ内容を保持」を変更してください。"
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr "メールを再送できませんでした。新しい試行とそのエラーはログにあります。"
+
+msgid "Date (UTC)"
+msgstr "日付（UTC）"
+
+msgid "Recipients"
+msgstr "受信者"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP メールログ"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr "スイートの残りです。このサイトにすでにあるものはマークされています。あなたが求めない限り、何もインストールされません。"
+
+msgid "Active"
+msgstr "有効"
+
+msgid "Activate"
+msgstr "有効化"
+
+msgid "Install now"
+msgstr "今すぐインストール"
+
+msgid "View on WordPress.org"
+msgstr "WordPress.org で見る"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr "共有 Lynbro コンポーネント v%1$s、%2$s 提供（このサイト上の %3$d バージョンの中で最新）。"
+
+msgid "Reset all settings to defaults?"
+msgstr "すべての設定を初期値にリセットしますか？"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Lynbro SMTP はメール配信に役立っていますか？WordPress.org "
+"にひとことレビューを書くと、アップセルなしのメールプラグインを探している人の助けになります。"
+
+msgid "Write a review"
+msgstr "レビューを書く"
+
+msgid "No thanks"
+msgstr "いいえ、結構です"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr "リダイレクトモードには転送先アドレスが必要です。追加するまでメールは通常どおり送信されます。"
+
+msgid "Other SMTP server"
+msgstr "その他の SMTP サーバー"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "ホストまたはメールプロバイダーの SMTP 設定を使用してください。"
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"ユーザー名: Gmail のフルメールアドレス。パスワード: 通常のパスワードではなくアプリパスワード（Google アカウント → セキュリティ → "
+"2 段階認証プロセス → アプリパスワード）。"
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 では、メールボックスで「Authenticated SMTP」を有効にする必要があります。Microsoft は SMTP "
+"のパスワードサインインを廃止中です。ログインに失敗する場合は、Brevo やホストの SMTP などのリレーサービスを使用してください。"
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr "ユーザー名: SMTP & API に表示されている SMTP ログイン。パスワード: アカウントのパスワードではなく SMTP キー。"
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "ユーザー名: 「apikey」という単語。パスワード: SendGrid API キー。"
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr "EU アカウントは smtp.eu.mailgun.org を使用します。ユーザー名とパスワード: 送信ドメインの SMTP 認証情報。"
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"ホストのリージョンをお使いの地域に変更してください。ユーザー名とパスワード: SES コンソールで作成した SMTP 認証情報（AWS "
+"アクセスキーではありません）。"
+
+msgid "Username and password: both are your Server API token."
+msgstr "ユーザー名とパスワード: どちらも Server API トークンです。"
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"EU 以外のアカウントでは smtp.zoho.com を使用してください。2 "
+"要素サインインを使用している場合は、アプリ専用パスワードを作成してください。"
+
+msgid "Username: API key. Password: secret key."
+msgstr "ユーザー名: API キー。パスワード: シークレットキー。"
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr "ユーザー名とパスワード: Sending → SMTP Users で作成した SMTP ユーザー。"
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr "ユーザー名: メールボックスのフルアドレス。パスワード: メールボックスのパスワード。"
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"これらの地域では smtp.ionos.de または smtp.ionos.co.uk を使用してください。ユーザー名: メールボックスのフルアドレス。"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"すべてのWordPressメールを独自のSMTPサーバー経由で送信し、検索可能なメールログ、再送信、バックアップ接続、障害アラート、接続診断を備えています。アップセルはありません。"
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"ホスト: SESリージョンのSMTPエンドポイントです。SESコンソールの「SMTP設定」に表示されます。ユーザー名とパスワード: "
+"SESコンソールで作成したSMTP認証情報です（AWSアクセスキーではありません）。"
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"任意です。SlackまたはDiscordの受信Webhook、または独自のHTTPSエンドポイント（\"text\"と\"content\"を含むJSON）。プラグインはエラー文だけをそこに送信します。それ以外は送信せず、URLを設定した場合にのみ送信されます。"
+
+msgid "Is %s doing its job?"
+msgstr "%s はきちんと機能していますか？"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"数週間ご利用いただきありがとうございます。もし役立っていれば、WordPress.org "
+"に短いレビューを書いていただけると、他のサイト運営者の参考になります。率直なご意見も歓迎です。"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"数週間ご利用いただきありがとうございます。もしご満足いただけた場合や、何か足りない点があれば、ぜひ公開ロードマップでご意見をお聞かせください。今後の開発の参考にしています。"
+
+msgid "(opens in a new tab)"
+msgstr "（新しいタブで開きます）"
+
+msgid "Share feedback"
+msgstr "フィードバックを送信"
+
+msgid "Maybe later"
+msgstr "あとで"
+
+msgid "Don't ask again"
+msgstr "今後表示しない"
+
+msgid "Something not working? Ask for help"
+msgstr "不具合がありますか？サポートを依頼"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce が有効です"
+
+msgid "a form plugin is active"
+msgstr "フォームプラグインが有効です"
+
+msgid "the site is set up for Denmark"
+msgstr "サイトがデンマーク向けに設定されています"
+
+msgid "comments are open"
+msgstr "コメントが有効です"
+
+msgid "tracking tags are active"
+msgstr "トラッキングタグが有効です"
+
+msgid "visitors can create accounts"
+msgstr "訪問者がアカウントを作成できます"
+
+msgid "Suggested because %l."
+msgstr "%l のため提案されています。"
+
+msgid "Suggested for this site"
+msgstr "このサイト向けの提案"
+
+msgid "Hide suggestions"
+msgstr "提案を非表示にする"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr "このサイトの利用状況に合った他の Lynbro プラグインです。クリックしない限りインストールされません。"
+
+msgid "All Lynbro plugins"
+msgstr "すべての Lynbro プラグイン"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr "このサイトで既に使われているものから選ばれています — 情報はこのサイト内でのみ読み取られ、外部には送信されません。"
+
+msgid "Image Optimizer"
+msgstr "画像最適化"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr "WebP・AVIF変換、画像サイズ調整、遅延読み込みをすべて自サーバーで実行。"
+
+msgid "AI Studio"
+msgstr "AIスタジオ"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr "OpenAIキーでAIによる記事作成・イラスト生成を直接利用。中間クレジット不要。"
+
+msgid "Analytics"
+msgstr "アナリティクス"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr "自己ホスト型・クッキーレス分析。訪問者データはデータベースから外部送信されません。"
+
+msgid "Tags"
+msgstr "タグ"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr "GA4、タグマネージャー、Google広告、Metaピクセル等をコード不要で設置。各タグは同意後に動作。"
+
+msgid "Forms"
+msgstr "フォーム"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr "エントリー保存無制限・無料。条件分岐はサーバー側で判定、署名付きWebhook対応。"
+
+msgid "Verify"
+msgstr "認証"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr "メールドメインや電話番号の入力ミスを検出し、ワンタイムコードで確認。"
+
+msgid "Cache"
+msgstr "キャッシュ"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr "nginx FastCGI・Redisオブジェクトキャッシュの確実なパージ。パージはキャッシュで検証。"
+
+msgid "Translate"
+msgstr "翻訳"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr "複数言語対応。OpenAIキーで機械翻訳。従量課金や単語売りなし。"
+
+msgid "Shield"
+msgstr "シールド"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr "セキュリティヘッダー、HSTS付きHTTPS、簡易ファイアウォール、必須の強化設定。"
+
+msgid "Anti-Spam"
+msgstr "アンチスパム"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr "自サーバーでスパム判定。アカウント・サブスク不要。理由付きでブロック、保留メッセージも消失なし。"
+
+msgid "Login Guard"
+msgstr "ログインガード"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr "wp-login.phpの移動、サインイン失敗回数制限、アプリ型2要素認証。3つの復旧方法あり。"
+
+msgid "Cookie Consent"
+msgstr "クッキー同意"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr "GDPR・ePrivacy対応バナー。Consent Mode v2、同等の拒否ボタン、35言語対応。"
+
+msgid "Activity Log"
+msgstr "アクティビティログ"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr "誰が・何を・いつ・どこから実行したかを自サーバーに記録。検索・エクスポート・スケジュール削除可能。"
+
+msgid "Data Retention"
+msgstr "データ保持"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr "個人データの保存場所を特定し、スケジュールで削除。削除前にドライラン実行。"
+
+msgid "Accessibility"
+msgstr "アクセシビリティ"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr "全ページをWCAG 2.2 AA基準でチェックし、安全な範囲で自動修正。オーバーレイ・ページ数制限なし。"
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr "シンプルなSEO。無料のLocalBusinessスキーマ、サイトマップ、ソーシャルカード。外部送信なし。"
+
+msgid "SMTP Mailer"
+msgstr "SMTPメーラー"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr "WordPressメールを独自SMTPサーバー経由で送信。メールログ、再送、バックアップ接続、障害通知付き。"
+
+msgid "Social Feed"
+msgstr "ソーシャルフィード"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "MetaトークンをWordPressに保存せず、Instagramフィードを表示。"
+
+msgid "Reviews Cache"
+msgstr "レビューキャッシュ"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "APIキーをWordPressに保存せず、Googleレビューを表示。"
+
+msgid "Links"
+msgstr "リンク"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr "自サーバーでリンク切れ検出とリダイレクト管理。判定理由も表示。"
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse オートフィル"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"WooCommerce、WPForms、Gravity、Fluent、Formidable、EDD向けのデンマーク住所自動補完とバリデーション。"
+
+msgid "Soge Lookup"
+msgstr "Soge ルックアップ"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr "ナンバープレート、VIN、CVR番号でデンマークの車両（DMR）や企業（CVR）を検索。"
+
+msgid "CVR Checkout"
+msgstr "CVR チェックアウト"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"WooCommerce用デンマークB2Bチェックアウト：CVR企業自動入力、CVR/EU-VAT（VIES）バリデーション、EAN/GLNフィールド。"
+
+msgid "Danish Shipping"
+msgstr "デンマーク配送"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr "WooCommerceチェックアウトでPostNord・GLS Denmarkの無料受取ポイント選択、シンプルな配送方法付き。"
+
+msgid "API Auth"
+msgstr "API認証"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr "実際に取り消せるJSON WebトークンによるREST API認証。スコープと拒否履歴付き。"
+
+msgid "Failure alerts by email do not get out"
+msgstr "メールでの失敗アラートが送信されない"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"アラートメールはSMTPサーバーに依存しないように PHP mail() で送信されますが、このサーバーでは PHP mail() が失敗しました: "
+"%s アラートにはWebhookを使用するか、ホスティング事業者に mail() の有効化を依頼してください。"
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"これは Lynbro SMTP の旧バージョンです。Lynbro SMTP Mailer "
+"に置き換えられており、同じ設定を使用します。ホストのファイルマネージャー、FTP、または SSH でフォルダー %s "
+"を削除してください。ここで「削除」は使用しないでください。アンインストールすると、共有 SMTP 設定も消去されます。Lynbro SMTP "
+"Mailer はバックアップから設定を復元しますが、旧プラグインはメールログも消去します。"
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"%s に別のプラグインによって SMTP "
+"設定が削除されましたが、バックアップから復元されました。特に操作は必要ありません。確認したい場合は、テストメールを送信してください。"
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"このサイトはサーバー独自のメール機能（PHP "
+"mail()）で送信します。テストでは、サーバーがメールを受け付けたかどうかを確認できます。受信トレイでメールのヘッダーを確認してください（Authentication-"
+"Results: spf=pass, dmarc=pass）。"
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"このウェブサーバーが含まれていることを確認してください（IPアドレスを ip4: または ip6: で指定するか、このサーバーを参照する a: / "
+"mx: を指定します）。"
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr "このサーバー独自のメール機能（PHP mail()）を使い、%s から、Return-Path を一致させてメールを送信します。"
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path は無効です。サーバーがエンベロープに自身のアドレスを設定するため、SPF "
+"はお客様のドメインではなく、そのアドレスのドメインを確認します。"
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr "サーバー独自のメール機能を使い、送信者と一致するアドレスでメールを送信します"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP は、選択に応じて PHP mail() で送信し、すべてのメールに From アドレスと Return-Path "
+"を設定します。このサーバーをドメインの SPF レコードに含めてください。"
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "このサーバー独自のメール機能（PHP mail()、SMTP なし）"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"メールを自サーバーから送信するよう設定されたサーバー向けです。ログインは不要です。以下の From アドレスと Return-Path "
+"はすべてのメールに設定されるため、SPF と DMARC を整合させることができます。ドメインの SPF レコードにこのサーバーを含める必要があります。"

@@ -1,0 +1,1681 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Siųskite visą WordPress paštą per savo SMTP serverį."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Serveris"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Prievadas"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Šifravimas"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Naudotojo vardas"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (išsaugota — palikite tuščią, jei norite išlaikyti)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Nuo el. pašto adreso"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Nuo pavadinimo"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Priversti „Nuo“"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Perrašyti „Nuo“ visiems siunčiamiems laiškams (rekomenduojama pristatymui)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Bandomasis siuntimas"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Siųsti bandomąjį laišką"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Naujausia veikla"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Nepakanka teisių."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Įskiepiai iš lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Siunčiama…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Išsiųsta."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Nepavyko."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Klaida:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Tinklo klaida:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Draudžiama."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP testas"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Neteisingas gavėjas."
+
+msgid "Our plugins"
+msgstr "Mūsų įskiepiai"
+
+msgid "Lynbro plugins"
+msgstr "Lynbro įskiepiai"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Dosnūs, privatumo pirmumo WordPress įskiepiai — sukurti Danijoje. Nemokamos "
+"pagrindinės versijos, jokių kreditų, jūsų duomenys lieka jūsų svetainėje."
+
+msgid "More from Lynbro"
+msgstr "Daugiau iš Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Mūsų auganti nemokamų, privatumo pirmumo įskiepių kolekcija. Jau įdiegti "
+"įskiepiai pažymėti."
+
+msgid "Installed"
+msgstr "Įdiegta"
+
+msgid "On WordPress.org"
+msgstr "WordPress.org"
+
+msgid "Coming soon"
+msgstr "Netrukus"
+
+msgid "Install"
+msgstr "Įdiegti"
+
+msgid "Learn more"
+msgstr "Sužinokite daugiau"
+
+msgid "About Lynbro"
+msgstr "Apie Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro kuria iš tiesų nemokamus, privatumo pirmumo WordPress įskiepius su "
+"dosniomis nemokamomis pagrindinėmis versijomis — be kreditų, be mokamų sienų"
+" esminėms funkcijoms, jūsų duomenys jūsų pačių svetainėje. Pagaminta "
+"Danijoje."
+
+msgid "Visit Lynbro"
+msgstr "Apsilankyti Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Pasiūlykite funkciją arba praneškite apie klaidą"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Atsiliepimai atidarys mūsų viešą veiksmų planą plugins.lynbro.dk naujame "
+"skirtuke — niekas iš jūsų svetainės nebus siunčiama."
+
+msgid "Tools"
+msgstr "Įrankiai"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Eksportuokite šio įskiepio nustatymus kaip JSON atsarginę kopiją arba "
+"atkurkite numatytuosius. 100% lokaliai — niekas nepasišalina iš jūsų "
+"svetainės."
+
+msgid "Export settings (JSON)"
+msgstr "Eksportuoti nustatymus (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Atkurti numatytuosius"
+
+msgid "About Lynbro SMTP"
+msgstr "Apie Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"Pagal numatytuosius nustatymus WordPress siunčia el. laiškus naudodamas PHP "
+"mail(), kurį pašto dėžutės laiko įtartinu. Lynbro SMTP juos siunčia per "
+"tikrą, autentifikuotą pašto serverį — jūsų prieglobos, pašto dėžutės arba "
+"siuntimo tarnybos — todėl slaptažodžių atstatymai, užsakymai ir kontaktų "
+"formos pasiekia gavėjus."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Viskas yra nemokamame įskiepyje: žurnalas, persiuntimas, atsarginis ryšys, "
+"įspėjimai, diagnostika ir WP-CLI. Mokamos versijos nėra."
+
+msgid "How your data is handled"
+msgstr "Kaip tvarkomi jūsų duomenys"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"El. laiškas siunčiamas tiesiai iš jūsų serverio į jūsų nustatytą SMTP "
+"serverį. Įskiepis nesikreipia į jokias Lynbro paslaugas ir nesiunčia jokių "
+"statistikos duomenų."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"SMTP slaptažodis užšifruojamas naudojant jūsų svetainės saugos raktus, "
+"daugiau niekada nerodomas ir niekada nerašomas į žurnalą ar nustatymų "
+"eksportą."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Žurnale jūsų duomenų bazėje saugomi gavėjai, tema ir būsena. Laiško turinys "
+"pagal numatytuosius nustatymus saugomas tik nesėkmingiems el. laiškams, o "
+"kiekvienas įrašas ištrinamas pasibaigus saugojimo laikotarpiui."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Žurnalo įrašai įtraukiami į Įrankiai → Asmens duomenų eksportas ir Asmens "
+"duomenų ištrynimas."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Nesėkmės webhook, jei jį nustatėte, gauna tik klaidos tekstą ir nuorodą į "
+"jūsų žurnalą."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Prisijungimą laikykite wp-config.php faile"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Bet kuri iš šių konstantų perrašo lauką skiltyje Nustatymai, o reikšmė "
+"niekada nepasiekia duomenų bazės ar jos atsarginių kopijų:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Versija ir nuorodos"
+
+msgid "Version"
+msgstr "Versija"
+
+msgid "Plugin home page"
+msgstr "Įskiepio svetainė"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Siųsti bandomąjį el. laišką"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"SMTP serveris dar nenustatytas, todėl bandymas siunčiamas naudojant PHP "
+"mail(). Norėdami išbandyti SMTP, pirmiausia užpildykite nustatymus."
+
+msgid "Recipient"
+msgstr "Gavėjas"
+
+msgid "Test the backup connection"
+msgstr "Išbandyti atsarginį ryšį"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP pokalbis (slaptažodis paslėptas)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Bandomieji el. laiškai nepaiso bandomojo režimo ir „ne­siųsti“ režimo, todėl"
+" ryšį galite patikrinti bandomojoje kopijoje."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Ar šis serveris gali pasiekti SMTP serverį?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Daugelis prieglobų blokuoja išeinančio pašto prievadus. Čia tikrinami "
+"įprasti prievadai į jūsų išsaugotą pagrindinį kompiuterį iš šio žiniatinklio"
+" serverio."
+
+msgid "Check ports"
+msgstr "Tikrinti prievadus"
+
+msgid "Sender domain: %s"
+msgstr "Siuntėjo domenas: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "Šiame serveryje DNS užklausos nepasiekiamos."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Įsitikinkite, kad jis apima jūsų SMTP teikėją (pavyzdžiui, "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Nėra SPF įrašo. Savo DNS tiekėjo paskyroje pridėkite įrašą, kuriame "
+"nurodomas jūsų SMTP teikėjas, kitaip daugelis pašto dėžučių nepasitikės el. "
+"laišku."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Nėra DMARC įrašo. Gmail ir Yahoo reikalauja jo masiniams siuntėjams; net "
+"paprastas „v=DMARC1; p=none“ padeda."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM sukonfigūruotas jūsų SMTP teikėjo pusėje (jie pateikia DNS įrašą). Čia "
+"jo negalima patikrinti nežinant selektoriaus pavadinimo."
+
+msgid "Environment"
+msgstr "Aplinka"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "trūksta — TLS ir SSL neveiks"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Kiti pašto įskiepiai"
+
+msgid "none found"
+msgstr "nerasta"
+
+msgid "Scheduled cleanup"
+msgstr "Suplanuotas valymas"
+
+msgid "scheduled"
+msgstr "suplanuota"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "nesuplanuota — išjunkite ir vėl aktyvuokite įskiepį"
+
+msgid "Sent"
+msgstr "Išsiųsta"
+
+msgid "Failed"
+msgstr "Nepavyko išsiųsti"
+
+msgid "Not sent (delivery off)"
+msgstr "Nepasiųsta (siuntimas išjungtas)"
+
+msgid "Unknown"
+msgstr "Nežinoma"
+
+msgid "Main SMTP"
+msgstr "Pagrindinis SMTP"
+
+msgid "Backup SMTP"
+msgstr "Atsarginis SMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Testavimo režimas (nukreipta)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "Žurnalas nustatymuose išjungtas — nauji el. laiškai nefiksuojami."
+
+msgid "Sent, 30 days"
+msgstr "Išsiųsta, 30 dienų"
+
+msgid "Failed, 30 days"
+msgstr "Nepavyko išsiųsti, 30 dienų"
+
+msgid "Held back, 30 days"
+msgstr "Sulaikyta, 30 dienų"
+
+msgid "Status"
+msgstr "Būsena"
+
+msgid "All statuses"
+msgstr "Visos būsenos"
+
+msgid "Recipient, subject or error"
+msgstr "Gavėjas, tema arba klaida"
+
+msgid "Search the log"
+msgstr "Ieškoti žurnale"
+
+msgid "Filter"
+msgstr "Filtruoti"
+
+msgid "Clear"
+msgstr "Išvalyti"
+
+msgid "No emails match this filter."
+msgstr "Nė vienas el. laiškas neatitinka šio filtro."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Dar neužregistruota el. laiškų. Nusiųskite bandomąjį laišką iš skilties "
+"Testavimas ir diagnostika, kad čia matytumėte pirmą įrašą."
+
+msgid "Select all"
+msgstr "Pažymėti visus"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "To"
+msgstr "Kam"
+
+msgid "Subject"
+msgstr "Tema"
+
+msgid "Sent through"
+msgstr "Išsiųsta per"
+
+msgid "Actions"
+msgstr "Veiksmai"
+
+msgid "Select"
+msgstr "Pasirinkti"
+
+msgid "(no subject)"
+msgstr "(be temos)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Priedai (neišsaugomi): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Įrašo #%d persiuntimas"
+
+msgid "Content not kept."
+msgstr "Turinys neišsaugomas."
+
+msgid "Resend"
+msgstr "Persiųsti iš naujo"
+
+msgid "Delete the selected entries?"
+msgstr "Ištrinti pažymėtus įrašus?"
+
+msgid "Delete selected"
+msgstr "Ištrinti pažymėtus"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s įrašai · automatiškai ištrinami po %2$s dienų"
+
+msgid "Checking…"
+msgstr "Tikrinama…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Išsiųsta. Patikrinkite gavėjo pašto dėžutę (ir šlamšto aplanką)."
+
+msgid "Not sent."
+msgstr "Nepasiųsta."
+
+msgid "open"
+msgstr "atvira"
+
+msgid "blocked"
+msgstr "blokuota"
+
+msgid "Request failed:"
+msgstr "Užklausa nepavyko:"
+
+msgid "Delivered through:"
+msgstr "Pristatyta per:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Neturite pakankamų teisių pasiekti šį puslapį."
+
+msgid "Settings"
+msgstr "Nustatymai"
+
+msgid "Test & diagnostics"
+msgstr "Bandymai ir diagnostika"
+
+msgid "Email log"
+msgstr "El. laiškų žurnalas"
+
+msgid "Feedback"
+msgstr "Atsiliepimai"
+
+msgid "About"
+msgstr "Apie"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Siųskite visus WordPress el. laiškus per savo SMTP serverį — su el. laiškų "
+"žurnalu, persiuntimu, atsarginiu ryšiu ir gedimų įspėjimais. Visiškai "
+"nemokama, be papildomų pasiūlymų."
+
+msgid "The email was sent again."
+msgstr "El. laiškas išsiųstas dar kartą."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"El. laiško nepavyko išsiųsti dar kartą — žr. naujausią žurnalo įrašą dėl "
+"priežasties."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr ""
+"Šio el. laiško turinys nebuvo išsaugotas, todėl jo negalima persiųsti."
+
+msgid "Log entries deleted."
+msgstr "Žurnalo įrašai ištrinti."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Nustatymai importuoti. Įveskite SMTP slaptažodį vieną kartą ir išsaugokite —"
+" slaptažodžiai niekada nekopijuojami iš kitų įskiepių."
+
+msgid "Set in wp-config.php"
+msgstr "Nustatyta wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "El. laiškas siunčiamas per %1$s  %2$s prievade."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"SMTP serveris dar nenustatytas — WordPress vis dar siunčia naudodamas PHP "
+"mail(). Pasirinkite toliau savo tiekėją, įveskite prisijungimo duomenis ir "
+"išsaugokite."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "Pristatymas išjungtas: el. laiškai registruojami, bet nesiunčiami."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "Bandomasis režimas: visi el. laiškai siunčiami į %s vietoj gavėjų."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Išsaugoto slaptažodžio nebegalima nuskaityti, nes pasikeitė svetainės saugos"
+" raktai. Įveskite jį dar kartą ir išsaugokite."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Paskutinis sutrikimas prieš %1$s: %2$s"
+
+msgid "Show failed emails"
+msgstr "Rodyti nepavykusius el. laiškus"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Taip pat aktyvus: %s. Du pašto įskiepiai kovoja dėl to paties el. laiško — "
+"išjunkite kitą."
+
+msgid "Import settings from %s"
+msgstr "Importuoti nustatymus iš %s"
+
+msgid "SMTP server"
+msgstr "SMTP serveris"
+
+msgid "Provider"
+msgstr "Tiekėjas"
+
+msgid "Port and encryption"
+msgstr "Prievadas ir šifravimas"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — įprastai 587 prievadas"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — įprastai 465 prievadas"
+
+msgid "None — only for a server on the same network"
+msgstr "Nėra — tik serveriui tame pačiame tinkle"
+
+msgid "Authentication"
+msgstr "Autentifikavimas"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "Serveriui reikia naudotojo vardo ir slaptažodžio (beveik visada)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Slaptažodis paimamas iš LYNBRO_SMTP_PASS wp-config.php faile ir nėra "
+"saugomas duomenų bazėje."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Išsaugota — palikite tuščią, jei norite išlaikyti"
+
+msgid "Remove the saved password"
+msgstr "Pašalinti išsaugotą slaptažodį"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Saugojamas šifruotai su jūsų svetainės saugos raktais ir niekada daugiau "
+"nerodomas. Jei norite, kad jis apskritai nebūtų duomenų bazėje, apibrėžkite "
+"jį wp-config.php faile (žr. Apie)."
+
+msgid "Certificate"
+msgstr "Sertifikatas"
+
+msgid "Verify the server certificate"
+msgstr "Tikrinti serverio sertifikatą"
+
+msgid "Default"
+msgstr "Numatyta"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr ""
+"Nenužymėkite tik naudodami savo serverį su savuoju pasirašytu sertifikatu."
+
+msgid "Sender"
+msgstr "Siuntėjas"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Priverstinai naudoti šį adresą visuose el. laiškuose, nesvarbu, ką nustato "
+"kiti įskiepiai"
+
+msgid "Recommended"
+msgstr "Rekomenduojama"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Naudokite adresą domene, kuriuo jūsų SMTP paskyra gali siųsti, kitaip "
+"paslaugų teikėjai atmes laišką arba nusiųs jį į šlamštą."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Priverstinai naudoti ir šį vardą (išjungta: formos ir parduotuvės palieka "
+"savo siuntėjo vardą)"
+
+msgid "Default Reply-To"
+msgstr "Numatytasis Reply-To"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Naudojama tik tada, kai el. laiškas neturi savo Reply-To, kad atsakymai iš "
+"kontaktinės formos vis tiek keliautų lankytojui."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Nukreipti atmetimus į From adresą"
+
+msgid "Backup connection"
+msgstr "Atsarginis ryšys"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Kai pagrindinis serveris neveikia, tas pats el. laiškas iš karto siunčiamas "
+"per atsarginį — lankytojas niekada nemato klaidos."
+
+msgid "Backup"
+msgstr "Atsarginis"
+
+msgid "Use a backup when the main server fails"
+msgstr "Naudoti atsarginį, kai pagrindinis serveris neveikia"
+
+msgid "Another SMTP server"
+msgstr "Kitas SMTP serveris"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "Šio serverio PHP mail() (geriau nei nieko; gali atsidurti šlamšte)"
+
+msgid "Backup host"
+msgstr "Atsarginis serveris"
+
+msgid "Backup port"
+msgstr "Atsarginis prievadas"
+
+msgid "Backup encryption"
+msgstr "Atsarginis šifravimas"
+
+msgid "None"
+msgstr "Nėra"
+
+msgid "Backup login"
+msgstr "Atsarginis prisijungimas"
+
+msgid "Backup password"
+msgstr "Atsarginis slaptažodis"
+
+msgid "Delivery mode"
+msgstr "Pristatymo režimas"
+
+msgid "Mode"
+msgstr "Režimas"
+
+msgid "Send normally"
+msgstr "Siųsti įprastai"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Bandymo režimas: viską siųsti vienu adresu (Cc ir Bcc atmetami)"
+
+msgid "Redirect address"
+msgstr "Nukreipimo adresas"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Nesiųsti jokių el. laiškų (stendinėje kopijoje) — el. laiškai vis tiek "
+"įrašomi į žurnalą"
+
+msgid "Log"
+msgstr "Žurnalas"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Saugoti kiekvieno el. laiško žurnalą (gavėjas, tema, būsena, klaida)"
+
+msgid "Keep message content"
+msgstr "Saugoti laiško turinį"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Tik nepavykusių el. laiškų, kad juos būtų galima persiųsti"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Kiekvieno el. laiško (leidžia persiųsti bet ką; žurnale tuomet bus "
+"slaptažodžio atstatymo nuorodos ir užsakymų informacija)"
+
+msgid "Never"
+msgstr "Niekada"
+
+msgid "Keep entries for"
+msgstr "Saugoti įrašus"
+
+msgid "days, then they are deleted automatically"
+msgstr "dienų, tada jie automatiškai ištrinami"
+
+msgid "Failure alerts"
+msgstr "Pranešimai apie gedimus"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Daugiausia vienas pranešimas per valandą. Įspėjimo el. laiškas siunčiamas "
+"šio serverio PHP mail(), nes būtent SMTP serveris gali būti neveikiantis."
+
+msgid "Alert email"
+msgstr "Įspėjimo el. laiškas"
+
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Pasirinktinai. Slack, Discord, Microsoft Teams workflow, ntfy arba jūsų "
+"pačių galinis taškas (HTTPS). Įskiepis ten siunčia klaidos tekstą — nieko "
+"daugiau, ir tik kai nurodote URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Importuoti iš kito SMTP įskiepio"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Nukopijuoja serverį, prievadą, šifravimą, naudotojo vardą ir siuntėją. "
+"Slaptažodžiai lieka ten, kur yra — savo įveskite vieną kartą po importavimo."
+
+msgid "Import from %s"
+msgstr "Importuoti iš %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Šioje svetainėje nerasta WP Mail SMTP, FluentSMTP, Easy WP SMTP arba Post "
+"SMTP nustatymų."
+
+msgid "Download the log (CSV)"
+msgstr "Atsisiųsti žurnalą (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Ištrinti kiekvieną žurnalo įrašą?"
+
+msgid "Empty the log"
+msgstr "Išvalyti žurnalą"
+
+msgid "Is it working for you?"
+msgstr "Ar jums tai veikia?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP yra nemokamas, be jokių užrakintų funkcijų. Jei jis padėjo "
+"pristatyti jūsų el. laišką, trumpa apžvalga padės kitiems žmonėms jį rasti."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Palikti atsiliepimą WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Ko nors trūksta arba kas nors neveikia?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Klaidų pranešimus ir idėjas skaito tie patys žmonės, kurie kuria įskiepį. "
+"Atidarant šias nuorodas iš jūsų svetainės niekas nesiunčiama."
+
+msgid "Ask in the support forum"
+msgstr "Paklausti palaikymo forume"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Pasiūlyti funkciją (viešas veiksmų planas)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Skelbiate žurnalo eilutę? Pirmiausia pašalinkite adresus — bandymo kortelė "
+"jau paslepia slaptažodį."
+
+msgid "You do not have permission to do that."
+msgstr "Neturite teisės to daryti."
+
+msgid "Enter a valid recipient address."
+msgstr "Įveskite galiojantį gavėjo adresą."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: pagrindinis SMTP ryšys nepavyko, o atsarginis pristatė el. laišką. "
+"Klaida: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: el. laiško nepavyko išsiųsti. Klaida: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Žurnalo įrašas #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] El. laiškų pristatymo problema"
+
+msgid "Email delivery"
+msgstr "El. laiškų pristatymas"
+
+msgid "Email is sent through SMTP"
+msgstr "El. laiškai siunčiami per SMTP"
+
+msgid "Email"
+msgstr "El. paštas"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP siunčia šios svetainės el. laiškus per autentifikuotą SMTP "
+"serverį."
+
+msgid "Open Lynbro SMTP"
+msgstr "Atidaryti Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "El. laiškai siunčiami per PHP mail(), o ne SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP yra aktyvus, bet SMTP serveris nenustatytas, todėl el. laiškai "
+"vis tiek siunčiami per PHP mail() ir dažnai patenka į brukalo aplanką."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Išsaugoto SMTP slaptažodžio nebegalima nuskaityti"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Po slaptažodžio išsaugojimo pasikeitė svetainės saugos raktai. Įveskite SMTP"
+" slaptažodį dar kartą."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "Per paskutines 24 valandas nepavyko išsiųsti el. laiškų"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Per paskutines 24 valandas nepavyko pagrindinio SMTP ryšio"
+
+msgid "Email delivery (7 days)"
+msgstr "El. laiškų pristatymas (7 dienos)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Išsiųsta: %1$s · Nepavyko: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"Dar nenustatytas joks SMTP serveris — el. laiškai siunčiami per PHP mail()."
+
+msgid "Show failed"
+msgstr "Rodyti nepavykusius"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Pagrindinis ryšys: %1$s — atsarginis ryšys: %2$s"
+
+msgid "Test email from %s"
+msgstr "Bandomasis el. laiškas iš %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Tai bandomasis el. laiškas iš %1$s, išsiųstas naudojant Lynbro SMTP.\n"
+"\n"
+"Jei galite jį perskaityti, el. laiškų pristatymas veikia.\n"
+"\n"
+"Išsiųsta: %2$s\n"
+"Ryšys: %3$s"
+
+msgid "backup"
+msgstr "atsarginis"
+
+msgid "main"
+msgstr "pagrindinis"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Serveris atmetė vartotojo vardą arba slaptažodį. Gmail, Outlook, Zoho ir "
+"iCloud reikia programos slaptažodžio, ne įprasto; SendGrid ir Brevo reikia "
+"SMTP/API rakto."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Microsoft 365 šiam pašto dėžutės paskyrimui išjungtas SMTP prisijungimas. "
+"Administratorius gali įjungti „Authenticated SMTP“, arba vietoje to naudoti "
+"perdavimo paslaugą."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Nepavyko prisijungti prie serverio. Daugelis prieglobų blokuoja "
+"siunčiamuosius 25, 465 ir 587 prievadus — paleiskite žemiau esantį prievadų "
+"tikrinimą, tada paprašykite prieglobos atidaryti prievadą arba naudokite "
+"atidarytą."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Saugus ryšys nepavyko. Patikrinkite, ar sutampa prievadas ir šifravimas (587"
+" = TLS, 465 = SSL). Jei serveris naudoja savirašį sertifikatą, nuimkite "
+"varnelę nuo „Verify the server certificate“."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Serveris neleidžia šiai paskyrai siųsti kaip adresui From. Naudokite adresą "
+"iš domeno, kuris priklauso paskyrai, ir įjunkite „Force From email“."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Vardas nenurodo į serverį. Patikrinkite, ar nėra rašybos klaidų."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Perskaitykite paskutines SERVER eilutes transkripte: serveris paprastai "
+"tiksliai nurodo, kas jam nepatiko."
+
+msgid "No host set."
+msgstr "Nėra nustatyto prieglobos adreso."
+
+msgid "That log entry no longer exists."
+msgstr "Šio įrašo nebėra."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Šio el. laiško turinys nebuvo išsaugotas, todėl jo išsiųsti iš naujo "
+"neįmanoma. Norėdami siųsti būsimus el. laiškus iš naujo, skiltyje Nustatymai"
+" pakeiskite „Keep message content“."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"El. laiško dar kartą išsiųsti nepavyko. Naujas bandymas ir jo klaida yra "
+"žurnale."
+
+msgid "Date (UTC)"
+msgstr "Data (UTC)"
+
+msgid "Recipients"
+msgstr "Gavėjai"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP el. laiškų žurnalas"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Likusi paketo dalis. Tai, kas jau yra šiame svetainėje, pažymėta; niekas "
+"neįdiegiama be jūsų prašymo."
+
+msgid "Active"
+msgstr "Aktyvuota"
+
+msgid "Activate"
+msgstr "Aktyvuoti"
+
+msgid "Install now"
+msgstr "Įdiegti dabar"
+
+msgid "View on WordPress.org"
+msgstr "Peržiūrėti WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Bendri Lynbro komponentai v%1$s, pateikia %2$s (naujausia iš %3$d versijų "
+"šioje svetainėje)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Iš naujo nustatyti visus nustatymus į numatytuosius?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Ar Lynbro SMTP užtikrina jūsų el. laiškų pristatymą? Keli žodžiai "
+"WordPress.org padeda kitiems rasti pašto įskiepį be papildomų siūlymų."
+
+msgid "Write a review"
+msgstr "Parašyti atsiliepimą"
+
+msgid "No thanks"
+msgstr "Ne, ačiū"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Peradresavimo režimui reikia adreso, į kurį peradresuoti — laiškai bus "
+"siunčiami įprastai, kol vieno neįvesite."
+
+msgid "Other SMTP server"
+msgstr "Kitas SMTP serveris"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr ""
+"Naudokite išsamius SMTP duomenis iš savo prieglobos ar el. pašto tiekėjo."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Vartotojo vardas: visas jūsų Gmail adresas. Slaptažodis: programos "
+"slaptažodis („Google“ paskyra → Saugumas → 2 žingsnių patvirtinimas → "
+"Programų slaptažodžiai), ne jūsų įprastas slaptažodis."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 reikia įjungti „Authenticated SMTP“ šiai pašto dėžutei. "
+"Microsoft atsisako SMTP prisijungimo slaptažodžiu; jei prisijungti "
+"nepavyksta, naudokite perdavimo paslaugą, pvz., Brevo arba savo prieglobos "
+"SMTP."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Vartotojo vardas: SMTP prisijungimas, nurodytas skiltyje SMTP & API. "
+"Slaptažodis: SMTP raktas, ne jūsų paskyros slaptažodis."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr ""
+"Vartotojo vardas: žodis „apikey“. Slaptažodis: jūsų SendGrid API raktas."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"ES paskyroms naudokite smtp.eu.mailgun.org. Vartotojo vardas ir slaptažodis:"
+" jūsų siuntimo domeno SMTP prisijungimo duomenys."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Pakeiskite serveryje regioną į jums tinkamą. Vartotojo vardas ir "
+"slaptažodis: SMTP prisijungimo duomenys, sukurti SES konsolėje (ne jūsų AWS "
+"prieigos raktai)."
+
+msgid "Username and password: both are your Server API token."
+msgstr ""
+"Vartotojo vardas ir slaptažodis: abu yra jūsų Server API prieigos raktas."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Naudokite smtp.zoho.com paskyroms už ES ribų. Naudojant dviejų veiksnių "
+"prisijungimą, susikurkite programai skirtą slaptažodį."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Vartotojo vardas: API raktas. Slaptažodis: slaptas raktas."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Vartotojo vardas ir slaptažodis: SMTP vartotojas, sukurtas skiltyje Sending "
+"→ SMTP Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Vartotojo vardas: visas pašto dėžutės adresas. Slaptažodis: pašto dėžutės "
+"slaptažodis."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Tiems regionams naudokite smtp.ionos.de arba smtp.ionos.co.uk. Vartotojo "
+"vardas: visas pašto dėžutės adresas."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Visus WordPress el. laiškus siunčia per jūsų SMTP serverį, su paieškai "
+"pritaikomu el. laiškų žurnalu, pakartotiniu siuntimu, atsarginiu "
+"prisijungimu, įspėjimais apie klaidas ir ryšio diagnostika. Jokių papildomų "
+"pasiūlymų."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Pagrindinis kompiuteris: jūsų SES regiono SMTP galinis taškas, rodomas SES "
+"konsolėje, SMTP nustatymuose. Vartotojo vardas ir slaptažodis: SMTP "
+"kredencialai, sukurti SES konsolėje (ne jūsų AWS prieigos raktai)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Nebūtina. Slack arba Discord įeinantis webhook, arba jūsų pačių HTTPS "
+"galinis taškas (JSON su \"text\" ir \"content\"). Įskiepis ten paskelbia "
+"klaidos tekstą — nieko daugiau, ir tik kai nurodote URL."
+
+msgid "Is %s doing its job?"
+msgstr "Ar %s atlieka savo darbą?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Jau naudojate jį kelias savaites. Jei jis jums tinka, trumpa apžvalga "
+"WordPress.org padės kitiems svetainių savininkams jį atrasti — įskaitant ir "
+"kritiškas nuomones."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Jau naudojate jį kelias savaites. Jei jis jums tinka — arba jei kažko "
+"trūksta — parašykite mums viešame veiksmų plane. Taip nusprendžiame, ką "
+"kurti toliau."
+
+msgid "(opens in a new tab)"
+msgstr "(atsidaro naujame skirtuke)"
+
+msgid "Share feedback"
+msgstr "Pasidalinti atsiliepimu"
+
+msgid "Maybe later"
+msgstr "Gal vėliau"
+
+msgid "Don't ask again"
+msgstr "Daugiau neklausti"
+
+msgid "Something not working? Ask for help"
+msgstr "Kažkas neveikia? Paprašykite pagalbos"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce įjungtas"
+
+msgid "a form plugin is active"
+msgstr "Formų įskiepis įjungtas"
+
+msgid "the site is set up for Denmark"
+msgstr "Svetainė nustatyta Danijai"
+
+msgid "comments are open"
+msgstr "Komentarai atidaryti"
+
+msgid "tracking tags are active"
+msgstr "Sekimo žymos įjungtos"
+
+msgid "visitors can create accounts"
+msgstr "Lankytojai gali susikurti paskyras"
+
+msgid "Suggested because %l."
+msgstr "Siūloma, nes %l."
+
+msgid "Suggested for this site"
+msgstr "Siūloma šiai svetainei"
+
+msgid "Hide suggestions"
+msgstr "Slėpti pasiūlymus"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Kiti Lynbro įskiepiai, tinkantys šiai svetainei. Nieko neįdiegiama, kol "
+"nepaspausite."
+
+msgid "All Lynbro plugins"
+msgstr "Visi Lynbro įskiepiai"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Parinkta pagal tai, ką ši svetainė jau naudoja — skaitoma tik šioje "
+"svetainėje, niekas niekur nesiunčiama."
+
+msgid "Image Optimizer"
+msgstr "Vaizdų optimizavimas"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Konvertuokite į WebP ir AVIF, sumažinkite per didelius vaizdus ir įjunkite "
+"tingųjį įkėlimą — visa tai jūsų serveryje."
+
+msgid "AI Studio"
+msgstr "AI studija"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Rašykite ir iliustruokite įrašus su AI naudodami savo OpenAI raktą — be "
+"tarpininkų, be papildomų mokesčių."
+
+msgid "Analytics"
+msgstr "Analitika"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Savitarnos, be slapukų veikianti analitika su piltuvėliais. Lankytojų "
+"duomenys niekada nepalieka jūsų duomenų bazės."
+
+msgid "Tags"
+msgstr "Žymos"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel ir daugiau be kodo — kiekviena žyma"
+" laukia sutikimo."
+
+msgid "Forms"
+msgstr "Formos"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formos su įrašais, saugomais nemokamai ir be apribojimų, sąlyginė logika "
+"tikrinama serveryje, pasirašyti webhook'ai."
+
+msgid "Verify"
+msgstr "Patikra"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Sugaukite neteisingai įvestus el. pašto domenus ir blogus telefono numerius,"
+" patvirtinkite juos vienkartiniu kodu el. paštu arba SMS."
+
+msgid "Cache"
+msgstr "Podėlis"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Patikimas nginx FastCGI ir Redis objektų podėlio valymas, kiekvieną kartą "
+"patikrinant prieš patį podėlį."
+
+msgid "Translate"
+msgstr "Vertimas"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Valdykite svetainę keliomis kalbomis, su mašininiu vertimu per savo OpenAI "
+"raktą — be apribojimų, be žodžių mokesčio."
+
+msgid "Shield"
+msgstr "Apsauga"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Saugumo antraštės, HTTPS su HSTS, nedidelis ugniasienės filtras nuo "
+"injekcijų ir būtini saugumo nustatymai kiekvienai svetainei."
+
+msgid "Anti-Spam"
+msgstr "Apsauga nuo šlamšto"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Šlamšto tikrinimas jūsų serveryje. Nereikia paskyros ar prenumeratos, "
+"kiekvienas blokavimas paaiškinamas — ir nei vienas sulaikytas pranešimas "
+"neprarandamas."
+
+msgid "Login Guard"
+msgstr "Prisijungimo apsauga"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Perkelkite wp-login.php, ribokite nesėkmingus prisijungimus ir pridėkite "
+"dviejų veiksnių autentifikavimą — su trimis būdais grįžti."
+
+msgid "Cookie Consent"
+msgstr "Slapukų sutikimas"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR ir ePrivacy reklaminė juosta su Consent Mode v2, vienodai matomu "
+"Atmesti mygtuku ir 35 kalbomis."
+
+msgid "Activity Log"
+msgstr "Veiklos žurnalas"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Kas ką, kada ir iš kur padarė — užrašyta jūsų serveryje, galima ieškoti, "
+"eksportuoti ir ištrinti pagal jūsų tvarkaraštį."
+
+msgid "Data Retention"
+msgstr "Duomenų saugojimas"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Raskite, kur asmens duomenys saugomi jūsų duomenų bazėje, tada ištrinkite "
+"juos pagal grafiką — prieš kiekvieną trynimą atliekama bandomoji peržiūra."
+
+msgid "Accessibility"
+msgstr "Prieinamumas"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Patikrinkite kiekvieną puslapį pagal WCAG 2.2 AA ir pataisykite, ką galima "
+"saugiai pataisyti. Be perdangos, be puslapių limito."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Lengvas SEO su nemokamu LocalBusiness schema, svetainės žemėlapiais ir "
+"socialiniais paveikslėliais. Jokių išorinių ryšių."
+
+msgid "SMTP Mailer"
+msgstr "SMTP siuntėjas"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress el. laiškai per jūsų SMTP serverį — su el. pašto žurnalu, "
+"persiuntimu, atsarginiu ryšiu ir klaidų įspėjimais."
+
+msgid "Social Feed"
+msgstr "Socialinis srautas"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Instagram srautas jūsų svetainėje be Meta žetono, saugomo WordPress."
+
+msgid "Reviews Cache"
+msgstr "Atsiliepimų podėlis"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Rodykite savo Google atsiliepimus be API rakto WordPress sistemoje."
+
+msgid "Links"
+msgstr "Nuorodos"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Raskite neveikiančias nuorodas ir valdykite peradresavimus savo serveryje, "
+"su kiekvieno sprendimo paaiškinimu."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse automatinis užpildymas"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Danijos adresų automatinis užpildymas ir tikrinimas WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable ir EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge paieška"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Ieškokite Danijos transporto priemonių (DMR) ir įmonių (CVR) pagal numerį, "
+"VIN arba CVR numerį."
+
+msgid "CVR Checkout"
+msgstr "CVR atsiskaitymas"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Danijos B2B atsiskaitymas WooCommerce: CVR įmonės automatinis užpildymas, "
+"CVR/ES PVM (VIES) tikrinimas ir EAN/GLN laukas."
+
+msgid "Danish Shipping"
+msgstr "Danijos pristatymas"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Nemokamas atsiėmimo punktų pasirinkimas PostNord ir GLS Denmark WooCommerce "
+"atsiskaityme, taip pat aiškūs pristatymo būdai."
+
+msgid "API Auth"
+msgstr "API autentifikavimas"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON žiniatinklio raktai REST API, kuriuos galite atšaukti, su sritimis ir "
+"atsisakymų žurnalu."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Įspėjimai apie nesėkmes el. paštu neišsiunčiami"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Įspėjimo el. laiškas siunčiamas naudojant PHP mail(), todėl jis nepriklauso "
+"nuo SMTP serverio, tačiau šiame serveryje PHP mail() nepavyko: %s Naudokite "
+"webhook įspėjimams arba paprašykite savo prieglobos paslaugų teikėjo įjungti"
+" mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Tai ankstesnė „Lynbro SMTP“ versija. Ją pakeitė „Lynbro SMTP Mailer“, kuris "
+"naudoja tuos pačius nustatymus. Pašalinkite aplanką %s naudodami prieglobos "
+"paslaugų teikėjo failų tvarkyklę, FTP arba SSH — čia nenaudokite funkcijos "
+"„Ištrinti“: pašalinus papildinį ištrinami bendri SMTP nustatymai. „Lynbro "
+"SMTP Mailer“ išsaugo jų atsarginę kopiją ir atkuria nustatymus, tačiau "
+"senasis papildinys taip pat išvalo el. laiškų žurnalą."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Kitas papildinys %s ištrynė jūsų SMTP nustatymus, tačiau jie buvo atkurti iš"
+" atsarginės kopijos. Jums nieko nereikia daryti; jei norite įsitikinti, "
+"išsiųskite bandomąjį el. laišką."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Ši svetainė siunčia el. laiškus naudodama paties serverio pašto funkciją "
+"(PHP mail()). Testas parodo, ar serveris priėmė el. laišką; patikrinkite jo "
+"antraštes gautuosiuose (Authentication-Results: spf=pass, dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Įsitikinkite, kad įrašas apima šį žiniatinklio serverį (jo IP adresą su ip4:"
+" arba ip6:, arba į jį nukreipiantį a: / mx: įrašą)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"El. laiškai siunčiami naudojant paties serverio pašto funkciją (PHP mail()) "
+"iš %s, o Return-Path sutampa."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path išjungtas: serveris nurodo savo adresą voko antraštėje, todėl "
+"SPF tikrina šį domeną, o ne jūsų."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"El. laiškai siunčiami naudojant paties serverio pašto funkciją, o siuntėjo "
+"adresas sutampa."
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"„Lynbro SMTP“ jūsų pasirinkimu siunčia el. laiškus per PHP mail() ir "
+"kiekvienam laiškui nustato From adresą bei Return-Path. Įtraukite šį serverį"
+" į domeno SPF įrašą."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Paties serverio pašto funkcija (PHP mail(), be SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Skirta serveriams, sukonfigūruotiems siųsti el. laiškus patiems. Prisijungti"
+" nereikia: kiekvienam laiškui vis tiek nustatomi toliau nurodyti From "
+"adresas ir Return-Path, todėl SPF ir DMARC gali sutapti. Domeno SPF įraše "
+"turi būti nurodytas šis serveris."

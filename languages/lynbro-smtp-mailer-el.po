@@ -1,0 +1,1721 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr ""
+"Στείλτε όλη την αλληλογραφία του WordPress μέσω του διακομιστή SMTP σας."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Κόμβος"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Θύρα"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Κρυπτογράφηση"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (αποθηκεύτηκε — αφήστε κενό για διατήρηση)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Email αποστολέα"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Όνομα αποστολέα"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Επιβολή From"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Παράκαμψη του From για κάθε εξερχόμενο email (συνιστάται για την "
+"παραδοσιμότητα)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Δοκιμαστική αποστολή"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Αποστολή δοκιμής"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Πρόσφατη δραστηριότητα"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Ανεπαρκή δικαιώματα."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Πρόσθετα από lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Αποστολή…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Εστάλη."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Απέτυχε."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Σφάλμα:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Σφάλμα δικτύου:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Απαγορεύεται."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Δοκιμή Lynbro SMTP"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Μη έγκυρος παραλήπτης."
+
+msgid "Our plugins"
+msgstr "Τα πρόσθετά μας"
+
+msgid "Lynbro plugins"
+msgstr "Πρόσθετα Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Γενναιόδωρα πρόσθετα WordPress με προτεραιότητα στην ιδιωτικότητα — "
+"φτιαγμένα στη Δανία. Δωρεάν βασικές εκδόσεις, χωρίς credits, τα δεδομένα σας"
+" μένουν στον ιστότοπό σας."
+
+msgid "More from Lynbro"
+msgstr "Περισσότερα από τη Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Η συνεχώς αναπτυσσόμενη συλλογή μας από δωρεάν πρόσθετα με προτεραιότητα "
+"στην ιδιωτικότητα. Όσα είναι ήδη εγκατεστημένα επισημαίνονται."
+
+msgid "Installed"
+msgstr "Εγκατεστημένο"
+
+msgid "On WordPress.org"
+msgstr "Στο WordPress.org"
+
+msgid "Coming soon"
+msgstr "Προσεχώς"
+
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+msgid "About Lynbro"
+msgstr "Σχετικά με τη Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Η Lynbro δημιουργεί πραγματικά δωρεάν πρόσθετα WordPress με προτεραιότητα "
+"στην ιδιωτικότητα και γενναιόδωρες δωρεάν βασικές εκδόσεις — χωρίς credits, "
+"χωρίς paywalls στα βασικά, με τα δεδομένα σας στον δικό σας ιστότοπο. "
+"Φτιαγμένα στη Δανία."
+
+msgid "Visit Lynbro"
+msgstr "Επισκεφθείτε τη Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Προτείνετε μια λειτουργία ή αναφέρετε ένα σφάλμα"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Τα σχόλια ανοίγουν τον δημόσιο οδικό χάρτη μας στο plugins.lynbro.dk σε νέα "
+"καρτέλα — δεν αποστέλλεται τίποτα από τον ιστότοπό σας."
+
+msgid "Tools"
+msgstr "Εργαλεία"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Εξαγάγετε τις ρυθμίσεις αυτού του πρόσθετου ως αντίγραφο ασφαλείας JSON ή "
+"επαναφέρετέ τες στις προεπιλογές. 100% τοπικά — δεν φεύγει τίποτα από τον "
+"ιστότοπό σας."
+
+msgid "Export settings (JSON)"
+msgstr "Εξαγωγή ρυθμίσεων (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Επαναφορά στις προεπιλογές"
+
+msgid "About Lynbro SMTP"
+msgstr "Σχετικά με το Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"Το WordPress στέλνει email με την PHP mail() από προεπιλογή, κάτι που τα "
+"εισερχόμενα θεωρούν ύποπτο. Το Lynbro SMTP το στέλνει μέσω ενός πραγματικού,"
+" πιστοποιημένου mail server — του παρόχου σας, του γραμματοκιβωτίου σας ή "
+"μιας υπηρεσίας αποστολής — ώστε οι επαναφορές κωδικών, οι παραγγελίες και οι"
+" φόρμες επικοινωνίας να παραδίδονται."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Όλα περιλαμβάνονται στο δωρεάν πρόσθετο: το αρχείο καταγραφής, η "
+"επαναποστολή, η εφεδρική σύνδεση, οι ειδοποιήσεις, τα διαγνωστικά και το WP-"
+"CLI. Δεν υπάρχει επί πληρωμή έκδοση."
+
+msgid "How your data is handled"
+msgstr "Πώς χειρίζονται τα δεδομένα σας"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"Το email πηγαίνει απευθείας από τον διακομιστή σας στον SMTP server που "
+"ορίζετε. Το πρόσθετο δεν επικοινωνεί με καμία υπηρεσία Lynbro και δεν "
+"στέλνει στατιστικά πουθενά."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"Ο κωδικός πρόσβασης SMTP κρυπτογραφείται με τα κλειδιά ασφαλείας του "
+"ιστότοπού σας, δεν εμφανίζεται ξανά και δεν γράφεται ποτέ στο αρχείο "
+"καταγραφής ή στην εξαγωγή ρυθμίσεων."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Το αρχείο καταγραφής αποθηκεύει παραλήπτες, θέμα και κατάσταση στη δική σας "
+"βάση δεδομένων. Το περιεχόμενο του μηνύματος μόνο για αποτυχημένα email από "
+"προεπιλογή, και κάθε καταχώριση διαγράφεται μετά τη λήξη διατήρησης."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Οι καταχωρίσεις του αρχείου καταγραφής περιλαμβάνονται στα Εργαλεία → "
+"Εξαγωγή Προσωπικών Δεδομένων και Διαγραφή Προσωπικών Δεδομένων."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Ένα failure webhook, αν ορίσετε, λαμβάνει μόνο το κείμενο του σφάλματος και "
+"έναν σύνδεσμο προς το αρχείο καταγραφής σας."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Διατηρήστε τη σύνδεση στο wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Οποιαδήποτε από αυτές τις σταθερές αντικαθιστά το πεδίο στις Ρυθμίσεις, και "
+"η τιμή δεν φτάνει ποτέ στη βάση δεδομένων ή στα αντίγραφά της ασφαλείας:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Έκδοση & σύνδεσμοι"
+
+msgid "Version"
+msgstr "Έκδοση"
+
+msgid "Plugin home page"
+msgstr "Σελίδα αρχικής προσθήκης"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Αποστολή δοκιμαστικού email"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Δεν έχει οριστεί ακόμα SMTP server, επομένως η δοκιμή αποστέλλεται με την "
+"PHP mail(). Συμπληρώστε πρώτα τις Ρυθμίσεις για να δοκιμάσετε το SMTP."
+
+msgid "Recipient"
+msgstr "Παραλήπτης"
+
+msgid "Test the backup connection"
+msgstr "Δοκιμή της εφεδρικής σύνδεσης"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "Συνομιλία SMTP (ο κωδικός πρόσβασης αποκρύπτεται)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Τα δοκιμαστικά email αγνοούν τη λειτουργία δοκιμής και τη λειτουργία «να μην"
+" σταλεί», ώστε να μπορείτε να ελέγξετε τη σύνδεση σε ένα αντίγραφο staging."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Μπορεί αυτός ο διακομιστής να επικοινωνήσει με τον SMTP server;"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Πολλοί πάροχοι μπλοκάρουν τις εξερχόμενες θύρες email. Αυτό ελέγχει τις "
+"συνήθεις προς τον αποθηκευμένο host σας, από αυτόν τον web server."
+
+msgid "Check ports"
+msgstr "Έλεγχος θυρών"
+
+msgid "Sender domain: %s"
+msgstr "Τομέας αποστολέα: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "Οι αναζητήσεις DNS δεν είναι διαθέσιμες σε αυτόν τον διακομιστή."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Βεβαιωθείτε ότι περιλαμβάνει τον πάροχο SMTP σας (για παράδειγμα "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Δεν υπάρχει εγγραφή SPF. Προσθέστε μία στον πάροχο DNS σας που να αναφέρει "
+"τον πάροχο SMTP σας, αλλιώς πολλά εισερχόμενα θα θεωρούν το email "
+"αναξιόπιστο."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Δεν υπάρχει εγγραφή DMARC. Η Gmail και η Yahoo απαιτούν μία για μαζικούς "
+"αποστολείς· ακόμη και ένα απλό \"v=DMARC1; p=none\" βοηθά."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"Το DKIM ρυθμίζεται στον πάροχο SMTP σας (σας δίνουν την εγγραφή DNS). Δεν "
+"μπορεί να ελεγχθεί από εδώ χωρίς το όνομα του selector."
+
+msgid "Environment"
+msgstr "Περιβάλλον"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "λείπει — το TLS και το SSL δεν θα λειτουργούν"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Άλλα πρόσθετα αλληλογραφίας"
+
+msgid "none found"
+msgstr "δεν βρέθηκαν"
+
+msgid "Scheduled cleanup"
+msgstr "Προγραμματισμένος καθαρισμός"
+
+msgid "scheduled"
+msgstr "προγραμματισμένος"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr ""
+"δεν έχει προγραμματιστεί — απενεργοποιήστε και ενεργοποιήστε ξανά το "
+"πρόσθετο"
+
+msgid "Sent"
+msgstr "Εστάλη"
+
+msgid "Failed"
+msgstr "Απέτυχε"
+
+msgid "Not sent (delivery off)"
+msgstr "Δεν εστάλη (η αποστολή είναι απενεργοποιημένη)"
+
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+msgid "Main SMTP"
+msgstr "Κύριο SMTP"
+
+msgid "Backup SMTP"
+msgstr "Εφεδρικό SMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Λειτουργία δοκιμής (ανακατεύθυνση)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr ""
+"Το αρχείο καταγραφής είναι απενεργοποιημένο στις Ρυθμίσεις — δεν "
+"καταγράφονται νέα email."
+
+msgid "Sent, 30 days"
+msgstr "Εστάλη, 30 ημέρες"
+
+msgid "Failed, 30 days"
+msgstr "Απέτυχε, 30 ημέρες"
+
+msgid "Held back, 30 days"
+msgstr "Κρατήθηκε, 30 ημέρες"
+
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgid "All statuses"
+msgstr "Όλες οι καταστάσεις"
+
+msgid "Recipient, subject or error"
+msgstr "Παραλήπτης, θέμα ή σφάλμα"
+
+msgid "Search the log"
+msgstr "Αναζήτηση στο αρχείο καταγραφής"
+
+msgid "Filter"
+msgstr "Φίλτρο"
+
+msgid "Clear"
+msgstr "Εκκαθάριση"
+
+msgid "No emails match this filter."
+msgstr "Δεν ταιριάζουν email σε αυτό το φίλτρο."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Δεν έχουν καταγραφεί ακόμη email. Στείλτε ένα δοκιμαστικό από την καρτέλα "
+"Δοκιμή & διαγνωστικά για να δείτε την πρώτη καταχώρηση εδώ."
+
+msgid "Select all"
+msgstr "Επιλογή όλων"
+
+msgid "Date"
+msgstr "Ημερομηνία"
+
+msgid "To"
+msgstr "Προς"
+
+msgid "Subject"
+msgstr "Θέμα"
+
+msgid "Sent through"
+msgstr "Εστάλη μέσω"
+
+msgid "Actions"
+msgstr "Ενέργειες"
+
+msgid "Select"
+msgstr "Επιλογή"
+
+msgid "(no subject)"
+msgstr "(χωρίς θέμα)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Συνημμένα (δεν διατηρούνται): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Επαναποστολή της καταχώρησης #%d"
+
+msgid "Content not kept."
+msgstr "Το περιεχόμενο δεν διατηρείται."
+
+msgid "Resend"
+msgstr "Επαναποστολή"
+
+msgid "Delete the selected entries?"
+msgstr "Διαγραφή των επιλεγμένων καταχωρήσεων;"
+
+msgid "Delete selected"
+msgstr "Διαγραφή επιλεγμένων"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s καταχωρήσεις · διαγράφονται αυτόματα μετά από %2$s ημέρες"
+
+msgid "Checking…"
+msgstr "Έλεγχος…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr ""
+"Εστάλη. Ελέγξτε τα εισερχόμενα (και τον φάκελο ανεπιθύμητων) του παραλήπτη."
+
+msgid "Not sent."
+msgstr "Δεν εστάλη."
+
+msgid "open"
+msgstr "άνοιγμα"
+
+msgid "blocked"
+msgstr "μπλοκαρισμένο"
+
+msgid "Request failed:"
+msgstr "Η αίτηση απέτυχε:"
+
+msgid "Delivered through:"
+msgstr "Παραδόθηκε μέσω:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Δεν έχετε επαρκή δικαιώματα για πρόσβαση σε αυτήν τη σελίδα."
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Test & diagnostics"
+msgstr "Δοκιμή & διάγνωση"
+
+msgid "Email log"
+msgstr "Αρχείο email"
+
+msgid "Feedback"
+msgstr "Σχόλια"
+
+msgid "About"
+msgstr "Σχετικά"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Στείλτε κάθε email του WordPress μέσω του δικού σας διακομιστή SMTP — με "
+"αρχείο email, επαναποστολή, εφεδρική σύνδεση και ειδοποιήσεις αποτυχίας. Όλα"
+" δωρεάν, χωρίς upsells."
+
+msgid "The email was sent again."
+msgstr "Το email στάλθηκε ξανά."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"Το email δεν μπόρεσε να σταλεί ξανά — δείτε την πιο πρόσφατη εγγραφή στο "
+"αρχείο για τον λόγο."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr ""
+"Το περιεχόμενο αυτού του email δεν διατηρήθηκε, επομένως δεν μπορεί να "
+"σταλεί ξανά."
+
+msgid "Log entries deleted."
+msgstr "Οι εγγραφές του αρχείου διαγράφηκαν."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Οι ρυθμίσεις εισήχθησαν. Εισαγάγετε τον κωδικό πρόσβασης SMTP μία φορά και "
+"αποθηκεύστε — οι κωδικοί πρόσβασης δεν αντιγράφονται ποτέ από άλλα πρόσθετα."
+
+msgid "Set in wp-config.php"
+msgstr "Ορίστηκε στο wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "Το email αποστέλλεται μέσω %1$s στη θύρα %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"Δεν έχει οριστεί ακόμη διακομιστής SMTP — το WordPress εξακολουθεί να "
+"στέλνει με το PHP mail(). Επιλέξτε τον πάροχό σας παρακάτω, συμπληρώστε τα "
+"στοιχεία σύνδεσης και αποθηκεύστε."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr ""
+"Η αποστολή είναι απενεργοποιημένη: τα email καταγράφονται αλλά δεν "
+"αποστέλλονται."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr ""
+"Λειτουργία δοκιμής: κάθε email πηγαίνει στο %s αντί στους παραλήπτες του."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Ο αποθηκευμένος κωδικός πρόσβασης δεν μπορεί πλέον να αναγνωστεί επειδή "
+"άλλαξαν τα κλειδιά ασφαλείας του ιστότοπου. Εισαγάγετέ τον ξανά και "
+"αποθηκεύστε."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Τελευταία αποτυχία πριν από %1$s: %2$s"
+
+msgid "Show failed emails"
+msgstr "Εμφάνιση αποτυχημένων email"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Επίσης ενεργό: %s. Δύο πρόσθετα αλληλογραφίας συγκρούονται για το ίδιο email"
+" — απενεργοποιήστε το άλλο."
+
+msgid "Import settings from %s"
+msgstr "Εισαγωγή ρυθμίσεων από %s"
+
+msgid "SMTP server"
+msgstr "Διακομιστής SMTP"
+
+msgid "Provider"
+msgstr "Πάροχος"
+
+msgid "Port and encryption"
+msgstr "Θύρα και κρυπτογράφηση"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — συνήθως θύρα 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — συνήθως θύρα 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Καμία — μόνο για διακομιστή στο ίδιο δίκτυο"
+
+msgid "Authentication"
+msgstr "Έλεγχος ταυτότητας"
+
+msgid "The server needs a username and password (almost always)"
+msgstr ""
+"Ο διακομιστής χρειάζεται όνομα χρήστη και κωδικό πρόσβασης (σχεδόν πάντα)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Ο κωδικός πρόσβασης προέρχεται από το LYNBRO_SMTP_PASS στο wp-config.php και"
+" δεν αποθηκεύεται στη βάση δεδομένων."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Αποθηκεύτηκε — αφήστε το κενό για να διατηρηθεί"
+
+msgid "Remove the saved password"
+msgstr "Κατάργηση του αποθηκευμένου κωδικού πρόσβασης"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Αποθηκεύεται κρυπτογραφημένο με τα κλειδιά ασφαλείας του ιστότοπού σας και "
+"δεν εμφανίζεται ξανά ποτέ. Για να μην αποθηκεύεται καθόλου στη βάση "
+"δεδομένων, ορίστε το στο wp-config.php (βλ. Σχετικά)."
+
+msgid "Certificate"
+msgstr "Πιστοποιητικό"
+
+msgid "Verify the server certificate"
+msgstr "Επαλήθευση του πιστοποιητικού του διακομιστή"
+
+msgid "Default"
+msgstr "Προεπιλογή"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr ""
+"Αποεπιλέξτε μόνο για τον δικό σας διακομιστή με αυτοϋπογεγραμμένο "
+"πιστοποιητικό."
+
+msgid "Sender"
+msgstr "Αποστολέας"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Επιβάλετε αυτήν τη διεύθυνση σε κάθε email, ανεξάρτητα από το τι ορίζουν "
+"άλλα πρόσθετα"
+
+msgid "Recommended"
+msgstr "Συνιστάται"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Χρησιμοποιήστε μια διεύθυνση σε τομέα από τον οποίο ο λογαριασμός SMTP σας "
+"επιτρέπεται να στέλνει, αλλιώς οι πάροχοι μπορεί να απορρίψουν το email ή να"
+" το στείλουν στα ανεπιθύμητα."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Επιβάλετε και αυτό το όνομα (απενεργ.: οι φόρμες και τα καταστήματα "
+"διατηρούν το δικό τους όνομα αποστολέα)"
+
+msgid "Default Reply-To"
+msgstr "Προεπιλεγμένο Reply-To"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Χρησιμοποιείται μόνο όταν ένα email δεν έχει δικό του Reply-To, ώστε οι "
+"απαντήσεις από τις φόρμες επικοινωνίας να πηγαίνουν ακόμα στον επισκέπτη."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Στείλτε τις αποτυχημένες παραδόσεις στη διεύθυνση From"
+
+msgid "Backup connection"
+msgstr "Εφεδρική σύνδεση"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Όταν ο κύριος διακομιστής αποτύχει, το ίδιο email αποστέλλεται αμέσως ξανά "
+"μέσω της εφεδρικής — ο επισκέπτης δεν βλέπει ποτέ σφάλμα."
+
+msgid "Backup"
+msgstr "Εφεδρικό"
+
+msgid "Use a backup when the main server fails"
+msgstr "Χρησιμοποιήστε εφεδρικό όταν ο κύριος διακομιστής αποτύχει"
+
+msgid "Another SMTP server"
+msgstr "Άλλος διακομιστής SMTP"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr ""
+"Η PHP mail() αυτού του διακομιστή (καλύτερο από το τίποτα· μπορεί να "
+"καταλήξει στα ανεπιθύμητα)"
+
+msgid "Backup host"
+msgstr "Εφεδρικός host"
+
+msgid "Backup port"
+msgstr "Εφεδρική θύρα"
+
+msgid "Backup encryption"
+msgstr "Εφεδρική κρυπτογράφηση"
+
+msgid "None"
+msgstr "Καμία"
+
+msgid "Backup login"
+msgstr "Εφεδρικά στοιχεία σύνδεσης"
+
+msgid "Backup password"
+msgstr "Εφεδρικός κωδικός πρόσβασης"
+
+msgid "Delivery mode"
+msgstr "Λειτουργία παράδοσης"
+
+msgid "Mode"
+msgstr "Λειτουργία"
+
+msgid "Send normally"
+msgstr "Κανονική αποστολή"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr ""
+"Λειτουργία δοκιμής: στείλτε τα πάντα σε μία διεύθυνση (τα Cc και Bcc "
+"παραλείπονται)"
+
+msgid "Redirect address"
+msgstr "Διεύθυνση ανακατεύθυνσης"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Μην στέλνετε κανένα email (αντίγραφα staging) — τα emails εξακολουθούν να "
+"καταγράφονται"
+
+msgid "Log"
+msgstr "Καταγραφή"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Κρατήστε αρχείο κάθε email (παραλήπτης, θέμα, κατάσταση, σφάλμα)"
+
+msgid "Keep message content"
+msgstr "Διατήρηση περιεχομένου μηνύματος"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Μόνο των αποτυχημένων emails, ώστε να μπορούν να σταλούν ξανά"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Όλων των emails (σας επιτρέπει να στείλετε ξανά οτιδήποτε· το αρχείο θα "
+"περιέχει τότε συνδέσμους επαναφοράς κωδικού και στοιχεία παραγγελίας)"
+
+msgid "Never"
+msgstr "Ποτέ"
+
+msgid "Keep entries for"
+msgstr "Διατήρηση εγγραφών για"
+
+msgid "days, then they are deleted automatically"
+msgstr "ημέρες, και μετά διαγράφονται αυτόματα"
+
+msgid "Failure alerts"
+msgstr "Ειδοποιήσεις αποτυχίας"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Το πολύ μία ειδοποίηση ανά ώρα. Το email ειδοποίησης αποστέλλεται με τη PHP "
+"mail() αυτού του διακομιστή, επειδή ο διακομιστής SMTP μπορεί να είναι αυτός"
+" που έχει πρόβλημα."
+
+msgid "Alert email"
+msgstr "Email ειδοποίησης"
+
+msgid "Webhook URL"
+msgstr "URL webhook"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Προαιρετικό. Ροές εργασίας Slack, Discord, Microsoft Teams, ntfy ή το δικό "
+"σας endpoint (HTTPS). Το πρόσθετο στέλνει εκεί το κείμενο του σφάλματος — "
+"τίποτα άλλο, και μόνο όταν ορίσετε URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Εισαγωγή από άλλο πρόσθετο SMTP"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Αντιγράφει κεντρικό υπολογιστή, θύρα, κρυπτογράφηση, όνομα χρήστη και "
+"αποστολέα. Οι κωδικοί πρόσβασης μένουν εκεί που είναι — εισαγάγετε τον δικό "
+"σας μία φορά μετά την εισαγωγή."
+
+msgid "Import from %s"
+msgstr "Εισαγωγή από %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Δεν βρέθηκαν ρυθμίσεις των WP Mail SMTP, FluentSMTP, Easy WP SMTP ή Post "
+"SMTP σε αυτόν τον ιστότοπο."
+
+msgid "Download the log (CSV)"
+msgstr "Λήψη του αρχείου καταγραφής (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Να διαγραφεί κάθε καταχώρηση στο αρχείο καταγραφής;"
+
+msgid "Empty the log"
+msgstr "Άδειασμα του αρχείου καταγραφής"
+
+msgid "Is it working for you?"
+msgstr "Λειτουργεί για εσάς;"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Το Lynbro SMTP είναι δωρεάν, χωρίς τίποτα κλειδωμένο. Αν βοήθησε να "
+"παραδοθεί το email σας, μια σύντομη αξιολόγηση βοηθά και άλλους να το βρουν."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Αφήστε μια αξιολόγηση στο WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Λείπει κάτι ή δεν λειτουργεί;"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Οι αναφορές σφαλμάτων και οι ιδέες διαβάζονται από τους ανθρώπους που "
+"δημιουργούν το πρόσθετο. Το άνοιγμα αυτών των συνδέσμων δεν στέλνει τίποτα "
+"από τον ιστότοπό σας."
+
+msgid "Ask in the support forum"
+msgstr "Ρωτήστε στο φόρουμ υποστήριξης"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Προτείνετε μια λειτουργία (δημόσιος οδικός χάρτης)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Δημοσιεύετε γραμμή καταγραφής; Αφαιρέστε πρώτα τις διευθύνσεις — η καρτέλα "
+"Δοκιμή ήδη κρύβει τον κωδικό πρόσβασης."
+
+msgid "You do not have permission to do that."
+msgstr "Δεν έχετε άδεια να το κάνετε αυτό."
+
+msgid "Enter a valid recipient address."
+msgstr "Εισαγάγετε έγκυρη διεύθυνση παραλήπτη."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: η κύρια σύνδεση SMTP απέτυχε και το εφεδρικό παρέδωσε το email. "
+"Σφάλμα: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: δεν ήταν δυνατή η αποστολή του email. Σφάλμα: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Καταχώρηση αρχείου καταγραφής #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Πρόβλημα παράδοσης email"
+
+msgid "Email delivery"
+msgstr "Παράδοση email"
+
+msgid "Email is sent through SMTP"
+msgstr "Το email αποστέλλεται μέσω SMTP"
+
+msgid "Email"
+msgstr "Email"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Το Lynbro SMTP στέλνει τα email αυτού του ιστότοπου μέσω ενός πιστοποιημένου"
+" διακομιστή SMTP."
+
+msgid "Open Lynbro SMTP"
+msgstr "Άνοιγμα του Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "Το email αποστέλλεται με PHP mail(), όχι με SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Το Lynbro SMTP είναι ενεργό αλλά δεν έχει οριστεί διακομιστής SMTP, οπότε το"
+" email εξακολουθεί να φεύγει μέσω PHP mail() και συχνά καταλήγει στο "
+"ανεπιθύμητο."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Ο αποθηκευμένος κωδικός πρόσβασης SMTP δεν μπορεί πλέον να διαβαστεί"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Τα κλειδιά ασφαλείας του ιστότοπου άλλαξαν μετά την αποθήκευση του κωδικού "
+"πρόσβασης. Εισαγάγετε ξανά τον κωδικό SMTP."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "Τα email δεν στάλθηκαν τις τελευταίες 24 ώρες"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Η κύρια σύνδεση SMTP απέτυχε τις τελευταίες 24 ώρες"
+
+msgid "Email delivery (7 days)"
+msgstr "Παράδοση email (7 ημέρες)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Στάλθηκαν: %1$s · Απέτυχαν: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"Δεν έχει οριστεί ακόμη διακομιστής SMTP — το email αποστέλλεται με PHP "
+"mail()."
+
+msgid "Show failed"
+msgstr "Εμφάνιση αποτυχημένων"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Κύρια σύνδεση: %1$s — Εφεδρική σύνδεση: %2$s"
+
+msgid "Test email from %s"
+msgstr "Δοκιμαστικό email από %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Αυτό είναι ένα δοκιμαστικό email από το %1$s, σταλμένο από το Lynbro SMTP.\n"
+"\n"
+"Αν μπορείτε να το διαβάσετε, η παράδοση email λειτουργεί.\n"
+"\n"
+"Στάλθηκαν: %2$s\n"
+"Σύνδεση: %3$s"
+
+msgid "backup"
+msgstr "εφεδρική"
+
+msgid "main"
+msgstr "κύριο"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Ο διακομιστής απέρριψε το όνομα χρήστη ή τον κωδικό πρόσβασης. Τα Gmail, "
+"Outlook, Zoho και iCloud χρειάζονται κωδικό εφαρμογής, όχι τον κανονικό· τα "
+"SendGrid και Brevo χρειάζονται ένα SMTP/API key."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Το Microsoft 365 έχει απενεργοποιημένη τη σύνδεση SMTP για αυτό το "
+"γραμματοκιβώτιο. Ένας διαχειριστής μπορεί να ενεργοποιήσει το "
+"\"Authenticated SMTP\" για αυτό ή να χρησιμοποιήσει αντί αυτού μια υπηρεσία "
+"relay."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Δεν ήταν δυνατή η πρόσβαση στον διακομιστή. Πολλοί πάροχοι μπλοκάρουν τις "
+"εξερχόμενες θύρες 25, 465 και 587 — εκτελέστε τον έλεγχο θύρας παρακάτω και "
+"στη συνέχεια ζητήστε από τον πάροχό σας να ανοίξει τη θύρα ή να "
+"χρησιμοποιήσει αυτήν που είναι ανοιχτή."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Η ασφαλής σύνδεση απέτυχε. Ελέγξτε ότι η θύρα και η κρυπτογράφηση ταιριάζουν"
+" (587 = TLS, 465 = SSL). Αν ο διακομιστής χρησιμοποιεί πιστοποιητικό με "
+"αυτο-υπογραφή, αποεπιλέξτε το \"Verify the server certificate\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Ο διακομιστής δεν επιτρέπει σε αυτόν τον λογαριασμό να στέλνει ως η "
+"διεύθυνση Από. Χρησιμοποιήστε μια διεύθυνση σε domain που ανήκει στον "
+"λογαριασμό και ενεργοποιήστε το \"Force From email\"."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr ""
+"Το όνομα κεντρικού υπολογιστή δεν επιλύεται. Ελέγξτε το για τυπογραφικά "
+"λάθη."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Διαβάστε τις τελευταίες γραμμές SERVER της απομαγνητοφώνησης: συνήθως ο "
+"διακομιστής λέει ακριβώς τι δεν του άρεσε."
+
+msgid "No host set."
+msgstr "Δεν έχει οριστεί host."
+
+msgid "That log entry no longer exists."
+msgstr "Αυτή η καταχώριση του log δεν υπάρχει πλέον."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Το περιεχόμενο αυτού του email δεν διατηρήθηκε, οπότε δεν μπορεί να σταλεί "
+"ξανά. Αλλάξτε το \"Keep message content\" στις Ρυθμίσεις για να μπορείτε να "
+"ξαναστείλετε μελλοντικά emails."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"Δεν ήταν δυνατή η αποστολή του email ξανά. Η νέα προσπάθεια και το σφάλμα "
+"της βρίσκονται στο log."
+
+msgid "Date (UTC)"
+msgstr "Ημερομηνία (UTC)"
+
+msgid "Recipients"
+msgstr "Παραλήπτες"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP email log"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Η υπόλοιπη σουίτα. Ό,τι υπάρχει ήδη σε αυτόν τον ιστότοπο είναι σημειωμένο· "
+"τίποτα δεν εγκαθίσταται χωρίς να το ζητήσετε."
+
+msgid "Active"
+msgstr "Ενεργό"
+
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+msgid "Install now"
+msgstr "Εγκατάσταση τώρα"
+
+msgid "View on WordPress.org"
+msgstr "Προβολή στο WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Κοινά στοιχεία Lynbro v%1$s, που παρέχονται από %2$s (η πιο πρόσφατη από "
+"%3$d εκδόσεις σε αυτόν τον ιστότοπο)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Επαναφορά όλων των ρυθμίσεων στις προεπιλογές;"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Το Lynbro SMTP παραδίδει τα email σας; Λίγα λόγια στο WordPress.org βοηθούν "
+"άλλους να βρουν ένα mail plugin χωρίς upsells."
+
+msgid "Write a review"
+msgstr "Γράψτε μια κριτική"
+
+msgid "No thanks"
+msgstr "Όχι, ευχαριστώ"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Η λειτουργία ανακατεύθυνσης χρειάζεται μια διεύθυνση προορισμού για "
+"ανακατεύθυνση — η αλληλογραφία αποστέλλεται κανονικά μέχρι να προσθέσετε "
+"μία."
+
+msgid "Other SMTP server"
+msgstr "Άλλος διακομιστής SMTP"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr ""
+"Χρησιμοποιήστε τα στοιχεία SMTP από τον πάροχο φιλοξενίας ή email σας."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Όνομα χρήστη: η πλήρης διεύθυνση Gmail σας. Κωδικός πρόσβασης: ένας κωδικός "
+"εφαρμογής (Google Account → Security → 2-Step Verification → App passwords),"
+" όχι ο κανονικός σας κωδικός."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Το Microsoft 365 χρειάζεται ενεργοποιημένο το \"Authenticated SMTP\" για το "
+"γραμματοκιβώτιο. Η Microsoft καταργεί τη σύνδεση με κωδικό για SMTP· αν η "
+"σύνδεση αποτύχει, χρησιμοποιήστε μια υπηρεσία relay όπως το Brevo ή το SMTP "
+"του παρόχου σας."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Όνομα χρήστη: το SMTP login που εμφανίζεται κάτω από το SMTP & API. Κωδικός "
+"πρόσβασης: ένα SMTP key, όχι ο κωδικός του λογαριασμού σας."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr ""
+"Όνομα χρήστη: η λέξη \"apikey\". Κωδικός πρόσβασης: το SendGrid API key σας."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"Οι λογαριασμοί της ΕΕ χρησιμοποιούν το smtp.eu.mailgun.org. Όνομα χρήστη και"
+" κωδικός πρόσβασης: τα SMTP διαπιστευτήρια του domain αποστολής σας."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Αλλάξτε την περιοχή στον διακομιστή στη δική σας. Όνομα χρήστη και κωδικός "
+"πρόσβασης: διαπιστευτήρια SMTP που δημιουργήθηκαν στην κονσόλα SES (όχι τα "
+"AWS access keys σας)."
+
+msgid "Username and password: both are your Server API token."
+msgstr ""
+"Όνομα χρήστη και κωδικός πρόσβασης: και τα δύο είναι το Server API token "
+"σας."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Χρησιμοποιήστε το smtp.zoho.com για λογαριασμούς εκτός ΕΕ. Με έλεγχο "
+"ταυτότητας δύο παραγόντων, δημιουργήστε έναν κωδικό πρόσβασης ειδικά για "
+"εφαρμογή."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Όνομα χρήστη: API key. Κωδικός πρόσβασης: secret key."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Όνομα χρήστη και κωδικός πρόσβασης: ένας SMTP χρήστης που δημιουργήθηκε στο "
+"Sending → SMTP Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Όνομα χρήστη: η πλήρης διεύθυνση του γραμματοκιβωτίου. Κωδικός πρόσβασης: ο "
+"κωδικός του γραμματοκιβωτίου."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Χρησιμοποιήστε το smtp.ionos.de ή το smtp.ionos.co.uk για αυτές τις "
+"περιοχές. Όνομα χρήστη: η πλήρης διεύθυνση του γραμματοκιβωτίου."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Στέλνει όλα τα email του WordPress μέσω του δικού σας διακομιστή SMTP, με "
+"αναζητήσιμο αρχείο email, επαναποστολή, εφεδρική σύνδεση, ειδοποιήσεις "
+"αποτυχίας και διαγνωστικά σύνδεσης. Χωρίς πρόσθετες πωλήσεις."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Κόμβος: το τελικό σημείο SMTP της περιοχής SES σας, όπως εμφανίζεται στην "
+"κονσόλα SES στις ρυθμίσεις SMTP. Όνομα χρήστη και κωδικός: διαπιστευτήρια "
+"SMTP που δημιουργήθηκαν στην κονσόλα SES (όχι τα κλειδιά πρόσβασης AWS σας)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Προαιρετικό. Ένα εισερχόμενο webhook του Slack ή του Discord, ή το δικό σας "
+"τελικό σημείο HTTPS (JSON με \"text\" και \"content\"). Το πρόσθετο "
+"δημοσιεύει εκεί το κείμενο του σφάλματος — τίποτα άλλο, και μόνο όταν "
+"ορίσετε ένα URL."
+
+msgid "Is %s doing its job?"
+msgstr "Κάνει το %s τη δουλειά του;"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Το χρησιμοποιείτε εδώ και μερικές εβδομάδες. Αν σας εξυπηρετεί, μια σύντομη "
+"αξιολόγηση στο WordPress.org βοηθά άλλους διαχειριστές — είτε θετική είτε "
+"κριτική."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Το χρησιμοποιείτε εδώ και μερικές εβδομάδες. Αν σας εξυπηρετεί — ή αν κάτι "
+"λείπει — πείτε μας στη δημόσια λίστα προτάσεων. Έτσι αποφασίζουμε τι θα "
+"αναπτύξουμε στη συνέχεια."
+
+msgid "(opens in a new tab)"
+msgstr "(ανοίγει σε νέα καρτέλα)"
+
+msgid "Share feedback"
+msgstr "Κοινοποιήστε σχόλια"
+
+msgid "Maybe later"
+msgstr "Ίσως αργότερα"
+
+msgid "Don't ask again"
+msgstr "Να μην εμφανιστεί ξανά"
+
+msgid "Something not working? Ask for help"
+msgstr "Κάτι δεν λειτουργεί; Ζητήστε βοήθεια"
+
+msgid "WooCommerce is active"
+msgstr "Το WooCommerce είναι ενεργό"
+
+msgid "a form plugin is active"
+msgstr "Ένα πρόσθετο φορμών είναι ενεργό"
+
+msgid "the site is set up for Denmark"
+msgstr "Ο ιστότοπος έχει ρυθμιστεί για τη Δανία"
+
+msgid "comments are open"
+msgstr "Τα σχόλια είναι ανοιχτά"
+
+msgid "tracking tags are active"
+msgstr "Ενεργά ετικέτες παρακολούθησης"
+
+msgid "visitors can create accounts"
+msgstr "Οι επισκέπτες μπορούν να δημιουργήσουν λογαριασμούς"
+
+msgid "Suggested because %l."
+msgstr "Προτείνεται επειδή %l."
+
+msgid "Suggested for this site"
+msgstr "Προτείνεται για αυτόν τον ιστότοπο"
+
+msgid "Hide suggestions"
+msgstr "Απόκρυψη προτάσεων"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Άλλα πρόσθετα Lynbro που ταιριάζουν με τις ανάγκες του ιστότοπου. Τίποτα δεν"
+" εγκαθίσταται αν δεν κάνετε κλικ."
+
+msgid "All Lynbro plugins"
+msgstr "Όλα τα πρόσθετα Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Επιλεγμένα από όσα ήδη χρησιμοποιεί ο ιστότοπος — διαβάζονται εδώ, δεν "
+"αποστέλλεται τίποτα αλλού."
+
+msgid "Image Optimizer"
+msgstr "Βελτιστοποιητής Εικόνων"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Μετατροπή σε WebP και AVIF, αυτόματη προσαρμογή μεγέθους και lazy-load "
+"εικόνων — όλα στον δικό σας διακομιστή."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Γράψτε και εικονογραφήστε άρθρα με AI χρησιμοποιώντας το δικό σας OpenAI "
+"κλειδί — χωρίς μεσάζοντες, χωρίς credits."
+
+msgid "Analytics"
+msgstr "Αναλυτικά Στοιχεία"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Αναλυτικά στοιχεία χωρίς cookies, με funnels. Τα δεδομένα επισκεπτών "
+"παραμένουν στη βάση σας."
+
+msgid "Tags"
+msgstr "Ετικέτες"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel και άλλα χωρίς κώδικα — κάθε "
+"ετικέτα περιμένει συγκατάθεση."
+
+msgid "Forms"
+msgstr "Φόρμες"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Φόρμες με δωρεάν αποθήκευση καταχωρήσεων, χωρίς όριο, με server-side λογική "
+"και υπογεγραμμένα webhooks."
+
+msgid "Verify"
+msgstr "Επαλήθευση"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Εντοπίστε λάθος email domains και λανθασμένους αριθμούς, και επιβεβαιώστε τα"
+" με κωδικό μιας χρήσης μέσω email ή SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Αξιόπιστο καθάρισμα για nginx FastCGI cache και Redis object cache, με κάθε "
+"καθαρισμό να επαληθεύεται."
+
+msgid "Translate"
+msgstr "Μετάφραση"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Λειτουργήστε το site σας σε πολλές γλώσσες, με αυτόματη μετάφραση μέσω του "
+"δικού σας OpenAI κλειδιού — χωρίς όρια, χωρίς χρέωση ανά λέξη."
+
+msgid "Shield"
+msgstr "Ασπίδα"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Headers ασφαλείας, HTTPS με HSTS, μικρό firewall κατά επιθέσεων και βασικές "
+"ρυθμίσεις ασφαλείας."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Έλεγχοι spam στον δικό σας διακομιστή. Χωρίς λογαριασμό, χωρίς συνδρομή, "
+"κάθε απόρριψη εξηγείται — και κανένα μήνυμα δεν χάνεται."
+
+msgid "Login Guard"
+msgstr "Φύλακας Σύνδεσης"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Μετακινήστε το wp-login.php, περιορίστε αποτυχημένες συνδέσεις και προσθέστε"
+" two-factor μέσω εφαρμογής — με τρεις τρόπους επαναφοράς."
+
+msgid "Cookie Consent"
+msgstr "Συναίνεση Cookies"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR και ePrivacy banner με Consent Mode v2, ισότιμο κουμπί Απόρριψη και 35 "
+"γλώσσες."
+
+msgid "Activity Log"
+msgstr "Καταγραφή Δραστηριότητας"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Ποιος έκανε τι, πότε και από πού — καταγράφεται στον διακομιστή σας, με "
+"δυνατότητα αναζήτησης, εξαγωγής και διαγραφής όποτε θέλετε."
+
+msgid "Data Retention"
+msgstr "Διατήρηση Δεδομένων"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Βρείτε πού βρίσκονται προσωπικά δεδομένα στη βάση σας και διαγράψτε τα "
+"προγραμματισμένα — με δοκιμαστική διαγραφή πριν από κάθε ενέργεια."
+
+msgid "Accessibility"
+msgstr "Προσβασιμότητα"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Ελέγξτε κάθε σελίδα σύμφωνα με WCAG 2.2 AA και διορθώστε ό,τι μπορεί να "
+"διορθωθεί με ασφάλεια. Χωρίς overlay, χωρίς όριο σελίδων."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Απλό SEO με δωρεάν LocalBusiness schema, sitemaps και social cards. Τίποτα "
+"δεν αποστέλλεται εκτός."
+
+msgid "SMTP Mailer"
+msgstr "SMTP Mailer"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Αποστολή email WordPress μέσω του δικού σας SMTP server — με αρχείο email, "
+"επαναποστολή, εφεδρική σύνδεση και ειδοποιήσεις αποτυχίας."
+
+msgid "Social Feed"
+msgstr "Κοινωνική Ροή"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Instagram feed στο site σας χωρίς αποθήκευση Meta token στο WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache Κριτικών"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr ""
+"Εμφανίστε τις Google κριτικές σας χωρίς να αποθηκεύετε API key στο "
+"WordPress."
+
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Βρείτε χαλασμένους συνδέσμους και διαχειριστείτε ανακατευθύνσεις στον δικό "
+"σας διακομιστή, με αιτιολόγηση για κάθε αποτέλεσμα."
+
+msgid "Danadresse Autofill"
+msgstr "Αυτόματη συμπλήρωση διεύθυνσης Danadresse"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Αυτόματη συμπλήρωση και επαλήθευση δανέζικης διεύθυνσης για WooCommerce, "
+"WPForms, Gravity, Fluent, Formidable και EDD."
+
+msgid "Soge Lookup"
+msgstr "Αναζήτηση Soge"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Αναζήτηση δανέζικων οχημάτων (DMR) και εταιρειών (CVR) με αριθμό πινακίδας, "
+"VIN ή CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Δανέζικο B2B ταμείο για WooCommerce: αυτόματη συμπλήρωση εταιρείας CVR, "
+"επαλήθευση CVR/EU-VAT (VIES) και πεδίο EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Δανέζικες Αποστολές"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Δωρεάν επιλογή σημείου παραλαβής για PostNord και GLS Δανίας στο ταμείο "
+"WooCommerce, συν καθαρές μεθόδους αποστολής."
+
+msgid "API Auth"
+msgstr "API Auth"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens για το REST API που μπορείτε να ανακαλέσετε, με scopes και "
+"αρχείο απορρίψεων."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Οι ειδοποιήσεις αποτυχίας μέσω email δεν αποστέλλονται"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Το email ειδοποίησης αποστέλλεται με τη PHP mail() ώστε να μην εξαρτάται από"
+" τον διακομιστή SMTP, αλλά η PHP mail() απέτυχε σε αυτόν τον διακομιστή: %s "
+"Χρησιμοποιήστε ένα webhook για τις ειδοποιήσεις ή ζητήστε από τον πάροχο "
+"φιλοξενίας σας να ενεργοποιήσει τη mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Αυτή είναι η προηγούμενη έκδοση του Lynbro SMTP. Το Lynbro SMTP Mailer την "
+"έχει αντικαταστήσει και χρησιμοποιεί τις ίδιες ρυθμίσεις. Διαγράψτε τον "
+"φάκελο %s με τον διαχειριστή αρχείων του παρόχου φιλοξενίας σας, μέσω FTP ή "
+"SSH — μην χρησιμοποιήσετε εδώ την επιλογή «Διαγραφή»: η απεγκατάστασή του "
+"διαγράφει τις κοινόχρηστες ρυθμίσεις SMTP. Το Lynbro SMTP Mailer διατηρεί "
+"αντίγραφο ασφαλείας και τις επαναφέρει, αλλά το παλιό πρόσθετο διαγράφει "
+"επίσης το αρχείο καταγραφής email."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Οι ρυθμίσεις SMTP διαγράφηκαν από άλλο πρόσθετο στις %s και αποκαταστάθηκαν "
+"από το αντίγραφο ασφαλείας. Δεν χρειάζεται να κάνετε κάτι· στείλτε ένα "
+"δοκιμαστικό email, αν θέλετε να βεβαιωθείτε."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Αυτός ο ιστότοπος στέλνει email μέσω της ενσωματωμένης λειτουργίας "
+"αλληλογραφίας του διακομιστή (PHP mail()). Η δοκιμή δείχνει αν ο διακομιστής"
+" αποδέχτηκε το email· ελέγξτε τις κεφαλίδες του στα εισερχόμενα "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Βεβαιωθείτε ότι περιλαμβάνει αυτόν τον διακομιστή ιστού (τη διεύθυνση IP του"
+" με ip4: ή ip6:, ή μια εγγραφή a: / mx: που επιλύεται στη διεύθυνσή του)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"Το email αποστέλλεται μέσω της ενσωματωμένης λειτουργίας αλληλογραφίας του "
+"διακομιστή (PHP mail()), από τη διεύθυνση %s, με αντίστοιχο Return-Path."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Το Return-Path είναι απενεργοποιημένο: ο διακομιστής χρησιμοποιεί τη δική "
+"του διεύθυνση στον φάκελο του email, οπότε ο έλεγχος SPF γίνεται για εκείνον"
+" τον τομέα αντί για τον δικό σας."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"Το email αποστέλλεται μέσω της ενσωματωμένης λειτουργίας αλληλογραφίας του "
+"διακομιστή, με αντίστοιχο αποστολέα"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Το Lynbro SMTP αποστέλλει email μέσω της PHP mail() κατ’ επιλογή σας και "
+"ορίζει τη διεύθυνση From και το Return-Path σε κάθε email. Διατηρήστε αυτόν "
+"τον διακομιστή στην εγγραφή SPF του τομέα."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr ""
+"Η ενσωματωμένη λειτουργία αλληλογραφίας του διακομιστή (PHP mail(), χωρίς "
+"SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Για διακομιστές που έχουν ρυθμιστεί ώστε να στέλνουν email αυτόνομα. Δεν "
+"απαιτείται σύνδεση: η διεύθυνση From και το Return-Path παρακάτω "
+"εξακολουθούν να ορίζονται σε κάθε email, ώστε να συμφωνούν οι έλεγχοι SPF "
+"και DMARC. Η εγγραφή SPF του τομέα πρέπει να περιλαμβάνει αυτόν τον "
+"διακομιστή."

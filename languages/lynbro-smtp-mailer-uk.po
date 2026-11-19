@@ -1,0 +1,2091 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: https://soge.dk\n"
+"POT-Creation-Date: 2026-11-18 05:49+0100\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: admin/about-tab.php:21
+msgid "About Lynbro SMTP"
+msgstr "Про Lynbro SMTP"
+
+#: admin/about-tab.php:22
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress за замовчуванням надсилає електронну пошту через PHP mail(), а "
+"поштові скриньки вважають такі листи підозрілими. Lynbro SMTP надсилає їх "
+"через справжній автентифікований поштовий сервер — вашого хостингу, вашої "
+"поштової скриньки або сервісу розсилки — щоб скидання пароля, замовлення й "
+"форми зворотного зв’язку доходили."
+
+#: admin/about-tab.php:23
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Усе є у безплатному плагіні: журнал, повторне надсилання, резервне "
+"з’єднання, сповіщення, діагностика та WP-CLI. Платної версії немає."
+
+#: admin/about-tab.php:27
+msgid "How your data is handled"
+msgstr "Як обробляються ваші дані"
+
+#: admin/about-tab.php:29
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"Електронна пошта йде напряму з вашого сервера на SMTP-сервер, який ви "
+"налаштували. Плагін не звертається до жодного сервісу Lynbro і не надсилає "
+"статистику кудись ще."
+
+#: admin/about-tab.php:30
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"SMTP-пароль шифрується за допомогою ключів безпеки вашого сайту, ніколи не "
+"показується знову і не записується до журналу чи експорту налаштувань."
+
+#: admin/about-tab.php:31
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Журнал зберігає отримувачів, тему та статус у вашій власній базі даних. "
+"Вміст повідомлення — лише для невдалих листів за замовчуванням, і кожен "
+"запис видаляється після завершення строку зберігання."
+
+#: admin/about-tab.php:32
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Записи журналу включено до Інструменти → Експорт особистих даних і Видалення "
+"особистих даних."
+
+#: admin/about-tab.php:33
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Webhook про збій, якщо ви його налаштуєте, отримує лише текст помилки та "
+"посилання на ваш журнал."
+
+#: admin/about-tab.php:38
+msgid "Keep the login in wp-config.php"
+msgstr "Зберігайте логін у wp-config.php"
+
+#: admin/about-tab.php:39
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Будь-яка з цих констант перевизначає поле в Налаштуваннях, і значення ніколи "
+"не потрапляє до бази даних або її резервних копій:"
+
+#: admin/about-tab.php:44
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+#: admin/about-tab.php:49
+msgid "Version & links"
+msgstr "Версія та посилання"
+
+#: admin/about-tab.php:50
+msgid "Version"
+msgstr "Версія"
+
+#: admin/about-tab.php:52
+msgid "Plugin home page"
+msgstr "Домашня сторінка плагіна"
+
+#: admin/about-tab.php:53
+msgid "Lynbro"
+msgstr "Lynbro"
+
+#: admin/diagnostics-tab.php:22
+msgid "Send a test email"
+msgstr "Надіслати тестовий лист"
+
+#: admin/diagnostics-tab.php:24
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Цей сайт надсилає листи через власну поштову систему сервера (PHP mail()). "
+"Тест показує, чи прийняв сервер лист; перевірте його заголовки у вхідних "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+
+#: admin/diagnostics-tab.php:26
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"SMTP-сервер ще не налаштовано, тож тест буде надіслано через PHP mail(). "
+"Спочатку заповніть Налаштування, щоб протестувати SMTP."
+
+#: admin/diagnostics-tab.php:29
+msgid "Recipient"
+msgstr "Одержувач"
+
+#: admin/diagnostics-tab.php:31
+msgid "Send test"
+msgstr "Надіслати тест"
+
+#: admin/diagnostics-tab.php:33
+msgid "Test the backup connection"
+msgstr "Перевірити резервне з’єднання"
+
+#: admin/diagnostics-tab.php:38
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP-обмін (пароль приховано)"
+
+#: admin/diagnostics-tab.php:41
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Тестові листи ігнорують тестовий режим і режим «не надсилати», тож ви можете "
+"перевірити з’єднання на тестовій копії."
+
+#: admin/diagnostics-tab.php:45
+msgid "Can this server reach the SMTP server?"
+msgstr "Чи може цей сервер зв’язатися з SMTP-сервером?"
+
+#: admin/diagnostics-tab.php:46
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Багато хостингів блокують вихідні поштові порти. Це перевіряє найуживаніші "
+"порти до збереженого хоста з цього вебсерверу."
+
+#: admin/diagnostics-tab.php:47
+msgid "Check ports"
+msgstr "Перевірити порти"
+
+#: admin/diagnostics-tab.php:55
+#, php-format
+msgid "Sender domain: %s"
+msgstr "Домен відправника: %s"
+
+#: admin/diagnostics-tab.php:59
+msgid "DNS lookups are not available on this server."
+msgstr "Пошук DNS недоступний на цьому сервері."
+
+#: admin/diagnostics-tab.php:67
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Переконайтеся, що в записі вказано цей вебсервер (його IP-адресу з ip4: або "
+"ip6: чи a: / mx:, які вказують на нього)."
+
+#: admin/diagnostics-tab.php:69
+msgid ""
+"Make sure it includes your SMTP provider (for example include:spf.brevo.com)."
+msgstr ""
+"Переконайтеся, що він містить вашого SMTP-провайдера (наприклад "
+"include:spf.brevo.com)."
+
+#: admin/diagnostics-tab.php:72
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Немає SPF-запису. Додайте його у вашого DNS-провайдера, вказавши вашого SMTP-"
+"провайдера, інакше багато поштових скриньок не довірятимуть листу."
+
+#: admin/diagnostics-tab.php:80
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple "
+"\"v=DMARC1; p=none\" helps."
+msgstr ""
+"Немає DMARC-запису. Gmail і Yahoo вимагають його для масових відправників; "
+"навіть простий \"v=DMARC1; p=none\" допомагає."
+
+#: admin/diagnostics-tab.php:83
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM налаштовано у вашого SMTP-провайдера (вони надають DNS-запис). Тут це "
+"неможливо перевірити без назви селектора."
+
+#: admin/diagnostics-tab.php:89
+msgid "Environment"
+msgstr "Середовище"
+
+#: admin/diagnostics-tab.php:91
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+#: admin/diagnostics-tab.php:91
+msgid "missing — TLS and SSL will not work"
+msgstr "відсутній — TLS і SSL не працюватимуть"
+
+#: admin/diagnostics-tab.php:92
+msgid "PHP"
+msgstr "PHP"
+
+#: admin/diagnostics-tab.php:93
+msgid "Other mail plugins"
+msgstr "Інші поштові плагіни"
+
+#: admin/diagnostics-tab.php:93
+msgid "none found"
+msgstr "не знайдено"
+
+#: admin/diagnostics-tab.php:94
+msgid "Scheduled cleanup"
+msgstr "Заплановане очищення"
+
+#: admin/diagnostics-tab.php:94
+msgid "scheduled"
+msgstr "заплановано"
+
+#: admin/diagnostics-tab.php:94
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "не заплановано — деактивуйте й активуйте плагін"
+
+#: admin/log-tab.php:21
+msgid "Sent"
+msgstr "Надіслано"
+
+#: admin/log-tab.php:22
+msgid "Failed"
+msgstr "Не вдалося"
+
+#: admin/log-tab.php:23
+msgid "Not sent (delivery off)"
+msgstr "Не надіслано (доставку вимкнено)"
+
+#: admin/log-tab.php:24
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: admin/log-tab.php:37
+msgid "Main SMTP"
+msgstr "Основний SMTP"
+
+#: admin/log-tab.php:38
+msgid "Backup SMTP"
+msgstr "Резервний SMTP"
+
+#: admin/log-tab.php:39
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+#: admin/log-tab.php:40
+msgid "Test mode (redirected)"
+msgstr "Тестовий режим (перенаправлено)"
+
+#: admin/log-tab.php:72
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "Журнал вимкнено в Налаштуваннях — нові листи не записуються."
+
+#: admin/log-tab.php:76
+msgid "Sent, 30 days"
+msgstr "Надіслано, 30 днів"
+
+#: admin/log-tab.php:77
+msgid "Failed, 30 days"
+msgstr "Не вдалося, 30 днів"
+
+#: admin/log-tab.php:78
+msgid "Held back, 30 days"
+msgstr "Утримано, 30 днів"
+
+#: admin/log-tab.php:84 admin/log-tab.php:114 admin/settings.php:234
+#: includes/log.php:363
+msgid "Status"
+msgstr "Статус"
+
+#: admin/log-tab.php:85
+msgid "All statuses"
+msgstr "Усі статуси"
+
+#: admin/log-tab.php:90
+msgid "Recipient, subject or error"
+msgstr "Одержувач, тема або помилка"
+
+#: admin/log-tab.php:90
+msgid "Search the log"
+msgstr "Шукати в журналі"
+
+#: admin/log-tab.php:91
+msgid "Filter"
+msgstr "Фільтрувати"
+
+#: admin/log-tab.php:93
+msgid "Clear"
+msgstr "Очистити"
+
+#: admin/log-tab.php:99
+msgid "No emails match this filter."
+msgstr "Немає листів, що відповідають цьому фільтру."
+
+#: admin/log-tab.php:99
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the "
+"first entry here."
+msgstr ""
+"Ще не записано жодного листа. Надішліть тест із вкладки «Тест і "
+"діагностика», щоб побачити тут перший запис."
+
+#: admin/log-tab.php:112
+msgid "Select all"
+msgstr "Вибрати все"
+
+#: admin/log-tab.php:113
+msgid "Date"
+msgstr "Дата"
+
+#: admin/log-tab.php:115
+msgid "To"
+msgstr "Кому"
+
+#: admin/log-tab.php:116 includes/log.php:359
+msgid "Subject"
+msgstr "Тема"
+
+#: admin/log-tab.php:117
+msgid "Sent through"
+msgstr "Надіслано через"
+
+#: admin/log-tab.php:118
+msgid "Actions"
+msgstr "Дії"
+
+#: admin/log-tab.php:129
+msgid "Select"
+msgstr "Вибрати"
+
+#: admin/log-tab.php:143
+msgid "(no subject)"
+msgstr "(без теми)"
+
+#: admin/log-tab.php:154
+#, php-format
+msgid "Attachments (not kept): %s"
+msgstr "Вкладення (не зберігаються): %s"
+
+#: admin/log-tab.php:162
+#, php-format
+msgid "Resend of entry #%d"
+msgstr "Повторне надсилання запису #%d"
+
+#: admin/log-tab.php:170
+msgid "Content not kept."
+msgstr "Вміст не зберігається."
+
+#: admin/log-tab.php:177
+msgid "Resend"
+msgstr "Повторно надіслати"
+
+#: admin/log-tab.php:185
+msgid "Delete the selected entries?"
+msgstr "Видалити вибрані записи?"
+
+#: admin/log-tab.php:185
+msgid "Delete selected"
+msgstr "Видалити вибрані"
+
+#: admin/log-tab.php:189
+#, php-format
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s записів · автоматично видаляються через %2$s днів"
+
+#: admin/settings.php:43 admin/settings.php:44
+msgid "SMTP"
+msgstr "SMTP"
+
+#: admin/settings.php:82
+msgid "Sending…"
+msgstr "Надсилання…"
+
+#: admin/settings.php:83
+msgid "Checking…"
+msgstr "Перевірка…"
+
+#: admin/settings.php:84
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr "Надіслано. Перевірте вхідні (і папку спаму) одержувача."
+
+#: admin/settings.php:85
+msgid "Not sent."
+msgstr "Не надіслано."
+
+#: admin/settings.php:86
+msgid "open"
+msgstr "відкрити"
+
+#: admin/settings.php:87
+msgid "blocked"
+msgstr "заблоковано"
+
+#: admin/settings.php:88
+msgid "Request failed:"
+msgstr "Запит не виконано:"
+
+#: admin/settings.php:89
+msgid "Delivered through:"
+msgstr "Доставлено через:"
+
+#: admin/settings.php:114 admin/settings.php:570
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостатньо прав для доступу до цієї сторінки."
+
+#: admin/settings.php:119 lynbro-smtp-mailer.php:111
+msgid "Settings"
+msgstr "Налаштування"
+
+#: admin/settings.php:120
+msgid "Test & diagnostics"
+msgstr "Тестування та діагностика"
+
+#: admin/settings.php:121 admin/settings.php:453 admin/settings.php:525
+#: includes/alerts.php:207 includes/log.php:347
+msgid "Email log"
+msgstr "Журнал електронної пошти"
+
+#: admin/settings.php:122 includes/lynbro-core/lynbro-core.php:1642
+msgid "Tools"
+msgstr "Інструменти"
+
+#: admin/settings.php:123
+msgid "Feedback"
+msgstr "Зворотний зв’язок"
+
+#: admin/settings.php:124
+msgid "About"
+msgstr "Про програму"
+
+#: admin/settings.php:130
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:131
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log, "
+"resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Надсилайте кожен електронний лист WordPress через власний SMTP-сервер — із "
+"журналом листів, повторною відправкою, резервним підключенням і сповіщеннями "
+"про збої. Усе безкоштовно, без нав’язування допродажів."
+
+#: admin/settings.php:179
+msgid "The email was sent again."
+msgstr "Лист надіслано ще раз."
+
+#: admin/settings.php:180
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"Не вдалося надіслати лист ще раз — дивіться найновіший запис журналу, щоб "
+"дізнатися причину."
+
+#: admin/settings.php:181
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "Вміст цього листа не збережено, тому його не можна надіслати ще раз."
+
+#: admin/settings.php:182
+msgid "Log entries deleted."
+msgstr "Записи журналу видалено."
+
+#: admin/settings.php:183
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Налаштування імпортовано. Введіть пароль SMTP один раз і збережіть — паролі "
+"ніколи не копіюються з інших плагінів."
+
+#: admin/settings.php:212
+msgid "Set in wp-config.php"
+msgstr "Встановлено у wp-config.php"
+
+#: admin/settings.php:240
+#, php-format
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"Лист надсилається через власну поштову систему цього сервера (PHP mail()) "
+"від імені %s із відповідним Return-Path."
+
+#: admin/settings.php:244
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path вимкнено: сервер указує у конверті власну адресу, тому SPF "
+"перевіряє цей домен, а не ваш."
+
+#: admin/settings.php:250
+#, php-format
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "Лист надсилається через %1$s на порті %2$s."
+
+#: admin/settings.php:254
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"SMTP-сервер ще не задано — WordPress досі надсилає листи через PHP mail(). "
+"Виберіть свого постачальника нижче, заповніть дані для входу та збережіть."
+
+#: admin/settings.php:257
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr ""
+"Відправлення вимкнено: листи записуються в журнал, але не надсилаються."
+
+#: admin/settings.php:262
+#, php-format
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr ""
+"Режим тестування: кожен лист надходитиме на %s замість своїх одержувачів."
+
+#: admin/settings.php:267
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Збережений пароль більше не можна прочитати, бо змінилися ключі безпеки "
+"сайту. Введіть його ще раз і збережіть."
+
+#: admin/settings.php:273
+#, php-format
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Останній збій %1$s тому: %2$s"
+
+#: admin/settings.php:275
+msgid "Show failed emails"
+msgstr "Показати невдалі листи"
+
+#: admin/settings.php:282
+#, php-format
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the "
+"other one."
+msgstr ""
+"Також активний: %s. Два поштові плагіни змагаються за один і той самий лист "
+"— вимкніть інший."
+
+#: admin/settings.php:293
+#, php-format
+msgid "Import settings from %s"
+msgstr "Імпортувати налаштування з %s"
+
+#: admin/settings.php:305
+msgid "SMTP server"
+msgstr "SMTP-сервер"
+
+#: admin/settings.php:308
+msgid "Provider"
+msgstr "Постачальник"
+
+#: admin/settings.php:319
+msgid "Host"
+msgstr "Хост"
+
+#: admin/settings.php:323
+msgid "Port and encryption"
+msgstr "Порт і шифрування"
+
+#: admin/settings.php:326
+msgid "Encryption"
+msgstr "Шифрування"
+
+#: admin/settings.php:327
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — зазвичай порт 587"
+
+#: admin/settings.php:328
+msgid "SSL — usually port 465"
+msgstr "SSL — зазвичай порт 465"
+
+#: admin/settings.php:329
+msgid "None — only for a server on the same network"
+msgstr "Немає — лише для сервера в тій самій мережі"
+
+#: admin/settings.php:334
+msgid "Authentication"
+msgstr "Автентифікація"
+
+#: admin/settings.php:335
+msgid "The server needs a username and password (almost always)"
+msgstr "Серверу потрібні ім’я користувача та пароль (майже завжди)"
+
+#: admin/settings.php:338 admin/settings.php:427
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: admin/settings.php:342 admin/settings.php:428
+msgid "Password"
+msgstr "Пароль"
+
+#: admin/settings.php:345
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Пароль береться з LYNBRO_SMTP_PASS у wp-config.php і не зберігається в базі "
+"даних."
+
+#: admin/settings.php:347 admin/settings.php:428
+msgid "Saved — leave empty to keep it"
+msgstr "Збережено — залиште порожнім, щоб не змінювати"
+
+#: admin/settings.php:349 admin/settings.php:430
+msgid "Remove the saved password"
+msgstr "Видалити збережений пароль"
+
+#: admin/settings.php:351
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see About)."
+msgstr ""
+"Зберігається в зашифрованому вигляді з використанням ключів безпеки вашого "
+"сайту й більше не показується. Щоб не зберігати його в базі даних узагалі, "
+"визначте його у wp-config.php (див. Про програму)."
+
+#: admin/settings.php:356
+msgid "Certificate"
+msgstr "Сертифікат"
+
+#: admin/settings.php:358
+msgid "Verify the server certificate"
+msgstr "Перевіряти сертифікат сервера"
+
+#: admin/settings.php:359 admin/settings.php:393 admin/settings.php:443
+#: admin/settings.php:457 admin/settings.php:462
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: admin/settings.php:360
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr ""
+"Знімайте позначку лише для власного сервера із самопідписаним сертифікатом."
+
+#: admin/settings.php:367
+msgid "Sender"
+msgstr "Відправник"
+
+#: admin/settings.php:370
+msgid "From email"
+msgstr "Адреса відправника"
+
+#: admin/settings.php:373
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Примусово використовувати цю адресу для всіх листів, незалежно від "
+"налаштувань інших плагінів"
+
+#: admin/settings.php:373
+msgid "Recommended"
+msgstr "Рекомендовано"
+
+#: admin/settings.php:374
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Використовуйте адресу на домені, з якого ваш SMTP-акаунт має право надсилати "
+"листи, інакше провайдери можуть відхилити або відправити лист у спам."
+
+#: admin/settings.php:378
+msgid "From name"
+msgstr "Ім'я відправника"
+
+#: admin/settings.php:381
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Також примусово використовувати це ім’я (вимкнено: форми та магазини "
+"зберігають власне ім’я відправника)"
+
+#: admin/settings.php:385
+msgid "Default Reply-To"
+msgstr "Відповідь за замовчуванням"
+
+#: admin/settings.php:388
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Використовується лише тоді, коли в листі немає власного Reply-To, щоб "
+"відповіді з контактної форми все одно надходили відвідувачу."
+
+#: admin/settings.php:392
+msgid "Return-Path"
+msgstr "Return-Path"
+
+#: admin/settings.php:393
+msgid "Send bounces to the From address"
+msgstr "Надсилати відмови на адресу From"
+
+#: admin/settings.php:399
+msgid "Backup connection"
+msgstr "Резервне з’єднання"
+
+#: admin/settings.php:400
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Коли основний сервер недоступний, той самий лист одразу надсилається через "
+"резервний — відвідувач не бачить помилки."
+
+#: admin/settings.php:403
+msgid "Backup"
+msgstr "Резервний"
+
+#: admin/settings.php:405
+msgid "Use a backup when the main server fails"
+msgstr "Використовувати резервний сервер, коли основний недоступний"
+
+#: admin/settings.php:407
+msgid "Another SMTP server"
+msgstr "Інший SMTP-сервер"
+
+#: admin/settings.php:408
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr "PHP mail() цього сервера (краще, ніж нічого; може потрапити у спам)"
+
+#: admin/settings.php:413
+msgid "Backup host"
+msgstr "Резервний хост"
+
+#: admin/settings.php:416
+msgid "Backup port"
+msgstr "Резервний порт"
+
+#: admin/settings.php:417
+msgid "Backup encryption"
+msgstr "Резервне шифрування"
+
+#: admin/settings.php:420
+msgid "None"
+msgstr "Немає"
+
+#: admin/settings.php:425
+msgid "Backup login"
+msgstr "Резервний логін"
+
+#: admin/settings.php:428
+msgid "Backup password"
+msgstr "Резервний пароль"
+
+#: admin/settings.php:438
+msgid "Delivery mode"
+msgstr "Режим доставки"
+
+#: admin/settings.php:441
+msgid "Mode"
+msgstr "Режим"
+
+#: admin/settings.php:443
+msgid "Send normally"
+msgstr "Надсилати у звичайному режимі"
+
+#: admin/settings.php:444
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Тестовий режим: надсилати все на одну адресу (Cc і Bcc відкидаються)"
+
+#: admin/settings.php:445
+msgid "Redirect address"
+msgstr "Адреса для перенаправлення"
+
+#: admin/settings.php:446
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Не надсилати жодних листів (стейджинг-копії) — листи все одно записуються в "
+"журнал"
+
+#: admin/settings.php:456
+msgid "Log"
+msgstr "Журнал"
+
+#: admin/settings.php:457
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Вести журнал кожного листа (одержувач, тема, статус, помилка)"
+
+#: admin/settings.php:460
+msgid "Keep message content"
+msgstr "Зберігати вміст повідомлення"
+
+#: admin/settings.php:462
+msgid "Only of failed emails, so they can be resent"
+msgstr "Лише для невдалих листів, щоб їх можна було надіслати повторно"
+
+#: admin/settings.php:463
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Для кожного листа (дозволяє надіслати будь-що повторно; тоді журнал "
+"міститиме посилання для скидання пароля та дані замовлень)"
+
+#: admin/settings.php:464
+msgid "Never"
+msgstr "Ніколи"
+
+#: admin/settings.php:468
+msgid "Keep entries for"
+msgstr "Зберігати записи протягом"
+
+#: admin/settings.php:469
+msgid "days, then they are deleted automatically"
+msgstr "днів, після чого їх буде автоматично видалено"
+
+#: admin/settings.php:475
+msgid "Failure alerts"
+msgstr "Сповіщення про помилки"
+
+#: admin/settings.php:476
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Не більше одного сповіщення на годину. Лист зі сповіщенням надсилається "
+"через PHP mail() цього сервера, оскільки саме SMTP-сервер може бути "
+"недоступним."
+
+#: admin/settings.php:479
+msgid "Alert email"
+msgstr "Лист зі сповіщенням"
+
+#: admin/settings.php:483
+msgid "Webhook URL"
+msgstr "URL вебхука"
+
+#: admin/settings.php:486
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Необов’язково. Вхідний вебхук Slack або Discord, або ваш власний HTTPS-"
+"ендпоїнт (JSON із \"text\" і \"content\"). Плагін надсилає туди текст "
+"помилки — нічого більше, і лише коли ви вкажете URL."
+
+#: admin/settings.php:506
+msgid "Import from another SMTP plugin"
+msgstr "Імпортувати з іншого SMTP-плагіна"
+
+#: admin/settings.php:508
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Копіює хост, порт, шифрування, ім’я користувача та адресу відправника. "
+"Паролі залишаються на місці — введіть свій один раз після імпорту."
+
+#: admin/settings.php:514
+#, php-format
+msgid "Import from %s"
+msgstr "Імпортувати з %s"
+
+#: admin/settings.php:520
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"На цьому сайті не знайдено налаштувань WP Mail SMTP, FluentSMTP, Easy WP "
+"SMTP або Post SMTP."
+
+#: admin/settings.php:527
+msgid "Download the log (CSV)"
+msgstr "Завантажити журнал (CSV)"
+
+#: admin/settings.php:528
+msgid "Delete every log entry?"
+msgstr "Видалити кожен запис журналу?"
+
+#: admin/settings.php:528
+msgid "Empty the log"
+msgstr "Очистити журнал"
+
+#: admin/settings.php:545
+msgid "Is it working for you?"
+msgstr "Це працює у вас?"
+
+#: admin/settings.php:546
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP — безкоштовний, без жодних обмежень. Якщо він допоміг доставити "
+"вашу пошту, короткий відгук допоможе іншим знайти його."
+
+#: admin/settings.php:548
+msgid "Leave a review on WordPress.org"
+msgstr "Залишити відгук на WordPress.org"
+
+#: admin/settings.php:552
+msgid "Something missing or broken?"
+msgstr "Чогось бракує або щось не працює?"
+
+#: admin/settings.php:553
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Повідомлення про помилки та ідеї читають люди, які створюють плагін. Перехід "
+"за цими посиланнями нічого не надсилає з вашого сайту."
+
+#: admin/settings.php:555
+msgid "Ask in the support forum"
+msgstr "Запитати на форумі підтримки"
+
+#: admin/settings.php:556
+msgid "Suggest a feature (public roadmap)"
+msgstr "Запропонувати функцію (публічна дорожня карта)"
+
+#: admin/settings.php:558
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Публікуєте рядок журналу? Спочатку приберіть адреси — вкладка Test уже "
+"приховує пароль."
+
+#: admin/settings.php:608 admin/settings.php:629
+msgid "You do not have permission to do that."
+msgstr "У вас немає дозволу на цю дію."
+
+#: admin/settings.php:612
+msgid "Enter a valid recipient address."
+msgstr "Введіть дійсну адресу отримувача."
+
+#: includes/alerts.php:48
+#, php-format
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: основне SMTP-з’єднання не вдалося, а резервне доставило лист. Помилка: "
+"%2$s"
+
+#: includes/alerts.php:50
+#, php-format
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: лист не вдалося надіслати. Помилка: %2$s"
+
+#: includes/alerts.php:54
+#, php-format
+msgid "Log entry #%d"
+msgstr "Запис журналу #%d"
+
+#: includes/alerts.php:64
+#, php-format
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Проблема з доставкою електронної пошти"
+
+#: includes/alerts.php:100
+msgid "Email delivery"
+msgstr "Доставка електронної пошти"
+
+#: includes/alerts.php:115
+msgid "Email is sent through SMTP"
+msgstr "Електронна пошта надсилається через SMTP"
+
+#: includes/alerts.php:118
+msgid "Email"
+msgstr "Електронна пошта"
+
+#: includes/alerts.php:121
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP надсилає пошту цього сайту через автентифікований SMTP-сервер."
+
+#: includes/alerts.php:122
+msgid "Open Lynbro SMTP"
+msgstr "Відкрити Lynbro SMTP"
+
+#: includes/alerts.php:128
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "Електронна пошта надсилається через PHP mail(), а не SMTP"
+
+#: includes/alerts.php:129
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP активний, але SMTP-сервер не налаштовано, тому пошта все ще "
+"надсилається через PHP mail() і часто потрапляє до спаму."
+
+#: includes/alerts.php:133
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"Лист надсилається через власну поштову систему сервера із відповідною "
+"адресою відправника"
+
+#: includes/alerts.php:134
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP за вашим вибором надсилає листи через PHP mail() і встановлює "
+"адресу From та Return-Path для кожного листа. Залиште цей сервер у записі "
+"SPF домену."
+
+#: includes/alerts.php:137
+msgid "The saved SMTP password can no longer be read"
+msgstr "Збережений пароль SMTP більше не можна прочитати"
+
+#: includes/alerts.php:138
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Секретні ключі сайту змінилися після збереження пароля. Введіть пароль SMTP "
+"ще раз."
+
+#: includes/alerts.php:145
+msgid "Emails failed to send in the last 24 hours"
+msgstr "За останні 24 години не вдалося надіслати листи"
+
+#: includes/alerts.php:146
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "За останні 24 години основне SMTP-з’єднання не вдалося"
+
+#: includes/alerts.php:153
+msgid "Failure alerts by email do not get out"
+msgstr "Сповіщення про збої електронною поштою не надсилаються"
+
+#: includes/alerts.php:159
+#, php-format
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Лист зі сповіщенням надсилається через PHP mail(), тож він не залежить від "
+"SMTP-сервера, але PHP mail() на цьому сервері не спрацювала: %s Використайте "
+"вебхук для сповіщень або попросіть свого хостинг-провайдера увімкнути mail()."
+
+#: includes/alerts.php:180
+msgid "Email delivery (7 days)"
+msgstr "Доставка електронної пошти (7 днів)"
+
+#: includes/alerts.php:197
+#, php-format
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Надіслано: %1$s · Не вдалося: %2$s"
+
+#: includes/alerts.php:204
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"SMTP-сервер ще не налаштовано — електронна пошта надсилається через PHP "
+"mail()."
+
+#: includes/alerts.php:209
+msgid "Show failed"
+msgstr "Показати невдалі"
+
+#: includes/class-lynbro-smtp-retry-mailer.php:100
+#, php-format
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Основне з’єднання: %1$s — Резервне з’єднання: %2$s"
+
+#: includes/diagnostics.php:35
+#, php-format
+msgid "Test email from %s"
+msgstr "Тестовий лист від %s"
+
+#: includes/diagnostics.php:38
+#, php-format
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Це тестовий лист від %1$s, надісланий через Lynbro SMTP.\n"
+"\n"
+"Якщо ви можете його прочитати, доставка пошти працює.\n"
+"\n"
+"Надіслано: %2$s\n"
+"З’єднання: %3$s"
+
+#: includes/diagnostics.php:41
+msgid "backup"
+msgstr "резервне"
+
+#: includes/diagnostics.php:41
+msgid "main"
+msgstr "головна"
+
+#: includes/diagnostics.php:121
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud "
+"need an app password, not the normal one; SendGrid and Brevo need an SMTP/"
+"API key."
+msgstr ""
+"Сервер відхилив ім’я користувача або пароль. Для Gmail, Outlook, Zoho та "
+"iCloud потрібен пароль для програми, а не звичайний; для SendGrid і Brevo "
+"потрібен SMTP/API-ключ."
+
+#: includes/diagnostics.php:124
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"У Microsoft 365 для цієї поштової скриньки вимкнено вхід через SMTP. "
+"Адміністратор може ввімкнути для неї \"Authenticated SMTP\", або "
+"скористайтеся релейним сервісом."
+
+#: includes/diagnostics.php:127
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and "
+"587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"До сервера не вдалося підключитися. Багато хостингів блокують вихідні порти "
+"25, 465 і 587 — запустіть перевірку портів нижче, а потім попросіть хостинг "
+"відкрити порт або використайте той, який відкритий."
+
+#: includes/diagnostics.php:130
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Не вдалося встановити захищене з’єднання. Перевірте, що порт і шифрування "
+"збігаються (587 = TLS, 465 = SSL). Якщо сервер використовує самопідписаний "
+"сертифікат, зніміть позначку \"Verify the server certificate\"."
+
+#: includes/diagnostics.php:133
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Сервер не дозволяє цьому обліковому запису надсилати листи як адреса From. "
+"Використайте адресу в домені, який належить обліковому запису, і увімкніть "
+"\"Force From email\"."
+
+#: includes/diagnostics.php:136
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Ім’я хоста не розпізнається. Перевірте, чи немає помилок у написанні."
+
+#: includes/diagnostics.php:139
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Прочитайте останні рядки SERVER у транскрипті: сервер зазвичай прямо вказує, "
+"що саме йому не сподобалося."
+
+#: includes/diagnostics.php:156
+msgid "No host set."
+msgstr "Хост не задано."
+
+#: includes/legacy-guard.php:137
+#, php-format
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced "
+"it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Це попередня версія Lynbro SMTP. Її замінив Lynbro SMTP Mailer, який "
+"використовує ті самі налаштування. Видаліть папку %s за допомогою файлового "
+"менеджера хостингу, FTP або SSH — не натискайте тут «Видалити»: під час "
+"видалення плагін стирає спільні налаштування SMTP. Lynbro SMTP Mailer "
+"зберігає резервну копію та відновлює їх, але старий плагін також очищує "
+"журнал електронної пошти."
+
+#: includes/legacy-guard.php:185
+#, php-format
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Інший плагін видалив ваші налаштування SMTP %s, і їх відновлено з резервної "
+"копії. Вам нічого робити не потрібно; за бажанням надішліть тестовий лист, "
+"щоб переконатися."
+
+#: includes/log.php:314
+msgid "That log entry no longer exists."
+msgstr "Цей запис журналу більше не існує."
+
+#: includes/log.php:317
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Вміст цього листа не зберігався, тож його не можна надіслати повторно. "
+"Змініть \"Keep message content\" у налаштуваннях, щоб повторно надсилати "
+"майбутні листи."
+
+#: includes/log.php:324
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"Лист не вдалося надіслати знову. Нова спроба та її помилка є в журналі."
+
+#: includes/log.php:351
+msgid "Date (UTC)"
+msgstr "Дата (UTC)"
+
+#: includes/log.php:355
+msgid "Recipients"
+msgstr "Отримувачі"
+
+#: includes/log.php:403 includes/log.php:418
+msgid "Lynbro SMTP email log"
+msgstr "Журнал листів Lynbro SMTP"
+
+#: includes/lynbro-core/lynbro-core.php:310
+#: includes/lynbro-core/lynbro-core.php:311
+msgid "Our plugins"
+msgstr "Наші плагіни"
+
+#: includes/lynbro-core/lynbro-core.php:467
+msgid "Image Optimizer"
+msgstr "Оптимізатор зображень"
+
+#: includes/lynbro-core/lynbro-core.php:468
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Конвертуйте у WebP та AVIF, змінюйте розмір великих зображень і "
+"використовуйте ледачу загрузку — все на вашому сервері."
+
+#: includes/lynbro-core/lynbro-core.php:471
+msgid "AI Studio"
+msgstr "AI Studio"
+
+#: includes/lynbro-core/lynbro-core.php:472
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no "
+"credits in between."
+msgstr ""
+"Створюйте та ілюструйте пости за допомогою AI на власному ключі OpenAI — без "
+"переплат і лімітів."
+
+#: includes/lynbro-core/lynbro-core.php:475
+msgid "Analytics"
+msgstr "Аналітика"
+
+#: includes/lynbro-core/lynbro-core.php:476
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Самостійна cookieless-аналітика з воронками. Дані відвідувачів не залишають "
+"вашу базу даних."
+
+#: includes/lynbro-core/lynbro-core.php:479
+msgid "Tags"
+msgstr "Теги"
+
+#: includes/lynbro-core/lynbro-core.php:480
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel та інші без коду — кожен тег чекає "
+"на згоду."
+
+#: includes/lynbro-core/lynbro-core.php:483
+msgid "Forms"
+msgstr "Форми"
+
+#: includes/lynbro-core/lynbro-core.php:484
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Форми з безкоштовним збереженням записів без обмежень, серверною перевіркою "
+"умовної логіки та підписаними вебхуками."
+
+#: includes/lynbro-core/lynbro-core.php:487
+msgid "Verify"
+msgstr "Верифікація"
+
+#: includes/lynbro-core/lynbro-core.php:488
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a "
+"one-time code by e-mail or SMS."
+msgstr ""
+"Виявляйте помилки в e-mail та номерах телефонів і підтверджуйте їх "
+"одноразовим кодом через e-mail або SMS."
+
+#: includes/lynbro-core/lynbro-core.php:491
+msgid "Cache"
+msgstr "Кеш"
+
+#: includes/lynbro-core/lynbro-core.php:492
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Надійне очищення кешу nginx FastCGI та Redis-об'єктного кешу, з перевіркою "
+"кожного очищення."
+
+#: includes/lynbro-core/lynbro-core.php:495
+msgid "Booking"
+msgstr "Запис"
+
+#: includes/lynbro-core/lynbro-core.php:496
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Бронювання зустрічей для одного бізнесу на власному сервері: послуги, "
+"персонал, розклади, нагадування та перенесення в один клік з Amelia."
+
+#: includes/lynbro-core/lynbro-core.php:499
+msgid "Translate"
+msgstr "Переклад"
+
+#: includes/lynbro-core/lynbro-core.php:500
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Запускайте сайт кількома мовами з машинним перекладом на власному ключі "
+"OpenAI — без лімітів і тарифікації."
+
+#: includes/lynbro-core/lynbro-core.php:503
+msgid "Contact Buttons"
+msgstr "Кнопки зв’язку"
+
+#: includes/lynbro-core/lynbro-core.php:504
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, телефон і онлайн-чат в одній зручній кнопці — скрипти "
+"чату завантажуються, лише коли відвідувач починає чат."
+
+#: includes/lynbro-core/lynbro-core.php:507
+msgid "Shield"
+msgstr "Захист"
+
+#: includes/lynbro-core/lynbro-core.php:508
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes "
+"and the hardening switches every site needs."
+msgstr ""
+"Заголовки безпеки, HTTPS з HSTS, невеликий фаєрвол від ін'єкцій і необхідні "
+"перемикачі захисту."
+
+#: includes/lynbro-core/lynbro-core.php:511
+msgid "Anti-Spam"
+msgstr "Антиспам"
+
+#: includes/lynbro-core/lynbro-core.php:512
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Перевірка спаму на вашому сервері. Без акаунтів і підписок, кожне блокування "
+"з поясненням — і жодне повідомлення не втрачається."
+
+#: includes/lynbro-core/lynbro-core.php:515
+msgid "Login Guard"
+msgstr "Захист входу"
+
+#: includes/lynbro-core/lynbro-core.php:516
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with "
+"three ways back in."
+msgstr ""
+"Перенесіть wp-login.php, обмежте невдалі входи та додайте двофакторну "
+"автентифікацію через застосунок — з трьома способами відновлення."
+
+#: includes/lynbro-core/lynbro-core.php:519
+msgid "Cookie Consent"
+msgstr "Згода на cookie"
+
+#: includes/lynbro-core/lynbro-core.php:520
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject "
+"button and 35 languages."
+msgstr ""
+"Банер відповідності GDPR та ePrivacy з Consent Mode v2, рівнозначною кнопкою "
+"Відхилити та 35 мовами."
+
+#: includes/lynbro-core/lynbro-core.php:523
+msgid "Activity Log"
+msgstr "Журнал активності"
+
+#: includes/lynbro-core/lynbro-core.php:524
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Хто, що, коли і звідки — записується на вашому сервері, з пошуком, експортом "
+"і видаленням за вашим графіком."
+
+#: includes/lynbro-core/lynbro-core.php:527
+msgid "Data Retention"
+msgstr "Зберігання даних"
+
+#: includes/lynbro-core/lynbro-core.php:528
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a "
+"schedule — with a dry run before every deletion."
+msgstr ""
+"Знаходьте, де особисті дані зберігаються у вашій базі, і видаляйте їх за "
+"розкладом — з тестовим запуском перед кожним видаленням."
+
+#: includes/lynbro-core/lynbro-core.php:531
+msgid "Accessibility"
+msgstr "Доступність"
+
+#: includes/lynbro-core/lynbro-core.php:532
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Скануйте кожну сторінку на відповідність WCAG 2.2 AA і виправляйте те, що "
+"можна безпечно. Без оверлеїв і лімітів сторінок."
+
+#: includes/lynbro-core/lynbro-core.php:535
+msgid "Site Check"
+msgstr "Перевірка сайту"
+
+#: includes/lynbro-core/lynbro-core.php:536
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Безкоштовна перевірка сайту для відвідувачів: HTTPS, заголовки, файли cookie "
+"до отримання згоди, доступність, SPF/DKIM/DMARC — звіт на екрані."
+
+#: includes/lynbro-core/lynbro-core.php:539
+msgid "SEO"
+msgstr "SEO"
+
+#: includes/lynbro-core/lynbro-core.php:540
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO з LocalBusiness schema, sitemap і соціальними картками безкоштовно. "
+"Нічого не відправляється назовні."
+
+#: includes/lynbro-core/lynbro-core.php:543
+msgid "SMTP Mailer"
+msgstr "SMTP-розсилка"
+
+#: includes/lynbro-core/lynbro-core.php:544
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Відправка e-mail WordPress через власний SMTP — з журналом пошти, повторною "
+"відправкою, резервним з'єднанням і сповіщеннями про збої."
+
+#: includes/lynbro-core/lynbro-core.php:547
+msgid "Newsletter"
+msgstr "Розсилка"
+
+#: includes/lynbro-core/lynbro-core.php:548
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the "
+"last edit and approval by typing the exact recipient count."
+msgstr ""
+"Розсилки на власному сервері з безпечним надсиланням: записи згод, "
+"тестування після останнього редагування та підтвердження шляхом введення "
+"точної кількості отримувачів."
+
+#: includes/lynbro-core/lynbro-core.php:551
+msgid "Social Feed"
+msgstr "Соціальна стрічка"
+
+#: includes/lynbro-core/lynbro-core.php:552
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Стрічка Instagram на сайті без збереження Meta-токена у WordPress."
+
+#: includes/lynbro-core/lynbro-core.php:555
+msgid "Reviews Cache"
+msgstr "Кеш відгуків"
+
+#: includes/lynbro-core/lynbro-core.php:556
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Показуйте свої Google-відгуки без API-ключа у WordPress."
+
+#: includes/lynbro-core/lynbro-core.php:559
+msgid "Links"
+msgstr "Посилання"
+
+#: includes/lynbro-core/lynbro-core.php:560
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Знаходьте биті посилання та керуйте редиректами на своєму сервері, з "
+"поясненням кожного рішення."
+
+#: includes/lynbro-core/lynbro-core.php:563
+msgid "Danadresse Autofill"
+msgstr "Danadresse Автозаповнення"
+
+#: includes/lynbro-core/lynbro-core.php:564
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Автозаповнення та валідація данських адрес для WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable та EDD."
+
+#: includes/lynbro-core/lynbro-core.php:567
+msgid "Soge Lookup"
+msgstr "Soge Пошук"
+
+#: includes/lynbro-core/lynbro-core.php:568
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Пошук данських транспортних засобів (DMR) і компаній (CVR) за номером, VIN "
+"або CVR."
+
+#: includes/lynbro-core/lynbro-core.php:571
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+#: includes/lynbro-core/lynbro-core.php:572
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES) "
+"validation and an EAN/GLN field."
+msgstr ""
+"Данська B2B оплата для WooCommerce: автозаповнення компанії за CVR, "
+"перевірка CVR/EU-VAT (VIES) та поле EAN/GLN."
+
+#: includes/lynbro-core/lynbro-core.php:575
+msgid "Danish Shipping"
+msgstr "Данська доставка"
+
+#: includes/lynbro-core/lynbro-core.php:576
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Безкоштовний вибір пункту видачі для PostNord та GLS Denmark на сторінці "
+"оформлення WooCommerce, а також чисті способи доставки."
+
+#: includes/lynbro-core/lynbro-core.php:579
+msgid "API Auth"
+msgstr "API Авторизація"
+
+#: includes/lynbro-core/lynbro-core.php:580
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens для REST API, які можна відкликати, з підтримкою областей і "
+"журналом відмов."
+
+#: includes/lynbro-core/lynbro-core.php:780
+#: includes/lynbro-core/lynbro-core.php:1550
+#: includes/lynbro-core/lynbro-core.php:1755
+#: includes/lynbro-core/lynbro-core.php:1781
+msgid "Insufficient permissions."
+msgstr "Недостатньо прав доступу."
+
+#: includes/lynbro-core/lynbro-core.php:791
+msgid "Lynbro plugins"
+msgstr "Плагіни Lynbro"
+
+#: includes/lynbro-core/lynbro-core.php:792
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no "
+"credits, your data stays on your site."
+msgstr ""
+"Щедрі, WordPress-плагіни з пріоритетом приватності — створені в Данії. "
+"Безкоштовне ядро, без кредитів, ваші дані залишаються на вашому сайті."
+
+#: includes/lynbro-core/lynbro-core.php:799
+msgid "More from Lynbro"
+msgstr "Більше від Lynbro"
+
+#: includes/lynbro-core/lynbro-core.php:800
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Інша частина набору. Те, що вже є на цьому сайті, позначено; нічого не "
+"встановлюється без вашого підтвердження."
+
+#: includes/lynbro-core/lynbro-core.php:824
+msgid "Active"
+msgstr "Активний"
+
+#: includes/lynbro-core/lynbro-core.php:826
+msgid "Installed"
+msgstr "Встановлено"
+
+#: includes/lynbro-core/lynbro-core.php:828
+msgid "On WordPress.org"
+msgstr "На WordPress.org"
+
+#: includes/lynbro-core/lynbro-core.php:830
+msgid "Coming soon"
+msgstr "Скоро буде"
+
+#: includes/lynbro-core/lynbro-core.php:837
+msgid "Activate"
+msgstr "Активувати"
+
+#: includes/lynbro-core/lynbro-core.php:839
+#: includes/lynbro-core/lynbro-core.php:1463
+msgid "Install now"
+msgstr "Встановити зараз"
+
+#: includes/lynbro-core/lynbro-core.php:842
+#: includes/lynbro-core/lynbro-core.php:1467
+msgid "View on WordPress.org"
+msgstr "Переглянути на WordPress.org"
+
+#: includes/lynbro-core/lynbro-core.php:844
+#: includes/lynbro-core/lynbro-core.php:1469
+msgid "Learn more"
+msgstr "Дізнатися більше"
+
+#: includes/lynbro-core/lynbro-core.php:853
+msgid "About Lynbro"
+msgstr "Про Lynbro"
+
+#: includes/lynbro-core/lynbro-core.php:854
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro створює справді безкоштовні WordPress-плагіни з пріоритетом "
+"приватності та щедрим безкоштовним ядром — без кредитів, без платного "
+"доступу до основного функціоналу, ваші дані на вашому власному сайті. "
+"Зроблено в Данії."
+
+#: includes/lynbro-core/lynbro-core.php:856
+msgid "Visit Lynbro"
+msgstr "Відвідати Lynbro"
+
+#: includes/lynbro-core/lynbro-core.php:857
+msgid "Suggest a feature or report a bug"
+msgstr "Запропонувати функцію або повідомити про помилку"
+
+#: includes/lynbro-core/lynbro-core.php:859
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Зворотний зв’язок відкриває нашу публічну дорожню карту на plugins.lynbro.dk "
+"у новій вкладці — з вашого сайту нічого не надсилається."
+
+#: includes/lynbro-core/lynbro-core.php:885
+#, php-format
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on "
+"this site)."
+msgstr ""
+"Спільні компоненти Lynbro v%1$s, надані %2$s (найновіша з %3$d версій на "
+"цьому сайті)."
+
+#: includes/lynbro-core/lynbro-core.php:1350
+#, php-format
+msgid "Is %s doing its job?"
+msgstr "Чи %s виконує свою роботу?"
+
+#: includes/lynbro-core/lynbro-core.php:1354
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Ви вже користуєтеся ним кілька тижнів. Якщо він вам підходить, короткий "
+"відгук на WordPress.org допоможе іншим власникам сайтів знайти його — будь-"
+"які, навіть критичні."
+
+#: includes/lynbro-core/lynbro-core.php:1356
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Ви вже користуєтеся ним кілька тижнів. Якщо він вам підходить — або чогось "
+"не вистачає — повідомте нам на нашій публічній дорожній карті. Саме так ми "
+"вирішуємо, що розробляти далі."
+
+#: includes/lynbro-core/lynbro-core.php:1361 includes/onboarding.php:85
+msgid "Write a review"
+msgstr "Написати відгук"
+
+#: includes/lynbro-core/lynbro-core.php:1361
+#: includes/lynbro-core/lynbro-core.php:1363
+#: includes/lynbro-core/lynbro-core.php:1369
+#: includes/lynbro-core/lynbro-core.php:1467
+#: includes/lynbro-core/lynbro-core.php:1469
+msgid "(opens in a new tab)"
+msgstr "(відкривається у новій вкладці)"
+
+#: includes/lynbro-core/lynbro-core.php:1363
+msgid "Share feedback"
+msgstr "Поділитися відгуком"
+
+#: includes/lynbro-core/lynbro-core.php:1365
+msgid "Maybe later"
+msgstr "Можливо, пізніше"
+
+#: includes/lynbro-core/lynbro-core.php:1366
+msgid "Don't ask again"
+msgstr "Більше не питати"
+
+#: includes/lynbro-core/lynbro-core.php:1369
+msgid "Something not working? Ask for help"
+msgstr "Щось не працює? Попросіть допомогу"
+
+#: includes/lynbro-core/lynbro-core.php:1423
+msgid "WooCommerce is active"
+msgstr "WooCommerce активний"
+
+#: includes/lynbro-core/lynbro-core.php:1424
+msgid "a form plugin is active"
+msgstr "плагін форм активний"
+
+#: includes/lynbro-core/lynbro-core.php:1425
+msgid "the site is set up for Denmark"
+msgstr "сайт налаштовано для Данії"
+
+#: includes/lynbro-core/lynbro-core.php:1426
+msgid "comments are open"
+msgstr "коментарі відкриті"
+
+#: includes/lynbro-core/lynbro-core.php:1427
+msgid "tracking tags are active"
+msgstr "трекингові теги активні"
+
+#: includes/lynbro-core/lynbro-core.php:1428
+msgid "visitors can create accounts"
+msgstr "відвідувачі можуть створювати акаунти"
+
+#: includes/lynbro-core/lynbro-core.php:1437
+msgid "Suggested because %l."
+msgstr "Рекомендовано, оскільки %l."
+
+#: includes/lynbro-core/lynbro-core.php:1491
+#: includes/lynbro-core/lynbro-core.php:1522
+msgid "Suggested for this site"
+msgstr "Рекомендовано для цього сайту"
+
+#: includes/lynbro-core/lynbro-core.php:1492
+msgid "Hide suggestions"
+msgstr "Сховати рекомендації"
+
+#: includes/lynbro-core/lynbro-core.php:1494
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Інші плагіни Lynbro, які підходять для цього сайту. Нічого не "
+"встановлюється, поки ви не натиснете."
+
+#: includes/lynbro-core/lynbro-core.php:1495
+msgid "All Lynbro plugins"
+msgstr "Усі плагіни Lynbro"
+
+#: includes/lynbro-core/lynbro-core.php:1523
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent "
+"anywhere."
+msgstr ""
+"Відібрано з того, що вже використовується на цьому сайті — читається лише "
+"тут, нічого нікуди не надсилається."
+
+#: includes/lynbro-core/lynbro-core.php:1643
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Експортуйте налаштування цього плагіна як резервну копію JSON або скиньте їх "
+"до стандартних. На 100% локально — нічого не залишає ваш сайт."
+
+#: includes/lynbro-core/lynbro-core.php:1649
+msgid "Export settings (JSON)"
+msgstr "Експортувати налаштування (JSON)"
+
+#: includes/lynbro-core/lynbro-core.php:1651
+msgid "Reset all settings to defaults?"
+msgstr "Скинути всі налаштування до значень за замовчуванням?"
+
+#: includes/lynbro-core/lynbro-core.php:1655
+msgid "Reset to defaults"
+msgstr "Скинути до стандартних"
+
+#: includes/onboarding.php:81
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Чи допомагає Lynbro SMTP доставляти вашу пошту? Кілька слів на WordPress.org "
+"допоможуть іншим знайти поштовий плагін без нав’язливих допродажів."
+
+#: includes/onboarding.php:87
+msgid "No thanks"
+msgstr "Ні, дякую"
+
+#: includes/options.php:194
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Режим перенаправлення потребує адресу, на яку пересилати — пошта "
+"надсилатиметься звичайно, доки ви не додасте її."
+
+#: includes/providers.php:19
+msgid "Other SMTP server"
+msgstr "Інший SMTP-сервер"
+
+#: includes/providers.php:23
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Використайте SMTP-дані від вашого хостингу або поштового провайдера."
+
+#: includes/providers.php:26
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Власна поштова система цього сервера (PHP mail(), без SMTP)"
+
+#: includes/providers.php:30
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Для серверів, налаштованих надсилати пошту самостійно. Вхід не потрібен: "
+"адреси From і Return-Path нижче все одно встановлюються для кожного листа, "
+"тож SPF і DMARC можуть узгоджуватися. Запис SPF домену має містити цей "
+"сервер."
+
+#: includes/providers.php:37
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account "
+"→ Security → 2-Step Verification → App passwords), not your normal password."
+msgstr ""
+"Ім’я користувача: ваша повна адреса Gmail. Пароль: пароль для програми "
+"(Google Account → Security → 2-Step Verification → App passwords), а не ваш "
+"звичайний пароль."
+
+#: includes/providers.php:44
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay "
+"service such as Brevo or your host's SMTP."
+msgstr ""
+"У Microsoft 365 для поштової скриньки має бути ввімкнено \"Authenticated "
+"SMTP\". Microsoft відмовляється від входу за паролем для SMTP; якщо вхід не "
+"вдається, використайте релейний сервіс, наприклад Brevo, або SMTP вашого "
+"хостингу."
+
+#: includes/providers.php:51
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Ім’я користувача: SMTP-логін, показаний у розділі SMTP & API. Пароль: SMTP-"
+"ключ, а не пароль від облікового запису."
+
+#: includes/providers.php:58
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Ім’я користувача: слово \"apikey\". Пароль: ваш API-ключ SendGrid."
+
+#: includes/providers.php:65
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"Для облікових записів з ЄС використовуйте smtp.eu.mailgun.org. Ім’я "
+"користувача та пароль: SMTP-дані вашого домену відправлення."
+
+#: includes/providers.php:72
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Хост: SMTP-ендпоінт вашого регіону SES, зазначений у консолі SES у "
+"налаштуваннях SMTP. Ім’я користувача та пароль: облікові дані SMTP, створені "
+"в консолі SES (не ваші ключі доступу AWS)."
+
+#: includes/providers.php:79
+msgid "Username and password: both are your Server API token."
+msgstr "Ім’я користувача та пароль: і те, і інше — це ваш Server API token."
+
+#: includes/providers.php:86
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Використовуйте smtp.zoho.com для облікових записів поза ЄС. Якщо увімкнено "
+"двофакторний вхід, створіть окремий пароль для програми."
+
+#: includes/providers.php:93
+msgid "Username: API key. Password: secret key."
+msgstr "Ім’я користувача: API key. Пароль: secret key."
+
+#: includes/providers.php:100
+msgid "Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Ім’я користувача та пароль: SMTP-користувач, створений у Sending → SMTP "
+"Users."
+
+#: includes/providers.php:107 includes/providers.php:114
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Ім’я користувача: повна адреса поштової скриньки. Пароль: пароль поштової "
+"скриньки."
+
+#: includes/providers.php:121
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Для цих регіонів використовуйте smtp.ionos.de або smtp.ionos.co.uk. Ім’я "
+"користувача: повна адреса поштової скриньки."
+
+#. Plugin Name of the plugin
+#: lynbro-smtp-mailer.php
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+#. Plugin URI of the plugin
+#: lynbro-smtp-mailer.php
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+#. Description of the plugin
+#: lynbro-smtp-mailer.php
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Надсилає всю електронну пошту WordPress через ваш власний SMTP-сервер, із "
+"пошуковим журналом листів, повторною відправкою, резервним підключенням, "
+"сповіщеннями про збої та діагностикою з’єднання. Без нав’язливих продажів."
+
+#. Author of the plugin
+#: lynbro-smtp-mailer.php
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+#. Author URI of the plugin
+#: lynbro-smtp-mailer.php
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+#~ msgid "Send all WordPress mail through your SMTP host."
+#~ msgstr "Надсилайте всю пошту WordPress через ваш SMTP-хост."
+
+#~ msgid "Port"
+#~ msgstr "Порт"
+
+#~ msgid "•••••••• (saved — leave blank to keep)"
+#~ msgstr "•••••••• (збережено — залиште порожнім, щоб зберегти)"
+
+#~ msgid "Force From"
+#~ msgstr "Примусово використовувати From"
+
+#~ msgid ""
+#~ "Override From for every outgoing mail (recommended for deliverability)"
+#~ msgstr ""
+#~ "Перевизначати From для кожного вихідного листа (рекомендовано для кращої "
+#~ "доставлюваності)"
+
+#~ msgid "Test send"
+#~ msgstr "Тестове надсилання"
+
+#~ msgid "Recent activity"
+#~ msgstr "Нещодавня активність"
+
+#~ msgid "Plugins by lynbro aps — lynbro.dk"
+#~ msgstr "Плагіни від lynbro aps — lynbro.dk"
+
+#~ msgid "✓ Sent."
+#~ msgstr "✓ Надіслано."
+
+#~ msgid "✗ Failed."
+#~ msgstr "✗ Не вдалося."
+
+#~ msgid "Error:"
+#~ msgstr "Помилка:"
+
+#~ msgid "Network error:"
+#~ msgstr "Помилка мережі:"
+
+#~ msgid "Forbidden."
+#~ msgstr "Заборонено."
+
+#~ msgid "Lynbro SMTP test"
+#~ msgstr "Тест Lynbro SMTP"
+
+#~ msgid "Invalid recipient."
+#~ msgstr "Недійсний одержувач."
+
+#~ msgid ""
+#~ "Our growing suite of free, privacy-first plugins. Already-installed ones "
+#~ "are marked."
+#~ msgstr ""
+#~ "Наша зростаюча добірка безкоштовних плагінів із пріоритетом приватності. "
+#~ "Уже встановлені позначено."
+
+#~ msgid "Install"
+#~ msgstr "Встановити"
+
+#~ msgid ""
+#~ "Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+#~ "endpoint (HTTPS). The plugin posts the error text there — nothing else, "
+#~ "and only when you set a URL."
+#~ msgstr ""
+#~ "Необов’язково. Робочі процеси Slack, Discord, Microsoft Teams, ntfy або "
+#~ "ваш власний endpoint (HTTPS). Плагін надсилає туди текст помилки — нічого "
+#~ "більше, і лише коли ви вкажете URL."
+
+#~ msgid ""
+#~ "Change the region in the host to yours. Username and password: SMTP "
+#~ "credentials created in the SES console (not your AWS access keys)."
+#~ msgstr ""
+#~ "Змініть регіон у хості на свій. Ім’я користувача та пароль: SMTP-дані, "
+#~ "створені в консолі SES (не ваші ключі доступу AWS)."
+
+#~ msgid "https://plugins.lynbro.dk/lynbro-smtp"
+#~ msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+#~ msgid "lynbro aps"
+#~ msgstr "lynbro aps"

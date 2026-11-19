@@ -1,0 +1,1694 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Seol gach post WordPress trí do óstach SMTP."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Óstach"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Port"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Criptiú"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Ainm úsáideora"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Focal faire"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (sábháilte — fág folamh chun é a choinneáil)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Seoladh ríomhphoist ó"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Ainm ón"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Cuir Forchur i bhfeidhm ar an Ón"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr ""
+"Sáraigh an seoladh Ón do gach ríomhphost amach (molta le haghaidh "
+"inúsáidteachta)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Seol tástáil"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Seol tástáil"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Gníomhaíocht le déanaí"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Ceadanna neamhleor."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Breiseáin le lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Á sheoladh…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Seolta."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Theip."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Earráid:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Earráid líonra:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Toirmiscthe."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Tástáil Lynbro SMTP"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Faighteoir neamhbhailí."
+
+msgid "Our plugins"
+msgstr "Ár mbreiseáin"
+
+msgid "Lynbro plugins"
+msgstr "Breiseáin Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Breiseáin WordPress fhlaithiúla, príobháideachas ar dtús — déanta sa "
+"Danmhairg. Croíleacáin saor in aisce, gan chreidmheasanna, fanann do shonraí"
+" ar do shuíomh."
+
+msgid "More from Lynbro"
+msgstr "Tuilleadh ó Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Ár raon méadaithe de bhreiseáin saor in aisce, príobháideachas ar dtús. "
+"Marcáiltear na cinn atá suiteáilte cheana."
+
+msgid "Installed"
+msgstr "Suiteáilte"
+
+msgid "On WordPress.org"
+msgstr "Ar WordPress.org"
+
+msgid "Coming soon"
+msgstr "Ag teacht go luath"
+
+msgid "Install"
+msgstr "Suiteáil"
+
+msgid "Learn more"
+msgstr "Tuilleadh eolais"
+
+msgid "About Lynbro"
+msgstr "Maidir le Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Cruthaíonn Lynbro breiseáin WordPress atá fíor-saor in aisce, "
+"príobháideachas ar dtús, le croíleacáin fhlaithiúla saor in aisce — gan "
+"chreidmheasanna, gan bhallaí íocaíochta do na bunriachtanais, do shonraí ar "
+"do shuíomh féin. Déanta sa Danmhairg."
+
+msgid "Visit Lynbro"
+msgstr "Tabhair cuairt ar Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Mol gné nó tuairiscigh fabht"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Osclaíonn aiseolas ár mbóthar poiblí ar plugins.lynbro.dk i gcluaisín nua — "
+"ní sheoltar faic ó do shuíomh."
+
+msgid "Tools"
+msgstr "Uirlisí"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Easpórtáil socruithe an bhreiseáin seo mar chúltaca JSON, nó athshocraigh "
+"iad go dtí na réamhshocruithe. 100% áitiúil — ní fhágann faic do shuíomh."
+
+msgid "Export settings (JSON)"
+msgstr "Easpórtáil socruithe (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Athshocraigh go dtí na réamhshocruithe"
+
+msgid "About Lynbro SMTP"
+msgstr "Faochán faoi Lynbro SMTP"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"Seolann WordPress ríomhphost le PHP mail() de réir réamhshocraithe, rud a "
+"mheasann boscaí isteach mar amhrasach. Seolann Lynbro SMTP é trí fhreastalaí"
+" ríomhphoist fíoraithe, údaraithe ina ionad sin — freastalaí do óstach, do "
+"bhosca poist nó seirbhís seolta — ionas go dtiocfaidh athshocruithe "
+"pasfhocail, orduithe agus foirmeacha teagmhála isteach."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Tá gach rud sa bhreiseán saor in aisce: an logáil, athsheoladh, an nasc "
+"cúltaca, foláirimh, diagnóisic agus WP-CLI. Níl leagan íoctha ann."
+
+msgid "How your data is handled"
+msgstr "Conas a láimhseáiltear do chuid sonraí"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"Téann an ríomhphost díreach ó do fhreastalaí chuig an bhfreastalaí SMTP a "
+"shocraíonn tú. Ní dhéanann an breiseán teagmháil le seirbhís Lynbro ar bith "
+"agus ní sheolann sé aon staitisticí áit ar bith."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"Déantar pasfhocal SMTP a chriptiú le heochracha slándála do shuímh, ní "
+"thaispeántar arís é riamh agus ní scríobhtar chuig an logáil ná chuig an "
+"easpórtáil socruithe é."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Coinníonn an logáil faighteoirí, ábhar agus stádas i do bhunachar sonraí "
+"féin. Ábhar teachtaireachta amháin do ríomhphoist theipthe de réir "
+"réamhshocraithe, agus scriostar gach iontráil tar éis na tréimhse coinneála."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Cuirtear iontrálacha loga san áireamh in Uirlisí → Easpórtáil Sonraí "
+"Pearsanta agus Scrios Sonraí Pearsanta."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Faigheann gréasáinchúlfhilleadh teipe, má shocraíonn tú ceann, an téacs "
+"earráide amháin agus nasc chuig do logáil."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Coinnigh an logáil isteach i wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Sáraíonn aon cheann de na constants seo an réimse i Socruithe, agus ní "
+"shroicheann an luach an bunachar sonraí ná a chúltacaí riamh:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Leagan & naisc"
+
+msgid "Version"
+msgstr "Leagan"
+
+msgid "Plugin home page"
+msgstr "Leathanach baile an bhreiseáin"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Seol ríomhphost tástála"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Níl aon fhreastalaí SMTP socraithe fós, mar sin seoltar an tástáil le PHP "
+"mail(). Líon isteach Socruithe ar dtús chun SMTP a thástáil."
+
+msgid "Recipient"
+msgstr "Faighteoir"
+
+msgid "Test the backup connection"
+msgstr "Tástáil an nasc cúltaca"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "Comhrá SMTP (pasfhocal folaithe)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Ní thugann ríomhphoist tástála aird ar mhód tástála ná ar mhód \"ná seol\", "
+"ionas gur féidir leat an nasc a sheiceáil ar chóip stáitsiúcháin."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "An féidir leis an bhfreastalaí seo teacht ar an bhfreastalaí SMTP?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Cuireann go leor óstach bac ar phoirt ríomhphoist amach. Seiceálann sé seo "
+"na cinn is gnách chuig do óstaigh sábháilte, ón bhfreastalaíéasáin seo."
+
+msgid "Check ports"
+msgstr "Seiceáil poirt"
+
+msgid "Sender domain: %s"
+msgstr "Fearann an tseoltóra: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "Níl cuardaigh DNS ar fáil ar an bhfreastalaí seo."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Cinntigh go n-áirítear do sholáthraí SMTP ann (mar shampla "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Níl taifead SPF ann. Cuir ceann leis ag d’óstach DNS a ainmníonn do "
+"sholáthraí SMTP, nó beidh amhras ar go leor boscaí isteach faoin ríomhphost."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Níl taifead DMARC ann. Éilíonn Gmail agus Yahoo ceann do sheoltóirí "
+"mórchóir; cabhraíonn fiú \"v=DMARC1; p=none\" simplí."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"Socraítear DKIM ag do sholáthraí SMTP (tugann siad an taifead DNS duit). Ní "
+"féidir é a sheiceáil as seo gan ainm an roghnóra."
+
+msgid "Environment"
+msgstr "Timpeallacht"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "ar iarraidh — ní oibreoidh TLS ná SSL"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Breiseáin ríomhphoist eile"
+
+msgid "none found"
+msgstr "ní bhfuarthas aon cheann"
+
+msgid "Scheduled cleanup"
+msgstr "Glanadh sceidealaithe"
+
+msgid "scheduled"
+msgstr "sceidealaithe"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr ""
+"níl sé sceidealaithe — díghníomhachtaigh agus gníomhachtaigh an breiseán"
+
+msgid "Sent"
+msgstr "Seolta"
+
+msgid "Failed"
+msgstr "Theip ar an seoladh"
+
+msgid "Not sent (delivery off)"
+msgstr "Níor seoladh (seoladh múchta)"
+
+msgid "Unknown"
+msgstr "Anaithnid"
+
+msgid "Main SMTP"
+msgstr "Príomh-SMTP"
+
+msgid "Backup SMTP"
+msgstr "SMTP cúltaca"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Mód tástála (athdhírithe)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr ""
+"Tá an logáil múchta sna Socruithe — ní thaifeadtar aon ríomhphoist nua."
+
+msgid "Sent, 30 days"
+msgstr "Seolta, 30 lá"
+
+msgid "Failed, 30 days"
+msgstr "Theip, 30 lá"
+
+msgid "Held back, 30 days"
+msgstr "Coinnithe siar, 30 lá"
+
+msgid "Status"
+msgstr "Stádas"
+
+msgid "All statuses"
+msgstr "Gach stádas"
+
+msgid "Recipient, subject or error"
+msgstr "Faighteoir, ábhar nó earráid"
+
+msgid "Search the log"
+msgstr "Cuardaigh an log"
+
+msgid "Filter"
+msgstr "Scagaire"
+
+msgid "Clear"
+msgstr "Glan"
+
+msgid "No emails match this filter."
+msgstr "Ní oireann aon ríomhphoist don scagaire seo."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Níl aon ríomhphoist logáilte fós. Seol tástáil ón gcluaisín Tástáil & "
+"diagnóisic chun an chéad iontráil a fheiceáil anseo."
+
+msgid "Select all"
+msgstr "Roghnaigh uile"
+
+msgid "Date"
+msgstr "Dáta"
+
+msgid "To"
+msgstr "Chuig"
+
+msgid "Subject"
+msgstr "Ábhar"
+
+msgid "Sent through"
+msgstr "Seolta trí"
+
+msgid "Actions"
+msgstr "Gníomhartha"
+
+msgid "Select"
+msgstr "Roghnaigh"
+
+msgid "(no subject)"
+msgstr "(gan ábhar)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Ceangaltáin (ní choinnítear): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Athsheoladh iontrála #%d"
+
+msgid "Content not kept."
+msgstr "Ní choinnítear an t-ábhar."
+
+msgid "Resend"
+msgstr "Athsheol"
+
+msgid "Delete the selected entries?"
+msgstr "An dteastaíonn uait na hiontrálacha roghnaithe a scriosadh?"
+
+msgid "Delete selected"
+msgstr "Scrios roghnaithe"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s iontráil · scriostar go huathoibríoch tar éis %2$s lá"
+
+msgid "Checking…"
+msgstr "Ag seiceáil…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr ""
+"Seolta. Seiceáil bosca isteach (agus fillteán an turscair) an fhaighteora."
+
+msgid "Not sent."
+msgstr "Níor seoladh."
+
+msgid "open"
+msgstr "oscailte"
+
+msgid "blocked"
+msgstr "blocáilte"
+
+msgid "Request failed:"
+msgstr "Theip ar iarratas:"
+
+msgid "Delivered through:"
+msgstr "Seachadta trí:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Níl ceadúnas leordhóthanach agat chun an leathanach seo a rochtain."
+
+msgid "Settings"
+msgstr "Socruithe"
+
+msgid "Test & diagnostics"
+msgstr "Tástáil & diagnóisic"
+
+msgid "Email log"
+msgstr "Logáil ríomhphoist"
+
+msgid "Feedback"
+msgstr "Aiseolas"
+
+msgid "About"
+msgstr "Maidir le"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Seol gach ríomhphost WordPress trí do fhreastalaí SMTP féin — le logáil "
+"ríomhphoist, athsheoladh, nasc cúltaca agus foláirimh teipe. Go léir saor in"
+" aisce, gan aon upsell."
+
+msgid "The email was sent again."
+msgstr "Seoladh an ríomhphost arís."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"Níorbh fhéidir an ríomhphost a sheoladh arís — féach an iontráil logála is "
+"déanaí chun an chúis a fháil."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr ""
+"Níor coinníodh ábhar an ríomhphoist seo, mar sin ní féidir é a athsheoladh."
+
+msgid "Log entries deleted."
+msgstr "Scriosadh iontrálacha logála."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Iompórtáladh socruithe. Cuir an focal faire SMTP isteach uair amháin agus "
+"sábháil — ní chóipeáiltear focail faire ó phlugáin eile riamh."
+
+msgid "Set in wp-config.php"
+msgstr "Socraithe i wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "Seoltar an ríomhphost trí %1$s ar chalafort %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"Níl aon fhreastalaí SMTP socraithe fós — seolann WordPress fós le PHP "
+"mail(). Roghnaigh do sholáthraí thíos, líon isteach an logáil isteach agus "
+"sábháil."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr ""
+"Tá an seachadadh múchta: déantar na ríomhphoist a logáil ach ní sheoltar "
+"iad."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "Mód tástála: téann gach ríomhphost chuig %s in ionad a bhfaighteoirí."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Ní féidir an focal faire sábháilte a léamh a thuilleadh mar gur athraigh "
+"eochracha slándála an tsuímh. Cuir isteach arís é agus sábháil."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "An teip is déanaí %1$s ó shin: %2$s"
+
+msgid "Show failed emails"
+msgstr "Taispeáin ríomhphoist theipthe"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Gníomhach freisin: %s. Bíonn dhá phlugán ríomhphoist ag troid faoin "
+"ríomhphost céanna — díghníomhachtaigh an ceann eile."
+
+msgid "Import settings from %s"
+msgstr "Iompórtáil socruithe ó %s"
+
+msgid "SMTP server"
+msgstr "Freastalaí SMTP"
+
+msgid "Provider"
+msgstr "Soláthraí"
+
+msgid "Port and encryption"
+msgstr "Port agus criptiú"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — port 587 de ghnáth"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — port 465 de ghnáth"
+
+msgid "None — only for a server on the same network"
+msgstr "Ar bith — don fhreastalaí ar an líonra céanna amháin"
+
+msgid "Authentication"
+msgstr "Fíordheimhniú"
+
+msgid "The server needs a username and password (almost always)"
+msgstr ""
+"Tá ainm úsáideora agus focal faire de dhíth ar an bhfreastalaí (beagnach i "
+"gcónaí)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Tagann an focal faire ó LYNBRO_SMTP_PASS i wp-config.php agus ní stóráiltear"
+" sa bhunachar sonraí é."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Sábháilte — fág folamh chun é a choinneáil"
+
+msgid "Remove the saved password"
+msgstr "Bain an focal faire sábháilte"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Stóráilte go cripteáilte le heochracha slándála do shuímh agus ní "
+"thaispeántar arís é. Chun é a choinneáil amach as an mbunachar sonraí go "
+"hiomlán, sainigh é i wp-config.php (féach Maidir le)."
+
+msgid "Certificate"
+msgstr "Teastas"
+
+msgid "Verify the server certificate"
+msgstr "Fíoraigh teastas an fhreastalaí"
+
+msgid "Default"
+msgstr "Réamhshocrú"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr "Díthiceáil ach amháin do do fhreastalaí féin le teastas féinshínithe."
+
+msgid "Sender"
+msgstr "Seoltóir"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Cuir an seoladh seo i bhfeidhm ar gach ríomhphost, pé socrú a dhéanann "
+"breiseáin eile"
+
+msgid "Recommended"
+msgstr "Moltar"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Úsáid seoladh ar fhearann a bhféadfaidh do chuntas SMTP ríomhphost a "
+"sheoladh uaidh, nó diúltóidh soláthraithe don ríomhphost nó cuirfidh siad i "
+"bhfillteán turscair é."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Cuir an t-ainm seo i bhfeidhm freisin (as: coimeádann foirmeacha agus siopaí"
+" a n-ainm seoltóra féin)"
+
+msgid "Default Reply-To"
+msgstr "Réamhshocraithe Reply-To"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Ní úsáidtear é ach nuair nach bhfuil Reply-To dá chuid féin ag ríomhphost, "
+"ionas go dtéann freagraí ar fhoirm teagmhála chuig an gcuairteoir fós."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Seol preabtha chuig an seoladh From"
+
+msgid "Backup connection"
+msgstr "Ceangal cúltaca"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Nuair a theipeann ar an bpríomhfhreastalaí, seoltar an ríomhphost céanna "
+"arís láithreach tríd an gcúltaca — ní fheiceann an cuairteoir aon earráid."
+
+msgid "Backup"
+msgstr "Cúltaca"
+
+msgid "Use a backup when the main server fails"
+msgstr "Úsáid cúltaca nuair a theipeann ar an bpríomhfhreastalaí"
+
+msgid "Another SMTP server"
+msgstr "Fhreastalaí SMTP eile"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr ""
+"PHP mail() an fhreastalaí seo (níos fearr ná faic; d’fhéadfadh sé dul i "
+"dturscar)"
+
+msgid "Backup host"
+msgstr "Óstach cúltaca"
+
+msgid "Backup port"
+msgstr "Port cúltaca"
+
+msgid "Backup encryption"
+msgstr "Criptiú cúltaca"
+
+msgid "None"
+msgstr "Dada"
+
+msgid "Backup login"
+msgstr "Logáil isteach cúltaca"
+
+msgid "Backup password"
+msgstr "Pasfhocal cúltaca"
+
+msgid "Delivery mode"
+msgstr "Mód seachadta"
+
+msgid "Mode"
+msgstr "Mód"
+
+msgid "Send normally"
+msgstr "Seol go gnáth"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr ""
+"Mód tástála: seol gach rud chuig seoladh amháin (caitear Cc agus Bcc ar "
+"shiúl)"
+
+msgid "Redirect address"
+msgstr "Seoladh atreoraithe"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Ná seol aon ríomhphost (cóipeanna stáitsiú) — logáiltear na ríomhphoist fós"
+
+msgid "Log"
+msgstr "Logáil"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Coinnigh log de gach ríomhphost (faighteoir, ábhar, stádas, earráid)"
+
+msgid "Keep message content"
+msgstr "Ábhar na teachtaireachta a choinneáil"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "De ríomhphoist theipthe amháin, ionas gur féidir iad a sheoladh arís"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"De gach ríomhphost (ligeann sé duit aon rud a sheoladh arís; ansin beidh "
+"naisc athshocraithe pasfhocail agus sonraí ordaithe sa log)"
+
+msgid "Never"
+msgstr "Ná riamh"
+
+msgid "Keep entries for"
+msgstr "Coinnigh taifid ar feadh"
+
+msgid "days, then they are deleted automatically"
+msgstr "lá, ansin scriostar go huathoibríoch iad"
+
+msgid "Failure alerts"
+msgstr "Foláirimh theipe"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Ar a mhéad foláireamh amháin san uair. Seoltar an ríomhphost foláirimh le "
+"PHP mail() an fhreastalaí seo, toisc go bhféadfadh an freastalaí SMTP a "
+"bheith ar lár."
+
+msgid "Alert email"
+msgstr "Ríomhphost foláirimh"
+
+msgid "Webhook URL"
+msgstr "URL Webhook"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Roghnach. Sreafaí oibre Slack, Discord, Microsoft Teams, ntfy nó do "
+"chríochphointe féin (HTTPS). Seolann an breiseán téacs na hearráide ansin — "
+"rud ar bith eile, agus ní nuair a shocraíonn tú URL amháin."
+
+msgid "Import from another SMTP plugin"
+msgstr "Iompórtáil ó phlugán SMTP eile"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Cóipeálann sé an óstach, an port, an criptiú, an t-ainm úsáideora agus an "
+"seoltóir. Fanann na pasfhocail san áit ina bhfuil siad — cuir do chuid féin "
+"isteach uair amháin tar éis iompórtála."
+
+msgid "Import from %s"
+msgstr "Iompórtáil ó %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Níor aimsíodh aon socruithe de WP Mail SMTP, FluentSMTP, Easy WP SMTP ná "
+"Post SMTP ar an suíomh seo."
+
+msgid "Download the log (CSV)"
+msgstr "Íoslódáil an logáil (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Scrios gach iontráil sa logáil?"
+
+msgid "Empty the log"
+msgstr "Folmhaigh an logáil"
+
+msgid "Is it working for you?"
+msgstr "An bhfuil sé ag obair duit?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Tá Lynbro SMTP saor in aisce, gan aon rud glasáilte. Má chabhraigh sé le do "
+"ríomhphost a sheachadadh, cabhróidh léirmheas gairid le daoine eile é a "
+"aimsiú."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Fág léirmheas ar WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Tá rud éigin in easnamh nó briste?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Léann na daoine a thógann an breiseán tuairiscí fabhtanna agus smaointe. Ní "
+"sheoltar aon rud ó do shuíomh trí na naisc seo a oscailt."
+
+msgid "Ask in the support forum"
+msgstr "Fiafraigh sa fhóram tacaíochta"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Mol gné (plean poiblí bóthair)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Ag postáil líne logála? Bain seoltaí ar dtús — folaíonn an cluaisín Tástála "
+"an pasfhocal cheana féin."
+
+msgid "You do not have permission to do that."
+msgstr "Níl cead agat é sin a dhéanamh."
+
+msgid "Enter a valid recipient address."
+msgstr "Cuir seoladh glactha bailí isteach."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: theip ar an bpríomhcheangal SMTP agus sheachaid an cúltaca an "
+"ríomhphost. Earráid: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: níorbh fhéidir ríomhphost a sheoladh. Earráid: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Iontráil logála #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Fadhb le seachadadh ríomhphoist"
+
+msgid "Email delivery"
+msgstr "Seachadadh ríomhphoist"
+
+msgid "Email is sent through SMTP"
+msgstr "Seoltar ríomhphost trí SMTP"
+
+msgid "Email"
+msgstr "Ríomhphost"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Seolann Lynbro SMTP ríomhphost an tsuímh seo trí fhreastalaí SMTP "
+"fíordheimhnithe."
+
+msgid "Open Lynbro SMTP"
+msgstr "Oscail Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "Seoltar ríomhphost le PHP mail(), ní le SMTP"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Tá Lynbro SMTP gníomhach ach níl freastalaí SMTP socraithe, mar sin fágann "
+"an ríomhphost fós trí PHP mail() agus is minic a chríochnaíonn sé i "
+"dturscar."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Ní féidir an pasfhocal SMTP sábháilte a léamh a thuilleadh"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"D'athraigh eochracha slándála an tsuímh tar éis an pasfhocal a shábháil. "
+"Cuir pasfhocal SMTP isteach arís."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "Theip ar ríomhphoist a sheoladh le 24 uair an chloig anuas"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Theip ar an bpríomhcheangal SMTP le 24 uair an chloig anuas"
+
+msgid "Email delivery (7 days)"
+msgstr "Seachadadh ríomhphoist (7 lá)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Seolta: %1$s · Theip: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"Níl aon fhreastalaí SMTP socraithe fós — seoltar ríomhphost le PHP mail()."
+
+msgid "Show failed"
+msgstr "Taispeáin ar theip"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Príomhcheangal: %1$s — Cúltaca: %2$s"
+
+msgid "Test email from %s"
+msgstr "Ríomhphost tástála ó %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Seo ríomhphost tástála ó %1$s, seolta ag Lynbro SMTP.\n"
+"\n"
+"Má tá tú in ann é a léamh, tá seachadadh ríomhphoist ag obair.\n"
+"\n"
+"Seolta: %2$s\n"
+"Ceangal: %3$s"
+
+msgid "backup"
+msgstr "cúltaca"
+
+msgid "main"
+msgstr "príomhúil"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Dhiúltaigh an freastalaí don ainm úsáideora nó don phasfhocal. Teastaíonn "
+"pasfhocal aip ó Gmail, Outlook, Zoho agus iCloud, ní an gnáthcheann; "
+"teastaíonn SMTP/eochair API ó SendGrid agus Brevo."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"Tá síniú isteach SMTP i Microsoft 365 múchta don bhosca poist seo. Is féidir"
+" le riarthóir \"Authenticated SMTP\" a chumasú dó, nó seirbhís sealaíochta a"
+" úsáid ina ionad."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Níorbh fhéidir teagmháil a dhéanamh leis an bhfreastalaí. Cuireann go leor "
+"óstach bac ar chalafoirt amach 25, 465 agus 587 — rith an seiceáil calafoirt"
+" thíos, ansin iarr ar d’óstach an calafort a oscailt nó an ceann atá "
+"oscailte a úsáid."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Theip ar an nasc slán. Seiceáil go n-oireann an calafort agus an criptiú dá "
+"chéile (587 = TLS, 465 = SSL). Má tá teastas féinsínithe á úsáid ag an "
+"bhfreastalaí, díthiceáil \"Verify the server certificate\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Ní ligeann an freastalaí don chuntas seo seoladh mar an seoladh From. Úsáid "
+"seoladh ar fhearann atá ag an gcuntas, agus cuir \"Force From email\" ar "
+"siúl."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Ní réitíonn an t-ainm ósta. Seiceáil le haghaidh botúin chló."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Léigh na línte SERVER deireanacha sa tras-scríbhinn: de ghnáth deir an "
+"freastalaí go díreach cad nár thaitin leis."
+
+msgid "No host set."
+msgstr "Níl aon óstach socraithe."
+
+msgid "That log entry no longer exists."
+msgstr "Níl an iontráil loga sin ann a thuilleadh."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Níor coinníodh ábhar na ríomhphoist seo, mar sin ní féidir í a sheoladh "
+"arís. Athraigh \"Keep message content\" i Socruithe chun ríomhphoist amach "
+"anseo a sheoladh arís."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"Níorbh fhéidir an ríomhphost a sheoladh arís. Tá an iarracht nua agus an "
+"earráid inti sa log."
+
+msgid "Date (UTC)"
+msgstr "Dáta (UTC)"
+
+msgid "Recipients"
+msgstr "Faighteoirí"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro log ríomhphoist SMTP"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"An chuid eile den tsraith. Marcáiltear an méid atá ar an suíomh cheana féin;"
+" ní shuiteáiltear faic gan d’iarratas."
+
+msgid "Active"
+msgstr "Gníomhach"
+
+msgid "Activate"
+msgstr "Gníomhachtaigh"
+
+msgid "Install now"
+msgstr "Suiteáil anois"
+
+msgid "View on WordPress.org"
+msgstr "Féach ar WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Comhpháirteanna comhroinnte Lynbro v%1$s, curtha ar fáil ag %2$s (is nuaí de"
+" %3$d leagan ar an suíomh seo)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Athshocraigh gach socrú go dtí na réamhshocruithe?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"An bhfuil Lynbro SMTP ag tabhairt do ríomhphoist slán? Cabhróidh cúpla focal"
+" ar WordPress.org le daoine eile breiseán ríomhphoist a aimsiú gan "
+"díolacháin bhreise."
+
+msgid "Write a review"
+msgstr "Scríobh léirmheas"
+
+msgid "No thanks"
+msgstr "Níl, go raibh maith agat"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Teastaíonn seoladh chun athsheoladh uaidh sa mhód atreoraithe — seolfar an "
+"ríomhphost de ghnáth go dtí go gcuirfidh tú ceann leis."
+
+msgid "Other SMTP server"
+msgstr "Freastalaí SMTP eile"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Úsáid na sonraí SMTP ó d’óstach nó ó do sholáthraí ríomhphoist."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Ainm úsáideora: do sheoladh Gmail iomlán. Pasfhocal: pasfhocal aip (Google "
+"Account → Security → 2-Step Verification → App passwords), ní do "
+"ghnáthphasfhocal."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Teastaíonn \"Authenticated SMTP\" cumasaithe don bhosca poist i Microsoft "
+"365. Tá Microsoft ag scor síniú isteach le pasfhocal do SMTP; má theipeann "
+"ar an logáil isteach, úsáid seirbhís sealaíochta mar Brevo nó SMTP "
+"d’óstaigh."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Ainm úsáideora: an logáil SMTP atá léirithe faoi SMTP & API. Pasfhocal: "
+"eochair SMTP, ní do phasfhocal cuntais."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Ainm úsáideora: an focal \"apikey\". Pasfhocal: d’eochair API SendGrid."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"Úsáideann cuntais AE smtp.eu.mailgun.org. Ainm úsáideora agus pasfhocal: "
+"dintiúir SMTP do d’fhearann seolta."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Athraigh an réigiún san óstach go dtí do réigiún féin. Ainm úsáideora agus "
+"pasfhocal: dintiúir SMTP cruthaithe i consól SES (ní do chuid eochracha "
+"rochtana AWS)."
+
+msgid "Username and password: both are your Server API token."
+msgstr ""
+"Ainm úsáideora agus pasfhocal: is é an Server API token atá iontu araon."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Úsáid smtp.zoho.com do chuntais lasmuigh den AE. Le síniú isteach dhá "
+"fhachtóir, cruthaigh pasfhocal sonrach d’aip."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Ainm úsáideora: eochair API. Pasfhocal: eochair rúnda."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Ainm úsáideora agus pasfhocal: úsáideoir SMTP cruthaithe faoi Sending → SMTP"
+" Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Ainm úsáideora: seoladh iomlán an bhosca poist. Pasfhocal: pasfhocal an "
+"bhosca poist."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Úsáid smtp.ionos.de nó smtp.ionos.co.uk do na réigiúin sin. Ainm úsáideora: "
+"seoladh iomlán an bhosca poist."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Seolann sé gach ríomhphost WordPress trí do fhreastalaí SMTP féin, le log "
+"ríomhphoist inchuardaithe, athsheoladh, nasc cúltaca, foláirimh faoi "
+"theipeanna agus diagnóisic nasc. Gan aon uasdíol."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Óstach: críochphointe SMTP do réigiún SES, a thaispeántar sa chonsól SES "
+"faoi shocruithe SMTP. Ainm úsáideora agus focal faire: dintiúir SMTP a "
+"cruthaíodh sa chonsól SES (ní d’eochracha rochtana AWS)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Roghnach. Imeallghreamh isteach Slack nó Discord, nó do chríochphointe HTTPS"
+" féin (JSON le \"text\" agus \"content\"). Seolann an breiseán téacs na "
+"hearráide ansin — faic eile, agus sin amháin nuair a shocraíonn tú URL."
+
+msgid "Is %s doing its job?"
+msgstr "An bhfuil %s ag déanamh a chuid oibre?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Tá tú á úsáid le cúpla seachtain anois. Má oibríonn sé duit, cabhraíonn "
+"léirmheas gairid ar WordPress.org le húinéirí eile suíomhanna é a aimsiú — "
+"fiú léirmheasanna macánta agus cáinteacha."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Tá tú á úsáid le cúpla seachtain anois. Má oibríonn sé duit — nó má tá rud "
+"éigin in easnamh — inis dúinn ar ár mbóthar poiblí. Sin mar a roghnaímid cad"
+" a thógfaimid ina dhiaidh seo."
+
+msgid "(opens in a new tab)"
+msgstr "(osclaíonn i gcluaisín nua)"
+
+msgid "Share feedback"
+msgstr "Roinn aiseolas"
+
+msgid "Maybe later"
+msgstr "B'fhéidir níos déanaí"
+
+msgid "Don't ask again"
+msgstr "Ná fiafraigh arís"
+
+msgid "Something not working? Ask for help"
+msgstr "Rud éigin nach bhfuil ag obair? Iarr cabhair"
+
+msgid "WooCommerce is active"
+msgstr "Tá WooCommerce gníomhach"
+
+msgid "a form plugin is active"
+msgstr "Tá breiseán foirme gníomhach"
+
+msgid "the site is set up for Denmark"
+msgstr "Tá an suíomh socraithe do Dhánmhairg"
+
+msgid "comments are open"
+msgstr "Tá tuairimí oscailte"
+
+msgid "tracking tags are active"
+msgstr "Tá clibeanna rianaithe gníomhach"
+
+msgid "visitors can create accounts"
+msgstr "Is féidir le cuairteoirí cuntais a chruthú"
+
+msgid "Suggested because %l."
+msgstr "Moladh mar gheall ar %l."
+
+msgid "Suggested for this site"
+msgstr "Moladh don suíomh seo"
+
+msgid "Hide suggestions"
+msgstr "Folaigh moltaí"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Breiseáin Lynbro eile a oireann do úsáid an tsuímh seo. Ní shuiteáiltear aon"
+" rud mura gcliceálann tú."
+
+msgid "All Lynbro plugins"
+msgstr "Gach breiseán Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Roghnaithe as an méid atá in úsáid cheana ar an suíomh seo — léite ar an "
+"suíomh seo, ní sheoltar aon rud áit ar bith eile."
+
+msgid "Image Optimizer"
+msgstr "Optamaitheoir Íomhánna"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Tiontaigh go WebP agus AVIF, athraigh íomhánna ró-mhóra go méid ceart agus "
+"luchtú mall — go léir ar do fhreastalaí féin."
+
+msgid "AI Studio"
+msgstr "Stiúideo AI"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Scríobh agus maisigh poist le AI ag úsáid do eochair OpenAI féin — ar "
+"chostas, gan aon chreidiúintí idir eatarthu."
+
+msgid "Analytics"
+msgstr "Anailísíocht"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Anailísíocht féin-óstáilte, gan fianáin, le tonnadóirí. Ní fhágann sonraí "
+"cuairteoirí do bhunachar sonraí riamh."
+
+msgid "Tags"
+msgstr "Clibeanna"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel agus níos mó gan cód — fanann gach "
+"clib le toiliú."
+
+msgid "Forms"
+msgstr "Foirmeacha"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Foirmeacha le hiontrálacha sábháilte saor in aisce gan teorainn, le loighic "
+"choinníollach ar an bhfreastalaí, agus gréasánchurtha sínithe."
+
+msgid "Verify"
+msgstr "Fíoraigh"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Aimsigh seoltaí ríomhphoist mílitrithe agus uimhreacha gutháin míchearta, "
+"agus deimhnigh iad le cód aonuaire trí ríomhphost nó SMS."
+
+msgid "Cache"
+msgstr "Taisce"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Glanadh iontaofa do thaisce nginx FastCGI agus taisce réada Redis, le gach "
+"glanadh fíoraithe i gcoinne an taisce féin."
+
+msgid "Translate"
+msgstr "Aistrigh"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Rith do shuíomh i roinnt teangacha, le haistriúchán meaisín ar do eochair "
+"OpenAI féin — gan aon miosúr, gan aon rud á dhíol de réir focal."
+
+msgid "Shield"
+msgstr "Sciath"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Ceanntásca slándála, HTTPS le HSTS, balla dóiteáin beag in aghaidh ionsaithe"
+" insteallta agus na lasca cruaite atá ag teastáil ó gach suíomh."
+
+msgid "Anti-Spam"
+msgstr "Frith-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Seiceálacha spam a ritheann ar do fhreastalaí féin. Gan cuntas, gan síntiús,"
+" míníonn gach bac an fáth — agus ní chailltear teachtaireacht coinnithe "
+"riamh."
+
+msgid "Login Guard"
+msgstr "Garda Logála Isteach"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Bog wp-login.php, teorainnigh logálacha isteach teipthe agus cuir dhá "
+"fhachtóir bunaithe ar aip leis — le trí bhealach isteach ar ais."
+
+msgid "Cookie Consent"
+msgstr "Toiliú Fianán"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Meirge GDPR agus ePrivacy le Consent Mode v2, cnaipe Diúltaigh chomh "
+"feiceálach céanna agus 35 teanga."
+
+msgid "Activity Log"
+msgstr "Log Gníomhaíochta"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Cé a rinne cad, cathain agus ó cá háit — scríofa ar do fhreastalaí féin, in-"
+"innéanta, in-easpórtáilte, agus scriosta de réir do sceidil."
+
+msgid "Data Retention"
+msgstr "Coinneáil Sonraí"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Aimsigh cá bhfuil sonraí pearsanta i do bhunachar sonraí, ansin scrios de "
+"réir sceidil — le rith tirim roimh gach scriosadh."
+
+msgid "Accessibility"
+msgstr "Inrochtaineacht"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Scan gach leathanach i gcoinne WCAG 2.2 AA agus ceartaigh a bhfuil sábháilte"
+" a cheartú. Gan forleagan, gan teorainn leathanach."
+
+msgid "SEO"
+msgstr "Sinsearach"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Sinsearach éadrom le scéimre LocalBusiness saor in aisce, léarscáileanna "
+"suímh agus cártaí sóisialta. Ní sheoltar aon rud abhaile."
+
+msgid "SMTP Mailer"
+msgstr "Seoltóir SMTP"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Ríomhphost WordPress trí do fhreastalaí SMTP féin — le log ríomhphoist, "
+"athsheoladh, nasc cúltaca agus foláirimh teipe."
+
+msgid "Social Feed"
+msgstr "Fotha Sóisialta"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Fotha Instagram ar do shuíomh gan aon chomhartha Meta stóráilte i WordPress."
+
+msgid "Reviews Cache"
+msgstr "Taisce Léirmheasanna"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Taispeáin do léirmheasanna Google gan eochair API a chur i WordPress."
+
+msgid "Links"
+msgstr "Naisc"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Aimsigh naisc bhriste agus bainistigh atreoruithe ar do fhreastalaí féin, "
+"leis an gcúis le gach cinneadh."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Autofill"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Uathchomhlánú agus bailíochtú seoltaí Danmhairgeacha do WooCommerce, "
+"WPForms, Gravity, Fluent, Formidable agus EDD."
+
+msgid "Soge Lookup"
+msgstr "Cuardach Soge"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Cuardaigh feithiclí Danmhairgeacha (DMR) agus cuideachtaí (CVR) de réir "
+"uimhir chláraithe, VIN nó CVR."
+
+msgid "CVR Checkout"
+msgstr "Seiceáil Amach CVR"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Seiceáil amach B2B Danmhairgeach do WooCommerce: uathlíonadh cuideachta CVR,"
+" bailíochtú CVR/EU-VAT (VIES) agus réimse EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Loingseoireacht Danmhairgeach"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Roghnú pointe bailithe saor in aisce do PostNord agus GLS Denmark ag "
+"seiceáil amach WooCommerce, móide modhanna loingseoireachta glana."
+
+msgid "API Auth"
+msgstr "Údarú API"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens don REST API is féidir leat a chur ar ceal, le scóip agus "
+"dialann diúltaithe."
+
+msgid "Failure alerts by email do not get out"
+msgstr "Ní sheoltar foláirimh teipe trí ríomhphost"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"Seoltar an ríomhphost foláirimh le PHP mail() ionas nach mbeidh sé ag brath "
+"ar an bhfreastalaí SMTP, ach theip ar PHP mail() ar an bhfreastalaí seo: %s "
+"Úsáid webhook le haghaidh foláirimh, nó iarr ar do óstálaí mail() a chumasú."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Seo an leagan roimhe seo de Lynbro SMTP. Tháinig Lynbro SMTP Mailer ina áit "
+"agus úsáideann sé na socruithe céanna. Bain an fillteán %s le bainisteoir "
+"comhad d’óstach, FTP nó SSH — ná húsáid an rogha Scrios anseo: scriosann an "
+"díshuiteáil seo na socruithe SMTP comhroinnte. Coinníonn Lynbro SMTP Mailer "
+"cúltaca agus cuireann sé na socruithe ar ais, ach glanann an seanbhreiseán "
+"logáil na ríomhphost freisin."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Scrios breiseán eile do shocruithe SMTP ar %s agus cuireadh ar ais iad ón "
+"gcúltaca. Níl aon rud le déanamh agat; seol ríomhphost tástála más mian leat"
+" a bheith cinnte."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Seolann an suíomh seo ríomhphost trí chóras ríomhphoist an fhreastalaí féin "
+"(PHP mail()). Léiríonn an tástáil ar ghlac an freastalaí leis an ríomhphost;"
+" seiceáil a cheanntásca sa bhosca isteach (Authentication-Results: spf=pass,"
+" dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Cinntigh go n-áirítear an freastalaí gréasáin seo ann (a sheoladh IP le ip4:"
+" nó ip6:, nó a: / mx: a réitíonn chuig é)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"Seoltar an ríomhphost trí chóras ríomhphoist an fhreastalaí seo féin (PHP "
+"mail()), ó %s, agus Return-Path comhoiriúnach leis."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Tá Return-Path múchta: cuireann an freastalaí a sheoladh féin ar an "
+"gclúdach, agus mar sin seiceálann SPF an fearann sin seachas do cheannsa."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"Seoltar an ríomhphost trí chóras ríomhphoist an fhreastalaí féin, agus tá an"
+" seoltóir comhoiriúnach leis."
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Seolann Lynbro SMTP trí PHP mail() de réir do rogha féin agus socraíonn sé "
+"an seoladh From agus Return-Path ar gach ríomhphost. Coinnigh an freastalaí "
+"seo i dtaifead SPF an fhearainn."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Córas ríomhphoist an fhreastalaí féin (PHP mail(), gan SMTP)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Do fhreastalaithe atá cumraithe chun ríomhphost a sheoladh iad féin. Níl "
+"logáil isteach ag teastáil: socraítear an seoladh From agus Return-Path "
+"thíos ar gach ríomhphost fós, ionas gur féidir le SPF agus DMARC teacht le "
+"chéile. Ní mór an freastalaí seo a áireamh i dtaifead SPF an fhearainn."

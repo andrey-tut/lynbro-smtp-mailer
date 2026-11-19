@@ -1,0 +1,1672 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR lynbro aps
+# This file is distributed under the same license as the Lynbro SMTP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro SMTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-09 10:51+0200\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: admin/settings.php:20
+msgid "Lynbro SMTP"
+msgstr "Lynbro SMTP"
+
+#: admin/settings.php:21
+msgid "Send all WordPress mail through your SMTP host."
+msgstr "Šaljite svu WordPress poštu putem svog SMTP poslužitelja."
+
+#: admin/settings.php:27
+msgid "Host"
+msgstr "Host"
+
+#: admin/settings.php:31
+msgid "Port"
+msgstr "Port"
+
+#: admin/settings.php:35
+msgid "Encryption"
+msgstr "Enkripcija"
+
+#: admin/settings.php:45
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: admin/settings.php:49
+msgid "Password"
+msgstr "Lozinka"
+
+#: admin/settings.php:51
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr "•••••••• (spremljeno — ostavite prazno za zadržavanje)"
+
+#: admin/settings.php:55
+msgid "From email"
+msgstr "Adresa e-pošte pošiljatelja"
+
+#: admin/settings.php:59
+msgid "From name"
+msgstr "Ime pošiljatelja"
+
+#: admin/settings.php:63
+msgid "Force From"
+msgstr "Prisili From"
+
+#: admin/settings.php:67
+msgid "Override From for every outgoing mail (recommended for deliverability)"
+msgstr "Zamijeni From za svu odlaznu poštu (preporučeno za isporučivost)"
+
+#: admin/settings.php:76
+msgid "Test send"
+msgstr "Probno slanje"
+
+#: admin/settings.php:79
+msgid "Send test"
+msgstr "Pošalji test"
+
+#: admin/settings.php:84
+msgid "Recent activity"
+msgstr "Nedavna aktivnost"
+
+#: includes/lynbro-admin-menu.php:35 lynbro-smtp.php:98
+msgid "Insufficient permissions."
+msgstr "Nedovoljne dozvole."
+
+#: includes/lynbro-admin-menu.php:40
+msgid "Plugins by lynbro aps — lynbro.dk"
+msgstr "Dodaci by lynbro aps — lynbro.dk"
+
+#: lynbro-smtp.php:88 lynbro-smtp.php:89
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lynbro-smtp.php:118
+msgid "Sending…"
+msgstr "Šaljem…"
+
+#: lynbro-smtp.php:119
+msgid "✓ Sent."
+msgstr "✓ Poslano."
+
+#: lynbro-smtp.php:120
+msgid "✗ Failed."
+msgstr "✗ Neuspjelo."
+
+#: lynbro-smtp.php:121
+msgid "Error:"
+msgstr "Greška:"
+
+#: lynbro-smtp.php:122
+msgid "Network error:"
+msgstr "Mrežna greška:"
+
+#: lynbro-smtp.php:130
+msgid "Forbidden."
+msgstr "Zabranjeno."
+
+#: lynbro-smtp.php:133
+msgid "Lynbro SMTP test"
+msgstr "Lynbro SMTP test"
+
+#: lynbro-smtp.php:135
+msgid "Invalid recipient."
+msgstr "Neispravan primatelj."
+
+msgid "Our plugins"
+msgstr "Naši dodaci"
+
+msgid "Lynbro plugins"
+msgstr "Lynbro dodaci"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Velikodušni WordPress dodaci s načelom privatnosti — izrađeni u Danskoj. "
+"Besplatne osnovne verzije, bez kredita, vaši podaci ostaju na vašoj web-"
+"lokaciji."
+
+msgid "More from Lynbro"
+msgstr "Više od Lynbro"
+
+msgid ""
+"Our growing suite of free, privacy-first plugins. Already-installed ones are"
+" marked."
+msgstr ""
+"Naša rastuća zbirka besplatnih dodataka s načelom privatnosti. Već "
+"instalirani označeni su."
+
+msgid "Installed"
+msgstr "Instalirano"
+
+msgid "On WordPress.org"
+msgstr "Na WordPress.org"
+
+msgid "Coming soon"
+msgstr "Uskoro"
+
+msgid "Install"
+msgstr "Instaliraj"
+
+msgid "Learn more"
+msgstr "Saznajte više"
+
+msgid "About Lynbro"
+msgstr "O Lynbrou"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro izrađuje zaista besplatne WordPress dodatke s načelom privatnosti i "
+"izdašnim besplatnim osnovnim verzijama — bez kredita, bez paywalla za "
+"osnovne značajke, vaši podaci ostaju na vašoj web-lokaciji. Proizvedeno u "
+"Danskoj."
+
+msgid "Visit Lynbro"
+msgstr "Posjetite Lynbro"
+
+msgid "Suggest a feature or report a bug"
+msgstr "Predložite značajku ili prijavite grešku"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Povratne informacije otvaraju naš javni plan razvoja na plugins.lynbro.dk u "
+"novoj kartici — ništa se ne šalje s vaše web-lokacije."
+
+msgid "Tools"
+msgstr "Alati"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Izvezite postavke ovog dodatka kao JSON sigurnosnu kopiju ili ih vratite na "
+"zadane vrijednosti. 100% lokalno — ništa ne napušta vašu web-lokaciju."
+
+msgid "Export settings (JSON)"
+msgstr "Izvezi postavke (JSON)"
+
+msgid "Reset to defaults"
+msgstr "Vrati na zadane vrijednosti"
+
+msgid "About Lynbro SMTP"
+msgstr "O Lynbro SMTP-u"
+
+msgid ""
+"WordPress sends email with PHP mail() by default, which inboxes treat as "
+"suspicious. Lynbro SMTP sends it through a real, authenticated mail server "
+"instead — the one of your host, your mailbox or a sending service — so "
+"password resets, orders and contact forms arrive."
+msgstr ""
+"WordPress prema zadanim postavkama šalje e-poštu pomoću PHP mail(), što "
+"ulazne sandučiće čini sumnjivima. Lynbro SMTP je šalje putem pravog, "
+"ovjerenog poslužitelja e-pošte — onog vašeg hostinga, vašeg poštanskog "
+"sandučića ili usluge slanja — tako da poruke za resetiranje lozinke, "
+"narudžbe i kontakt obrasci stižu."
+
+msgid ""
+"Everything is in the free plugin: the log, resend, the backup connection, "
+"alerts, diagnostics and WP-CLI. There is no paid version."
+msgstr ""
+"Sve je u besplatnom dodatku: zapisnik, ponovno slanje, rezervna veza, "
+"upozorenja, dijagnostika i WP-CLI. Ne postoji plaćena verzija."
+
+msgid "How your data is handled"
+msgstr "Kako se obrađuju vaši podaci"
+
+msgid ""
+"Email goes straight from your server to the SMTP server you set. The plugin "
+"contacts no Lynbro service and sends no statistics anywhere."
+msgstr ""
+"E-pošta ide izravno s vašeg poslužitelja na SMTP poslužitelj koji ste "
+"postavili. Dodatak ne kontaktira nijednu Lynbro uslugu i ne šalje nikakve "
+"statistike nigdje."
+
+msgid ""
+"The SMTP password is encrypted with your site's security keys, never shown "
+"again and never written to the log or the settings export."
+msgstr ""
+"SMTP lozinka šifrira se pomoću sigurnosnih ključeva vaše web-stranice, nikad"
+" se više ne prikazuje i nikad se ne zapisuje u zapisnik ni u izvoz postavki."
+
+msgid ""
+"The log keeps recipients, subject and status in your own database. Message "
+"content only for failed emails by default, and every entry is deleted after "
+"the retention period."
+msgstr ""
+"Zapisnik čuva primatelje, predmet i status u vašoj vlastitoj bazi podataka. "
+"Sadržaj poruke samo za neuspjele e-poruke prema zadanim postavkama, a svaki "
+"se unos briše nakon razdoblja zadržavanja."
+
+msgid ""
+"Log entries are included in Tools → Export Personal Data and Erase Personal "
+"Data."
+msgstr ""
+"Unosi u zapisniku uključeni su u Alati → Izvoz osobnih podataka i Brisanje "
+"osobnih podataka."
+
+msgid ""
+"A failure webhook, if you set one, receives only the error text and a link "
+"to your log."
+msgstr ""
+"Webhook za neuspjeh, ako ga postavite, prima samo tekst pogreške i poveznicu"
+" na vaš zapisnik."
+
+msgid "Keep the login in wp-config.php"
+msgstr "Držite prijavu u wp-config.php"
+
+msgid ""
+"Any of these constants overrides the field in Settings, and the value never "
+"reaches the database or its backups:"
+msgstr ""
+"Bilo koja od ovih konstanti nadjačava polje u Postavkama, a vrijednost nikad"
+" ne dospijeva u bazu podataka ni u njezine sigurnosne kopije:"
+
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+msgid "Version & links"
+msgstr "Verzija i poveznice"
+
+msgid "Version"
+msgstr "Verzija"
+
+msgid "Plugin home page"
+msgstr "Početna stranica dodatka"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "Send a test email"
+msgstr "Pošalji probnu e-poštu"
+
+msgid ""
+"No SMTP server is set yet, so the test goes out with PHP mail(). Fill in "
+"Settings first to test SMTP."
+msgstr ""
+"Još nije postavljen SMTP poslužitelj, pa će se probna poruka poslati pomoću "
+"PHP mail(). Prvo ispunite Postavke za testiranje SMTP-a."
+
+msgid "Recipient"
+msgstr "Primatelj"
+
+msgid "Test the backup connection"
+msgstr "Testiraj rezervnu vezu"
+
+msgid "SMTP conversation (password hidden)"
+msgstr "SMTP razgovor (lozinka skrivena)"
+
+msgid ""
+"Test emails ignore test mode and \"do not send\" mode, so you can check the "
+"connection on a staging copy."
+msgstr ""
+"Probne e-poruke zanemaruju probni način rada i način \"ne šalji\", tako da "
+"možete provjeriti vezu na staging kopiji."
+
+msgid "Can this server reach the SMTP server?"
+msgstr "Može li ovaj poslužitelj dosegnuti SMTP poslužitelj?"
+
+msgid ""
+"Many hosts block outgoing mail ports. This checks the usual ones to your "
+"saved host, from this web server."
+msgstr ""
+"Mnogi hostinzi blokiraju izlazne portove za poštu. Ovo provjerava uobičajene"
+" portove prema vašem spremljenom hostu, s ovog web poslužitelja."
+
+msgid "Check ports"
+msgstr "Provjeri portove"
+
+msgid "Sender domain: %s"
+msgstr "Domena pošiljatelja: %s"
+
+msgid "DNS lookups are not available on this server."
+msgstr "DNS pretrage nisu dostupne na ovom poslužitelju."
+
+msgid ""
+"Make sure it includes your SMTP provider (for example "
+"include:spf.brevo.com)."
+msgstr ""
+"Provjerite da uključuje vašeg SMTP pružatelja (na primjer "
+"include:spf.brevo.com)."
+
+msgid ""
+"No SPF record. Add one at your DNS host that names your SMTP provider, or "
+"many inboxes will distrust the email."
+msgstr ""
+"Nema SPF zapisa. Dodajte ga kod svog DNS pružatelja i navedite svog SMTP "
+"pružatelja, inače će mnogi sandučići e-poštu smatrati nepouzdanom."
+
+msgid ""
+"No DMARC record. Gmail and Yahoo require one for bulk senders; even a simple"
+" \"v=DMARC1; p=none\" helps."
+msgstr ""
+"Nema DMARC zapisa. Gmail i Yahoo zahtijevaju ga za masovne pošiljatelje; čak"
+" i jednostavno \"v=DMARC1; p=none\" pomaže."
+
+msgid ""
+"DKIM is set up at your SMTP provider (they give you the DNS record). It "
+"cannot be checked from here without the selector name."
+msgstr ""
+"DKIM je postavljen kod vašeg SMTP pružatelja (oni vam daju DNS zapis). Ne "
+"može se provjeriti odavde bez naziva selektora."
+
+msgid "Environment"
+msgstr "Okruženje"
+
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+msgid "missing — TLS and SSL will not work"
+msgstr "nedostaje — TLS i SSL neće raditi"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Other mail plugins"
+msgstr "Drugi dodaci za poštu"
+
+msgid "none found"
+msgstr "nije pronađeno"
+
+msgid "Scheduled cleanup"
+msgstr "Zakazano čišćenje"
+
+msgid "scheduled"
+msgstr "zakazano"
+
+msgid "not scheduled — deactivate and activate the plugin"
+msgstr "nije zakazano — deaktivirajte i ponovno aktivirajte dodatak"
+
+msgid "Sent"
+msgstr "Poslano"
+
+msgid "Failed"
+msgstr "Neuspjelo"
+
+msgid "Not sent (delivery off)"
+msgstr "Nije poslano (dostava isključena)"
+
+msgid "Unknown"
+msgstr "Nepoznato"
+
+msgid "Main SMTP"
+msgstr "Glavni SMTP"
+
+msgid "Backup SMTP"
+msgstr "Rezervni SMTP"
+
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+msgid "Test mode (redirected)"
+msgstr "Testni način (preusmjereno)"
+
+msgid "The log is switched off in Settings — no new emails are recorded."
+msgstr "Zapisnik je isključen u Postavkama — nova e-pošta se ne bilježi."
+
+msgid "Sent, 30 days"
+msgstr "Poslano, 30 dana"
+
+msgid "Failed, 30 days"
+msgstr "Neuspjelo, 30 dana"
+
+msgid "Held back, 30 days"
+msgstr "Zadržano, 30 dana"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "All statuses"
+msgstr "Svi statusi"
+
+msgid "Recipient, subject or error"
+msgstr "Primatelj, predmet ili pogreška"
+
+msgid "Search the log"
+msgstr "Pretraži zapisnik"
+
+msgid "Filter"
+msgstr "Filtriraj"
+
+msgid "Clear"
+msgstr "Očisti"
+
+msgid "No emails match this filter."
+msgstr "Nijedna e-pošta ne odgovara ovom filtru."
+
+msgid ""
+"No emails logged yet. Send a test from the Test & diagnostics tab to see the"
+" first entry here."
+msgstr ""
+"Još nema zabilježene e-pošte. Pošaljite test na kartici Testiranje i "
+"dijagnostika da biste ovdje vidjeli prvi unos."
+
+msgid "Select all"
+msgstr "Odaberi sve"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "To"
+msgstr "Prima"
+
+msgid "Subject"
+msgstr "Predmet"
+
+msgid "Sent through"
+msgstr "Poslano putem"
+
+msgid "Actions"
+msgstr "Radnje"
+
+msgid "Select"
+msgstr "Odaberi"
+
+msgid "(no subject)"
+msgstr "(bez predmeta)"
+
+msgid "Attachments (not kept): %s"
+msgstr "Privici (nisu zadržani): %s"
+
+msgid "Resend of entry #%d"
+msgstr "Ponovno slanje unosa #%d"
+
+msgid "Content not kept."
+msgstr "Sadržaj nije zadržan."
+
+msgid "Resend"
+msgstr "Pošalji ponovno"
+
+msgid "Delete the selected entries?"
+msgstr "Izbrisati odabrane unose?"
+
+msgid "Delete selected"
+msgstr "Izbriši odabrano"
+
+msgid "%1$s entries · deleted automatically after %2$s days"
+msgstr "%1$s unosa · automatski se brišu nakon %2$s dana"
+
+msgid "Checking…"
+msgstr "Provjeravanje…"
+
+msgid "Sent. Check the inbox (and the spam folder) of the recipient."
+msgstr ""
+"Poslano. Provjerite pristiglu poštu (i mapu neželjene pošte) primatelja."
+
+msgid "Not sent."
+msgstr "Nije poslano."
+
+msgid "open"
+msgstr "otvoreno"
+
+msgid "blocked"
+msgstr "blokirano"
+
+msgid "Request failed:"
+msgstr "Zahtjev nije uspio:"
+
+msgid "Delivered through:"
+msgstr "Dostavljeno putem:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemate dovoljno dopuštenja za pristup ovoj stranici."
+
+msgid "Settings"
+msgstr "Postavke"
+
+msgid "Test & diagnostics"
+msgstr "Testiranje i dijagnostika"
+
+msgid "Email log"
+msgstr "Evidencija e-pošte"
+
+msgid "Feedback"
+msgstr "Povratne informacije"
+
+msgid "About"
+msgstr "O programu"
+
+msgid ""
+"Send every WordPress email through your own SMTP server — with an email log,"
+" resend, a backup connection and failure alerts. All free, no upsells."
+msgstr ""
+"Šaljite svu WordPress e-poštu kroz vlastiti SMTP poslužitelj — s evidencijom"
+" e-pošte, ponovnim slanjem, pričuvnom vezom i upozorenjima na greške. Sve "
+"besplatno, bez dodatnih ponuda."
+
+msgid "The email was sent again."
+msgstr "E-pošta je ponovno poslana."
+
+msgid ""
+"The email could not be sent again — see the newest log entry for the reason."
+msgstr ""
+"E-poštu nije bilo moguće ponovno poslati — pogledajte najnoviji zapis u "
+"evidenciji za razlog."
+
+msgid "The content of this email was not kept, so it cannot be resent."
+msgstr "Sadržaj ove e-pošte nije sačuvan, pa je nije moguće ponovno poslati."
+
+msgid "Log entries deleted."
+msgstr "Zapisi evidencije izbrisani."
+
+msgid ""
+"Settings imported. Enter the SMTP password once and save — passwords are "
+"never copied from other plugins."
+msgstr ""
+"Postavke uvezene. Unesite lozinku za SMTP jednom i spremite — lozinke se "
+"nikad ne kopiraju iz drugih dodataka."
+
+msgid "Set in wp-config.php"
+msgstr "Postavljeno u wp-config.php"
+
+msgid "Email is sent through %1$s on port %2$s."
+msgstr "E-pošta se šalje putem %1$s na portu %2$s."
+
+msgid ""
+"No SMTP server set yet — WordPress still sends with PHP mail(). Pick your "
+"provider below, fill in the login and save."
+msgstr ""
+"SMTP poslužitelj još nije postavljen — WordPress i dalje šalje putem PHP "
+"mail(). Odaberite svog davatelja usluge u nastavku, unesite prijavu i "
+"spremite."
+
+msgid "Delivery is switched off: emails are logged but not sent."
+msgstr "Dostava je isključena: e-pošta se bilježi, ali se ne šalje."
+
+msgid "Test mode: every email goes to %s instead of its recipients."
+msgstr "Testni način: svaka e-pošta ide na %s umjesto primateljima."
+
+msgid ""
+"The saved password can no longer be read because the site's security keys "
+"changed. Enter it again and save."
+msgstr ""
+"Spremljena lozinka više se ne može pročitati jer su se sigurnosni ključevi "
+"web-mjesta promijenili. Unesite je ponovno i spremite."
+
+msgid "Last failure %1$s ago: %2$s"
+msgstr "Posljednji neuspjeh prije %1$s: %2$s"
+
+msgid "Show failed emails"
+msgstr "Prikaži neuspjele e-poruke"
+
+msgid ""
+"Also active: %s. Two mail plugins fight over the same email — deactivate the"
+" other one."
+msgstr ""
+"Također aktivno: %s. Dva dodatka za poštu se bore za istu e-poštu — "
+"deaktivirajte drugi."
+
+msgid "Import settings from %s"
+msgstr "Uvezi postavke iz %s"
+
+msgid "SMTP server"
+msgstr "SMTP poslužitelj"
+
+msgid "Provider"
+msgstr "Davatelj usluge"
+
+msgid "Port and encryption"
+msgstr "Port i enkripcija"
+
+msgid "TLS (STARTTLS) — usually port 587"
+msgstr "TLS (STARTTLS) — obično port 587"
+
+msgid "SSL — usually port 465"
+msgstr "SSL — obično port 465"
+
+msgid "None — only for a server on the same network"
+msgstr "Nema — samo za poslužitelj na istoj mreži"
+
+msgid "Authentication"
+msgstr "Autentikacija"
+
+msgid "The server needs a username and password (almost always)"
+msgstr "Poslužitelju su potrebni korisničko ime i lozinka (gotovo uvijek)"
+
+msgid ""
+"The password comes from LYNBRO_SMTP_PASS in wp-config.php and is not stored "
+"in the database."
+msgstr ""
+"Lozinka dolazi iz LYNBRO_SMTP_PASS u wp-config.php i ne sprema se u bazu "
+"podataka."
+
+msgid "Saved — leave empty to keep it"
+msgstr "Spremljeno — ostavite prazno za zadržavanje"
+
+msgid "Remove the saved password"
+msgstr "Ukloni spremljenu lozinku"
+
+msgid ""
+"Stored encrypted with your site's security keys and never shown again. To "
+"keep it out of the database entirely, define it in wp-config.php (see "
+"About)."
+msgstr ""
+"Pohranjeno je šifrirano sigurnosnim ključevima vaše stranice i više se nikad"
+" ne prikazuje. Da biste ga uopće držali izvan baze podataka, definirajte ga "
+"u wp-config.php (pogledajte O programu)."
+
+msgid "Certificate"
+msgstr "Certifikat"
+
+msgid "Verify the server certificate"
+msgstr "Provjeri certifikat poslužitelja"
+
+msgid "Default"
+msgstr "Zadano"
+
+msgid "Untick only for your own server with a self-signed certificate."
+msgstr ""
+"Odznačite samo za vlastiti poslužitelj sa samopotpisanim certifikatom."
+
+msgid "Sender"
+msgstr "Pošiljatelj"
+
+msgid "Force this address on every email, whatever other plugins set"
+msgstr ""
+"Prisilno postavi ovu adresu na svaku e-poštu, bez obzira što postave drugi "
+"dodaci"
+
+msgid "Recommended"
+msgstr "Preporučeno"
+
+msgid ""
+"Use an address on a domain your SMTP account may send for, or providers "
+"reject or spam-folder the email."
+msgstr ""
+"Koristite adresu na domeni za koju vaš SMTP račun smije slati, inače će je "
+"pružatelji usluga odbiti ili označiti kao neželjenu poštu."
+
+msgid "Force this name too (off: forms and shops keep their own sender name)"
+msgstr ""
+"Prisilno postavi i ovo ime (isključeno: obrasci i trgovine zadržavaju "
+"vlastito ime pošiljatelja)"
+
+msgid "Default Reply-To"
+msgstr "Zadani Reply-To"
+
+msgid ""
+"Used only when an email has no Reply-To of its own, so contact-form replies "
+"still go to the visitor."
+msgstr ""
+"Koristi se samo kada e-pošta nema vlastito Reply-To polje, pa odgovori iz "
+"kontaktnih obrazaca i dalje idu posjetitelju."
+
+msgid "Return-Path"
+msgstr "Return-Path"
+
+msgid "Send bounces to the From address"
+msgstr "Pošalji odbijene poruke na adresu From"
+
+msgid "Backup connection"
+msgstr "Sigurnosna veza"
+
+msgid ""
+"When the main server fails, the same email is sent again through the backup "
+"at once — the visitor never sees an error."
+msgstr ""
+"Kad glavni poslužitelj zakaže, ista se e-pošta odmah ponovno šalje kroz "
+"sigurnosnu vezu — posjetitelj nikad ne vidi grešku."
+
+msgid "Backup"
+msgstr "Sigurnosna kopija"
+
+msgid "Use a backup when the main server fails"
+msgstr "Koristi sigurnosnu kopiju kad glavni poslužitelj zakaže"
+
+msgid "Another SMTP server"
+msgstr "Drugi SMTP poslužitelj"
+
+msgid "PHP mail() of this server (better than nothing; may land in spam)"
+msgstr ""
+"PHP mail() ovog poslužitelja (bolje nego ništa; može završiti u neželjenoj "
+"pošti)"
+
+msgid "Backup host"
+msgstr "Sigurnosni host"
+
+msgid "Backup port"
+msgstr "Sigurnosni port"
+
+msgid "Backup encryption"
+msgstr "Sigurnosno šifriranje"
+
+msgid "None"
+msgstr "Ništa"
+
+msgid "Backup login"
+msgstr "Sigurnosna prijava"
+
+msgid "Backup password"
+msgstr "Sigurnosna lozinka"
+
+msgid "Delivery mode"
+msgstr "Način isporuke"
+
+msgid "Mode"
+msgstr "Način"
+
+msgid "Send normally"
+msgstr "Šalji normalno"
+
+msgid "Test mode: send everything to one address (Cc and Bcc are dropped)"
+msgstr "Testni način: pošalji sve na jednu adresu (Cc i Bcc se odbacuju)"
+
+msgid "Redirect address"
+msgstr "Adresa za preusmjeravanje"
+
+msgid "Do not send any email (staging copies) — emails are still logged"
+msgstr ""
+"Ne šalji nijednu e-poštu (staging kopije) — e-poruke se i dalje bilježe"
+
+msgid "Log"
+msgstr "Dnevnik"
+
+msgid "Keep a log of every email (recipient, subject, status, error)"
+msgstr "Zadrži zapis svake e-pošte (primatelj, predmet, status, pogreška)"
+
+msgid "Keep message content"
+msgstr "Zadrži sadržaj poruke"
+
+msgid "Only of failed emails, so they can be resent"
+msgstr "Samo neuspjelih e-poruka, kako bi se mogle ponovno poslati"
+
+msgid ""
+"Of every email (lets you resend anything; the log then holds password-reset "
+"links and order details)"
+msgstr ""
+"Svake e-pošte (omogućuje ponovno slanje bilo čega; dnevnik tada sadrži "
+"poveznice za poništavanje lozinke i pojedinosti narudžbe)"
+
+msgid "Never"
+msgstr "Nikad"
+
+msgid "Keep entries for"
+msgstr "Zadrži zapise"
+
+msgid "days, then they are deleted automatically"
+msgstr "dana, zatim se automatski brišu"
+
+msgid "Failure alerts"
+msgstr "Upozorenja na neuspjeh"
+
+msgid ""
+"At most one alert per hour. The alert email is sent with PHP mail() of this "
+"server, because the SMTP server may be the thing that is down."
+msgstr ""
+"Najviše jedno upozorenje na sat. Upozoravajuća e-pošta šalje se pomoću PHP "
+"mail() ove poslužitelja, jer bi SMTP poslužitelj mogao biti onaj koji ne "
+"radi."
+
+msgid "Alert email"
+msgstr "Upozoravajuća e-pošta"
+
+msgid "Webhook URL"
+msgstr "URL webhooka"
+
+msgid ""
+"Optional. Slack, Discord, Microsoft Teams workflows, ntfy or your own "
+"endpoint (HTTPS). The plugin posts the error text there — nothing else, and "
+"only when you set a URL."
+msgstr ""
+"Opcionalno. Slack, Discord, Microsoft Teams radni tijekovi, ntfy ili vaš "
+"vlastiti krajnji punkt (HTTPS). Dodatak tamo objavljuje tekst pogreške — "
+"ništa drugo, i samo kada postavite URL."
+
+msgid "Import from another SMTP plugin"
+msgstr "Uvezi iz drugog SMTP dodatka"
+
+msgid ""
+"Copies host, port, encryption, username and sender. Passwords stay where "
+"they are — enter yours once after importing."
+msgstr ""
+"Kopira host, port, enkripciju, korisničko ime i pošiljatelja. Lozinke ostaju"
+" gdje jesu — svoju unesite samo jednom nakon uvoza."
+
+msgid "Import from %s"
+msgstr "Uvezi iz %s"
+
+msgid ""
+"No settings of WP Mail SMTP, FluentSMTP, Easy WP SMTP or Post SMTP were "
+"found on this site."
+msgstr ""
+"Na ovoj web-stranici nisu pronađene postavke za WP Mail SMTP, FluentSMTP, "
+"Easy WP SMTP ili Post SMTP."
+
+msgid "Download the log (CSV)"
+msgstr "Preuzmi zapisnik (CSV)"
+
+msgid "Delete every log entry?"
+msgstr "Izbrisati svaki zapis u zapisniku?"
+
+msgid "Empty the log"
+msgstr "Isprazni zapisnik"
+
+msgid "Is it working for you?"
+msgstr "Radi li za vas?"
+
+msgid ""
+"Lynbro SMTP is free, with nothing locked. If it got your email delivered, a "
+"short review helps other people find it."
+msgstr ""
+"Lynbro SMTP je besplatan, bez zaključanih značajki. Ako je pomogao da vaša "
+"e-pošta bude isporučena, kratka recenzija pomoći će drugima da ga pronađu."
+
+msgid "Leave a review on WordPress.org"
+msgstr "Ostavite recenziju na WordPress.org"
+
+msgid "Something missing or broken?"
+msgstr "Nešto nedostaje ili ne radi?"
+
+msgid ""
+"Bug reports and ideas are read by the people who build the plugin. Opening "
+"these links sends nothing from your site."
+msgstr ""
+"Prijave grešaka i ideje čitaju ljudi koji razvijaju dodatak. Otvaranjem ovih"
+" poveznica ništa se ne šalje s vaše web-stranice."
+
+msgid "Ask in the support forum"
+msgstr "Pitajte na forumu za podršku"
+
+msgid "Suggest a feature (public roadmap)"
+msgstr "Predložite značajku (javni plan razvoja)"
+
+msgid ""
+"Posting a log line? Remove addresses first — the Test tab already hides the "
+"password."
+msgstr ""
+"Objavljujete redak zapisnika? Prvo uklonite adrese — kartica Test već skriva"
+" lozinku."
+
+msgid "You do not have permission to do that."
+msgstr "Nemate dopuštenje za to."
+
+msgid "Enter a valid recipient address."
+msgstr "Unesite valjanu adresu primatelja."
+
+msgid ""
+"%1$s: the main SMTP connection failed and the backup delivered the email. "
+"Error: %2$s"
+msgstr ""
+"%1$s: glavna SMTP veza nije uspjela, a pričuvna je isporučila e-poštu. "
+"Pogreška: %2$s"
+
+msgid "%1$s: an email could not be sent. Error: %2$s"
+msgstr "%1$s: e-pošta nije mogla biti poslana. Pogreška: %2$s"
+
+msgid "Log entry #%d"
+msgstr "Zapis u zapisniku #%d"
+
+msgid "[%s] Email delivery problem"
+msgstr "[%s] Problem s isporukom e-pošte"
+
+msgid "Email delivery"
+msgstr "Isporuka e-pošte"
+
+msgid "Email is sent through SMTP"
+msgstr "E-pošta se šalje putem SMTP-a"
+
+msgid "Email"
+msgstr "E-pošta"
+
+msgid ""
+"Lynbro SMTP sends this site's email through an authenticated SMTP server."
+msgstr ""
+"Lynbro SMTP šalje e-poštu ove web-stranice putem autentificiranog SMTP "
+"poslužitelja."
+
+msgid "Open Lynbro SMTP"
+msgstr "Otvori Lynbro SMTP"
+
+msgid "Email is sent with PHP mail(), not SMTP"
+msgstr "E-pošta se šalje putem PHP mail(), a ne SMTP-a"
+
+msgid ""
+"Lynbro SMTP is active but no SMTP server is set, so email still leaves "
+"through PHP mail() and often lands in spam."
+msgstr ""
+"Lynbro SMTP je aktivan, ali SMTP poslužitelj nije postavljen, pa e-pošta i "
+"dalje odlazi putem PHP mail() i često završava u neželjenoj pošti."
+
+msgid "The saved SMTP password can no longer be read"
+msgstr "Spremljenu SMTP lozinku više nije moguće pročitati"
+
+msgid ""
+"The site's security keys changed after the password was saved. Enter the "
+"SMTP password again."
+msgstr ""
+"Sigurnosni ključevi web-stranice promijenili su se nakon što je lozinka "
+"spremljena. Ponovno unesite SMTP lozinku."
+
+msgid "Emails failed to send in the last 24 hours"
+msgstr "E-pošta se nije uspjela poslati u posljednja 24 sata"
+
+msgid "The main SMTP connection failed in the last 24 hours"
+msgstr "Glavna SMTP veza nije uspjela u posljednja 24 sata"
+
+msgid "Email delivery (7 days)"
+msgstr "Isporuka e-pošte (7 dana)"
+
+msgid "Sent: %1$s · Failed: %2$s"
+msgstr "Poslano: %1$s · Neuspjelo: %2$s"
+
+msgid "No SMTP server is set yet — email is sent with PHP mail()."
+msgstr ""
+"Još nije postavljen SMTP poslužitelj — e-pošta se šalje putem PHP mail()."
+
+msgid "Show failed"
+msgstr "Prikaži neuspjele"
+
+msgid "Main connection: %1$s — Backup connection: %2$s"
+msgstr "Glavna veza: %1$s — Pričuvna veza: %2$s"
+
+msgid "Test email from %s"
+msgstr "Testna e-pošta od %s"
+
+msgid ""
+"This is a test email from %1$s, sent by Lynbro SMTP.\n"
+"\n"
+"If you can read it, email delivery works.\n"
+"\n"
+"Sent: %2$s\n"
+"Connection: %3$s"
+msgstr ""
+"Ovo je testna e-pošta od %1$s, poslana putem Lynbro SMTP-a.\n"
+"\n"
+"Ako je možete pročitati, isporuka e-pošte radi.\n"
+"\n"
+"Poslano: %2$s\n"
+"Veza: %3$s"
+
+msgid "backup"
+msgstr "pričuvna"
+
+msgid "main"
+msgstr "glavni"
+
+msgid ""
+"The server refused the username or password. Gmail, Outlook, Zoho and iCloud"
+" need an app password, not the normal one; SendGrid and Brevo need an "
+"SMTP/API key."
+msgstr ""
+"Poslužitelj je odbio korisničko ime ili lozinku. Gmail, Outlook, Zoho i "
+"iCloud trebaju lozinku aplikacije, a ne uobičajenu; SendGrid i Brevo trebaju"
+" SMTP/API ključ."
+
+msgid ""
+"Microsoft 365 has SMTP sign-in switched off for this mailbox. An "
+"administrator can enable \"Authenticated SMTP\" for it, or use a relay "
+"service instead."
+msgstr ""
+"U Microsoftu 365 SMTP prijava je isključena za ovo poštansko sandučiće. "
+"Administrator može za njega omogućiti \"Authenticated SMTP\", ili umjesto "
+"toga koristiti relay uslugu."
+
+msgid ""
+"The server could not be reached. Many hosts block outgoing ports 25, 465 and"
+" 587 — run the port check below, then ask your host to open the port or use "
+"the one that is open."
+msgstr ""
+"Poslužitelju se nije moglo pristupiti. Mnogi hostovi blokiraju odlazne "
+"portove 25, 465 i 587 — pokrenite provjeru porta u nastavku, zatim zamolite "
+"host da otvori port ili upotrijebite onaj koji je otvoren."
+
+msgid ""
+"The secure connection failed. Check that port and encryption match (587 = "
+"TLS, 465 = SSL). If the server uses a self-signed certificate, untick "
+"\"Verify the server certificate\"."
+msgstr ""
+"Sigurna veza nije uspjela. Provjerite podudaraju li se port i enkripcija "
+"(587 = TLS, 465 = SSL). Ako poslužitelj koristi samopotpisani certifikat, "
+"poništite odabir \"Verify the server certificate\"."
+
+msgid ""
+"The server does not let this account send as the From address. Use an "
+"address on a domain the account owns, and switch on \"Force From email\"."
+msgstr ""
+"Poslužitelj ne dopušta da ovaj račun šalje kao adresa From. Upotrijebite "
+"adresu na domeni koju račun posjeduje i uključite \"Force From email\"."
+
+msgid "The host name does not resolve. Check it for typos."
+msgstr "Naziv hosta se ne može razriješiti. Provjerite ima li tipfelera."
+
+msgid ""
+"Read the last SERVER lines of the transcript: the server usually says "
+"exactly what it did not like."
+msgstr ""
+"Pročitajte zadnje SERVER retke transkripta: poslužitelj obično točno kaže "
+"što mu se nije svidjelo."
+
+msgid "No host set."
+msgstr "Nije postavljen host."
+
+msgid "That log entry no longer exists."
+msgstr "Taj zapis dnevnika više ne postoji."
+
+msgid ""
+"The content of this email was not kept, so it cannot be resent. Change "
+"\"Keep message content\" in Settings to resend future emails."
+msgstr ""
+"Sadržaj ove e-pošte nije sačuvan, pa se ne može ponovno poslati. Promijenite"
+" \"Keep message content\" u Postavkama kako biste ponovno slali buduće "
+"e-poruke."
+
+msgid ""
+"The email could not be sent again. The new attempt and its error are in the "
+"log."
+msgstr ""
+"E-poštu nije bilo moguće ponovno poslati. Novi pokušaj i njegova pogreška "
+"nalaze se u zapisniku."
+
+msgid "Date (UTC)"
+msgstr "Datum (UTC)"
+
+msgid "Recipients"
+msgstr "Primatelji"
+
+msgid "Lynbro SMTP email log"
+msgstr "Lynbro SMTP zapis e-pošte"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Ostatak paketa. Ono što je već na ovoj web-stranici označeno je; ništa se ne"
+" instalira bez vašeg zahtjeva."
+
+msgid "Active"
+msgstr "Aktivno"
+
+msgid "Activate"
+msgstr "Aktiviraj"
+
+msgid "Install now"
+msgstr "Instaliraj sada"
+
+msgid "View on WordPress.org"
+msgstr "Prikaži na WordPress.org"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Dijeljene Lynbro komponente v%1$s, koje pruža %2$s (najnovija od %3$d "
+"verzija na ovoj web-stranici)."
+
+msgid "Reset all settings to defaults?"
+msgstr "Vratiti sve postavke na zadane vrijednosti?"
+
+msgid ""
+"Is Lynbro SMTP getting your email delivered? A few words on WordPress.org "
+"help others find a mail plugin without upsells."
+msgstr ""
+"Donosi li Lynbro SMTP vašu e-poštu do primatelja? Nekoliko riječi na "
+"WordPress.org pomoći će drugima da pronađu mail dodatak bez prodajnih "
+"nadogradnji."
+
+msgid "Write a review"
+msgstr "Napišite recenziju"
+
+msgid "No thanks"
+msgstr "Ne, hvala"
+
+msgid ""
+"Redirect mode needs an address to redirect to — mail is sent normally until "
+"you add one."
+msgstr ""
+"Način preusmjeravanja treba adresu na koju će se preusmjeriti — e-pošta se "
+"šalje normalno dok je ne dodate."
+
+msgid "Other SMTP server"
+msgstr "Drugi SMTP poslužitelj"
+
+msgid "Use the SMTP details from your host or email provider."
+msgstr "Upotrijebite SMTP podatke od svog hosta ili davatelja e-pošte."
+
+msgid ""
+"Username: your full Gmail address. Password: an app password (Google Account"
+" → Security → 2-Step Verification → App passwords), not your normal "
+"password."
+msgstr ""
+"Korisničko ime: vaša puna Gmail adresa. Lozinka: lozinka aplikacije (Google "
+"račun → Sigurnost → 2-Step Verification → App passwords), a ne vaša "
+"uobičajena lozinka."
+
+msgid ""
+"Microsoft 365 needs \"Authenticated SMTP\" enabled for the mailbox. "
+"Microsoft is retiring password sign-in for SMTP; if login fails, use a relay"
+" service such as Brevo or your host's SMTP."
+msgstr ""
+"Microsoft 365 treba omogućeno \"Authenticated SMTP\" za poštanski sandučić. "
+"Microsoft ukida prijavu lozinkom za SMTP; ako prijava ne uspije, "
+"upotrijebite relay uslugu kao što je Brevo ili SMTP svog hosta."
+
+msgid ""
+"Username: the SMTP login shown under SMTP & API. Password: an SMTP key, not "
+"your account password."
+msgstr ""
+"Korisničko ime: SMTP prijava prikazana pod SMTP & API. Lozinka: SMTP ključ, "
+"a ne lozinka vašeg računa."
+
+msgid "Username: the word \"apikey\". Password: your SendGrid API key."
+msgstr "Korisničko ime: riječ \"apikey\". Lozinka: vaš SendGrid API ključ."
+
+msgid ""
+"EU accounts use smtp.eu.mailgun.org. Username and password: the SMTP "
+"credentials of your sending domain."
+msgstr ""
+"EU računi koriste smtp.eu.mailgun.org. Korisničko ime i lozinka: SMTP "
+"vjerodajnice vaše domene za slanje."
+
+msgid ""
+"Change the region in the host to yours. Username and password: SMTP "
+"credentials created in the SES console (not your AWS access keys)."
+msgstr ""
+"Promijenite regiju u hostu na svoju. Korisničko ime i lozinka: SMTP "
+"vjerodajnice stvorene u SES konzoli (ne vaši AWS pristupni ključevi)."
+
+msgid "Username and password: both are your Server API token."
+msgstr "Korisničko ime i lozinka: oba su vaš Server API token."
+
+msgid ""
+"Use smtp.zoho.com for accounts outside the EU. With two-factor sign-in, "
+"create an app-specific password."
+msgstr ""
+"Upotrijebite smtp.zoho.com za račune izvan EU-a. Uz dvofaktorsku prijavu, "
+"izradite lozinku specifičnu za aplikaciju."
+
+msgid "Username: API key. Password: secret key."
+msgstr "Korisničko ime: API ključ. Lozinka: tajni ključ."
+
+msgid ""
+"Username and password: an SMTP user created under Sending → SMTP Users."
+msgstr ""
+"Korisničko ime i lozinka: SMTP korisnik izrađen pod Sending → SMTP Users."
+
+msgid "Username: the full mailbox address. Password: the mailbox password."
+msgstr ""
+"Korisničko ime: puna adresa poštanskog sandučića. Lozinka: lozinka "
+"poštanskog sandučića."
+
+msgid ""
+"Use smtp.ionos.de or smtp.ionos.co.uk for those regions. Username: the full "
+"mailbox address."
+msgstr ""
+"Za te regije upotrijebite smtp.ionos.de ili smtp.ionos.co.uk. Korisničko "
+"ime: puna adresa poštanskog sandučića."
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp"
+
+msgid ""
+"Sends all WordPress email through your own SMTP server, with a searchable "
+"email log, resend, a backup connection, failure alerts and connection "
+"diagnostics. No upsells."
+msgstr ""
+"Šalje svu WordPress e-poštu putem vašeg vlastitog SMTP poslužitelja, uz "
+"pretraživi zapis e-pošte, ponovno slanje, sigurnosnu rezervnu vezu, "
+"upozorenja o neuspjehu i dijagnostiku veze. Bez dodatne prodaje."
+
+msgid "lynbro aps"
+msgstr "lynbro aps"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid ""
+"Host: the SMTP endpoint of your SES region, shown in the SES console under "
+"SMTP settings. Username and password: SMTP credentials created in the SES "
+"console (not your AWS access keys)."
+msgstr ""
+"Host: SMTP završna točka vaše SES regije, prikazana u SES konzoli pod SMTP "
+"postavkama. Korisničko ime i lozinka: SMTP vjerodajnice izrađene u SES "
+"konzoli (ne vaši AWS pristupni ključevi)."
+
+msgid "Lynbro SMTP Mailer"
+msgstr "Lynbro SMTP Mailer"
+
+msgid "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+msgstr "https://plugins.lynbro.dk/lynbro-smtp-mailer"
+
+msgid "LynBro ApS"
+msgstr "LynBro ApS"
+
+msgid ""
+"Optional. A Slack or Discord incoming webhook, or your own HTTPS endpoint "
+"(JSON with \"text\" and \"content\"). The plugin posts the error text there "
+"— nothing else, and only when you set a URL."
+msgstr ""
+"Opcionalno. Dolazni webhook za Slack ili Discord, ili vaš vlastiti HTTPS "
+"endpoint (JSON s \"text\" i \"content\"). Dodatak tamo objavljuje tekst "
+"pogreške — ništa drugo, i to samo kada postavite URL."
+
+msgid "Is %s doing its job?"
+msgstr "Radi li %s svoj posao?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Koristite ga već nekoliko tjedana. Ako vam odgovara, kratka recenzija na "
+"WordPress.org pomaže drugim vlasnicima stranica da ga pronađu — uključujući "
+"iskrene i kritične recenzije."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Koristite ga već nekoliko tjedana. Ako vam odgovara — ili ako nešto "
+"nedostaje — javite nam na našem javnom planu razvoja. Tako odlučujemo što "
+"ćemo sljedeće razvijati."
+
+msgid "(opens in a new tab)"
+msgstr "(otvara se u novoj kartici)"
+
+msgid "Share feedback"
+msgstr "Podijelite povratne informacije"
+
+msgid "Maybe later"
+msgstr "Možda kasnije"
+
+msgid "Don't ask again"
+msgstr "Ne pitaj ponovno"
+
+msgid "Something not working? Ask for help"
+msgstr "Nešto ne radi? Zatražite pomoć"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce je aktivan"
+
+msgid "a form plugin is active"
+msgstr "dodatak za obrasce je aktivan"
+
+msgid "the site is set up for Denmark"
+msgstr "stranica je postavljena za Dansku"
+
+msgid "comments are open"
+msgstr "komentari su otvoreni"
+
+msgid "tracking tags are active"
+msgstr "oznake za praćenje su aktivne"
+
+msgid "visitors can create accounts"
+msgstr "posjetitelji mogu kreirati račune"
+
+msgid "Suggested because %l."
+msgstr "Predloženo zbog %l."
+
+msgid "Suggested for this site"
+msgstr "Predloženo za ovu stranicu"
+
+msgid "Hide suggestions"
+msgstr "Sakrij prijedloge"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Ostali Lynbro dodaci koji odgovaraju onome što ova stranica koristi. Ništa "
+"se ne instalira dok ne kliknete."
+
+msgid "All Lynbro plugins"
+msgstr "Svi Lynbro dodaci"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Odabrano prema onome što ova stranica već koristi — čita se na ovoj "
+"stranici, ništa se ne šalje nigdje."
+
+msgid "Image Optimizer"
+msgstr "Optimizator slika"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Pretvorite slike u WebP i AVIF, prilagodite prevelike slike i učitajte ih "
+"lijeno — sve na vlastitom serveru."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Pišite i ilustrirajte objave pomoću AI-a na vlastitom OpenAI ključu — po "
+"cijeni, bez posrednih kredita."
+
+msgid "Analytics"
+msgstr "Analitika"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Analitika bez kolačića, hostana na vašem serveru, s lijevcima. Podaci "
+"posjetitelja nikad ne napuštaju vašu bazu."
+
+msgid "Tags"
+msgstr "Oznake"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel i više bez koda — svaka oznaka čeka"
+" privolu."
+
+msgid "Forms"
+msgstr "Obrasci"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Obrasci s besplatnim spremanjem unosa bez ograničenja, uvjetnom logikom na "
+"serveru i potpisanim webhookovima."
+
+msgid "Verify"
+msgstr "Provjera"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Uhvatite pogrešno upisane e-mail domene i loše brojeve, te ih potvrdite "
+"jednokratnim kodom putem e-maila ili SMS-a."
+
+msgid "Cache"
+msgstr "Predmemorija"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Pouzdano čišćenje nginx FastCGI i Redis predmemorije, uz provjeru svakog "
+"čišćenja na samoj predmemoriji."
+
+msgid "Translate"
+msgstr "Prevoditelj"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Pokrenite stranicu na više jezika, s automatskim prijevodom na vlastitom "
+"OpenAI ključu — bez ograničenja i naplate po riječi."
+
+msgid "Shield"
+msgstr "Zaštita"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Sigurnosni zaglavlja, HTTPS s HSTS-om, mali vatrozid protiv napada i "
+"sigurnosne postavke koje svaka stranica treba."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Provjera spama na vašem serveru. Nema računa, nema pretplate, svaki blok "
+"navodi razlog — a zadržana poruka se ne gubi."
+
+msgid "Login Guard"
+msgstr "Zaštita prijave"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Premjestite wp-login.php, ograničite neuspjele prijave i dodajte "
+"dvofaktorsku prijavu putem aplikacije — s tri načina povratka."
+
+msgid "Cookie Consent"
+msgstr "Privola za kolačiće"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR i ePrivacy banner s Consent Mode v2, jednako vidljivim gumbom Odbij i "
+"35 jezika."
+
+msgid "Activity Log"
+msgstr "Dnevnik aktivnosti"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Tko je što, kada i odakle radio — zapisano na vašem serveru, pretraživo, "
+"izvozivo i briše se prema vašem rasporedu."
+
+msgid "Data Retention"
+msgstr "Zadržavanje podataka"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Pronađite gdje se osobni podaci nalaze u bazi, pa ih brišite po rasporedu — "
+"s probom prije svakog brisanja."
+
+msgid "Accessibility"
+msgstr "Pristupačnost"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Skenirajte svaku stranicu prema WCAG 2.2 AA i popravite što je sigurno "
+"moguće. Bez preklapanja, bez ograničenja stranica."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Jednostavan SEO s besplatnim LocalBusiness shemom, sitemapovima i društvenim"
+" karticama. Ništa se ne šalje van."
+
+msgid "SMTP Mailer"
+msgstr "SMTP pošiljatelj"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress e-mail preko vlastitog SMTP servera — s dnevnikom, ponovnim "
+"slanjem, rezervnom vezom i obavijestima o greškama."
+
+msgid "Social Feed"
+msgstr "Društveni feed"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Instagram feed na vašoj stranici bez Meta tokena pohranjenog u WordPressu."
+
+msgid "Reviews Cache"
+msgstr "Predmemorija recenzija"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Prikažite Google recenzije bez API ključa u WordPressu."
+
+msgid "Links"
+msgstr "Linkovi"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Pronađite neispravne linkove i upravljajte preusmjeravanjima na vlastitom "
+"serveru, s razlogom za svaku odluku."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse automatsko popunjavanje"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Dansko automatsko dovršavanje i provjera adresa za WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable i EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge pretraga"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Pretražite danske automobile (DMR) i tvrtke (CVR) po registarskoj oznaci, "
+"VIN-u ili CVR broju."
+
+msgid "CVR Checkout"
+msgstr "CVR naplata"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Danska B2B naplata za WooCommerce: automatsko popunjavanje podataka tvrtke "
+"putem CVR-a, provjera CVR/EU-PDV (VIES) i polje za EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Danska dostava"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Besplatan odabir mjesta preuzimanja za PostNord i GLS Danska pri WooCommerce"
+" naplati, uz čiste metode dostave."
+
+msgid "API Auth"
+msgstr "API autentifikacija"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokeni za REST API koje možete opozvati, sa scopeovima i dnevnikom "
+"odbijanja."
+
+msgid "Failure alerts by email do not get out"
+msgstr "E-poštanska upozorenja o neuspjehu se ne šalju"
+
+msgid ""
+"The alert email is sent with PHP mail() so that it does not depend on the "
+"SMTP server, but PHP mail() failed on this server: %s Use a webhook for "
+"alerts, or ask your host to enable mail()."
+msgstr ""
+"E-mail upozorenja šalje se putem PHP mail() funkcije kako ne bi ovisio o "
+"SMTP poslužitelju, ali PHP mail() nije uspio na ovom poslužitelju: %s. "
+"Upotrijebite webhook za upozorenja ili zamolite svog hostinga da omogući "
+"mail()."
+
+msgid ""
+"This is the previous version of Lynbro SMTP. Lynbro SMTP Mailer has replaced"
+" it and uses the same settings. Remove the folder %s with your host's file "
+"manager, FTP or SSH — do not use Delete here: its uninstall erases the "
+"shared SMTP settings. Lynbro SMTP Mailer keeps a backup and puts them back, "
+"but the old plugin also empties the email log."
+msgstr ""
+"Ovo je prethodna verzija dodatka Lynbro SMTP. Zamijenio ga je Lynbro SMTP "
+"Mailer, koji upotrebljava iste postavke. Uklonite mapu %s putem upravitelja "
+"datoteka na svojem hostingu, FTP-a ili SSH-a — ovdje nemojte upotrijebiti "
+"opciju Izbriši: njezina deinstalacija briše zajedničke SMTP postavke. Lynbro"
+" SMTP Mailer čuva sigurnosnu kopiju i vraća postavke, ali stari dodatak "
+"također briše zapisnik e-pošte."
+
+msgid ""
+"Your SMTP settings were deleted by another plugin on %s and have been "
+"restored from the backup. Nothing for you to do; send a test email if you "
+"want to be sure."
+msgstr ""
+"Drugi dodatak izbrisao je vaše SMTP postavke %s, a one su vraćene iz "
+"sigurnosne kopije. Ne morate ništa učiniti; po želji pošaljite probnu "
+"e-poruku kako biste bili sigurni."
+
+msgid ""
+"This site sends with the server's own mail (PHP mail()). The test shows "
+"whether the server accepted the email; check its headers in the inbox "
+"(Authentication-Results: spf=pass, dmarc=pass)."
+msgstr ""
+"Ova stranica šalje e-poštu putem vlastitog poslužitelja (PHP mail()). Test "
+"pokazuje je li poslužitelj prihvatio e-poštu; provjerite njezina zaglavlja u"
+" pristigloj pošti (Authentication-Results: spf=pass, dmarc=pass)."
+
+msgid ""
+"Make sure it includes this web server (its IP address with ip4: or ip6:, or "
+"a: / mx: that resolves to it)."
+msgstr ""
+"Provjerite sadrži li zapis ovaj web-poslužitelj (njegovu IP adresu s ip4: "
+"ili ip6:, ili a: / mx: zapis koji vodi do njega)."
+
+msgid ""
+"Email is sent with this server's own mail (PHP mail()), from %s, with a "
+"matching Return-Path."
+msgstr ""
+"E-pošta se šalje putem vlastitog poslužitelja (PHP mail()), s adrese %s i "
+"odgovarajućim zaglavljem Return-Path."
+
+msgid ""
+"Return-Path is off: the server puts its own address on the envelope, so SPF "
+"checks that domain instead of yours."
+msgstr ""
+"Return-Path je isključen: poslužitelj u omotnicu upisuje vlastitu adresu pa "
+"SPF provjerava tu domenu umjesto vaše."
+
+msgid "Email is sent with the server's own mail, with a matching sender"
+msgstr ""
+"E-pošta se šalje putem vlastitog poslužitelja, uz odgovarajuću adresu "
+"pošiljatelja"
+
+msgid ""
+"Lynbro SMTP sends with PHP mail() by your choice and sets the From address "
+"and Return-Path on every email. Keep this server in the domain's SPF record."
+msgstr ""
+"Lynbro SMTP šalje e-poštu putem PHP mail() prema vašem odabiru te postavlja "
+"adresu From i Return-Path za svaku poruku. Uključite ovaj poslužitelj u SPF "
+"zapis domene."
+
+msgid "This server's own mail (PHP mail(), no SMTP)"
+msgstr "Vlastiti poslužitelj za slanje e-pošte (PHP mail(), bez SMTP-a)"
+
+msgid ""
+"For servers that are set up to send mail themselves. No login needed: the "
+"From address and the Return-Path below are still set on every email, so SPF "
+"and DMARC can line up. The domain's SPF record must include this server."
+msgstr ""
+"Za poslužitelje konfigurirane za samostalno slanje e-pošte. Prijava nije "
+"potrebna: adresa From i Return-Path navedene u nastavku i dalje se "
+"postavljaju za svaku poruku, pa se SPF i DMARC mogu podudarati. SPF zapis "
+"domene mora uključivati ovaj poslužitelj."

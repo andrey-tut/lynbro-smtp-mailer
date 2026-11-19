@@ -1,0 +1,88 @@
+/**
+ * Admin styles for Lynbro SMTP — only what the shared Lynbro shell does not
+ * already provide.
+ *
+ * @package LynbroSMTP
+ */
+
+.lynbro-smtp-checks {
+  margin: 8px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lynbro-smtp-checks li {
+  position: relative;
+  margin: 6px 0;
+  padding: 8px 12px 8px 34px;
+  background: #fff;
+  border: 1px solid #e2ebe6;
+  border-radius: 4px;
+}
+
+.lynbro-smtp-checks li::before {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-weight: 700;
+}
+
+.lynbro-smtp-checks li.ok::before { content: "✓"; color: #1a7f5a; }
+.lynbro-smtp-checks li.warn::before { content: "!"; color: #996800; }
+.lynbro-smtp-checks li.bad::before { content: "✕"; color: #b32d2e; }
+.lynbro-smtp-checks li.info::before { content: "i"; color: #2271b1; }
+.lynbro-smtp-checks li.bad { border-color: #f0b8b8; }
+
+.lynbro-smtp-result { margin: 10px 0; }
+.lynbro-smtp-result.ok p:first-child { color: #1a7f5a; font-weight: 600; }
+.lynbro-smtp-result.bad p:first-child,
+.lynbro-smtp-result.bad { color: #b32d2e; font-weight: 600; }
+.lynbro-smtp-result .lynbro-smtp-list { color: #1d2327; font-weight: 400; }
+
+.lynbro-smtp-body {
+  max-height: 22rem;
+  overflow: auto;
+  padding: 12px;
+  background: #1d2327;
+  color: #f0f0f1;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 12px;
+}
+
+.lynbro-smtp-break { word-break: break-word; overflow-wrap: anywhere; }
+.lynbro-smtp-inline { display: inline-block; margin-left: 8px; }
+.lynbro-smtp-list { list-style: disc; padding-left: 20px; }
+.lynbro-smtp-error { color: #b32d2e; }
+.lynbro-smtp-notice { margin: 12px 0; }
+.lynbro-smtp-danger { color: #b32d2e !important; border-color: #b32d2e !important; }
+
+.lynbro-smtp-filter { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 12px 0; }
+
+.lynbro-smtp-figures { display: flex; flex-wrap: wrap; gap: 12px; margin: 14px 0; }
+.lynbro-smtp-figure {
+  flex: 1 1 140px;
+  padding: 12px 16px;
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 4px;
+}
+.lynbro-smtp-figure .n { display: block; font-size: 24px; font-weight: 600; color: #1a7f5a; font-variant-numeric: tabular-nums; }
+.lynbro-smtp-figure .l { display: block; margin-top: 4px; color: #50575e; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+.lynbro-smtp-figure.is-warn .n { color: #b32d2e; }
+
+.lynbro-smtp-pill { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; background: #f0f0f1; white-space: nowrap; }
+.lynbro-smtp-pill.sent { background: #e6f4ec; color: #14694a; }
+.lynbro-smtp-pill.failed { background: #fbeaea; color: #b32d2e; }
+.lynbro-smtp-pill.blocked { background: #fcf3e0; color: #7a5300; }
+
+.lynbro-smtp-log details summary { cursor: pointer; }
+.lynbro-smtp-log td, .lynbro-smtp-log th { vertical-align: top; }
+
+@media (max-width: 782px) {
+  .lynbro-smtp-log thead { display: none; }
+  .lynbro-smtp-log tr { display: block; padding: 8px 0; }
+  .lynbro-smtp-log td, .lynbro-smtp-log th.check-column { display: block; width: auto; padding: 4px 10px; }
+  .lynbro-smtp-form .regular-text { width: 100%; }
+}
